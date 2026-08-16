@@ -1,0 +1,78 @@
+name: Relatório Diário
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "13,42 * * * *"
+      timezone: "America/Sao_Paulo"
+
+permissions:
+  contents: read
+
+
+# ============================================================
+# EVITA DUAS ESCRITAS SIMULTÂNEAS NO CORE PRIVADO
+# ============================================================
+
+concurrency:
+  group: ipa-r2-core-write
+  cancel-in-progress: false
+
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ============================================================
+      # 1. BAIXAR O CORE PRIVADO
+      # ============================================================
+
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: private-core
+
+
+      # ============================================================
+      # 2. GERAR RELATÓRIO
+      # ============================================================
+
+      - name: Gerar relatório mensal
+        run: |
+          python private-core/scripts/relatorio_diario.py
+
+
+      # ============================================================
+      # 3. SALVAR RELATÓRIO NO CORE PRIVADO
+      # ============================================================
+
+      - name: Salvar relatório no Core privado
+        run: |
+          cd private-core
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Relatorios/
+
+          if git diff --cached --quiet; then
+
+            echo "Nenhuma alteração no relatório."
+
+          else
+
+            git commit \
+              -m "Atualizar relatório mensal"
+
+            git pull --rebase origin main
+
+            git push origin main
+
+            echo "✅ Relatório salvo no Core privado."
+
+          fi

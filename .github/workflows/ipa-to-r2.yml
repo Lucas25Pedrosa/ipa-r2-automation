@@ -1,0 +1,65 @@
+name: IPA to R2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+# Impede que o workflow principal e o relatório escrevam
+# simultaneamente no Core privado.
+concurrency:
+  group: ipa-r2-core-write
+  cancel-in-progress: false
+
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ============================================================
+      # 1. BAIXAR O CORE PRIVADO
+      # ============================================================
+
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: private-core
+
+
+      # ============================================================
+      # 2. INSTALAR DEPENDÊNCIAS
+      # ============================================================
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install telethon requests awscli
+
+
+      # ============================================================
+      # 3. EXECUTAR PROCESSAMENTO PRIVADO
+      # ============================================================
+
+      - name: Executar IPA to R2
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        run: |
+          python private-core/scripts/ipa_to_r2.py

@@ -1,0 +1,148 @@
+name: Feather Source
+
+on:
+  workflow_dispatch:
+    inputs:
+      sync_only:
+        description: Sincronizar apenas remoções do R2
+        required: false
+        default: false
+        type: boolean
+
+      rebuild_all:
+        description: Atualizar metadados de todos os apps
+        required: false
+        default: false
+        type: boolean
+
+      app_name:
+        description: Nome do aplicativo
+        required: false
+        default: ""
+        type: string
+
+      bundle_id:
+        description: Bundle ID
+        required: false
+        default: ""
+        type: string
+
+      version:
+        description: Versão do IPA
+        required: false
+        default: ""
+        type: string
+
+      build:
+        description: Build do IPA
+        required: false
+        default: ""
+        type: string
+
+      app_store_id:
+        description: App Store ID
+        required: false
+        default: ""
+        type: string
+
+      r2_key:
+        description: Caminho do IPA no R2
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feather-source-update
+  cancel-in-progress: false
+
+jobs:
+  atualizar-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório público
+        uses: actions/checkout@v6
+
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: private-core
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install awscli requests
+
+      - name: Atualizar e sincronizar Feather
+        id: atualizar
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          AWS_DEFAULT_REGION: auto
+
+          SYNC_ONLY: ${{ inputs.sync_only }}
+          REBUILD_ALL: ${{ inputs.rebuild_all }}
+          APP_NAME: ${{ inputs.app_name }}
+          BUNDLE_ID: ${{ inputs.bundle_id }}
+          IPA_VERSION: ${{ inputs.version }}
+          IPA_BUILD: ${{ inputs.build }}
+          APP_STORE_ID: ${{ inputs.app_store_id }}
+          R2_KEY: ${{ inputs.r2_key }}
+
+          R2_PUBLIC_BASE_URL: https://pub-4c58191013f0429aab20e217182b7f04.r2.dev
+          SOURCE_ICON_URL: https://raw.githubusercontent.com/Lucas25Pedrosa/ipa-r2-automation/main/Feather/icons/repo.png
+
+          PUBLIC_REPO_DIR: ${{ github.workspace }}
+          FEATHER_STATE_FILE: ${{ runner.temp }}/ipa-library-feather-state.json
+
+        run: |
+          python private-core/scripts/feather_source.py update
+
+      - name: Salvar atualização no repositório público
+        if: steps.atualizar.outputs.changed == 'true'
+        env:
+          SYNC_ONLY_RESULT: ${{ steps.atualizar.outputs.sync_only }}
+          REBUILD_ALL_RESULT: ${{ steps.atualizar.outputs.rebuild_all }}
+          APP_NAME: ${{ inputs.app_name }}
+          IPA_VERSION: ${{ inputs.version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Feather/feather.json
+
+          if [ "$REBUILD_ALL_RESULT" = "true" ]; then
+            git commit -m "Rebuild IPA Library metadata"
+          elif [ "$SYNC_ONLY_RESULT" = "true" ]; then
+            git commit -m "Sync IPA Library with R2"
+          else
+            git commit -m "Update IPA Library: $APP_NAME $IPA_VERSION"
+          fi
+
+          echo "🔄 Sincronizando com a branch remota..."
+
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push
+
+          echo "✅ Feather salvo no repositório público."
+
+      - name: Enviar confirmação no Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FEATHER_STATE_FILE: ${{ runner.temp }}/ipa-library-feather-state.json
+
+        run: |
+          python private-core/scripts/feather_source.py notify
+
+      - name: Nenhuma alteração
+        if: steps.atualizar.outputs.changed != 'true'
+        run: |
+          echo "Nenhum commit foi necessário."
+          echo "A confirmação do Feather foi enviada ao Telegram."

@@ -1,0 +1,815 @@
+{
+  "name": "IPA Library",
+  "identifier": "com.lucas.ipa.repository",
+  "iconURL": "https://raw.githubusercontent.com/Lucas25Pedrosa/ipa-r2-automation/main/Feather/icons/repo.png",
+  "apps": [
+    {
+      "name": "Aloha Browser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "developerName": "Aloha Mobile Ltd.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/6f/72/7a6f7268-715b-4c05-2095-b958f502cba7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "A sua privacidade deve ser a predefinição, não uma funcionalidade. O Aloha Browser oferece tudo o que precisa para navegar de forma privada, bloquear anúncios e rastreadores e descarregar ficheiros — numa única aplicação, sem nada extra para instalar.\nCentenas de milhões de utilizadores confiam no Aloha porque ele faz o que outros browsers não fazem: coloca a sua privacidade em primeiro lugar por predefinição, não como uma reflexão tardia.\n\nBLOQUEAR ANÚNCIOS AUTOMATICAMENTE\nOs anúncios tornam a sua navegação mais lenta e rastreiam-no na web. O Aloha remove-os antes de carregarem — cada página é mais rápida, mais limpa e sem distrações, sem anúncios. Não é necessária qualquer configuração.\n\nNAVEGUE COM UMA VPN GRATUITA INTEGRADA\nProteja a sua ligação em qualquer rede com a VPN integrada do Aloha. Escolha entre mais de 80 localizações de servidores em todo o mundo, protegidas com encriptação AES de 256 bits e proteção contra fugas de DNS. O tráfego VPN é comprimido e encriptado para reduzir o uso de largura de banda. Um toque para ativar — sem aplicação separada, sem limites de dados para uso diário.\n\nDESCARREGUE VÍDEOS E FICHEIROS\nGuarde vídeos, músicas e documentos diretamente de qualquer página web. O descarregador integrado do Aloha lida com os formatos que outros browsers não conseguem. Reproduza multimédia em segundo plano, gira ficheiros com facilidade e bloqueie downloads confidenciais com proteção biométrica.\n\nPRIVACIDADE POR DESIGN\nO Aloha nunca regista a sua atividade. Não há nada para partilhar porque não há nada armazenado. Combinado com a VPN, o bloqueio automático de anúncios e o TrafficMask, obtém privacidade total que vai muito além do que o modo de navegação anónima oferece.\n\nIA PRIVADA — SEM VIGILÂNCIA\nUse a IA para resumir, traduzir e responder a perguntas sem que as suas instruções sejam registadas, perfiladas ou usadas para treinar modelos. Privacidade por predefinição.\n\nFEITO PARA A SUA WEB DIÁRIA\nNavegação por abas com uma interface limpa e rápida. Sincronize favoritos e abas entre todos os dispositivos da sua conta Aloha. Leia códigos QR instantaneamente. Explore domínios Web3 e dApps com suporte nativo completo. Tudo funciona em perfeita sintonia, de forma elegante.\n\nALOHA PREMIUM\nFaça um upgrade para uma seleção de países VPN aprimorada, proteção VPN em todo o dispositivo, início automático da VPN, partilha de ficheiros Wi-Fi, suporte de compressão ZIP e temas premium.\nO Aloha Premium está disponível por $7,99/mês ou $69,99/ano (USD). Os preços podem variar por região. As subscrições são renovadas automaticamente, a menos que sejam desativadas pelo menos 24 horas antes do final do período atual. Gerencie as subscrições nas configurações da sua conta Apple. Qualquer parte não utilizada do período de teste gratuito será perdida após a compra.\nPolítica de privacidade: https://alohabrowser.com/policy.html\nTermos e condições: https://alohabrowser.com/terms.html\n\nSOBRE O ALOHA\nSomos uma equipa dedicada a provar que a privacidade e uma ótima experiência de navegação não são mutuamente exclusivas. Enquanto outros browsers adicionam funcionalidades de privacidade como complementos, nós construímos o Aloha de raiz para manter os seus dados seus — verificado por uma auditoria independente de terceiros do Leviathan Security Group.\n\nDescubra mais: https://alohabrowser.com\nFacebook: https://facebook.com/alohavpnbrowser\nX: https://x.com/alohabrowser\nPara feedback e suporte, envie um e-mail para support@alohabrowser.com",
+      "versions": [
+        {
+          "version": "8.8.2",
+          "buildVersion": "1",
+          "date": "2026-07-29T14:28:13Z",
+          "size": 129295523,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.8.2.ipa",
+          "localizedDescription": "Esta atualização se concentra em uma navegação mais segura, um gerenciamento de arquivos mais fluido no Aloha Private Cloud e maior estabilidade.\n\nNovos recursos e melhorias\n- Continuamos aprimorando a nova experiência do Aloha Private Cloud, incluindo uploads mais fluidos, melhor gerenciamento de cotas de armazenamento e correções para a recuperação de conta após sair e entrar novamente.\n- Adicionamos um aviso de segurança antes do envio de formulários para um destino inseguro, ajudando você a se manter mais protegido durante a navegação.\n- Melhoramos os controles do player em tela cheia para evitar alterações acidentais de velocidade e tornar os gestos de volume e brilho mais suaves e precisos.\n- Melhoramos a compatibilidade com sites protegidos pela Cloudflare quando o Adblock está ativado.\n\nCorreções de bugs\n- Corrigimos downloads que podiam exibir incorretamente opções de tentar novamente ou reproduzir quando a recuperação não era possível.\n- Adicionamos várias correções de falhas e melhorias de estabilidade.\n\nObrigado por escolher o Aloha. Seu feedback nos ajuda a moldar cada atualização, então continue compartilhando suas opiniões conosco."
+        }
+      ],
+      "version": "8.8.2",
+      "versionDate": "2026-07-29T14:28:13Z",
+      "size": 129295523,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.8.2.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/03/9a/ed039a51-166a-4619-9b64-6b57995ea28a/Phone.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/7e/b4/0d7eb461-ff6c-8083-40ae-1dd7893b6f86/Phone-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/dc/e0/05dce05e-727e-5292-91d2-3e1a1f80d942/Phone-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/07/10/4b07106c-c8ee-bbb9-25ec-a40e62d067bf/Phone-5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/3b/20/c73b2026-cde6-6bf8-b743-170ee63cac1a/Phone-4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/97/0e/5a970e4f-0fe8-036d-3144-910be88add9d/Phone-3.png/320x480bb.jpg"
+      ]
+    },
+    {
+      "name": "BoldVoice",
+      "bundleIdentifier": "com.wellocution.iosapp",
+      "developerName": "Wellocution Inc.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/5b/82/b85b8251-0096-f7cb-c625-e40d39e60430/BoldVoice-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "BoldVoice é o app mais eficiente para treinamento de sotaque em inglês. Você aprende com vídeos de treinadores especialistas em sotaque e ainda pode gravar sua voz para receber feedback imediato sobre sua pronúncia. Dedicando só 10 minutos por dia já lhe torna um falante confiante do inglês.\n\n\nCom o BoldVoice, você pode:\n* Treinar seu sotaque americano com aulas em vídeo de treinadores especialistas em sotaque de Hollywood \n* Domine a pronúncia em inglês de sons, palavras e frases\n* Fale inglês com confiança praticando com nossa IA de fala avançada\n* Obtenha dicas para se tornar um orador público melhor como profissional de ESL\n* Veja uma melhora perceptível na sua pronúncia com apenas 10 minutos de prática por dia.\n\n\n> O que torna o BoldVoice diferente?\nBoldVoice é o único app de treinamento de sotaque que disponibiliza aulas em vídeo personalizadas por treinadores especialistas em sotaque. Nossos treinadores ensinarão e demonstrarão como pronunciar sons e palavras complicadas. Assim, você poderá praticar com sua própria voz e obter feedback. Este método de aprendizagem é a melhor maneira de lapidar sua pronúncia em inglês.\n\n\n> Aprenda com treinadores de fala especializados\nNossos treinadores de sotaque são os melhores do setor, ajudando as estrelas de Hollywood a dominar seus sotaques. Eles serão seus guias no caminho para uma pronúncia clara e confiante em inglês. Com aulas em vídeo curtas e divertidas, você vai dominar os sons, a entonação, o ritmo, a altura e todos os elementos do sotaque americano.\n\n\n> Obtenha feedback imediato sobre sua pronúncia\nGrave sua voz, e nossa avançada Inteligência Artificial de fala irá avaliá-lo e fornecer feedback personalizado. Você pode ouvir sua própria voz e compará-la com a gravação do treinador para aperfeiçoar ainda mais sua pronúncia.\n\n\n> Descubra seu nível de pronúncia\nRealize o teste de sotaque e obtenha uma visão clara dos seus pontos fortes e das áreas onde pode evoluir. Você pode fazer o teste de sotaque gratuito à medida que avança nas suas lições do BoldVoice, assim você sempre saberá o quanto está melhorando.\n\n\n> Aprendizado Altamente Personalizado\nPersonalizamos seu curso de pronúncia em inglês para seu idioma nativo. Seu plano de aulas será focado nos aspectos da pronúncia americana que são desafiadores para falantes de português.\n\n\n> Para quem é o BoldVoice?\nO BoldVoice ajuda profissionais que não são falantes nativos de inglês a falar com mais confiança e clareza. Se você já se perguntou como aprender o sotaque americano ou quis melhorar sua pronúncia em inglês de forma geral, você está no lugar certo. Seja seu objetivo reduzir o sotaque ou falar em público com confiança, o BoldVoice resolve.\n\n\nUsuários de mais de 100 idiomas nativos usam o BoldVoice para se tornarem comunicadores mais confiantes, liderarem equipes com mais eficácia, se darem bem em suas entrevistas de emprego, melhorarem a colaboração com colegas de trabalho, brilharem em apresentações profissionais e se prepararem para testes padronizados de inglês como o TOEFL, IELTS e TOEIC.\n\n\n> Assinatura\nPara acessar o BoldVoice, você precisará aderir a uma das opções de assinatura disponíveis no app.\nAssinar permite o desbloqueio de todas as aulas de treinadores de sotaque, materiais práticos e recursos do aplicativo. Sem uma assinatura, você só poderá acessar a primeira aula gratuitamente.\nO pagamento da assinatura será cobrado em sua conta Apple ID após a confirmação da compra. As assinaturas serão renovadas automaticamente, a menos que sejam canceladas 24 horas antes do término da sua assinatura atual. Para cancelar sua assinatura ou ajustar as configurações de renovação automática, vá até as configurações do seu dispositivo, acesse seu Apple ID no app Ajustes e selecione Assinaturas.\n---\nConecte-se conosco\nE-mail: support@boldvoice.com\nSite: https://boldvoice.com\nTermos de Serviço: https://boldvoice.com/terms\nPolítica de Privacidade: https://boldvoice.com/privacy",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/55/fa/ab55fa64-7240-76d1-e748-984774a41ead/BoldVoice_iOS_6.5_-_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/6e/77/3f6e77f3-4b10-c279-6ef8-3a79d5315a65/BoldVoice_iOS_6.5_-_2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/8b/74/e38b74da-a317-79b2-8675-2d389d87061a/BoldVoice_iOS_6.5_-_6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/0f/0e/010f0e20-4e75-8cf5-e821-2299b89b59b9/BoldVoice_iOS_6.5_-_3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/3e/93/9c3e936a-5293-6303-edbf-965fc9ea8804/BoldVoice_iOS_6.5_-_7.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/9d/ae/d69dae43-d1b3-49db-88af-862e9f4342f6/BoldVoice_iOS_6.5_-_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/82/d0/7882d05b-3b2e-7c79-23c3-7143269beebf/BoldVoice_iOS_6.5_-_5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/60/46/ec604685-0865-fbce-fcbf-46d2d8534057/BoldVoice_iOS_6.5_-_9.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/2d/4a/512d4a44-14d1-656a-a113-1d10f9e0fa57/BoldVoice_iOS_6.5_-_8.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/c8/31/3bc831dd-76bb-8779-6d5f-0c89c6ece611/BoldVoice_iOS_6.5_-_10.jpg/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "4.3.1",
+          "buildVersion": "3",
+          "date": "2026-08-15T16:27:25Z",
+          "size": 114347527,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.1.ipa",
+          "localizedDescription": "We've been polishing things under the hood to make BoldVoice feel faster and more reliable for you. This update includes some quality-of-life improvements and bug fixes to keep everything running smoothly."
+        }
+      ],
+      "version": "4.3.1",
+      "versionDate": "2026-08-15T16:27:25Z",
+      "size": 114347527,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.1.ipa"
+    },
+    {
+      "name": "CamScanner",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "developerName": "INTSIG Information Co., Ltd",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/f5/15/3cf515f6-c289-255b-a746-b93376436953/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "A aplicação de digitalização mais inteligente.\nCom a confiança de mais de 750M de utilizadores.\n\nCamScanner transforma o seu dispositivo num scanner portátil potente que reconhece texto automaticamente (OCR) e o ajuda a tornar-se mais produtivo no seu trabalho e vida diária. Descarregue esta aplicação de digitalização gratuitamente para digitalizar, guardar e partilhar instantaneamente qualquer documento nos formatos PDF, JPG, Word ou TXT.\n\nSCANNER DE DOCUMENTO\nEsta aplicação de digitalização grátis pequena e potente é obrigatória para estudantes e para quem estiver envolvido em negócios pequenos: contabilistas, correctores de imóveis, gerentes ou advogados. Digitalize tudo o que precisar, incluindo facturas, contratos, notas em papel, faxes, livros, e armazene em ficheiros JPG ou PDF com várias páginas.\n\nVÁRIOS MODOS DE DIGITALIZAÇÃO\n- CARTÃO DE CIDADÃO E PASSAPORTE - um modo desenhado especificamente para a digitalização rápida e conveniente de documentos de identificação.\n- CÓDIGO QR - leia qualquer código QR com a câmara do seu dispositivo.\n\nCONVERSOR PDF\n- Conversor PDF: crie pdf de um website, converta ficheiros de docimento (doc, docx, ppt, pptx) para PDF.\n– Formatos de ficheiros suportados: pdf, jpg, doc, docx, txt, xls, xlsm, xlsx, csv, ppt, pptm, pptx,\n\nPARTILHE COM FACILIDADE\n– Partilhe ficheiros para adicionar comentários ou ver no WhatsApp, iMessage, Microsoft Teams.\n- Recolha comentários de várias pessoas num único ficheiro online.\n- Agilize as revisões de documentos respondendo aos comentários.\n- Receba notificações de actividade para ficheiros que partilhou.\n- Envie o anexo ou link do documento por email.\n\nSCANNER PDF INOVADOR\n- Digitalize documentos e fotografias para PDF, JPG ou TXT\n- Digitalize facilmente várias páginas num único documento\n- Reconhecimento de texto de qualquer objecto digitalizável com OCR\n- Adicione a sua assinatura electrónica em documentos\n\nEDITOR DE DOCUMENTOS E GESTOR DE FICHEIROS PRÁTICO\n- Edite as digitalizações com as funções de correcção de cor e remoção de ruído\n- Utilize o gestor de ficheiros com as funções de pastas, arrastar e largar e edição de documentos\n- Proteja as suas digitalizações confidenciais bloqueando pastas e ficheiros com PIN\n\nPARTILHA DE DOCUMENTOS SIMPLES\n- Partilhe documentos e partilhe-os com poucos gestos\n- Imprima contratos e facturas directamente da aplicação de digitalização\n– Partilhe e carregue os documentos digitalizados para serviços de nuvem como Dropbox, Google Drive, Evernote, OneDrive.\nCom esta aplicação de scanner grátis segura, qualquer documento digitalizado ou exportado é armazenado localmente no seu iPhone e nem nós nem qualquer terceiro terá acesso a eles.\n\nSUBSCRIÇÃO DE MEMBRO DE ACESSO ILIMITADO\n- Pode subscrever-se para obter acesso ilimitado a todas as funções da aplicação\n- As subscrições são cobradas semanalmente, mensalmente, trimestralmente ou anualmente conforme o preço do plano de subscrição\n- O pagamento será cobrado na Conta iTunes na confirmação da compra\n- A subscrição é renovada automaticamente a menos que a renovação automática seja desligada pelo menos 24 horas antes do final do período actual\n- A conta será cobrada pela renovação dentro de 24 horas antes do final do período actual. O custo depende do plano seleccionado\n- As subscrições podem ser geridas pelo utilizador e a renovação automática pode ser desligada através das Definições da Conta após a compra\n- Qualquer porção não utilizada do período experimental será perdida quando o utilizador comprar uma subscrição\n\nPara termos de uso, visite\nhttps://www.camscanner.com/app/service?language=en-us\nPara política de privacidade, visite https://www.camscanner.com/app/privacy?language=en-us\n\nEnvie-nos a sua opinião: isupport@camscanner.com\nSiga-nos no Twitter: @CamScanner\nDeixe um Gosto no Facebook: CamScanner\nSiga-nos no Google+: CamScanner\n\nVeja outros produtos da INTSIG:\nCamCard - Leitor de Cartão de Negócios",
+      "versions": [
+        {
+          "version": "7.23.5",
+          "buildVersion": "7.23.5.2608061803",
+          "date": "2026-08-11T09:18:08Z",
+          "size": 182412238,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.23.5.ipa",
+          "localizedDescription": "· Recursos das ferramentas aprimorados para lidar com documentos com mais facilidade.\n· Busca com AI mais inteligente que encontra o que você precisa de forma mais rápida e precisa.\n· Agora com suporte a Markdown para visualizar direto no app."
+        }
+      ],
+      "version": "7.23.5",
+      "versionDate": "2026-08-11T09:18:08Z",
+      "size": 182412238,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.23.5.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/c2/a6/b4c2a6fe-d36a-17a8-1db4-6262c70b1f37/fcdf77f3-8d75-484e-bd55-69032ebb742c_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ce/f9/03/cef903d9-39ce-4fe0-972a-9c85bdcd85b7/1bee7e6e-5e33-4e8a-8cdc-0c12cf02fdaf_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e3/1b/ab/e31bab47-84b7-0a70-a50a-3ecaa31797fb/d43febb2-7ab3-470a-a1ea-05ed81b45d85_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-5.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/75/b8/76/75b87624-0ef6-7ced-361a-9909a5306464/2ed24a1f-4c2c-49ff-9eb1-39a6f7228df1_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a4/28/22/a42822f5-89f0-ab1a-f3f1-33595ec56509/94f80ad7-bd5a-4545-8b00-4338a2cb2893_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-8.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/38/e6/fe/38e6feb2-9ec6-7949-744d-10b7ac4bf01b/9c5aba61-8ae0-4ae6-b4fc-e14b6365c286_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/55/25/cf/5525cf9b-822d-bc69-b1e6-6e298bd48647/4941eee0-a313-4a02-b195-f536a922f359_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-7.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/46/3e/8a/463e8a97-0fe9-d0e1-52a6-76e0d27c841a/bba3e06b-2c09-4c26-8a6a-e97c788a8074_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-9.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/e1/8f/33/e18f334b-b8ae-1011-0670-d56065cb344e/f4b0a645-f169-4c72-adb2-af3fe2166dca_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-6.jpg/392x696bb.jpg"
+      ]
+    },
+    {
+      "name": "Documents",
+      "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
+      "developerName": "Readdle Technologies Limited",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/c7/2c/47c72c5b-c497-3820-7ada-4a50b01dbb09/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "O superaplicativo para iPhone e iPad. Leia, ouça, visualize e faça anotações em quase tudo que quiser em seu iPad e iPhone. O Documents é a nova central para todos os seus arquivos, documentos, livros ou qualquer outro conteúdo. É o Finder para iOS que você tanto esperava.\n\nEscolha dos Editores da App Store de mais de 70 países\n\n\"É uma ferramenta que ajudará você a se manter mais organizado.\" - The Verge\n\"O aplicativo é super rápido, bonito e as opções são fáceis de localizar e usar.\" - The Next Web\n\"Um aplicativo surpreendentemente versátil tanto para uso pessoal quanto profissional.\" - USA Today\n\nO Documents é o aplicativo mais poderoso em seu dispositivo iOS. Ele funciona como uma central para todos os seus arquivos e substitui um visualizador de documentos, um leitor de PDF, a função \"ler depois\", um reprodutor de músicas e vídeos, um gerenciador de downloads, uma ponte entre seus serviços de nuvem e muito mais, tudo em um elegante e prático aplicativo.\n\nA incrível atenção aos detalhes, uma estabilidade sem igual e sua linda interface diferem o Documents de qualquer outro aplicativo em seu iPhone ou iPad. Você o usará constantemente, quer seja em casa, no escritório, na faculdade ou na rua, todos os dias.\n\nDê uma olhada na lista resumida das coisas que você poderá fazer com o Documents. Este é, sem dúvidas, um aplicativo que faz o seu iPad ou iPhone valerem seu preço!\n \n◆IMPORTE E SALVE ARQUIVOS◆\n+ Importe arquivos do seu computador, de serviços de nuvem, via WebDAV ou de qualquer outro dispositivo que esteja por perto;\n+ Transfira arquivos da Web;\n+ Armazene os anexos de emails;\n+ Salve as páginas da Web para ler mais tarde.\n\n◆GERENCIE ARQUIVOS◆\n+ Gerencie seus arquivos e crie pastas;\n+ Compacte ou descompacte, etiquete por cor, renomeie, etc.;\n+ Arraste e solte arquivos entre aplicativos (!). Abra dois aplicativos da Readdle no modo Split + View em seu iPad Pro e simplesmente mova os arquivos entre eles;\n+ Compartilhe arquivos com os amigos;\n+ Proteja tudo com uma senha.\n\n◆AÇÕES INTELIGENTES◆\n+ Recomendações contextualizadas que economizam seu tempo, sugerindo a melhor ação a ser executada na sequência.\n\n◆INTEGRE TODOS SEUS SERVIÇOS DE NUVEM◆\n+ Conecte todos seus serviços de nuvem ao Documents e acesse seus arquivos pessoais ou profissionais quando quiser;\n+ Trabalhe com arquivos do iCloud, Dropbox, Google Drive e outros serviços sem precisar baixá-los;\n+ Configure a sincronização de duas vias em pastas específicas para atualizar seus arquivos automaticamente.\n\n◆OUÇA E ASSISTA◆\n+ Ouça suas músicas online e offline;\n+ Assista a filmes importando-os de seu computador ou acessando-os de fontes online;\n+ Acesse de forma simples e eficaz sua biblioteca de fotos.\n\n\n◆LEIA E EDITE PDFs◆\n+ Abra arquivos do Office e eBooks\n+ Visualize e faça anotações em PDF\n+ Modifique texto e imagens em PDF\n+ Gerencie páginas em seus PDFs\n+ Converta qualquer arquivo para PDF\n\nO Documents é um app obrigatório para seu iPhone e iPad!\nSe você escolher assinar o Documents Plus, o pagamento será feito em sua conta do iTunes e a renovação será cobrada em sua conta em até 24 horas antes do final do período corrente. A renovação automática pode ser desativada a qualquer momento, nos ajustes da iTunes Store, após a compra. O valor atual da assinatura do Documents Plus começa em US$9.99/ mês. Os preços estão em dólares americanos e podem variar em outros países que não os Estados Unidos, estando sujeitos a alteração sem aviso prévio. Se você não quiser assinar o Documents Plus, pode simplesmente continuar usando o Documents de graça. Qualquer período da avaliação gratuita não utilizado será desconsiderado quando você fizer sua assinatura, onde aplicável.\n\nLeia mais sobre nossos termos e condições aqui:\nhttps://documents.io/legal/privacy\nhttps://documents.io/legal/terms",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/b7/6e/48b76e4a-38c4-4228-43fe-87a6dd565649/Artwork_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/f5/c5/53f5c5a4-41a4-0ae6-de50-c19330681dff/PT-BR_iPhone_6_U002c9_artwork02.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/4f/c2/d84fc26d-15eb-3237-08c9-a871cb50002d/PT-BR_iPhone_6_U002c9_artwork03.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/63/3c/04633cee-8e4d-b9a6-3861-e9768844af37/PT-BR_iPhone_6_U002c9_artwork04.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/f5/9f/92f59fb7-a41d-fa87-4d95-59bd6280a83b/PT-BR_iPhone_6_U002c9_artwork05.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/15/0e/1e150e0e-0414-1c80-f300-de9d8e2e96cd/PT-BR_iPhone_6_U002c9_artwork06.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/7f/d4/d87fd48c-e904-a557-0950-8f9af8f7eaab/PT-BR_iPhone_6_U002c9_artwork07.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/3b/49/5a3b49f3-8973-a7b5-a092-953dd4064757/PT-BR_iPhone_6_U002c9_artwork08.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/77/5f/c1775f36-c2cc-4d86-4c8a-86c53c3f1bf8/Artwork_9.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/71/e3/0371e388-313e-f455-c837-7023b10e84f4/PT-BR_iPhone_6_U002c9_artwork10.jpg/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "8.20.8",
+          "buildVersion": "8.20.8.1503",
+          "date": "2026-08-13T07:55:47Z",
+          "size": 285211393,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Documents/Documents%20-%208.20.8.ipa",
+          "localizedDescription": "Nada de extravagante nesta atualização, apenas alguns ajustes técnicos.\n\nTem ideias ou sugestões? Mande-as para nós: rdsupport@readdle.com."
+        }
+      ],
+      "version": "8.20.8",
+      "versionDate": "2026-08-13T07:55:47Z",
+      "size": 285211393,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Documents/Documents%20-%208.20.8.ipa"
+    },
+    {
+      "name": "Duolingo",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "developerName": "Duolingo, Inc",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/ae/c2/4daec21d-a3e0-965c-d83d-1717694c0865/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Aprenda outro idioma com o aplicativo de educação mais baixado do mundo! O Duolingo é um aplicativo divertido e grátis para aprender mais de 40 línguas com lições rápidas e curtinhas. Pratique a leitura, escrita, escuta e fala para fortalecer tanto o vocabulário quanto a gramática.\n\nElaborado por especialistas em idiomas e adorado por centenas de milhões de pessoas em todo o planeta, o Duolingo ajuda você a se preparar para conversas na vida real em espanhol, francês, chinês, italiano, alemão, inglês e muito mais.\n\nSeja para viajar, estudar, trabalhar, se comunicar com família e amigos ou manter o cérebro ativo, você vai amar aprender um idioma com o Duolingo!\n\nPor que usar o Duolingo?\n\n• O Duolingo é divertido e eficaz. As lições que mais parecem jogos e os personagens carismáticos ajudam você a desenvolver a leitura, escrita, escuta e fala.\n\n• O Duolingo funciona. Elaborado por especialistas em idiomas, ele tem uma metodologia de ensino baseada em pesquisas científicas: está comprovado que ela promove a retenção do conteúdo na memória de longo prazo.\n\n• Acompanhe o seu progresso. Invista nas suas metas de aprendizado, celebre as conquistas e receba recompensas divertidas ao criar o hábito de praticar todos os dias!\n\n• Junte-se a mais de 500 milhões de pessoas. Mantenha a motivação com ligas competitivas, nas quais você aprende junto com a nossa comunidade global.\n\n• Todos os cursos de idiomas são grátis. Aprenda espanhol, francês, alemão, italiano, russo, português, turco, holandês, irlandês, dinamarquês, sueco, ucraniano, esperanto, polonês, grego, húngaro, norueguês, hebraico, galês, árabe, latim, havaiano, gaélico escocês, vietnamita, coreano, japonês, inglês e até alto valiriano!\n\nO que estão falando sobre o Duolingo:\n\n“De longe, o melhor aplicativo para aprender idiomas.” — The Wall Street Journal\n\n“Este aplicativo e site grátis está entre os métodos de aprendizado de idiomas mais eficazes que já testei… As lições vêm em forma de desafios breves (para falar, traduzir ou responder a perguntas de múltipla escolha) que sempre me fazem querer voltar.” — The New York Times\n\n“O Duolingo pode guardar o segredo do futuro da educação.” — TIME\n\n“O Duolingo é alegre, leve e divertido.” — Forbes\n\n“O nosso aplicativo de idiomas preferido.” — CNET \n\nSe você gosta do Duolingo, experimente o Super Duolingo por 14 dias grátis! Aprenda um idioma de forma rápida e divertida, sem anúncios e com vantagens como Vidas Ilimitadas e Recuperação de Ofensiva Mensal. \n\nCaso opte por assinar o Super Duolingo, a cobrança será feita na sua conta da Apple, e a renovação será cobrada dentro de 24 horas antes do final do período corrente. Para desabilitar a renovação automática a qualquer momento, acesse as configurações da App Store após a compra. Ao adquirir uma assinatura, o usuário abdica de qualquer parte não utilizada de qualquer período de teste grátis que possa ter sido oferecido, quando aplicável.\n\nPolítica de Privacidade: https://www.duolingo.com/privacy\nTermos de Uso: https://www.duolingo.com/terms",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/ab/62/13ab6248-4278-111b-236e-1ae46979e9c9/782048d6-9cce-4e3e-8cc7-95a6996e293d_pt_iphone6.5_screen_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/79/f7/8e79f7ed-cfbb-a209-9dfa-86a81c89b864/5f7c8a45-6f5f-48aa-ae26-0b0ce63e3230_pt-br_iphone6.5_screen_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/c5/2d/59c52d7e-3fbd-eb91-b2ce-b02004a03875/e83b4306-bad3-4478-a742-241f1749e950_pt-br_iphone6.5_screen_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/71/ee/e471ee08-a382-2452-729d-3e41058c1f64/15bbbec0-0d40-48ae-aa54-9080bec329a2_pt-br_iphone6.5_screen_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/9c/2d/739c2d77-5b37-23ea-6e34-4f0882a211e8/02b64c9b-c40b-40d5-b949-9d87e529c4ad_pt-br_iphone6.5_screen_5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/b6/04/dfb604df-4833-4390-55eb-c36a4588d797/80a09220-640e-4a0a-b9cd-f1e544f2a42d_pt-br_iphone6.5_screen_6.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/72/b2/3172b2d5-341d-842f-e3da-fd42e06a62b6/fc27baa8-35cf-4379-8c99-976a2eeeb3bd_pt_iphone6.5_screen_7.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/e9/29/cae929ae-808c-e553-e1c7-76ec269a790b/bd4d5368-d6b9-4761-bf54-62933e1dd9c2_pt_iphone6.5_screen_8.png/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "7.135.2",
+          "buildVersion": "7.135.2.1",
+          "date": "2026-08-14T13:02:48Z",
+          "size": 211536961,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.135.2.ipa",
+          "localizedDescription": "Nosso mascote, a coruja Duo, resolveu atender a pedidos e caçar bugs nas horas livres. É isso mesmo, estamos tirando aqueles erros chatos do caminho para você ter uma experiência ainda melhor.\n\nPara ficar por dentro das novidades, concursos e lançamentos de produtos do Duolingo, siga a gente no Facebook, X e Instagram pelo @duolingobrasil."
+        }
+      ],
+      "version": "7.135.2",
+      "versionDate": "2026-08-14T13:02:48Z",
+      "size": 211536961,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.135.2.ipa"
+    },
+    {
+      "name": "Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "developerName": "Meta Platforms, Inc.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/1e/e0/091ee060-69ab-37fd-dee8-c62713a89ffc/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Onde pessoas reais estimulam a curiosidade. Não importa se você está comprando acessórios usados, mostrando um reel para aquele grupo que entende você ou rindo junto por causa de imagens divertidas elaboradas pela IA: o Facebook ajuda a fazer as coisas acontecerem como nenhuma outra rede social.\n\nExplore e amplie seus interesses: \n* Peça que a IA da Meta pesquise tópicos importantes para você e receba resultados instantâneos e mais interativos do que apenas textos\n* Busque as melhores ofertas e tesouros escondidos no Marketplace para cultivar seus hobbies\n* Personalize seu feed para ver mais coisas de que você gosta e menos coisas de que não gosta\n* Explore reels e vídeos para assistir a tutoriais ou para um rápido entretenimento\n\nConecte-se com pessoas e comunidades:\n* Participe de grupos para obter dicas de pessoas reais com experiências reais\n* Ative o compartilhamento com o Instagram para economizar tempo\n* Envie, de forma privada, publicações com as quais só seu melhor amigo vai se identificar ou aquela tendência do Reels que todo mundo está comentando\n\nCompartilhe seu mundo:\n* Use a IA generativa para encantar os amigos com imagens personalizadas ou para ajudar você a escrever publicações\n* Personalize seu perfil para escolher como você se apresenta e quem vê suas publicações\n* Crie reels com facilidade usando modelos em alta ou mostre sua criatividade com um conjunto completo de ferramentas de edição\n* Capture momentos enquanto eles acontecem com os stories\n\nTermos e políticas: https://www.facebook.com/policies_center\n\nSaiba como estamos trabalhando para ajudar a manter nossas comunidades seguras por meio das tecnologias da Meta na Central de Segurança da Meta: https://about.meta.com/actions/safety",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/d9/9b/6ad99bf8-e769-1fd2-0ac7-f9f0553978a2/c795c58d-ec37-463c-9ab9-ba0b8bc00ddd_2-iOS-5.5-Reels.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/96/e9/f496e921-c05e-ade9-ef3c-c37949d0e6aa/0130e841-7bad-4f8c-83c9-61ea0bac7d7b_3-iOS-5.5-Stories.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/c9/20/a5c9207f-2eb4-ccf1-6573-bda3c3e089cb/9b761f68-4cd1-4c66-b5f2-76de4f58005f_4-iOS-5.5-Groups.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/40/05/e9400518-1876-dbdd-89aa-a2f88916f117/68c29824-a52c-4766-8aea-0a70c7a2f86f_5-iOS-5.5-Profile.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/b2/5c/40b25ca0-8eee-0e9c-b068-08ec6741908b/28ff37e9-d855-4e6e-a8b4-fb2d585bb9ca_6-iOS-5.5-Marketplace.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/a0/d6/dfa0d6c7-a1a2-873f-953c-4997aab4acbb/691c88f4-f976-46bb-92e1-5f088e8aa47f_7-iOS-5.5-Share.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/50/41/325041cd-f718-ba5b-5c05-3c930a8af80c/d49c0719-9500-4504-8a4c-3124b914bafa_8-iOS-5.5-Search_with_AI.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/29/3e/02293e8a-d565-25b2-2405-31389c8a6e6e/ee650e7b-1eaa-4de6-81a2-0b35dac16446_9-iOS-5.5-Write_with_AI.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/b2/32/f6b2327b-e56b-7c4c-b41b-2ee19340e8d5/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
+      ],
+      "versions": [
+        {
+          "version": "574.0.0",
+          "buildVersion": "1038059635",
+          "date": "2026-08-13T02:14:14Z",
+          "size": 226751798,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facebook/Facebook%20-%20574.0.0.ipa",
+          "localizedDescription": "Nossas equipes solucionaram muitas falhas, corrigiram problemas que você relatou e tornaram o app mais rápido."
+        }
+      ],
+      "version": "574.0.0",
+      "versionDate": "2026-08-13T02:14:14Z",
+      "size": 226751798,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facebook/Facebook%20-%20574.0.0.ipa"
+    },
+    {
+      "name": "Facetune",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "developerName": "Lightricks Ltd.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/2e/c1/f42ec1a2-477d-1ce3-8054-a0dff08cc689/AppIconLiquidGlass-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Bem-vindo ao Facetune, onde toda foto entrega tudo.\nSua câmera captura o momento. O Facetune faz ele ficar inesquecível. De retoques rápidos a transformações completas, criamos as ferramentas pra você aparecer exatamente do jeito que quiser.\n\n‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿\n\nPrincipais recursos:\n\nRetoque & acabamento:\n\nSmooth: Deixe a pele naturalmente lisinha removendo imperfeições e detalhes indesejados na hora.\nReshape: Valorize seus traços com ajustes sutis e super naturais.\nWhiten: Deixe seu sorriso mais iluminado e os dentes mais branquinhos (funciona até nos sneakers ).\n\nEstilo & transformação:\n\nHairstyles: Teste mais de 20 penteados — de Sleek Bun a Butterfly Cut e Glam Blowout — sem mexer em um fio de cabelo.\nBeard & Hair: Experimente estilos como Stubble, Hipster, Goatee, Long Beard e muito mais com resultados super realistas.\nMakeup: Aplique maquiagem virtual completa sem compromisso nenhum.\n\nEdição nível profissional:\n\nHeadshots: Transforme qualquer foto em um headshot profissional em segundos com tecnologia AI.\nFilters & Looks: Crie o mood perfeito instantaneamente com filtros e presets prontos em um toque.\nRemove & Vanish: Apague objetos, fundos ou photobombers sem deixar rastros.\nLighting: Tenha iluminação de estúdio em qualquer clique com ferramentas de luz super precisas.\n\nMelhore & finalize:\n\nEnhance: Aumente automaticamente a qualidade das suas fotos com um único toque.\nColour Correction: Corrija e destaque as cores para um resultado vibrante e refinado.\nVideo Editing: Todas as suas ferramentas favoritas para deixar reels e vídeos curtos impecáveis.\n\n‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿\n\nPor que Facetune?\nPorque suas fotos merecem combinar com a sua visão. Seja você creator, profissional ou só alguém que gosta de sair bem nas fotos — o Facetune resolve. Sem experiência, sem desculpas.\n\nBaixe. Edite. Poste. Repita.\n\nTermos de uso: https://static.lightricks.com/legal/terms-of-use.pdf\nPolítica de privacidade: https://static.lightricks.com/legal/privacy-policy.pdf",
+      "versions": [
+        {
+          "version": "26.24.1",
+          "buildVersion": "9896",
+          "date": "2026-08-11T07:32:00Z",
+          "size": 438840244,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facetune/Facetune%20-%2026.24.1.ipa",
+          "localizedDescription": "Pronta para mudar o estilo? Melhoramos o Roupas para trocas de look mais realistas e edições mais bonitas. Experimente combinações novas que se integram naturalmente às suas fotos."
+        }
+      ],
+      "version": "26.24.1",
+      "versionDate": "2026-08-11T07:32:00Z",
+      "size": 438840244,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facetune/Facetune%20-%2026.24.1.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/9d/f5/0e9df571-d421-1ce4-cd13-a7fd42e169ac/a317605a-a469-47fd-99be-63f6b60e9cc6_FT-ASO-BrazilLocalization-5.5-01.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/67/ee/fd67ee22-d5a0-3d9b-7ad8-3826a4859fd1/1ab256ee-85bb-4612-8e84-e31066145d74_FT-ASO-BrazilLocalization-5.5-02.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/e8/38/16e8382d-e94b-176f-4f66-57908674f245/f8dc1536-f043-4b33-acdc-92f8ff3c0dad_FT-ASO-BrazilLocalization-5.5-03.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/26/14/3d2614e3-da5f-0852-bf0b-3df940ef54ca/51448e5e-1f0c-4386-b11f-296551fe5c7a_FT-ASO-BrazilLocalization-5.5-04.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/dd/ca/22ddca16-fde7-a1ee-04da-ccaf62db6603/821ccc1a-fb1a-4400-b7dd-c980e924e703_FT-ASO-BrazilLocalization-5.5-05.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/1a/59/3b1a5979-7f36-5daa-37af-12e0988f742e/0c9fbbab-5423-4303-849b-cd2ec55239cb_FT-ASO-BrazilLocalization-5.5-06.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/cb/da/89cbda4b-8467-0741-e499-651a3371af97/8215bea2-35bb-4a97-a978-b023e88b3e6e_FT-ASO-BrazilLocalization-5.5-07.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/1a/a8/bd1aa8db-f1e5-92a5-6a69-64258aeec38a/cf6c595c-80fe-4ccc-a85e-6404a6989b50_FT-ASO-BrazilLocalization-5.5-08.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/d3/c6/a1d3c69b-6d52-8b7a-3aab-38207c7dfd4d/8981e767-5d36-4b80-9546-fc075a3977d9_FT-ASO-BrazilLocalization-5.5-09.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/1e/59/021e59fa-e7a3-69ae-9c99-6697f19c99af/85d6ada7-5cd2-4309-99b3-d0f2a50ebeac_FT-ASO-BrazilLocalization-5.5-10.jpg/392x696bb.jpg"
+      ]
+    },
+    {
+      "name": "iLovePDF",
+      "bundleIdentifier": "com.ilovepdf.www",
+      "developerName": "ILOVEPDF S.L.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/aa/1d/e1aa1d83-8e15-181d-9c1b-72640b4612ea/logo-ilovepdf-glass-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Leia, converta, anote e assine PDFs em segundos com este simples e prático editor e digitalizador de documentos. Aumente a sua produtividade com a ajuda de todas as ferramentas que precisa, que poderá utilizar onde quer que esteja.\n \nDIGITALIZAR COM O TELEMÓVEL\n \n• Digitalizar com o seu iPhone ou iPad: Tire uma fotografia a qualquer coisa e guarde como PDF. Pode criar um PDF com várias páginas.\n• Reconhecimento ótico de caracteres (OCR): Converta, com alta precisão, qualquer tipo de texto ou imagem em PDF\n \nCONVERSÃO DE PDF\n \n• De JPG para PDF: Tire uma fotografia de um documento e guarde em PDF.\n• Conversor de e para Microsoft Office: Converta documentos do Office em ficheiros PDF, ou os seus PDFs em ficheiros editáveis do Office, tais como Word, Excel ou PowerPoint\n• Extrair imagens de PDFs: Extraia imagens do seu documento PDF com alta qualidade. Converta as suas próprias imagens em ficheiros PDF múltiplos ou individuais.\n \nEDITOR DE PDF\n \n•Anotar PDFs: Sublinhe texto com facilidade no seu PDF. Adicione notas e sugestões, deixe comentários, desenhe ou insira imagens no seu documento PDF. Escolha o seu formato de anotação.\n•Preencher e assinar formulários: Preencha facilmente formulários em PDF adicionando texto e assine-o usando o seu dedo.\n•Leitor de PDF: Visualize, edite e modifique ficheiros PDF que estejam armazenados na Cloud ou no seu dispositivo sempre que precisar.\n \nOTIMIZE, ORGANIZE E PROTEJA OS SEUS DOCUMENTOS\n \n•Comprimir PDFs: Reduza o tamanho do seu documento sem perder qualidade visual.\n•Juntar documentos num ficheiro PDF: Combine vários documentos e junte-os num só ficheiro PDF.\n•Separar PDFs: Separe ou extraia páginas de um PDF, criando novos ficheiros com alta qualidade.\n•Rodar PDFs: Rode páginas específicas de um ficheiro PDF e ajuste-as ao resto do documento.\n•Proteger PDFs: Remova ou adicione palavras-passe aos seus PDFs.\n•Adicionar número de página a PDFs: Personalize os seus ficheiros PDF. Escolha uma posição, um tipo e um tamanho para a paginação do seu ficheiro.\n•Aplicar marcas de água ao seu PDF: Escolha uma imagem ou texto e adicione-o ao seu documento PDF. Selecione a posição, a transparência e o tipo de marca para um melhor resultado.\n \nLigue-se ao Google Drive ou à Dropbox para selecionar e partilhar documentos da Cloud.\n \n \nSubscreva o plano Premium e tire partido de todos os benefícios deste versátil editor de PDF tudo-em-um. iLovePDF Premium está disponível para compra com as seguintes condições de subscrição auto-renovável:\n \n• Subscrição Anual ou Mensal.\n• O pagamento será feito através da sua conta iTunes.\n• A sua conta será debitada pela renovação num período de 24 horas antes do fim da subscrição atual.\n• As subscrições e a auto-renovação podem ser geridas e desativadas pelo utilizador.\n \nDefinições da conta após a aquisição:\n• Não é permitido o cancelamento da subscrição atual durante um período de subscrição ativo.\n• Qualquer porção de tempo da amostra gratuita que não seja utilizada será perdida quando o utilizador adquirir uma nova subscrição.\n \nTermos de utilização: https://www.ilovepdf.com/help/terms\nPolítica de Privacidade: https://www.ilovepdf.com/help/privacy",
+      "versions": [
+        {
+          "version": "4.0.4",
+          "buildVersion": "3",
+          "date": "2026-08-04T06:22:55Z",
+          "size": 138580196,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iLovePDF/iLovePDF%20-%204.0.4.ipa",
+          "localizedDescription": "Conheça o novo Visualizador de imagens, além de uma experiência ainda mais fluida em todo o aplicativo!\n• Novo Visualizador de imagens: edite imagens sem sair do aplicativo. Recorte, gire, ajuste o brilho, aplique filtros, adicione destaques, anotações e muito mais.\n• Experiência aprimorada em tablets: visual renovado com navegação melhorada, tornando tudo mais fácil de encontrar e usar.\n• Mais fluidez para todos: animações fluidas e um fluxo aprimorado em todos os dispositivos.\nAtualize agora para experimentar o novo Visualizador de imagens."
+        }
+      ],
+      "version": "4.0.4",
+      "versionDate": "2026-08-04T06:22:55Z",
+      "size": 138580196,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iLovePDF/iLovePDF%20-%204.0.4.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5e/5f/21/5e5f2183-481b-430e-e661-85265fc3f5ae/f113cf6d-947b-4719-987b-0b89d3e1d6e0_5.5_inch_screen_1-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/bd/ce/70bdcec4-de1d-34cc-cab0-88883902b099/cdbf23cb-9633-46b8-9d85-b07b898c7a4c_5.5_inch_screen_10-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/93/f4/5f93f451-0cbe-8e14-8fe5-740f8d5da3e3/728f6edc-c69d-45ad-badf-79a9a0008e83_5.5_inch_screen_2-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/66/f7/2066f7b1-49c2-20f0-2f28-20074d8312bf/70a8ae65-ad2c-491e-b5a9-232d3c4021fa_5.5_inch_screen_3-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/ce/53/5ece531d-2436-11c0-10d7-2775434e1d95/3a0179de-4771-4d04-98e8-0324fe989289_5.5_inch_screen_4-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/56/7e/b8567e05-f56d-ec77-b76a-58bc30248ac2/3fd265ed-90af-49d0-b091-683f19a394f8_5.5_inch_screen_5-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/ff/8a/a0ff8a72-6456-40c9-b1b7-98b904e121f8/2b284fda-3433-43c0-99f9-b42e14228e31_5.5_inch_screen_6-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/84/52/a6845269-300c-e444-4d7e-cf91783eccab/aaa4188e-f7c0-4a30-8dd2-d4d972909511_5.5_inch_screen_7-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4f/02/a34f0296-1b0f-f703-9fee-4b1404643ec2/3bea28d9-3f11-478d-bea3-a638ad8f492c_5.5_inch_screen_8-17.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/88/d9/fa88d9c0-71cd-671f-a23d-e90526cec574/ea5b697e-c9d0-4b71-a289-2dec291be3bf_5.5_inch_screen_9-17.png/392x696bb.png"
+      ]
+    },
+    {
+      "name": "InShot",
+      "bundleIdentifier": "com.camerasideas.InstaShot",
+      "developerName": "SHANTANU PTE. LTD.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/f0/18/eff018d4-d9d5-9511-0f5d-adcced3d7e39/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "InShot - editor de vídeo e fotos poderoso! Adicione música, efeitos de transição, texto, emoji e filtros, desfoque o fundo e etc!\n\n[Características]:\n\n[Edição básica de vídeo]\n- Apare e corte vídeos. Divida um clipe em vários.\n- Junte vídeos. Combine vários clipes em um.\n- Rebobine o clipe.\n- Ajuste a velocidade de vídeo.\n- Ajuste o volume dos vídeos.\n- Faça apresentações de slides.\n\n[Edição de vídeo avançada]\n- Rampa de velocidade. Ajuste a velocidade do vídeo com uma curva suave.\n- Quadro-chave. Adicione animação de quadro-chave para seu texto, adesivos e PIPs.\n- Imagem na imagem (PIP). Adicione camadas de vídeo e foto sobre o clipe.\n- Chave de croma. Remova a cor escolhida. Você pode usar esta ferramenta para fazer um vídeo em tela verde.\n- Mascarar. Adicione uma máscara de forma no PIP.\n- Misturas. Combine seu vídeo com o modo de mesclagem.\n- Seletor de cores. Escolha qualquer cor na tela e aplique ao fundo/texto.\n\n[Música, efeitos e voz-overs]\n- Dê a sua música para o vídeo, com arquivos em MP3 e outros formatos.\n- Extraia áudio de outros vídeos.\n- Lotes de efeitos sonoros divertidos.\n- Adicionar voice-overs.\n- Fácil de sincronizar som com o vídeo, com recursos de linha do tempo.\n\n[Texto & Emoji]\n- Adicionar legendas em vídeo e foto. Muitas fontes estão disponíveis.\n- Adicionar emoji na foto.\n- Vários adesivos exclusivos. Estética, doodle, aniversários, festas, animais de estimação, neon, etc.\n- Com recursos de linha do tempo, fácil de sincronizar o texto e emoji com o vídeo.\n\n[Filtros e efeitos]\n- Filtros de estilo de filme e efeitos interessantes. Como retro, falha, fantasma, bestas e assim por diante.\n- Ajuste brilho, calor, HSL, destaques ... de seus vídeos e fotos.\n\n[Tela e fundo]\n- Planos de fundo coloridos. Desfoque os fundos.\n- Ajuste as proporções de vídeo e fotos. 1: 1 para Instagram, 9:16 para Tiktok, 16: 9 para YouTube.\n- Faça upload de fotos do álbum como plano de fundo.\n\n[Edição de fotos]\n- Adicione fundo para suas fotos.\n- Adicione filtros, texto e adesivos para decorar suas fotos.\n- Suporte para multi-edição de fotos. Você pode editar até 10 fotos ao mesmo tempo.\n- Faça uma colagem de fotos.\n\n[Compartilhado] \n- Resolução de saída de vídeo de alta. Suporte a exportação de 4K 60fps.\n- Compartilhar para aplicativos sociais. Instagram, Tiktok, Whatsapp, Facebook, etc.\n\n[Subscrição ilimitada do InShot]\n- A subscrição ilimitada do InShot dá-lhe acesso a todas as funcionalidades e materiais de edição pagos, incluindo autocolantes, conjuntos de filtros, entre outros. As marcas de água e os anúncios serão removidos automaticamente.\n\n- A subscrição ilimitada do InShot é faturada mensal ou anualmente à taxa correspondente ao plano selecionado.\n\n- A subscrição ilimitada do InShot é renovada automaticamente na data de faturação seguinte. Pode desativar a renovação automática 24 horas antes do final do período atual. A loja do iTunes cobra as taxas de subscrição com uma confirmação da compra. É possível desativar a renovação automática nas definições da conta após a compra.\n\n[Termos de utilização]\nhttps://inshot.cc/terms/terms.html\n\n[Política de privacidade]\nhttps://inshot.cc/terms/privacy.html\n\nAlguma dúvida sobre o InShot? Entre em contato conosco em inshot.ios@inshot.com. Suas idéias e comentários são importantes para nós.\n\nPara mais notícias e tutoriais do InShot, siga-nos no YouTube @InShot Video Editor.\n\n[Isenção de responsabilidade:]\nInShot; Não é afiliado, afiliado, endossado, patrocinado ou de qualquer forma oficialmente afiliado ao YouTube, Instagram, TikTok, Facebook, Twitter.\n\nAcknowledgements:\nFUGUE Music\nhttps://icons8.com/music/",
+      "versions": [
+        {
+          "version": "1.98.2",
+          "buildVersion": "167",
+          "date": "2026-08-11T22:58:53Z",
+          "size": 163025678,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/InShot/InShot%20-%201.98.2.ipa",
+          "localizedDescription": "- Modelos de Texto: Escolha entre uma variedade de predefinições estilosas\n- Edição Avançada de Fala IA: Ajuste velocidade e emoções\n- Novos Adesivos com Efeitos sonoros\n- Novos Efeitos Pacote: Brilho\n- Correções de bugs e outras melhorias\nAlguma ideia ou sugestão? Não hesite em nos contatar em inshot.ios@inshot.com.\n\nPara mais novos tutoriais de recursos e dicas avançadas de edição de vídeo, inscreva-se em nosso canal do YouTube @InShotApp"
+        }
+      ],
+      "version": "1.98.2",
+      "versionDate": "2026-08-11T22:58:53Z",
+      "size": 163025678,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/InShot/InShot%20-%201.98.2.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/8b/92/a48b92d2-f64b-4431-62ea-346ee28a1cf8/5adf5813-9e82-4384-8364-cc61e2d72c3c_01.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/1a/77/0f1a7702-5bd1-1fdd-6d17-bd8e39f79be2/eedda26a-cd0d-4854-9312-3f22d64d2e60_02.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/c5/1b/30c51b08-712c-f300-26b7-183e2c95bd58/27c37d3f-85bd-4c97-9113-8b100e417c3f_03.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/7f/d3/277fd389-a16b-691d-21a3-e0bebadcd4c5/4662d9e7-2c1c-47f0-be99-35b6f75d7c18_04.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/ee/b6/06eeb6ff-699c-5873-5bb7-7873cdb128d3/6ddadbc4-741b-45f7-8f3d-23cd17dda2b1_05.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/18/66/80186650-27eb-25d0-f9d0-79322dabc64a/1367b614-ce7c-4f7a-bfd7-2d5b9e2cae1a__U6162_U901f_U63d2_U5e27.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/54/22/7d5422ea-2e68-a714-a295-5905b5471c42/450a66ec-e3d8-4b62-96c0-ae9e8cc6f3a3__U8461_U8404_U7259.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/d2/5b/29d25b57-dbe6-22ca-c57e-a49a7dbc6af4/c0c4421e-1446-4e07-b573-9c731346f2f4_07.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/03/9b/19039bcf-9f99-f12a-bbe7-e6f33dc55dcd/80ccee81-1160-4252-a416-32b2a13f6d2f_PIP_U62fc_U56fe.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/a5/4c/5ea54c55-a5ec-7a80-de24-12bf6fb25e17/eff54d01-8c46-43dd-88a2-445a683f2f1a_11.jpg/392x696bb.jpg"
+      ]
+    },
+    {
+      "name": "Instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "developerName": "Instagram, Inc.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/c1/dc/c3c1dcd8-7f07-0ec0-c901-7487134a98ad/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Pequenos momentos levam a grandes amizades. Compartilhe os seus no Instagram.\n— Da Meta\n\nConecte-se com amigos, encontre outros fãs e veja o que as pessoas ao seu redor estão fazendo e curtindo. Explore seus interesses e publique o que está acontecendo na sua vida, desde momentos diários a grandes eventos.\n\nCompartilhe o que você está fazendo e curtindo.\n- Mantenha contato com amigos em qualquer lugar com o Stories e as Notas que desaparecem após 24 horas.\n- Inicie bate-papos em grupo e compartilhe momentos sem filtro com seus Amigos Próximos.\n- Compartilhe lembranças de eventos recentes ou viagens no Feed.\n- Transforme sua vida em um filme e descubra vídeos curtos e envolventes no Instagram com o Reels.\n- Personalize suas publicações com modelos exclusivos, música, figurinhas e filtros.\n\nAprofunde-se nos seus interesses.\n- Assista a vídeo dos seus criadores de conteúdo favoritos e descubra novos conteúdos personalizados de acordo com seus interesses.\n- Inspire-se com fotos e vídeos de novas contas no Explorar.\n- Descubra marcas e pequenas empresas e compre produtos que são relevantes para seu estilo pessoal.\n\nAlguns recursos do Instagram podem não estar disponíveis no seu país ou na sua região.\n\nTermos e Políticas - https://help.instagram.com/581066165581870\n\nSaiba como estamos trabalhando para ajudar a manter nossas comunidades seguras por meio das tecnologias da Meta na Central de Segurança do Instagram: https://about.instagram.com/safety",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/43/9e/e6439ecd-45c1-a349-c12f-cf8cd900dd28/c71e28c0-03da-4065-93d0-3d1e9abbaefd_1_iOS_5.5_pt_BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/e6/e2/25e6e23a-0f60-3ae4-9e5f-055e1a1c7946/761c2134-ebd6-4e80-8fc9-a6e3e50f68b5_2_iOS_5.5_pt_BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/2c/c6/172cc6cd-c944-1ac3-fbd7-558aefdaa173/83d534ff-ff21-452d-9dd1-82fc7dec9bfe_3_iOS_5.5_pt_BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/7b/5d/9a7b5dde-b4b9-8075-6d1d-7806db6d48d7/6dffa620-8ae3-40c2-b854-31010c63f24f_4_iOS_5.5_pt_BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/fe/3c/d1fe3cd9-d87c-0027-0d16-7398ff765d79/45f0f9b0-f652-414f-85f1-4bd7f4b7014c_5_iOS_5.5_pt_BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/2d/80/1d2d801b-7d2c-9e9e-49b1-24575cc61cf4/3939231e-841e-46e1-a615-c263adc0094e_6_iOS_5.5_pt_BR.jpg/392x696bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "442.0.0",
+          "buildVersion": "1035455812",
+          "date": "2026-08-10T13:34:10Z",
+          "size": 319819568,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Instagram/Instagram%20-%20442.0.0.ipa",
+          "localizedDescription": "A versão mais recente contém correções de erros e melhorias no desempenho."
+        }
+      ],
+      "version": "442.0.0",
+      "versionDate": "2026-08-10T13:34:10Z",
+      "size": 319819568,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Instagram/Instagram%20-%20442.0.0.ipa"
+    },
+    {
+      "name": "iTranslate",
+      "bundleIdentifier": "com.outerspaceapps.itranslate",
+      "developerName": "Mosaic S.r.l.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8d/01/8c8d0143-0451-c85f-a6fc-9238f9f280e2/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "O iTranslate é um dos principais aplicativos de tradução e dicionário. Ele foi projetado para ajudá-lo a quebrar com facilidade as barreiras de idiomas. Traduza textos, sites, objetos ou inicie conversas de voz em mais de 100 idiomas. Nosso exclusivo recurso Livro de Frases Personalizado permite que você aprenda novos idiomas e crie coleções personalizadas de frases para várias situações da vida. E se você precisar usar o iTranslate quando estiver em outro país, com nosso Modo Off-line você não precisará preocupar-se em pagar tarifas caras de roaming.\n\nRECURSOS GRATUITOS:\n• Tradução de textos em mais de 100 idiomas.\n• Phrasebook\n• Diferentes dialectos.\n• Dicionários com sinónimos e diferentes significados\n• Widgets e Flashcards: aprenda uma nova expressão ou palavra todos os dias, apresentada diretamente no seu ecrã principal.\n• Pronúncia em vozes masculinas ou femininas.\n• Transliteração, Partilha, Favoritos, Histórico e muito mais.\n\nFUNCIONALIDADES PRO\n• Livro de Frases Personalizado — para criar sua própria coleção de frases.\n• Extensão de Teclado.\n• Lens: use sua câmera para traduzir menus, placas e muito mais.\n• AR Mode para a Tradução de Objetos em Tempo Real. \n• Modo de tradução offline. \n• Conversas voz para voz.\n• Tradução de websites.\n• Conjugações verbais em vários tempos.\n\nADORADA E CONFIADA POR MILHÕES\n200 milhões de downloads e mais de 1 milhão de avaliações na App Store!\n\nSUPORTE\nVisite https://www.itranslate.com/support/ ou contacte-nos através do e-mail help@itranslate.com\n\nIdiomas e dialectos suportados para tradução:\nAfrikaans, albanês, árabe, arménio, azerbaijanês, basco, bielorrusso, bengali, bósnio, búlgaro, catalão, cebuano, chichewa, chinês (simplificado), chinês (tradicional), croata, checo, dinamarquês, alemão, inglês, esperanto, estónio, filipino, finlandês, francês, galego, georgiano, alemão, grego, gujarati, crioulo haitiano, hausa, hebraico, hindi, hmong, húngaro, islandês, igbo, indonésio, irlandês, italiano, japonês, javanês, cazaque, khmer, coreano, lao, latim, letão, lituano, macedónio, malgaxe, malaio, malaialo, maltês, maori, marati, mongolês, mianmar (birmanês), nepalês, noruguês, persa, polaco, português, punjabi, romeno, russo, sérvio, sesoto, cingalês, eslovaco, esloveno, somali, espanhol, sundanês, suaíli, sueco, tajique, tamil, telugu, tailandês, turco, ucraniano, urdu, uzbeque, vietnamita, galês, ídiche\n\n---\nTermos da assinatura automaticamente renovável:\nAs assinaturas são cobradas mensalmente ou anualmente à taxa selecionada, dependendo do plano de assinatura.\nO preço é igual ao mesmo escalão de preços que a \"\"Apple's App Store Matrix\"\" determina para outras moedas.\n* A sua subscrição do período experimental gratuito será automaticamente renovada e passará a subscrição paga, a menos que a renovação automática seja desactivada, no mínimo, 24 horas antes do final do período experimental gratuito.\n* Por favor, tenha em conta o seguinte: Qualquer parte de um período experimental gratuito (se oferecido) será cancelada, assim que adquirir uma subscrição premium durante o período experimental gratuito.\n* Poderá cancelar um período experimental gratuito, ou uma subscrição, desactivando a renovação automática, através das definições da sua conta do iTunes. Isso deverá ser feito 24 horas antes do final do período experimental gratuito ou da subscrição, para evitar qualquer cobrança. O cancelamento entrará em vigor no dia seguinte ao último dia do período da subscrição actual e passará para o serviço gratuito.\n* A conta será cobrada para renovação dentro de 24 horas antes do final do período atual e identifica o custo da renovação. \n\nTerms of Service:\nhttps://www.itranslate.com/terms-of-service\n\nHiperligação para a Política de Privacidade:\nhttps://www.itranslate.com/privacy-policy\n\nÉ necessária uma ligação à Internet para usar a aplicação. Para usar o modo offline, é necessário descarregar os pacotes de idiomas.",
+      "versions": [
+        {
+          "version": "17.4.75",
+          "buildVersion": "508",
+          "date": "2026-06-08T07:06:35Z",
+          "size": 89732737,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iTranslate/iTranslate%20-%2017.4.75.ipa",
+          "localizedDescription": "Hey language lovers!\n\nGood news in every language: we've improved the app! Whether you say \"better\", \"mejor\", \"migliore\", or \"meilleur\"—it means the same thing: this update rocks!\n\nWe've squashed some bugs and optimized performance so you can focus on breaking down language barriers, not app barriers.\n\nKeep translating, keep learning!"
+        }
+      ],
+      "version": "17.4.75",
+      "versionDate": "2026-06-08T07:06:35Z",
+      "size": 89732737,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iTranslate/iTranslate%20-%2017.4.75.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/5d/fb/8d5dfb46-dd1a-d998-6ba0-65383c5411e0/46c41bc8-f6e9-4586-9c1d-4ce82a4b27e1_App_Store_Screen_-_5.5_-_01.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/e4/a4/cee4a4d1-97ac-d8ab-b725-f7e23b1f91bc/d26d606e-d751-42ac-a9f2-36ff04169bf0_App_Store_Screen_-_5.5_-_02.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/dc/ec/87dcece2-7f2e-7b2b-d6c7-fb43aff0c069/db4b243c-f660-48e5-a24f-2f906bd58149_App_Store_Screen_-_5.5_-_03.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/d3/33/f2d333f2-c93b-a650-8b9c-c9451316a2f2/27bc6a25-ca59-44b6-8311-48543160eedb_App_Store_Screen_-_5.5_-_04.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/de/78/ddde7863-0085-b1fe-2c38-fc8538f667ac/94d03eb2-1db5-4507-8489-44972acb2629_App_Store_Screen_-_5.5_-_08.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/ee/71/89ee7128-befe-ae2f-7c39-58ba2dd0e433/018a0d92-1634-47ce-92f1-38606bf391f9_iphone5.5_s5_pt-BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/a5/e4/c5a5e472-5e6b-0499-b53b-3f3b07fa1416/d863a603-3a73-47df-9dd5-9e82206eb5e7_App_Store_Screen_-_5.5_-_07.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/71/f6/6471f686-7036-5174-2e6a-bd39056c8607/ab22c058-dc92-4040-8fad-367506937b6d_App_Store_Screen_-_5.5_-_06.png/392x696bb.png"
+      ]
+    },
+    {
+      "name": "Letterboxd",
+      "bundleIdentifier": "com.letterboxd.LetterboxdApp",
+      "developerName": "Letterboxd Ltd",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/27/ab/6827ab68-bf45-5975-144b-f1a05d40c6cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Letterboxd for iOS puts the popular social network for film lovers on your iPhone or iPad, so you can log films and catch up on your friends’ activity with ease.\n\nSign in with your existing account (or create one for free) to enjoy our native app interface. These features of the web experience are supported, with more to come:\n\n– Sign in (with 1Password support) or create an account\n– Browse popular, highly rated and most anticipated films (including our official list of the Top 250 Narrative Features)\n– Log films with date, rating, review and tags\n– View film info (including cast & crew, popular lists and reviews) and rate, like, watchlist or mark as watched\n– View (and filter) your activity feed\n– Read and comment on reviews and lists\n– Create and edit lists\n– View member profiles including films, reviews, diary entries, tags, stats and more\n– Follow members to see their activity in your feed\n– Filter and sort collections of films based on specific criteria\n– Search for films, content and people\n– Edit your profile settings\n\nOur app offers account upgrades:\n\n– Upgrade to 1 Year of Letterboxd Pro or Patron\n– Pro tier adds annual and all-time stats pages based on your account activity, advanced activity and streaming service filters (including the option to pick and filter by the streaming services you subscribe to, powered by JustWatch.com), list cloning and removes third-party ads.\n– Patron tier provides all the benefits of Pro, plus the option to customize film posters, backdrops on your profile and content (if available), additional stats, a listing in the Patrons directory on our website and early access to new features.\n– Payment is charged to your iTunes Account when you confirm purchase and your subscription automatically renews unless auto-renewal is disabled at least 24 hours prior to the end of the current period. Your iTunes account will be charged for a renewal up to 24 hours before the end of each current period, at the same annual fee.\n– You can manage your subscription and disable auto-renewals in the App Store app following purchase.\n– Any unused portion of a free trial period, if offered, will be forfeited if you purchase a subscription to that publication, where applicable\n\nOur terms of use are always available at: https://letterboxd.com/legal/terms-of-use/\n\nWe welcome your feedback regarding Letterboxd for iOS. Please email us: hello@letterboxd.com",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/1b/35/851b35c0-43c8-c9b3-1d6f-f7e634d6b85d/Store_1c.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/e7/9f/25e79f8f-8327-75cf-afad-fa4bb51270f1/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/d3/c1/77d3c16e-5771-08ab-2630-bd79d22d681d/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/50/0b/b3500b6f-0761-7d55-a7af-1356433275cc/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d8/fb/07d8fba4-5e27-80d4-89ab-e23bd65d8df8/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/61/cc/9e61cc90-6671-89cc-48db-edb5feec0a57/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/96/8b/f4968bf8-138a-3254-f906-cb6bf5b41c1b/20242ed4-7701-4e63-b4fd-ec7b9b78a838_Store_0c.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/00/a0/4f00a08d-918d-c4fb-ba10-2c87fabd0318/d5dce809-15c6-4aa2-bd43-eeaee2bf15b8_Store_7c.png/392x696bb.png"
+      ],
+      "versions": [
+        {
+          "version": "4.12.3",
+          "buildVersion": "6613",
+          "date": "2026-06-23T16:22:53Z",
+          "size": 57449691,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Letterboxd/Letterboxd%20-%204.12.3.ipa",
+          "localizedDescription": "– Miscellaneous bug fixes and improvements"
+        }
+      ],
+      "version": "4.12.3",
+      "versionDate": "2026-06-23T16:22:53Z",
+      "size": 57449691,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Letterboxd/Letterboxd%20-%204.12.3.ipa"
+    },
+    {
+      "name": "Media Converter",
+      "bundleIdentifier": "com.verycoolapp.mediaconvert",
+      "developerName": "荣 马",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/2e/33/442e33f9-d42e-832a-507d-b402f9481eb2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Conversor de Mídia – Conversor de Vídeo, Converta todos os seus vídeos, áudios, imagens, GIFs e PDFs.\nConverta codificação de vídeo, áudio e imagem, comprima vídeo, extraia áudio e crie toques personalizados com música.\nSolução completa que combina conversor de formato de arquivo, extrator de áudio, editor de mídia, criador de toques e reprodutor de vídeo.\n◆ Conversor de Vídeo e Transcodificador de Vídeo\n- Converta vídeos entre todos os formatos populares: MP4, MOV, 3GP, 3G2, ASF, MKV, VOB, MPEG, WMV, FLV, AVI, OGV, WEBM, MPG.\n- Codificadores de Vídeo: H.264 (AVC), H.265 (HEVC), MPEG-2, MPEG-4, H.263+, AV1, WMV2, VP8, VP9, ​​THEORA, XVID, DIVX e outros.\n\n◆ Conversor de Áudio e Criador de Toques\n- Extraia áudio de vídeos gravados, formatos de saída: MP3, M4A, OGG, WAV, FLAC, WMA, AIFF, CAF, ADX, AC3, AAC, M4R, M4A, OPUS.\n- Codificadores de Áudio: AAC, MP3, MP2, AMR, Opus, SWF, WMAV2, WMAV1, Vorbis, SPEEX, DCA, EAC3, FLAC, PCM_S16LE, PCM_S16BE.\n- Edite metadados (título, artista, álbum, capa).\n- Crie toques: Extraia áudio de vídeos e edite para criar toques personalizados.\n\n◆ Conversor de Imagens e PDF\n- Converta imagens de/para JPG (JPEG), PNG, HEIC, WEBP e muito mais.\n- Transforme imagens em PDFs ou extraia páginas de PDF para imagens.\n- Vídeo para GIF: Converta qualquer videoclipe em um GIF animado de alta qualidade para compartilhar ou enviar mensagens.\n\n◆ Reprodutor de Vídeo\n- Reproduza qualquer arquivo de vídeo ou música sem problemas com o reprodutor integrado.\n- Suporta playlists, reprodução offline e todos os principais formatos.\n\n◆ Compressor e Mais Ferramentas\n- Compacte arquivos de vídeo sem perder qualidade.\n- Ajuste a resolução, a taxa de quadros e a taxa de bits para economizar espaço de armazenamento.\n- Modos de Corte: Corte as Duas Extremidades, Corte o Meio.\n- Borracha de Vídeo: Remova objetos indesejados do vídeo.\n- Alterar a Proporção do Vídeo: Redimensione o vídeo com desfoque, corte ou preenchimento.\n- Alterar Velocidade: Acelere ou desacelere o vídeo ou áudio.\n- Mescle ou corte vídeos e áudios.\n- Mais Ferramentas: Corte o tamanho do vídeo, inverta ou gire o vídeo.\n- Extrator de Arquivos: Abra e gerencie arquivos ZIP, RAR, 7Z e outros formatos.\n\n◆ Gerenciamento e Transferência de Arquivos\n- Importação em lote, transferência Wi-Fi e compartilhamento de arquivos entre o celular e o computador.\n- Importe vídeos gravados da galeria do seu dispositivo.\n- Faça backup no iCloud Drive para armazenamento seguro.\n\nMedia Converter – Video Converter, Convert all your videos, audios, images, GIFs, and PDFs. \nConvert video & audio & picture encoding, compress video, extract audio and create custom ringtones with music.\nAll-in-one solution combining file format converter, audio extractor, media editor, ringtone maker and Video Player.\n\n== Atualize para o Pro ==\nPro Vitalício: Compra única com acesso permanente.\nAssinatura:\n- Assinatura anual com renovação automática, com renovação automática após o vencimento.\n- Após a confirmação da compra do item da assinatura, o valor da assinatura será creditado na sua conta do iTunes. A assinatura será renovada automaticamente, a menos que o recurso de renovação automática seja desativado pelo menos 24 horas antes do término do período atual. A conta será cobrada pela renovação dentro de 24 horas antes do término do período atual. As assinaturas podem ser gerenciadas pelo usuário e a renovação automática pode ser desativada acessando as Configurações da Conta do usuário após a compra.\n\nPolítica de Privacidade: https://mediaconvertserver.web.app/privacypolicy.html\nTermos de Uso: https://mediaconvertserver.web.app/terms.html\nEntre em contato conosco: junjie_ruan@163.com",
+      "versions": [
+        {
+          "version": "4.14",
+          "buildVersion": "4.14.1",
+          "date": "2026-04-29T00:35:37Z",
+          "size": 61126421,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Media%20Converter/Media%20Converter%20-%204.14.ipa",
+          "localizedDescription": "Correção de um erro na compra da versão Pro na V4.13 e anteriores. Atualize para a versão mais recente e selecione \"Restaurar compra\"."
+        }
+      ],
+      "version": "4.14",
+      "versionDate": "2026-04-29T00:35:37Z",
+      "size": 61126421,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Media%20Converter/Media%20Converter%20-%204.14.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/06/0d/fd060dff-5939-2cbd-8421-4c8dfb3aebd4/1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/b5/07/3cb5077f-3451-32b4-d5eb-5036d1a4c189/5e41540f-7e96-440e-bd8d-9970b9037438_2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/59/94/e55994e9-6486-9953-b247-3a7e8bc088ee/e4f9619b-7048-42f7-aafe-408b6e0125ea_3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/8f/ed/888fed1d-c8a2-6a80-c2ba-e576b7d27e57/158f543c-0d41-40cf-840e-21d476da68f5_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/2c/d9/4b2cd98a-9b12-0452-b618-ab7eacd364bf/68d4dcf8-b6aa-47aa-bbc0-251a4e752b53_5.jpg/320x480bb.jpg"
+      ]
+    },
+    {
+      "name": "Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "developerName": "Meta Platforms, Inc.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/51/db/5d51dbf4-6a85-aaf5-ace1-87b698d178da/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "O Messenger é um app de mensagens que ajuda você a se conectar com qualquer pessoa em qualquer lugar. Mantenha contato com amigos e familiares, explore seus interesses com pessoas como você, construa sua comunidade e expresse seu estilo além das palavras, tudo isso em um só app.\n\nCONVERSE E LIGUE PARA QUEM VOCÊ QUISER, EM QUALQUER LUGAR\n\n\nEncontre seus amigos e familiares e conecte-se com eles no Facebook e Messenger, sem precisar de número de telefone.\n\nTENHA RESPOSTAS RÁPIDAS COM SEU ASSISTENTE DE IA*\nA Meta AI é seu assistente que pode responder a qualquer pergunta, dar conselhos, ajudar com seu dever de casa e muito mais.\n\nENVIE SUAS FOTOS EM ALTA DEFINIÇÃO\nEnvie e receba fotos mais nítidas e definidas dos seus momentos preferidos com o Messenger.\n\nCRIE ÁLBUNS COMPARTILHADOS\nDas férias de verão até o aniversário de 80 anos da sua avó, crie álbuns de fotos e vídeos para compartilhar, organizar e relembrar momentos importantes nos bate-papos em grupo.\n\nADICIONE FACILMENTE NOVAS CONEXÕES COM QR CODES\nConecte-se com pessoas que você encontra na vida real, escaneando o QR code do Messenger delas ou compartilhando o seu via link.\n\nCOMPARTILHE ARQUIVOS GRANDES DIRETAMENTE NO BATE-PAPO\nSeja um Word, PDF ou Excel, envie arquivos grandes de até 100 MB sem sair do Messenger.\n\nEDITE E CANCELE O ENVIO DE MENSAGENS \nEnviou a mensagem antes da hora? Você pode editar a mensagem até 15 minutos após o envio\n\nMENSAGENS TEMPORÁRIAS\nAlgumas coisas não devem durar para sempre. Escolha por quanto tempo seus bate-papos criptografados de ponta a ponta permanecerão disponíveis após serem lidos.\n\nJUNTE-SE ÀS SUAS COMUNIDADES\nEstabeleça conexões significativas com pessoas de sua escola, comunidade ou grupos de interesse.\n\nPARTICIPE DO CÍRCULO DOS SEUS CRIADORES FAVORITOS\nAcompanhe as novidades dos criadores e participe dos canais de transmissão para acessar conteúdos autênticos e leves.\n\nSOLTE SUA IMAGINAÇÃO COM A META AI*\nTrabalhe com seu parceiro criativo para criar, editar, animar imagens e muito mais.\n\nCAPTURE MOMENTOS COTIDIANOS NOS STORIES\nDestaque os momentos do seu dia com fotos e vídeos que somem depois de 24 horas no Stories.\n\nDEIXE UMA NOTA SOBRE O QUE VOCÊ PENSA\nMantenha a conexão com seus amigos compartilhando atualizações rápidas que desaparecem após 24 horas.\n\nMOSTRE SEU ESTILO NO BATE-PAPO\nÀs vezes, palavras não são suficientes. Descubra outras maneiras de se expressar com figurinhas animadas, GIFs, reações e muito mais.\n\nDEFINA O TOM DO BATE-PAPO COM TEMAS\nDeixe as conversas do seu jeito com uma grande lista de temas em constante evolução com artistas populares, feriados e muito mais. \n\n*A Meta AI está disponível somente em alguns idiomas e países selecionados, com mais opções chegando em breve.",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/76/83/6a7683e7-060b-ab17-ae55-f9dc67ceaa49/iPhone_14_Pro_-_Screen_1_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/47/5e/cd475e09-385b-c119-7e9d-6c2f579e9cb3/iPhone_14_Pro_-_Screen_2_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/56/3f/14563fef-a768-2683-f400-672274d3ce25/iPhone_14_Pro_-_Screen_3_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/38/c9/8638c94b-acec-572e-f7c3-b9ff8d826936/iPhone_14_Pro_-_Screen_4_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/66/3b/5f663b02-fa65-7399-6b05-b9f8aa6a12e3/iPhone_14_Pro_-_Screen_5_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/27/c9/b827c9d5-8383-4a0a-a2a7-ce411da86594/iPhone_14_Pro_-_Screen_6_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/46/08/de4608dd-a4b1-a96c-2363-d068feab5eb5/iPhone_14_Pro_-_Screen_7_pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/94/e9/8394e96e-92d9-822e-c597-5e6cc6af34ce/iPhone_14_Pro_-_Screen_8_pt_BR.png/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "574.0.0",
+          "buildVersion": "1037058507",
+          "date": "2026-08-13T03:54:29Z",
+          "size": 112439574,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger%20-%20574.0.0.ipa",
+          "localizedDescription": "Atualizamos nosso app regularmente para torná-lo ainda melhor para você se conectar facilmente com as pessoas que importam. Atualize para a versão mais recente para obter todos os novos recursos e melhorias. \n\nEste lançamento inclui:\n- Correções para falhas nas experiências de mensagem \n- Melhorias de desempenho para remover a latência em algumas das nossas principais experiências \n- Suporte para iOS 26\n\nVocê tem alguma dúvida? Toque em Ajuda no app do Messenger ou acesse \n[facebook.com/help/messenger-app]"
+        }
+      ],
+      "version": "574.0.0",
+      "versionDate": "2026-08-13T03:54:29Z",
+      "size": 112439574,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger%20-%20574.0.0.ipa"
+    },
+    {
+      "name": "Moovit",
+      "bundleIdentifier": "com.tranzmate.tranzmate1",
+      "developerName": "Moovit App Global LTD",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/09/c0/4e09c07f-848a-449b-ab75-1194e4e03455/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Confie no Moovit como seu aplicativo preferido para transporte público. Se você viaja de ônibus, metrô, trem, VLT, bonde, teleférico, barca, bicicleta, patinete, ou utiliza Uber, o Moovit é a solução ideal para todas as suas necessidades de transporte público. O Moovit guia você do ponto A ao ponto B de forma fácil e eficiente, mostrando os horários de ônibus, metrô, e outros transportes públicos, mapas, chegadas em tempo real, e ajudando você a planejar seu itinerário com confiança. Receba alertas de alterações de serviço e instruções passo a passo para encontrar o melhor itinerário usando diferentes modais e transportes públicos.\n\n\n\nO Moovit guia mais de 865 milhões de usuários em mais de 3.200 cidades ao redor do mundo. Os passageiros encontrarão horários atualizados do transporte, mapas e, quando disponíveis, chegadas das linhas em tempo real. Localize os pontos de ônibus e estações de trem nas proximidades, viaje com orientações ao vivo e receba alertas de desembarque para que você faça uma viagem tranquila. É exatamente por isso que o Moovit foi selecionado um dos melhores aplicativos de 2017 pela App Store.\n\n\n\nO Moovit é o seu assistente pessoal para todas as suas viagens!\n\n\n\nChegadas em tempo real: Veja os horários de chegada em tempo real obtidos diretamente de dispositivos GPS instalados em ônibus e trens. Evite perder tempo adivinhando os horários de trem, ônibus, bonde, VLT ou balsa.\n\n\n\nAlertas em tempo real: Saiba antecipadamente sobre quaisquer alterações no transporte, interrupções, atrasos, engarrafamentos, obras e muito mais. Desta forma, você poderá se planejar antes de sair de casa.\n\n\n\nDireções passo a passo: Obtenha direções passo a passo ao viajar de ônibus ou trem com orientação ao vivo desde o ponto A até o ponto B: saiba quanto tempo você precisa para caminhar até a estação, veja o horário de chegada da sua linha, receba alertas de desembarque e muito mais.\n\n\n\nReporte dos usuários: Os usuários do Moovit podem reportar problemas nas estações, no serviço ou nos horários de uma linha e desta forma, ajudar a informar os passageiros sobre quaisquer irregularidades.\n\n\n\nLinhas, estações e locais favoritos: Obtenha acesso fácil às linhas, estações e lugares que você mais pesquisa ou visita.\n\nRotas de bicicleta: Além das rotas de ônibus, metrô, trem, bonde ou VLT - obtenha rotas de bicicleta! Se você anda de bicicleta (própria ou compartilhada), podemos planejar uma viagem que a inclua em rotas com outros modais. As estações de bicicleta são atualizadas em tempo real. *Recurso disponível em localidades limitadas no momento.\n\n\n\nMapa: Procura uma visão geral? Veja no mapa todos os pontos, estações, rotas e linhas. Além disso, há mapas disponíveis em PDF para que você possa ter acesso quando estiver off-line.\n\n\n\nConfie no Moovit como seu aplicativo preferido para transporte público. Temos orgulho de colaborar com operadores de transporte de todo o Brasil, incluindo:\n\n\n\nSPTrans\nMetrô SP\nCPTM\nEMTU\nFetranspor\nVLT Carioca\nDFTrans\nBHTrans\nURBS \nETUFOR\nGrande Recife\nEPTC\nCBTU\nCCR\nEMDEC\nBikeSampa\nCicloSampa\nBikeRio\n\n\n\nVocê precisa de apenas um aplicativo para viajar pelo Brasil e em outros 106 países e em 45 idiomas. Se você quiser saber os horários de ônibus ou trem em Londres, Barcelona, Madri ou Roma, ou se precisar saber quando o último ônibus sai de uma determinada estação no Rio de Janeiro, São Paulo, Melbourne, Seul - o Moovit te leva até lá. Você viaja, o Moovit guia!\n\n\n\nDúvida ou sugestão? Escreva para:\n\n\nhttps://moovitapp.zendesk.com/hc/requests/new moovit@Facebook, Twitter, Instagram\n\n\n\nTermos de serviço https://moovitapp.com/en-us/legal/terms-of-service-pt-pt",
+      "versions": [
+        {
+          "version": "5.198.0",
+          "buildVersion": "143655",
+          "date": "2026-08-10T15:58:59Z",
+          "size": 94086913,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Moovit/Moovit%20-%205.198.0.ipa",
+          "localizedDescription": "Descubra um trajeto mais inteligente e personalizado com os novos recursos com IA do Moovit+:\n• Best For You – Rotas personalizadas com base nas suas preferências\n• Smart Weather – Rotas adaptadas às condições do clima\n• Tight Transfer Alerts – Evite conexões estressantes\nMoovit+: o trajeto ideal, feito para você"
+        }
+      ],
+      "version": "5.198.0",
+      "versionDate": "2026-08-10T15:58:59Z",
+      "size": 94086913,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Moovit/Moovit%20-%205.198.0.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/5d/82/355d821c-7382-bf5f-768f-3d809ddf8b20/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/2f/8f/4f2f8fde-1a46-c505-7a95-53d3dffc214a/pr_source.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/63/ea/f263eab9-f202-cee2-59b7-9aa9ae4a6d53/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/36/a4/3136a439-c6d4-1bfe-bb16-c8a9f23a0a06/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/2f/7f/2b2f7fcf-536f-dc43-a078-eb06bcfdd357/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/55/3c/99553ce8-bf77-0e67-0fab-2f79272c7018/pr_source.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/be/84/f3be845a-cb73-5cad-c253-58325c559ba2/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a0/55/4ca0557b-7482-a96a-a156-5f79fd76609b/pr_source.png/392x696bb.png"
+      ]
+    },
+    {
+      "name": "PDF Expert",
+      "bundleIdentifier": "com.readdle.PDFExpert5",
+      "developerName": "Readdle Technologies Limited",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/b1/48/7db14845-418d-2abc-2991-18007bbc3b3f/AppIcon-Production-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "O PDF Expert é o aplicativo definitivo de PDF para iPhone, iPad e Mac.\nÉ rápido e intuitivo, ao mesmo tempo em que lhe permite concluir sem esforço qualquer tarefa em PDF. Mais de 30 milhões de pessoas usam o PDF Expert em todo o mundo. Todas as ferramentas que você precisa, da forma certa. O PDF Expert já está disponível para Apple Vision Pro (somente iPad). \n \n\"O PDF Expert é um dos meus aplicativos para iPad indispensáveis. Um leitor de PDF de primeira linha\". – MacStories\n\"Fiquei impressionado com a facilidade de uso do aplicativo\". – MakeUseOf\n\"O melhor aplicativo para gerenciar, editar e ler PDFs no iPad\". – The Sweet Setup\n \n*** COM O PDF EXPERT, VOCÊ TEM ACESSO GRATUITO AOS SEGUINTES RECURSOS ***\n \nLEIA PDFs FACILMENTE\n- Abra PDFs de email, da web ou qualquer aplicativo que suporte o menu Compartilhar em todo o sistema Apple.\n- Habilite a busca por todo o texto, role, aproxime e distancie.\n- Use o Texto para Fala para ouvir o texto selecionado lido em voz alta.\n \nDESTAQUE E ANOTE EM PDFs\n– Marque partes importantes em livros ou documentos com as ferramentas de anotação: grifar, sublinhar, riscar, etc. \n– Use carimbos predefinidos, tais como Aprovado, Não Aprovado, Confidencial etc.\n– Expresse sua personalidade com adesivos incríveis. \n \nTRABALHE NA NUVEM\nConecte-se a qualquer armazenamento de nuvem, como Dropbox, iCloud, Box, OneDrive, Google Drive, etc., e desfrute da sincronização em 2 vias.\n \nCRIE NOTAS\nDeixe comentários no texto que você lê usando notas adesivas e ferramentas de desenho.\n \nPREENCHA FORMULÁRIOS\nPreencha qualquer formulário em PDF estático com campos interativos como texto, caixas e botões de seleção.\n \n*** O PDF EXPERT PREMIUM DESBLOQUEIA RECURSOS AVANÇADOS ***\n  \nUSE UMA SÓ CONTA NO iPHONE, iPAD E MAC\nUma assinatura permite que você trabalhe eficientemente em todos os dispositivos Apple.\n \nEDITE TEXTO EM PDF\nFonte, tamanho e opacidade do texto são detectados automaticamente, facilitando as edições.\n \nRESUMA E ANALISE PDFs EXTENSOS COM O PDF COPILOT - SEU ASSISTENTE DE IA\n– Liste os pontos principais – escaneie e destaque rapidamente os tópicos essenciais.\n– Resuma – obtenha breves resumos de seus PDFs ou anotações.\n– Faça qualquer pergunta – obtenha dados precisos por meio das respostas e referências da IA.\n– Esclareça – chega de usar o Google! Obtenha explicações imediatas sobre palavras ou frases.\n\nCONVERTA PDF\nConverta PDF para Word, Excel, PPT, JPG/PNG, TXT e vice versa.\n \nADICIONE E EDITE IMAGENS\nAdicione, substitua e redimensione facilmente imagens em PDFs. Mude um logo ou um gráfico. O PDF Expert torna tudo isso fácil. \n\nASSINE DOCUMENTOS\nUse assinaturas eletrônicas, sincronizadas entre dispositivos, para assinar contratos em qualquer lugar.\n \nBARRA DE FAVORITOS\nAcesse rapidamente suas ferramentas favoritas com uma barra de ferramentas personalizável.\n \nADICIONE LINKS\nVincule qualquer parte do texto a uma página diferente ou a um website. Adicione links a imagens.\n \nCENSURE INFORMAÇÕES CONFIDENCIAIS\nApague ou oculte permanentemente informações sensíveis em PDFs.\n \nPROTEJA COM SENHA\n– Restrinja o acesso ao PDF Expert e aos seus arquivos.\n– Proteja seus PDFs contra leitura não autorizada com uma senha.\n \nFERRAMENTAS DE CONSTRUÇÃO\n– Escala e medição\n– Formas poligonais e polilinhas\n– Revisão\n\nAgora você não precisa comprar as versões para Mac, iPhone e iPad separadamente. Tenha uma única assinatura Premium do PDF Expert em todos os seus dispositivos Apple (iPhone, iPad e Mac).\nBaixe o PDF Expert Premium e TESTE DE GRAÇA POR 7 DIAS, para vê-lo em ação.\n\nLeia nossos Termos e Condições aqui:\nhttps://pdfexpert.com/privacy\nhttps://pdfexpert.com/terms\n\nPerguntas, comentários ou problemas? Entre em contato via http://readdle.com/contact",
+      "versions": [
+        {
+          "version": "7.25.11",
+          "buildVersion": "7.25.11.1317",
+          "date": "2026-08-12T12:41:56Z",
+          "size": 149235348,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PDF%20Expert/PDF%20Expert%20-%207.25.11.ipa",
+          "localizedDescription": "O PDF Expert para Empresas ficou mais fácil de acessar e usar. Confira o novo menu “Para Empresas” para saber mais sobre o Gerenciador de Negócios do PDF Expert, assinar ou agendar uma chamada com nossa equipe de vendas. O PDF Expert Premium é ativado automaticamente com sua licença empresarial, sem a necessidade de compra individual. Além disso, cada licença funciona em até três dispositivos, permitindo que você continue seu trabalho no Mac, iPhone e iPad. Atualize o PDF Expert ainda hoje e conte-nos o que achou!"
+        }
+      ],
+      "version": "7.25.11",
+      "versionDate": "2026-08-12T12:41:56Z",
+      "size": 149235348,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PDF%20Expert/PDF%20Expert%20-%207.25.11.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/69/97/936997d7-dbc6-9aab-a9c0-9c19fdfcc475/6154d0d2-366c-4eab-bbb7-85a50bd2926c_BR_5_U002c5_SS_01.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/d5/95/28d5958b-a444-5cbf-bc48-96eb4109d107/7484f6d3-3efb-4d2f-8386-96161b120a59_BR_5_U002c5_SS_02.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/44/9d/15449d30-b1c8-df8d-d253-a6e45a7efe23/b545780a-53f4-4cd9-9ff0-841ffe2081ee_BR_5_U002c5_SS_03.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/e3/cd/5ce3cd73-dbb5-ff94-13c5-2eacfe08334a/d9683614-a6f6-4db8-bc30-a9bc375f2df4_BR_5_U002c5_SS_04.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/ab/40/b7ab4055-349f-efc3-193f-6281a5aa3b86/c0ec53ab-ae58-4a01-9c90-bf1a48a84465_BR_5_U002c5_SS_05.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/0d/23/ec0d231c-c5ed-bf2d-a62a-ce1797b3dee9/1e1380bf-132a-4de1-a928-47b684c798ac_BR_5_U002c5_SS_06.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/c4/91/c7c49172-4328-3d7e-3f7f-a28144d0cced/c8962844-9e0e-47e7-a33e-91003e3478ef_BR_5_U002c5_SS_07.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/89/68/a0896888-b492-73f2-d7b9-030133484d94/a4bda7f7-dfaa-49b0-9d85-edc554b6bc7d_BR_5_U002c5_SS_08.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/fd/9b/61fd9b0c-4161-8a8e-9770-e3fc712732a2/21072abf-e660-47ab-a47e-faf51c1be3a9_BR_5_U002c5_SS_09.jpg/392x696bb.jpg"
+      ]
+    },
+    {
+      "name": "Photoleap",
+      "bundleIdentifier": "com.lightricks.Enlight-Editor",
+      "developerName": "Lightricks Ltd.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/c1/af/17c1af74-f40a-26d8-991c-36a047b13d17/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Conheça o LTX AI Generator (anteriormente Photoleap) — uma ferramenta gratuita, alimentada por IA, para transformar imagens em vídeos, dar vida às ideias com texto para imagem ou aplicar presets de IA em alta.\n\nBem-vindo à ferramenta criativa de nova geração que transforma fotos estáticas em vídeos dinâmicos e impactantes usando IA generativa. Seja você um criador de conteúdo, contador de histórias ou apenas queira se divertir com suas fotos, o LTX AI oferece resultados de qualidade profissional em segundos.\n\nNo centro está o modelo LTX AI — um motor poderoso que transforma suas ideias em visuais impressionantes, sem necessidade de habilidades técnicas. Basta escrever um prompt e gerar seu vídeo gratuitamente.\n\nRecursos Gratuitos\n\nTexto para Imagem: Transforme palavras em arte deslumbrante com a poderosa ferramenta de texto para imagem da Photoleap.\n\nGerador de Imagem para Vídeo (I2V): Transforme qualquer foto em uma animação cinematográfica com um único toque. Adicione movimento, estilo e atmosfera em segundos.\n\nEfeitos e Presets de IA em Alta: Aplique efeitos de IA populares para transformações rápidas e de alta qualidade.\n\nAssinantes\n\nAtualize para desbloquear ferramentas premium como edição de fotos avançada, retratos com IA, animação, camadas e efeitos visuais de nível profissional.\n\nPor Que Criadores Amam o LTX AI\n\nBaseado no LTX AI da Lightricks\n\nSem limites de renderização para recursos principais\n\nSaídas de alta qualidade e alta resolução\n\nProcessamento ultrarrápido\n\nExportações prontas para redes sociais\n\nPerfeito para Instagram, TikTok, Reels, YouTube Shorts e mais\n\nSeja criando conteúdo para seu público ou explorando sua imaginação, o LTX AI oferece liberdade para criar, publicar e impressionar.\n\n- Termos de uso: https://static.lightricks.com/legal/terms-of-use.pdf;\n- Política de privacidade: https://static.lightricks.com/legal/privacy-policy.pdf.",
+      "versions": [
+        {
+          "version": "2.124",
+          "buildVersion": "6814",
+          "date": "2026-08-05T12:01:03Z",
+          "size": 401093196,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Photoleap/Photoleap%20-%202.124.ipa",
+          "localizedDescription": "We've given AI Transform a makeover! Now featuring Generative Fill, you can Recreate anything you imagine. Select an image area, enter a prompt, and enjoy improved results."
+        }
+      ],
+      "version": "2.124",
+      "versionDate": "2026-08-05T12:01:03Z",
+      "size": 401093196,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Photoleap/Photoleap%20-%202.124.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a1/23/f4/a123f4d6-6be0-3248-b046-2ea4d88d2e3f/37c29d34-cd8e-4ad5-b723-c40e421aa593_5.5__Screen_01_v2_PTBR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/23/40/f5/2340f572-ff6c-d7b6-ae77-b3fc5dd75522/98f21f87-f3aa-4557-aae3-b7cdd9da5743_PL-AS-230802-AiScenes-Localization-PTBR-5.5-Op.1__U00281_U0029.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f2/a9/7a/f2a97a75-1df7-26bf-46d9-70ea5edc5ca6/26c8f0ae-f048-4ffa-9388-5670f6e6df32_5.5__Screen__U002303.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/95/db/18/95db1874-cb8f-f5b5-327b-40ce26b6fb50/20763777-e0e6-4549-9b04-d604bce91b52_PL-CPP-AI-Scenes-5.5-03.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d1/94/fd/d194fd6e-d2ab-06f1-88cf-d3b73f050265/62c06444-c1f9-452a-a839-b4eae9560cf1_5.5__Screen_02_PTBR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/70/87/32/7087320f-9ac0-18c4-6c2c-9c04d272332e/8fe3d98b-9227-4b28-921f-8215139cf214_5.5__Screen_04_PTBR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/7e/48/ec7e48af-31cb-eb8d-042f-0a00cc3de0d7/4377d182-4821-40cf-90b9-d1eb95194ef8_5.5__Screen_03_PTBR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e3/fb/e5/e3fbe508-ffe0-5a7a-7fca-15e73be69112/9219007f-e764-403f-b542-fb26ab8995ad_5.5__Screen_05_PTBR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/5a/d9/fc/5ad9fcae-4c22-a4c7-ec1f-8dc6526d6248/7668f5cd-89af-4f86-ace3-cfa2aef185a7_5.5__Screen_06_PTBR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d9/55/f0d9557f-33aa-ee15-a5ea-508d1b2a7a9f/94106921-d253-481f-8d2b-98e04788eba6_5.5__Screen_08_PTBR.jpg/392x696bb.jpg"
+      ]
+    },
+    {
+      "name": "PhotoRoom",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "developerName": "Photoroom",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/21/ab/ab21abf8-8044-131a-ba58-8e3e8c5e364d/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "O Photoroom é o aplicativo definitivo de edição de fotos com IA, confiado por mais de 300 milhões de usuários. \n\nCrie fotos de produtos com qualidade de estúdio em segundos com a tecnologia avançada de edição de fotos com IA do Photoroom. Não são necessárias habilidades de design. \n\n\nPOR QUE ESCOLHER O PHOTOROOM? \n\nMELHORE OS ANÚNCIOS DE PRODUTOS. Exiba roupas em modelos virtuais, manequins fantasma e em flat lay. Sem necessidade de estúdio. \n\nREMOVA, SUBSTITUA E RECOLORA. Remova fundos, troque por edições geradas por IA e recolora produtos em segundos. \n\nECONOMIZE TEMPO COM EDIÇÃO EM LOTE. Edite todo o seu catálogo de produtos de uma vez. \n\nCONECTE AO SHOPIFY. Crie listagens otimizadas para SEO e sincronize diretamente com o Shopify. \n\nVENDA EM TODOS OS MARKETPLACES. Exporte imagens nos tamanhos certos para Shopify, Amazon, Etsy, Depop, Poshmark, Vinted, Instagram e mais. \n\nMANTENHA A IDENTIDADE DA MARCA. Salve cores, fontes e logotipos no Brand Kit. \n\nCOLABORE EM EQUIPE. Convide membros da equipe para editar, revisar e compartilhar recursos. \n\n\nPRINCIPAIS RECURSOS \n\n• Fundos com IA: remova, substitua e gere estilos. \n• Edição em lote: edite centenas de fotos de uma vez. \n• Edite com IA: faça alterações com prompts de texto. \n• Manequim fantasma e modelo virtual: exiba produtos em modelos realistas. \n• Geração de vídeo: transforme imagens de produtos em clipes. \n• Recoloração: mude as cores de roupas e produtos com IA. \n• Foto de estúdio: crie visuais prontos para listagem instantaneamente. \n• Sombras com IA: adicione profundidade realista. \n• Passagem com IA: remova amassados de visuais de roupas. \n• Redimensionamento para e-commerce: exporte para qualquer plataforma. \n• Modelos editáveis: designs profissionais para e-commerce. \n\n\nFAÇA UPGRADE DA SUA CONTA \n\nDesbloqueie ferramentas avançadas, velocidades de processamento mais rápidas e limites de crédito aumentados. \n\nO pagamento será cobrado na sua conta Apple ID na confirmação da compra. As assinaturas são renovadas automaticamente, a menos que sejam canceladas pelo menos 24 horas antes do fim do período atual. Você pode gerenciar ou cancelar sua assinatura a qualquer momento nas configurações da sua conta do App Store. \n\nJunte-se a mais de 300 milhões de usuários e crie visuais de qualidade profissional sem esforço com o Photoroom! \n\nTermos de Uso: https://photoroom.app/legal/terms-and-conditions/",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/af/d4/d1afd4ca-df44-6341-a4d1-32bf514441b2/PT_BR_-_AI_backgrounds_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/b6/fa/64b6fa9f-c89c-daba-6672-cd7ecf7776fd/PT_BR_-_Remove_background_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/59/1a/11591a6e-a122-1247-4913-ad59be7281c4/PT_BR_-_Resize_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/bd/f3/2dbdf309-94fc-ea98-94e1-8fdaee5a0cd3/PT_BR_-_Batch_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/bb/0f/a1bb0faa-618b-f57c-345f-0cc736e7a5d3/PT_BR_-_Retouch_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/bf/15/05bf15eb-7cbd-edfe-a784-45cac46ec6d1/PT_BR_-_AI_shadows_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/dc/32/bddc324b-2bee-2d2c-3b06-819e7a1b6e59/PT_BR_-_White_background_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/3c/cf/713ccf7a-3f86-c14a-0a8c-6441bb8c1926/PT_BR_-_Virtual_model_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/e0/41/7be0419b-8aa6-4be1-5427-316953903b28/PT_BR_-_Product_beautifier_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/1e/98/d81e98f6-04c6-70c9-672c-ec069056e28a/PT_BR_-_Suggested_edits_01.png/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "2026.33.01",
+          "buildVersion": "2435",
+          "date": "2026-08-10T08:54:21Z",
+          "size": 237074417,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PhotoRoom/PhotoRoom%20-%202026.33.01.ipa",
+          "localizedDescription": "Estamos trabalhando nos bastidores para melhorar seu app favorito.\n\nPerformance mais fluida, menos bugs e uma experiência de edição aprimorada — tudo para você criar com mais confiança.\n\nMais novidades em breve!"
+        }
+      ],
+      "version": "2026.33.01",
+      "versionDate": "2026-08-10T08:54:21Z",
+      "size": 237074417,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PhotoRoom/PhotoRoom%20-%202026.33.01.ipa"
+    },
+    {
+      "name": "Picsart",
+      "bundleIdentifier": "com.picsart.studio",
+      "developerName": "PicsArt, Inc.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/8b/55/498b55e4-7aab-ad55-b4cb-8ce68366deed/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Desperte seu potencial criativo com o Picsart — o editor de fotos com IA, editor de vídeo com IA e estúdio de design tudo em um, gratuito e fácil de usar. De designs para negócios a arte com IA, vá da inspiração à criação rapidamente. Crie com um Criador de Imagem IA e gerador de vídeo com IA, edite com um editor de imagens com IA, remova fundos com o Removedor de Fundo (BG remover), apague objetos com o Removedor de Objetos (Object Eraser), aplique efeitos de IA, filtros e ferramentas de retoque e transforme ideias em designs com templates, colagens, criador de stories e muito mais. Crie com novas ferramentas de imagem para vídeo, avatares de vídeo com IA, prova virtual com IA, avatares de IA, Gen AI Studio, AI Playground e Picsart Persona.\n\nCONHEÇA O PICSART AURA\nTransforme sua visão em visuais conversando com Aura, seu parceiro criativo baseado na plataforma Picsart e usado por mais de 150 milhões de criadores. Em segundos, ele cria, edita e aprimora imagens e vídeos com IA, sugere prompts, lembra seus chats e permite compartilhar sessões. Use o Nano Banana™ para gerar imagens e modelos de vídeo como Veo™ (Veo 3), Kling, Runway e Luma. A disponibilidade pode variar; marcas registradas pertencem a seus donos.\n\nINICIE PROJETOS COM TEMPLATES\n• Use templates personalizáveis criados por editores profissionais.\n• Crie logos com o criador de logo IA, posts para redes sociais, stories, cartões de visita, pôsteres e muito mais.\n\nTRANSFORME DESIGNS COM O REMOVEDOR DE FUNDO\n• Remova o fundo para recortes limpos e fotos de produtos.\n• O Fundo Inteligente cria planos de fundo perfeitos — um trocador de fundo rápido para anúncios e promoções.\n• Remova o fundo, refine as bordas e crie estilos estéticos para projetos de editor de fotos.\n\nREMOVA OBJETOS FACILMENTE\n• Removedor/Apagador de Objetos apaga itens indesejados.\n• Elimine a desordem e imperfeições para uma foto limpa.\n\nSEJA CRIATIVO COM IA\n• Criador de Imagem IA / Criador de fotos IA: transforme texto em arte, imagens e GIFs com IA.\n• Gerador de vídeo com IA: faça vídeos a partir de texto, imagens ou ideias em segundos.\n• Realce de IA melhora instantaneamente a qualidade das imagens.\n• Aplique filtros e efeitos de IA estilizados no seu editor de fotos.\n• Repor IA transforma imagens com trocas de rosto, cor de cabelo e edições de selfie.\n• Retoque de IA aperfeiçoa retratos com ajustes avançados de pele, rosto e detalhes.\n• Expansão de IA amplia imagens além do enquadramento.\n• Prova Virtual de IA permite testar roupas e estilos na hora.\n• Escritor de IA cria legendas, textos e copies de marketing.\n• Envie selfies para gerar avatares de IA personalizados.\n• Explore novas ideias no AI Playground e crie mais rápido com o Gen AI Studio.\n\nEDITE VÍDEOS COMO UM PROFISSIONAL\n• Use o editor intuitivo para criar clipes com música.\n• Gere vídeos com IA, efeitos, texto e filtros da moda.\n• Dê movimento às suas fotos.\n• Crie vídeos curtos para qualquer plataforma.\n• Junte seus melhores momentos em uma colagem de vídeo.\n\nADICIONE SEU TOQUE COM O CRIADOR DE STICKERS\n• Mais de 60 milhões de stickers.\n• Use stickers em fotos e promos.\n• Crie stickers personalizados.\n\nCONTE EM TEXTO\n• Escreva com o Editor de Texto do Picsart.\n• Centenas de fontes clássicas e modernas.\n• Ajuste o estilo do texto.\n\nMAGIA DE COLAGENS\n• Colagens divertidas com suas fotos.\n• Use grade ou freestyle para mood boards e molduras.\n\nDESCUBRA INSPIRAÇÃO INFINITA\nDe solopreneurs a fãs de design, arte com IA e edição de fotos — compartilhe ideias e inspire-se para o próximo projeto com o Picsart Spaces.\n\nMELHORE SEU DESIGN\nPicsart Plus: conteúdo premium, modelos e retoque extra.\nPicsart Pro: mais IA, mais vagas de equipe e mais armazenamento.\n\nTermos e condições: https://picsart.com/terms-and-conditions\nSobre anúncios: https://picsart.com/privacy-policy#interest-base",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/90/25/1d/90251d88-fe29-4f4e-fd84-393a07ba0934/2e4e77b4-1dc6-4c1c-a599-d038d2076098_01_5_U002c5_All-in-One_Editor_5.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/a5/be/0f/a5be0f67-faa4-31c6-7c43-0c8416982737/b8a0dd85-dc99-4f87-af90-b50104648c00_02_5.5_Background.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/bb/c0/c1/bbc0c1ee-f92f-8c9d-8055-92674c5ef258/3a44eb8d-d891-4530-a679-f00071705f01_03_5_U002c5_Collage.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/c0/88/87/c0888774-59fa-cc16-6746-384232e19519/5cb191ec-43e4-4912-aebe-e1d1284424f7_04_5_U002c5_Video_Editor.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/4f/64/9c/4f649c3f-bbea-5061-cf20-319c8b05bb7b/a6893a21-906c-49bf-b5aa-80dca5188dd7_05_5.5_Filters.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9a/47/60/9a4760ba-f376-1c98-7ab7-948500b9380c/8b3060b6-d53f-45ca-9c9c-ec6252b5e3e7_06_5.5_Remove_Objects.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/cb/52/56/cb5256f2-399f-4dfc-a8a7-73c0ca211dc0/baa64bda-b1b4-43fc-a970-220bd15d02c5_07_5.5_Stickers.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/39/f4/6d/39f46d6e-0579-a2d2-9d21-b023dc0ee6ce/bcc374ad-6684-41d4-a539-06ca3f36790c_08_5.5_Templates.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/58/cc/bb/58ccbba3-b876-5f99-d226-fe862eb7828c/9d1423df-4af0-4956-9630-aee0e63a924e_09_5.5_Text.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/41/e2/a6/41e2a6f4-7a90-3ff1-9b6a-06990881d221/33642b11-c856-46a5-b318-94daecf1f243_10_5.5_Replay.jpg/392x696bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "30.5.3",
+          "buildVersion": "30503",
+          "date": "2026-08-12T17:40:19Z",
+          "size": 116996950,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.5.3.ipa",
+          "localizedDescription": "A maioria das novidades não espera por uma atualização. Esta corrige alguns bugs, mas o que importa mesmo acontece nos bastidores - novos recursos, conteúdos, stickers e templates chegam o tempo todo. Fica de olho nas nossas redes pra não perder nada."
+        }
+      ],
+      "version": "30.5.3",
+      "versionDate": "2026-08-12T17:40:19Z",
+      "size": 116996950,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.5.3.ipa"
+    },
+    {
+      "name": "Pocket Terço",
+      "bundleIdentifier": "com.edsonteco.PocketTerco",
+      "developerName": "Edson Pieczarka Junior",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/3c/ee/db3cee64-3a12-a636-e370-2a6d311273d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Pocket Terço – O app católico mais completo para sua vida de oração\n\nO Pocket Terço é um aplicativo gratuito, sem publicidade, que reúne mais de 250 terços, novenas, meditações e devoções, além de centenas de orações, músicas católicas e a Liturgia Diária mais completa em língua portuguesa. Ideal para quem deseja rezar a qualquer hora e em qualquer lugar, mesmo sem um terço físico em mãos. Todas as orações são guiadas com as contas na tela, tornando a experiência de oração ainda mais prática e profunda.\n\nPrincipais funcionalidades:\n\n• Terços\nReze com facilidade o Rosário completo (em português e latim), Terço da Misericórdia, Terço da Providência, Terço de São José e muitos outros.\n\n• Novenas\nAcompanhe o início de cada novena com notificações e reze dia após dia com os textos completos, sem se perder.\n\n• Meditações\nFaça diariamente a meditação do dia com o recurso de Meditação Dirigida. Cresça sua vida espiritual com as meditações de Santo Afonso Maria de Ligório para cada dia do ano.\n\n• Devocionários\nTenha sempre à mão as orações essenciais para o seu dia: orações da manhã, da noite e muito mais – também em formato de áudio.\n\n• Consagrações\nPrepare-se para a Consagração a Jesus pelas mãos de Maria ou para a Consagração a São José. Renove suas promessas batismais com acompanhamento diário.\n\n• Liturgia do Dia (atualizada diariamente)\nAcompanhe as leituras completas (conforme o calendário da Igreja Católica no Brasil), com Homilia do dia (texto e áudio), Santo do dia, antífonas e orações do Missal, além das antífonas do Gradual (tradução \noficial aprovada no Brasil) para cantar.\n\n• Rede de intercessão\nEnvie suas intenções de oração e interceda pelas intenções de outros usuários. Uma rede de oração viva.\n\n• Orações\nAcesse rapidamente mais de 630 orações organizadas por temas e em ordem alfabética. Use o campo de busca para localizar com facilidade a oração desejada.\n\n• Exame de consciência\nFaça seu exame de consciência para uma boa confissão. Você conta com vários modelos, inclusive exame de consciência para pecados veniais.\n\n• Player com músicas católicas\nReze com cantos gregorianos, salmos e músicas de diversos artistas católicos enquanto descansa, trabalha ou dirige.\n\n• Notificações inteligentes\nReceba alertas sempre que uma novena estiver prestes a começar para não perder nenhuma oportunidade de oração.\n\nTudo isso totalmente gratuito e sem limitações.\nPara quem deseja apoiar o projeto, oferecemos conteúdos adicionais opcionais que ajudam a manter o aplicativo no ar.\n\nAjude-nos com sua avaliação!\nSeu comentário na App Store é muito importante. Para avaliá-lo, abra o app, toque em “Sobre” e clique no link para deixar sua opinião.\n\nDúvidas, sugestões ou pedidos de novas orações?\nEntre em contato conosco: contato@pocketterco.com.br",
+      "versions": [
+        {
+          "version": "2.9.9",
+          "buildVersion": "251104",
+          "date": "2025-11-07T10:54:17Z",
+          "size": 63755057,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Pocket%20Ter%C3%A7o/Pocket%20Ter%C3%A7o%20-%202.9.9.ipa",
+          "localizedDescription": "Atualizamos a forma como os vídeos incorporados do Youtube são apresentados conforme as novas regras da plataforma. Esperamos que sua experiência no app seja a melhor possível!"
+        }
+      ],
+      "version": "2.9.9",
+      "versionDate": "2025-11-07T10:54:17Z",
+      "size": 63755057,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Pocket%20Ter%C3%A7o/Pocket%20Ter%C3%A7o%20-%202.9.9.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3f/8d/41/3f8d412a-edf6-5ca9-a582-ee053d6be405/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/8f/0c/6d8f0c79-72d4-9c57-c6db-433559ae2651/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/45/64/5f/45645f93-7bf5-176e-c7b4-37a9437a12df/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/27/91/d9/2791d97b-975f-94fc-e88c-5cb262340195/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d0/84/5f/d0845f26-5240-87d8-1f33-30128dce7ec4/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/27/2c/84272c8b-a1a7-f4f3-0309-74e8729cc57b/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8f/4f/23/8f4f23ea-2ba4-08c3-aa92-74e64afdea93/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7c/03/ad/7c03ad22-691f-2b5c-eb9c-b1f9f37ab226/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bf/6c/87/bf6c87d1-cd19-30bc-f8b4-94915f33d502/pr_source.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/7e/95/6d7e952c-6d6d-04ea-9ad9-914f6e8d7cbe/pr_source.png/392x696bb.png"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "bundleIdentifier": "com.reddit.Reddit",
+      "developerName": "REDDIT, INC.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/e6/7c/b2e67c52-37e9-e15a-b624-da0f30775ab7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Bem-vindo ao Reddit – o lugar para conversas autênticas onde sua voz importa.\nDescubra o poder da sua voz em discussões reais. Das últimas notícias a debates profundos, esta plataforma social e de notícias impulsiona conversas genuínas. Faça perguntas, obtenha respostas reais, compartilhe dicas e seja você mesmo. Participe de comunidades onde as pessoas discutem o que realmente importa—um post de cada vez.\nPor que Reddit?\n■ Encontre fóruns de notícias e discussão\n Seja você fã de cultura pop, esportes ou tecnologia, o Reddit tem conteúdo para qualquer interesse. Mergulhe em discussões em alta, crie posts e fale sobre os temas que você gosta.\n■ Faça perguntas e obtenha respostas reais\n O Reddit é feito para conversas reais com pessoas reais. Peça conselhos, obtenha respostas de quem já passou por isso, compartilhe dicas, expresse suas ideias e tenha ótimas conversas.\n■ Fale sobre qualquer coisa\n Conheça pessoas que compartilham suas paixões, peça conselhos ou descubra algo novo. Encontre comunidades dedicadas ao que você realmente se importa.\nEncontre comunidades organizadas por interesses e expertise:\n■ r/PergunteReddit & r/AskReddit\n Faça perguntas e obtenha respostas reais de comunidades engajadas. Seja explorando objetivos pessoais ou reagindo a eventos atuais, sempre há algo novo para descobrir e conversar.\n■ r/brasil & r/News\n Descubra as últimas notícias, discuta eventos reais e fique por dentro do que está acontecendo no mundo todo.\n■ r/Funny\n Procurando por risadas? O Reddit tem. Encontre comunidades dedicadas a humor e memes.\n■ r/Gaming\n Conheça gamers de verdade, peça conselhos a jogadores experientes e explore conteúdos de jogos.\n■ r/Music & r/Movies\n Fale sobre seus filmes e músicas favoritos. Descubra novas paixões e compartilhe sua opinião sobre tudo relacionado a música e cinema.\nVotação e Karma\n Cada post e comentário pode receber votos positivos ou negativos da comunidade. Quanto mais votos positivos você recebe, mais visível seu conteúdo se torna. Seu karma reflete o quanto a comunidade valoriza suas contribuições.\nReddit Premium:\n Adquira o Reddit Premium para aproveitar uma experiência sem anúncios e acesso a itens premium para avatar, r/lounge, ícones personalizados do app e muito mais.\n O pagamento será cobrado de forma recorrente mensal ou anual pela sua conta Apple. Sua assinatura Premium mensal ou anual será renovada automaticamente, a menos que você cancele pelo menos 24 horas antes do término do período. Cancele a qualquer momento nas configurações de conta do seu dispositivo. Não há reembolsos parciais.\nPolítica de Privacidade: https://www.redditinc.com/policies/privacy-policy\nContrato do Usuário: https://www.redditinc.com/policies/user-agreement\nRegras do Reddit: https://redditinc.com/policies/reddit-rules\nSe você tiver algum problema com o app, obtenha suporte em RedditHelp.com",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9c/fe/dc/9cfedc93-8398-6579-d091-f7cdec3d93be/68c6f56a-7248-442c-8964-f2896c78f0a3_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0b/bb/ab/0bbbab8f-118f-d545-bf44-65d4c672a372/1ce864e1-8011-491a-be55-57abd3ae455d_Reddit_SS_5.5_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/10/94/75/1094758d-67ce-217d-9dfa-c438a657225f/d6915eb0-706c-4251-810f-8eaf377901b7_Reddit_SS_5.5_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/b2/9e/87/b29e8774-907f-afac-1580-c2aa2038f972/fe7d70c9-aa53-4a14-b94f-a19c0d32795d_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/8f/15/4b/8f154b1f-15ed-133b-9dd9-dc27b7facf9d/f89be370-c66e-402f-b84e-c03b7e0b471e_Reddit_SS_5.5_5.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/6c/41/8d6c415e-6c02-c4a2-5626-b3f5f4847015/93d42de6-a7a0-4615-b63b-4f58acd73132_Reddit_SS_5.5_6.jpg/392x696bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "2026.32.2",
+          "buildVersion": "636846",
+          "date": "2026-08-15T13:17:31Z",
+          "size": 140188241,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.32.2.ipa",
+          "localizedDescription": "Obrigado por atualizar o app do Reddit! Atualizamos nossos apps para iOS com correções de bugs e algumas mudanças para melhorar sua experiência."
+        }
+      ],
+      "version": "2026.32.2",
+      "versionDate": "2026-08-15T13:17:31Z",
+      "size": 140188241,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.32.2.ipa"
+    },
+    {
+      "name": "Telegram",
+      "bundleIdentifier": "ph.telegra.Telegraph",
+      "developerName": "Telegram FZ-LLC",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/83/96/c183964f-32d7-16fe-57ab-8c66518f6625/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Mensageiro instantâneo puro — simples, rápido, seguro e sincronizado em todos os seus dispositivos. Um dos 5 aplicativos mais baixados do mundo com mais de 1 bilhão de usuários ativos.\n\nRÁPIDO: o Telegram é o mensageiro instantâneo mais rápido do mercado, conectando pessoas de maneira única, distribuída entre diversos servidores ao redor do mundo.\n\nSINCRONIZADO: você pode acessar as suas mensagens de todos os seus celulares, tablets e computadores ao mesmo tempo. Os aplicativos do Telegram são independentes, por isso você não precisa manter o seu celular conectado. Comece a escrever em um dispositivo e termine a mensagem em outro. Nunca mais perca os seus dados.\n\nILIMITADO: você pode enviar mídias e arquivos, sem qualquer limite de tamanho ou tipo. Todo o seu histórico de conversas não precisará ocupar espaço em disco do seu dispositivo e será armazenado de forma segura na nuvem do Telegram por quanto tempo você precisar.\n\nSEGURO: temos como missão providenciar a melhor segurança combinada com um uso fácil. Tudo no Telegram, incluindo conversas, grupos, mídias, etc. é fortemente criptografado utilizando a combinação simétrica AES de 256-bits, RSA 2048-bit e troca de chaves seguras Diffie–Hellman.\n\n100% GRATUITO E ABERTO: o Telegram tem uma API completamente gratuita e documentada para desenvolvedores, aplicativos de código-fonte aberto e builds verificáveis para provar que o aplicativo que você baixa foi construído usando o mesmo código-fonte publicado.\n\nPODEROSO: você pode criar grandes grupos de conversa com até 200.000 membros, compartilhar de forma rápida vídeos grandes, documentos de qualquer tipo (.DOCX, .MP3, .ZIP, etc.) de até 2 GB cada, e definir bots para tarefas específicas utilizando a nossa API. Esta é a ferramenta perfeita para hospedar comunidades online e equipes de trabalho.\n\nCONFIÁVEL: construído para entregar as suas mensagens utilizando a menor quantidade de bytes possíveis, o Telegram é o sistema de mensagens mais confiável já desenvolvido. Ele funciona até nas conexões móveis mais instáveis.\n\nDIVERTIDO: o Telegram possui ferramentas de edição de fotos e vídeos poderosas, stickers e emojis animados, temas completamente personalizáveis para alterar a aparência do seu aplicativo, e uma plataforma aberta de GIFs/stickers para fornecer toda a expressão que você precisar.\n\nSIMPLES: ao fornecer uma variedade sem precedentes de funcionalidades, estamos tomando muito cuidado para manter a interface limpa. O Telegram é tão simples que você já sabe como usar.\n\nPRIVADO: levamos a sua privacidade a sério e nunca daremos acesso aos seus dados para terceiros. Você pode apagar qualquer mensagem que já enviou ou recebeu para ambos os lados, a qualquer momento e sem rastros. O Telegram nunca usará os seus dados para te mostrar anúncios.\n\nPara os interessados em máxima privacidade, o Telegram oferece os Chats Secretos. As mensagens dos Chats Secretos podem ser programadas para se autodestruírem nos dois dispositivos. Dessa forma, você pode enviar qualquer tipo de arquivo — mensagens, fotos, vídeos e arquivos. Os Chats Secretos usam criptografia de ponto a ponto para assegurar que a mensagem só poderá ser lida pelo destinatário.\n\nContinuamos expandindo os limites do que é possível fazer com um aplicativo de mensagens. Não espere anos para os mensageiros mais velhos alcançarem o Telegram — faça parte da revolução hoje.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/9e/97/509e9718-89bd-0400-6ddf-c4caa35f61c3/0_APP_IPHONE_55_0.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/e9/cc/abe9cc9e-e9ef-0313-6b31-e02ee291e826/1_APP_IPHONE_55_1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/41/c8/4a41c816-e893-1f96-5d71-278ef1a66308/2_APP_IPHONE_55_2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/20/3d/32203da1-7e93-0e4b-6a17-8400ea2085c7/3_APP_IPHONE_55_3.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/6c/88/236c8843-ac66-4797-7934-6d6cb666d5a9/4_APP_IPHONE_55_4.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/14/44/63144438-2554-2df9-2e7a-a8aeeb8ec883/5_APP_IPHONE_55_5.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/b9/d7/cbb9d7b1-e28d-7223-5cbc-f283e3346e2f/6_APP_IPHONE_55_6.png/392x696bb.png"
+      ],
+      "versions": [
+        {
+          "version": "12.9.2",
+          "buildVersion": "34474",
+          "date": "2026-07-20T02:46:05Z",
+          "size": 85026237,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa",
+          "localizedDescription": "Correções de bugs, pequenas melhorias e mais."
+        }
+      ],
+      "version": "12.9.2",
+      "versionDate": "2026-07-20T02:46:05Z",
+      "size": 85026237,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa"
+    },
+    {
+      "name": "TikTok",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "developerName": "TIKTOK PTE. LTD.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/d0/94/e4d094f7-6a77-6fc1-8b01-c6ab09d471fc/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "TikTok é uma comunidade de videos global. \n\nCom TikTok criar videos curtos se tornou ainda mais facil. Grave e edite seus próprios videos com nossos efeitos especiais, filtros, stickers e muito mais. Depois é só compartilhar com o mundo seu talento.\n\nAssista a milhões de videos escolhidos especialmente pra você. Uma experiência personalizada, baseada no conteúdo que você assiste, curte e compartilha! Oferecemos, baseados nos seus hábitos de consumo, os vídeos mais relevantes, interessantes e inspiradores. Divirta-se e se inspire em criadores de todo o mundo.Milhões de criadores usam o TikTok diariamente para compartilhar suas histórias e talento. Descubra os melhores videos da internet.\n\nAdicione suas músicas ou sons favoritos aos seus videos, tudo de graça! Adicione emoção ao seu video ao incluir uma trilha. Milhões de trechos musicais e sons estao dispon[iveis na nossa biblioteca. Nós criamos playlists musicais para você com as faixas mais tocadas de todos os gêneros, incluso pop, rock, rap, eletronic, R&B, Country e muito mais.\n\nUse emojis e Filtros 3D \nMais de 100 emojis disponíveis gratuitamente para tornar seu vídeos mais divertido. Descubra um monte de filtros e efeitos de beleza que levarão seu vídeo a um outro patamar!  Ferramentas de edição que te permitem cortar, editar, duplicar, mesclar e duplicar seus videos.  \n■ Filtros de Livestreaming são constantemente atualizados com designs criativos\n■ Video de dança, comédia, vlog, DIY, e esportes prontos para serem assistidos \n\nTenha acesso aos benefícios do LIVE para interagir melhor com os hosts!\nSelecione uma assinatura mensal ou uma com renovação automática para aproveitar os benefícios especiais do LIVE (disponível em regiões limitadas)\n\nObservação: \nSe você se inscrever pela conta da Apple, o pagamento será feito pela conta da AppStore ao confirmar a compra. A assinatura será renovada automaticamente, a menos que essa opção seja desativada com, no mínimo, 24 horas de antecedência ao término do período vigente. A conta receberá uma cobrança pela renovação dentro de 24 horas antes do término do período vigente com o preço do plano selecionado. As assinaturas e renovações automáticas podem ser gerenciadas acessando Configurações da conta após a compra.\n\nTermos de serviço:\nhttps://www.tiktok.com/legal/terms-of-service\n\nPolítica de Privacidade:\nhttps://www.tiktok.com/legal/privacy-policy\n\nTem um feedback? Entre em contato conosco através de: https://www.tiktok.com/legal/report/feedback",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/55/0c/ae/550caeb2-5ed6-2826-7453-fa571dc0170b/9be42b01-48b4-405c-b69b-8f13e457af39_img5_5_0_pt-BR.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d0/71/27/d07127e8-6aa3-9b14-cf7c-5ec6d99cd764/96131b4d-d675-4db4-bf7e-9e3b1a2251fe_img5_5_1_pt-BR.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/61/9c/68619ceb-dba5-966a-6771-789c534cb89e/52db8975-d123-4143-86b5-0d8b6c9c7f90_img5_5_2_pt-BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e8/5d/28/e85d28ea-07cd-f967-8ab7-8ce0eb41620a/7c460fe3-65c5-4a2b-8224-1b5325aaeb1e_img5_5_3_pt-BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0a/95/8b/0a958b31-9007-0880-645d-0a8e191af9ba/0e9eab73-1063-4038-8f05-5ac5f30973a2_img5_5_4_pt-BR.jpg/392x696bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "46.4.0",
+          "buildVersion": "464038",
+          "date": "2026-08-13T11:24:10Z",
+          "size": 458543990,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.4.0.ipa",
+          "localizedDescription": "Encontre e marque seus amigos em comentários com rapidez."
+        }
+      ],
+      "version": "46.4.0",
+      "versionDate": "2026-08-13T11:24:10Z",
+      "size": 458543990,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.4.0.ipa"
+    },
+    {
+      "name": "WhatsApp",
+      "bundleIdentifier": "net.whatsapp.WhatsApp",
+      "developerName": "WhatsApp Inc.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/fe/6a/edfe6abf-c14b-cc39-73e2-4f60fdc49dc6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "O WhatsApp from Meta é um app gratuito de mensagens e ligações usado por mais de dois bilhões de pessoas em mais de 180 países. O app é muito simples, confiável e privado, o que o torna perfeito para manter contato com seus amigos e familiares em todo o mundo. O WhatsApp está disponível para celular, tablet e computador, não cobra taxas de assinatura* e funciona mesmo quando a conexão à internet está lenta.\n\nMensagens e ligações privadas para o mundo todo\n\nSua privacidade é nossa prioridade. Com a criptografia de ponta a ponta, você pode ter certeza de que suas mensagens e ligações ficam somente entre você e as pessoas que você escolher. Nem mesmo o WhatsApp pode ler ou ouvi-las.\n\nConexões simples e seguras num piscar de olhos\n\nVocê só precisa de um número de telefone. Não é necessário criar nome de usuário ou senha. Veja facilmente seus contatos no WhatsApp e comece a conversar. Além disso, é possível vincular facilmente seus outros dispositivos, incluindo iPads, garantindo uma conectividade perfeita.\n\nLigações de voz e de vídeo de alta qualidade\n\nAproveite as ligações de voz e de vídeo seguras e gratuitas com até 32 pessoas de uma só vez. Suas ligações funcionam em todos os dispositivos, mesmo em conexões mais lentas, usando o serviço de internet do seu celular ou tablet.\n\nConversas em grupo para manter o contato\n\nFique perto de amigos e familiares por meio de ligações e conversas em grupo protegidas com a criptografia de ponta a ponta. Compartilhe mensagens, fotos, vídeos e documentos em celulares, tablets e computadores. Você também pode usar links de ligações e compartilhamento de tela para facilitar as ligações em grupo e a colaboração.\n\nComunicação em tempo real\n\nVocê pode compartilhar sua localização com as pessoas em suas conversas individuais ou em grupo ao usar o WhatsApp no seu celular. Ou gravar uma mensagem de voz para aqueles momentos em que apenas o texto não é suficiente.\n\nCompartilhe seu dia a dia no Status\n\nCompartilhe momentos do dia a dia com aqueles que mais importam. Com o Status, você pode compartilhar atualizações de texto, fotos, vídeos e GIFs que desaparecem após 24 horas. Além disso, você tem total controle sobre quem pode ver seu status. Escolha com quem deseja compartilhá-lo: todos os seus contatos ou somente as pessoas que você selecionar. E dê vida ao seu dia a dia.\n\n*O uso de dados móveis poderá ser cobrado. Fale com sua operadora para saber mais.\n\n\n---------------------------------------------------------------------------\n\nSe tiver alguma dúvida ou comentário, abra o WhatsApp e acesse Configurações > Ajuda > Fale conosco.\n\nTermos de Serviço: https://www.whatsapp.com/legal/terms-of-service \n\nSaiba mais sobre o envio de mensagens privadas: https://www.whatsapp.com/privacy \n\nSaiba mais sobre a segurança do WhatsApp: https://www.whatsapp.com/security",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/61/90/e3619011-540d-7ca8-3080-6468edfa3e7d/6.9__Display_1-pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/23/83/f3238398-acf9-315d-2b56-a543d3e797d0/6.9__Display_2-pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/53/cc/8b53cc8a-424d-82c8-efe2-cbb08dc2193e/6.9__Display_3-pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/a8/5c/51a85c4f-9028-04cf-e431-f8ee8a78dbb7/6.9__Display_4-pt_BR.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/39/0c/1a390c50-31e8-e239-eaee-24e74e5be1d2/6.9__Display_5-pt_BR.png/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "26.31.74",
+          "buildVersion": "1035496826",
+          "date": "2026-08-10T15:24:27Z",
+          "size": 155624492,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp%20-%2026.31.74.ipa",
+          "localizedDescription": "Atualizamos nosso app regularmente para corrigir erros, otimizar o desempenho e aprimorar a experiência dos nossos usuários. Agradecemos por usar o WhatsApp!"
+        }
+      ],
+      "version": "26.31.74",
+      "versionDate": "2026-08-10T15:24:27Z",
+      "size": 155624492,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp%20-%2026.31.74.ipa"
+    },
+    {
+      "name": "X",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "developerName": "X Corp.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/7f/b1/aa7fb1d7-f047-2c30-c378-7256948c0f3f/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Bem-vindo ao X, anteriormente conhecido como Twitter, sua praça digital confiável onde as conversas se desenrolam em tempo real e o mundo se conecta por meio de notícias de última hora, eventos ao vivo, podcasts e tudo mais.\n\nSeja você apaixonado por esportes, tecnologia, música ou política, o X é o seu lugar na primeira fila para o que está acontecendo no mundo todo.\n\nO X não é apenas mais um app de rede social, é o destino definitivo para se manter bem informado, compartilhar ideias e construir comunidades. Com o X, você sempre fica por dentro dos tópicos em alta e das notícias de última hora, entregues instantaneamente na sua tela, cruas e sem filtros.\n\nO que você pode fazer no X:\n• Acompanhe notícias de última hora do mundo todo antes de elas virarem manchete e fique à frente com atualizações em tempo real sobre tópicos em alta e conversas virais.\n• Poste seus pensamentos, fotos e vídeos com uma comunidade global. Junte-se a milhões de usuários para moldar o diálogo público em conversas sociais, culturais e políticas.\n• Descubra o Grok, o assistente de IA alimentado por dados em tempo real do X. Você pode pedir ao Grok para resumir notícias em alta, explicar vídeos ou dar mais contexto sobre posts.\n• Transmita vídeo ao vivo ou entre ao vivo com Spaces, nosso recurso de áudio que permite hospedar discussões, fazer entrevistas ou iniciar seu próximo podcast ao vivo. Seja transmitindo um show, um jogo ao vivo ou suas opiniões sobre um tópico quente, o X mantém sua audiência engajada.\n• Assista a vídeos: de notícias de última hora ao vivo e clipes de esportes a podcasts e sessões de jogos que duram até 3 horas. Muitas das vozes líderes mundiais em comédia, jogos, podcasts e política compartilham seu conteúdo no X.\n• Conecte-se e converse em particular com amigos, seguidores, clientes ou colaboradores por meio de Mensagens Diretas.\n• Participe e crie comunidades personalizadas para seus interesses: de notícias de esportes, jogos, entretenimento, cripto, empreendedorismo, tecnologia e mais.\n• Assine o X Premium para desbloquear recursos exclusivos, como o selo azul, visibilidade ampliada, respostas priorizadas, menos anúncios, vídeos mais longos e edição de posts. O X Premium também dá acesso ao compartilhamento de receita para criadores e a capacidade de oferecer conteúdo exclusivo para assinantes.\n\nPor que o X?\nEm um mundo de mudanças constantes, o X é sua fonte em tempo real para ficar à frente, se conectar com pessoas e explorar perspectivas diversas. De notícias de última hora ao vivo e memes em alta a podcasts de ponta e transmissões ao vivo dos seus criadores favoritos, o X reúne tudo em uma experiência social poderosa.\n\nPolítica de Privacidade: https://x.com/privacy\nTermos e Condições: https://x.com/tos",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/04/78/2b047800-76f7-8e80-fb87-b21b16c6c6e0/1242x2688-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/6e/00/ac6e00cc-eee5-d10d-c4a2-c1d94773e15c/1242x2688-2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/9d/70/289d701d-ed9d-c999-086a-fe40fa1e52c9/1242x2688-4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/68/d9/f268d980-b7df-88c5-e7a8-5b219f2b0113/1242x2688-5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/ae/1a/6eae1aad-aa4f-4db4-6daf-15add67a20f6/1242x2688-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/76/6c/7c766c56-09ec-392e-49b1-f147c3371865/1242x2688-6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/0d/56/830d560e-9448-17b5-887f-7b3c2b6c7ff1/1242x2688-7.jpg/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "12.17",
+          "buildVersion": "14",
+          "date": "2026-08-14T05:15:49Z",
+          "size": 233118028,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X%20-%2012.17.ipa",
+          "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você."
+        }
+      ],
+      "version": "12.17",
+      "versionDate": "2026-08-14T05:15:49Z",
+      "size": 233118028,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X%20-%2012.17.ipa"
+    },
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "Google LLC",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/8c/5b/308c5b2e-3cba-9dbd-50d3-4f7593695c1e/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Instale o app YouTube oficial em iPhones e iPads. Veja o que as pessoas ao redor do mundo mais gostam de assistir: desde vídeos de música famosos até conteúdo em alta sobre games, beleza, moda, notícias, aprendizado e muito mais. Acompanhe canais que você curte, crie seu próprio conteúdo, compartilhe vídeos com amigos e assista em qualquer dispositivo.\n\nAssista e se inscreva\n● Confira recomendações exclusivas na guia “Início”.\n● Veja os últimos envios dos seus canais favoritos na guia “Inscrições”.\n● Use a biblioteca para encontrar os vídeos que você gostou, assistiu e salvou para ver mais tarde.\n\nDescubra assuntos diferentes, confira vídeos em alta e conheça canais em ascensão\n● Fique por dentro das novidades com as categorias de música, games, beleza, notícias, aprendizado e muito mais.\n● Use a guia “Explorar” para assistir vídeos em alta do mundo todo.\n● Saiba mais sobre os incríveis criadores de conteúdo, gamers e artistas que participam\ndo nosso programa de canais em ascensão (disponível em alguns países).\n\nParticipe da comunidade do YouTube\n● Acompanhe as postagens, histórias, Estreias e transmissões ao vivo dos seus criadores\nde conteúdo favoritos.\n● Poste comentários para fazer parte da conversa e interagir com os criadores e outros\nmembros da comunidade.\n\nCrie conteúdo usando seu dispositivo móvel\n● Use o aplicativo para enviar e criar seus próprios vídeos.\n● Interaja com seu público em tempo real usando as transmissões ao vivo no app.\n\nEncontre a melhor experiência para você e sua família usando nossos recursos (disponíveis em\nalguns países)\n● Toda família tem as próprias regras sobre assistir vídeos on-line. Por isso, criamos opções personalizadas: o app YouTube Kids ou a nova experiência supervisionada pela família.\nSaiba mais: youtube.com/myfamily.\n\nFaça upgrade para o YouTube Premium (disponível em alguns países)\n● Assista vídeos sem interrupções de anúncios enquanto usa outros apps ou com a tela bloqueada.\n● Salve conteúdo para assistir em qualquer lugar, como durante uma viagem de avião\nou no transporte público.\n● Ganhe acesso ao YouTube Music Premium como parte dos seus benefícios.\n\nObservação: se você fizer a assinatura pela Apple, o valor será cobrado na sua conta da App Store quando a compra for confirmada. As assinaturas serão renovadas automaticamente, a menos que\nesse recurso seja desativado no mínimo 24 horas antes do fim do ciclo de faturamento atual. Sua conta receberá uma cobrança pela renovação no valor do plano selecionado em até 24 horas antes do fim do ciclo de faturamento atual. Depois que a compra for concluída, a assinatura e a renovação automática poderão ser gerenciadas nas configurações da conta.\n\nTermos dos serviços pagos do YouTube: https://www.youtube.com/t/terms_paidservice.\nPolítica de privacidade: https://www.google.com/policies/privacy.",
+      "versions": [
+        {
+          "version": "21.32.4",
+          "buildVersion": "21.32.4",
+          "date": "2026-08-09T16:02:51Z",
+          "size": 142927990,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube%20-%2021.32.4.ipa",
+          "localizedDescription": "Corrigimos bugs, melhoramos o desempenho e tomamos muito café."
+        }
+      ],
+      "version": "21.32.4",
+      "versionDate": "2026-08-09T16:02:51Z",
+      "size": 142927990,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube%20-%2021.32.4.ipa",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/fe/5a/55/fe5a550c-48a4-df3d-37c9-67f803f9caee/eedbb88b-ac25-4839-b99c-f892f11b740e_iOS-5.5-in_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/58/7c/0c/587c0c12-c5c3-b87e-4653-68b89fbaeea3/bd89eb38-7093-489e-9a4f-57a08fe46029_iOS-5.5-in_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/ed/ce/ec/edceec0a-3d49-2dde-adba-f834a168903d/892f30fa-d87a-4c09-834f-a099302f8e31_iOS-5.5-in_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/5b/bc/39/5bbc3997-f013-64a0-314e-4c90fc23a4b2/1f908c13-8876-452c-a8f2-5ca2f95d9a8d_iOS-5.5-in_4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/79/48/58/79485825-2f9f-513e-4fae-da6de8071f5a/a4eb99b5-afef-4e49-b5d3-2957dcf5833e_iOS-5.5-in_5.jpg/392x696bb.jpg"
+      ]
+    }
+  ]
+}

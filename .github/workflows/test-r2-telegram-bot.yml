@@ -1,0 +1,27 @@
+name: Test R2 Telegram Bot Detailed
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: private-core
+
+      - name: Testar bot do Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+        run: |
+          python private-core/scripts/test_r2_telegram_bot.py
