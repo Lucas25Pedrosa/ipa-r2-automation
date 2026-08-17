@@ -198,22 +198,8 @@
       "name": "Facetune",
       "bundleIdentifier": "com.lightricks.Facetune2",
       "developerName": "Lightricks Ltd.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/2e/c1/f42ec1a2-477d-1ce3-8054-a0dff08cc689/AppIconLiquidGlass-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/64/c2/7d64c25a-3c1b-6d2c-b1a2-6bd87e706b51/AppIconLiquidGlass-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Bem-vindo ao Facetune, onde toda foto entrega tudo.\nSua câmera captura o momento. O Facetune faz ele ficar inesquecível. De retoques rápidos a transformações completas, criamos as ferramentas pra você aparecer exatamente do jeito que quiser.\n\n‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿\n\nPrincipais recursos:\n\nRetoque & acabamento:\n\nSmooth: Deixe a pele naturalmente lisinha removendo imperfeições e detalhes indesejados na hora.\nReshape: Valorize seus traços com ajustes sutis e super naturais.\nWhiten: Deixe seu sorriso mais iluminado e os dentes mais branquinhos (funciona até nos sneakers ).\n\nEstilo & transformação:\n\nHairstyles: Teste mais de 20 penteados — de Sleek Bun a Butterfly Cut e Glam Blowout — sem mexer em um fio de cabelo.\nBeard & Hair: Experimente estilos como Stubble, Hipster, Goatee, Long Beard e muito mais com resultados super realistas.\nMakeup: Aplique maquiagem virtual completa sem compromisso nenhum.\n\nEdição nível profissional:\n\nHeadshots: Transforme qualquer foto em um headshot profissional em segundos com tecnologia AI.\nFilters & Looks: Crie o mood perfeito instantaneamente com filtros e presets prontos em um toque.\nRemove & Vanish: Apague objetos, fundos ou photobombers sem deixar rastros.\nLighting: Tenha iluminação de estúdio em qualquer clique com ferramentas de luz super precisas.\n\nMelhore & finalize:\n\nEnhance: Aumente automaticamente a qualidade das suas fotos com um único toque.\nColour Correction: Corrija e destaque as cores para um resultado vibrante e refinado.\nVideo Editing: Todas as suas ferramentas favoritas para deixar reels e vídeos curtos impecáveis.\n\n‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿\n\nPor que Facetune?\nPorque suas fotos merecem combinar com a sua visão. Seja você creator, profissional ou só alguém que gosta de sair bem nas fotos — o Facetune resolve. Sem experiência, sem desculpas.\n\nBaixe. Edite. Poste. Repita.\n\nTermos de uso: https://static.lightricks.com/legal/terms-of-use.pdf\nPolítica de privacidade: https://static.lightricks.com/legal/privacy-policy.pdf",
-      "versions": [
-        {
-          "version": "26.24.1",
-          "buildVersion": "9896",
-          "date": "2026-08-11T07:32:00Z",
-          "size": 438840244,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facetune/Facetune%20-%2026.24.1.ipa",
-          "localizedDescription": "Pronta para mudar o estilo? Melhoramos o Roupas para trocas de look mais realistas e edições mais bonitas. Experimente combinações novas que se integram naturalmente às suas fotos."
-        }
-      ],
-      "version": "26.24.1",
-      "versionDate": "2026-08-11T07:32:00Z",
-      "size": 438840244,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facetune/Facetune%20-%2026.24.1.ipa",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/9d/f5/0e9df571-d421-1ce4-cd13-a7fd42e169ac/a317605a-a469-47fd-99be-63f6b60e9cc6_FT-ASO-BrazilLocalization-5.5-01.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/67/ee/fd67ee22-d5a0-3d9b-7ad8-3826a4859fd1/1ab256ee-85bb-4612-8e84-e31066145d74_FT-ASO-BrazilLocalization-5.5-02.jpg/392x696bb.jpg",
@@ -225,7 +211,21 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/1a/a8/bd1aa8db-f1e5-92a5-6a69-64258aeec38a/cf6c595c-80fe-4ccc-a85e-6404a6989b50_FT-ASO-BrazilLocalization-5.5-08.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/d3/c6/a1d3c69b-6d52-8b7a-3aab-38207c7dfd4d/8981e767-5d36-4b80-9546-fc075a3977d9_FT-ASO-BrazilLocalization-5.5-09.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/1e/59/021e59fa-e7a3-69ae-9c99-6697f19c99af/85d6ada7-5cd2-4309-99b3-d0f2a50ebeac_FT-ASO-BrazilLocalization-5.5-10.jpg/392x696bb.jpg"
-      ]
+      ],
+      "versions": [
+        {
+          "version": "26.25",
+          "buildVersion": "9908",
+          "date": "2026-08-17T07:23:06Z",
+          "size": 438858810,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facetune/Facetune%20-%2026.25.ipa",
+          "localizedDescription": "Pronta para mudar o estilo? Melhoramos o Roupas para trocas de look mais realistas e edições mais bonitas. Experimente combinações novas que se integram naturalmente às suas fotos."
+        }
+      ],
+      "version": "26.25",
+      "versionDate": "2026-08-17T07:23:06Z",
+      "size": 438858810,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facetune/Facetune%20-%2026.25.ipa"
     },
     {
       "name": "iLovePDF",
