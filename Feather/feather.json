@@ -7,22 +7,8 @@
       "name": "Aloha Browser",
       "bundleIdentifier": "com.alohabrowser.alohabrowser",
       "developerName": "Aloha Mobile Ltd.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/6f/72/7a6f7268-715b-4c05-2095-b958f502cba7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/27/3d/63273d36-ef5a-8105-bc6d-76f867a08a78/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "A sua privacidade deve ser a predefinição, não uma funcionalidade. O Aloha Browser oferece tudo o que precisa para navegar de forma privada, bloquear anúncios e rastreadores e descarregar ficheiros — numa única aplicação, sem nada extra para instalar.\nCentenas de milhões de utilizadores confiam no Aloha porque ele faz o que outros browsers não fazem: coloca a sua privacidade em primeiro lugar por predefinição, não como uma reflexão tardia.\n\nBLOQUEAR ANÚNCIOS AUTOMATICAMENTE\nOs anúncios tornam a sua navegação mais lenta e rastreiam-no na web. O Aloha remove-os antes de carregarem — cada página é mais rápida, mais limpa e sem distrações, sem anúncios. Não é necessária qualquer configuração.\n\nNAVEGUE COM UMA VPN GRATUITA INTEGRADA\nProteja a sua ligação em qualquer rede com a VPN integrada do Aloha. Escolha entre mais de 80 localizações de servidores em todo o mundo, protegidas com encriptação AES de 256 bits e proteção contra fugas de DNS. O tráfego VPN é comprimido e encriptado para reduzir o uso de largura de banda. Um toque para ativar — sem aplicação separada, sem limites de dados para uso diário.\n\nDESCARREGUE VÍDEOS E FICHEIROS\nGuarde vídeos, músicas e documentos diretamente de qualquer página web. O descarregador integrado do Aloha lida com os formatos que outros browsers não conseguem. Reproduza multimédia em segundo plano, gira ficheiros com facilidade e bloqueie downloads confidenciais com proteção biométrica.\n\nPRIVACIDADE POR DESIGN\nO Aloha nunca regista a sua atividade. Não há nada para partilhar porque não há nada armazenado. Combinado com a VPN, o bloqueio automático de anúncios e o TrafficMask, obtém privacidade total que vai muito além do que o modo de navegação anónima oferece.\n\nIA PRIVADA — SEM VIGILÂNCIA\nUse a IA para resumir, traduzir e responder a perguntas sem que as suas instruções sejam registadas, perfiladas ou usadas para treinar modelos. Privacidade por predefinição.\n\nFEITO PARA A SUA WEB DIÁRIA\nNavegação por abas com uma interface limpa e rápida. Sincronize favoritos e abas entre todos os dispositivos da sua conta Aloha. Leia códigos QR instantaneamente. Explore domínios Web3 e dApps com suporte nativo completo. Tudo funciona em perfeita sintonia, de forma elegante.\n\nALOHA PREMIUM\nFaça um upgrade para uma seleção de países VPN aprimorada, proteção VPN em todo o dispositivo, início automático da VPN, partilha de ficheiros Wi-Fi, suporte de compressão ZIP e temas premium.\nO Aloha Premium está disponível por $7,99/mês ou $69,99/ano (USD). Os preços podem variar por região. As subscrições são renovadas automaticamente, a menos que sejam desativadas pelo menos 24 horas antes do final do período atual. Gerencie as subscrições nas configurações da sua conta Apple. Qualquer parte não utilizada do período de teste gratuito será perdida após a compra.\nPolítica de privacidade: https://alohabrowser.com/policy.html\nTermos e condições: https://alohabrowser.com/terms.html\n\nSOBRE O ALOHA\nSomos uma equipa dedicada a provar que a privacidade e uma ótima experiência de navegação não são mutuamente exclusivas. Enquanto outros browsers adicionam funcionalidades de privacidade como complementos, nós construímos o Aloha de raiz para manter os seus dados seus — verificado por uma auditoria independente de terceiros do Leviathan Security Group.\n\nDescubra mais: https://alohabrowser.com\nFacebook: https://facebook.com/alohavpnbrowser\nX: https://x.com/alohabrowser\nPara feedback e suporte, envie um e-mail para support@alohabrowser.com",
-      "versions": [
-        {
-          "version": "8.8.2",
-          "buildVersion": "1",
-          "date": "2026-07-29T14:28:13Z",
-          "size": 129295523,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.8.2.ipa",
-          "localizedDescription": "Esta atualização se concentra em uma navegação mais segura, um gerenciamento de arquivos mais fluido no Aloha Private Cloud e maior estabilidade.\n\nNovos recursos e melhorias\n- Continuamos aprimorando a nova experiência do Aloha Private Cloud, incluindo uploads mais fluidos, melhor gerenciamento de cotas de armazenamento e correções para a recuperação de conta após sair e entrar novamente.\n- Adicionamos um aviso de segurança antes do envio de formulários para um destino inseguro, ajudando você a se manter mais protegido durante a navegação.\n- Melhoramos os controles do player em tela cheia para evitar alterações acidentais de velocidade e tornar os gestos de volume e brilho mais suaves e precisos.\n- Melhoramos a compatibilidade com sites protegidos pela Cloudflare quando o Adblock está ativado.\n\nCorreções de bugs\n- Corrigimos downloads que podiam exibir incorretamente opções de tentar novamente ou reproduzir quando a recuperação não era possível.\n- Adicionamos várias correções de falhas e melhorias de estabilidade.\n\nObrigado por escolher o Aloha. Seu feedback nos ajuda a moldar cada atualização, então continue compartilhando suas opiniões conosco."
-        }
-      ],
-      "version": "8.8.2",
-      "versionDate": "2026-07-29T14:28:13Z",
-      "size": 129295523,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.8.2.ipa",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/03/9a/ed039a51-166a-4619-9b64-6b57995ea28a/Phone.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/7e/b4/0d7eb461-ff6c-8083-40ae-1dd7893b6f86/Phone-1.png/320x480bb.jpg",
@@ -30,7 +16,21 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/07/10/4b07106c-c8ee-bbb9-25ec-a40e62d067bf/Phone-5.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/3b/20/c73b2026-cde6-6bf8-b743-170ee63cac1a/Phone-4.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/97/0e/5a970e4f-0fe8-036d-3144-910be88add9d/Phone-3.png/320x480bb.jpg"
-      ]
+      ],
+      "versions": [
+        {
+          "version": "8.9.0",
+          "buildVersion": "5",
+          "date": "2026-08-17T07:55:45Z",
+          "size": 277169021,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.9.0.ipa",
+          "localizedDescription": "Deixamos o Aloha mais fluido, inteligente e confiável. Veja as novidades:\n\nNovos recursos:\n- Os chats privados com IA agora contam com cache mais inteligente para conversas mais rápidas e eficientes.\n\nCorreções de bugs e melhorias:\n- Melhoramos o processamento de uploads duplicados para a nuvem.\n- Corrigimos loops no Login com Google em alguns sites.\n- Melhoramos o salvamento de senhas em sites, para que as solicitações de salvamento apareçam de forma mais consistente após o login.\n- Corrigimos casos em que alertas da web bloqueavam a navegação a partir do Speed Dial.\n- Corrigimos várias falhas e problemas de estabilidade, incluindo falhas relacionadas à memória com várias abas de vídeo.\n\nObrigado por usar o Aloha! Agradecemos seu feedback e continuamos trabalhando para tornar o app melhor a cada atualização."
+        }
+      ],
+      "version": "8.9.0",
+      "versionDate": "2026-08-17T07:55:45Z",
+      "size": 277169021,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.9.0.ipa"
     },
     {
       "name": "BoldVoice",
