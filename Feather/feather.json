@@ -134,7 +134,7 @@
       "name": "Duolingo",
       "bundleIdentifier": "com.duolingo.DuolingoMobile",
       "developerName": "Duolingo, Inc",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/ae/c2/4daec21d-a3e0-965c-d83d-1717694c0865/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/d2/5f/69d25f66-3b5a-6148-d7a1-c2341d7966eb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "localizedDescription": "Aprenda outro idioma com o aplicativo de educação mais baixado do mundo! O Duolingo é um aplicativo divertido e grátis para aprender mais de 40 línguas com lições rápidas e curtinhas. Pratique a leitura, escrita, escuta e fala para fortalecer tanto o vocabulário quanto a gramática.\n\nElaborado por especialistas em idiomas e adorado por centenas de milhões de pessoas em todo o planeta, o Duolingo ajuda você a se preparar para conversas na vida real em espanhol, francês, chinês, italiano, alemão, inglês e muito mais.\n\nSeja para viajar, estudar, trabalhar, se comunicar com família e amigos ou manter o cérebro ativo, você vai amar aprender um idioma com o Duolingo!\n\nPor que usar o Duolingo?\n\n• O Duolingo é divertido e eficaz. As lições que mais parecem jogos e os personagens carismáticos ajudam você a desenvolver a leitura, escrita, escuta e fala.\n\n• O Duolingo funciona. Elaborado por especialistas em idiomas, ele tem uma metodologia de ensino baseada em pesquisas científicas: está comprovado que ela promove a retenção do conteúdo na memória de longo prazo.\n\n• Acompanhe o seu progresso. Invista nas suas metas de aprendizado, celebre as conquistas e receba recompensas divertidas ao criar o hábito de praticar todos os dias!\n\n• Junte-se a mais de 500 milhões de pessoas. Mantenha a motivação com ligas competitivas, nas quais você aprende junto com a nossa comunidade global.\n\n• Todos os cursos de idiomas são grátis. Aprenda espanhol, francês, alemão, italiano, russo, português, turco, holandês, irlandês, dinamarquês, sueco, ucraniano, esperanto, polonês, grego, húngaro, norueguês, hebraico, galês, árabe, latim, havaiano, gaélico escocês, vietnamita, coreano, japonês, inglês e até alto valiriano!\n\nO que estão falando sobre o Duolingo:\n\n“De longe, o melhor aplicativo para aprender idiomas.” — The Wall Street Journal\n\n“Este aplicativo e site grátis está entre os métodos de aprendizado de idiomas mais eficazes que já testei… As lições vêm em forma de desafios breves (para falar, traduzir ou responder a perguntas de múltipla escolha) que sempre me fazem querer voltar.” — The New York Times\n\n“O Duolingo pode guardar o segredo do futuro da educação.” — TIME\n\n“O Duolingo é alegre, leve e divertido.” — Forbes\n\n“O nosso aplicativo de idiomas preferido.” — CNET \n\nSe você gosta do Duolingo, experimente o Super Duolingo por 14 dias grátis! Aprenda um idioma de forma rápida e divertida, sem anúncios e com vantagens como Vidas Ilimitadas e Recuperação de Ofensiva Mensal. \n\nCaso opte por assinar o Super Duolingo, a cobrança será feita na sua conta da Apple, e a renovação será cobrada dentro de 24 horas antes do final do período corrente. Para desabilitar a renovação automática a qualquer momento, acesse as configurações da App Store após a compra. Ao adquirir uma assinatura, o usuário abdica de qualquer parte não utilizada de qualquer período de teste grátis que possa ter sido oferecido, quando aplicável.\n\nPolítica de Privacidade: https://www.duolingo.com/privacy\nTermos de Uso: https://www.duolingo.com/terms",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/ab/62/13ab6248-4278-111b-236e-1ae46979e9c9/782048d6-9cce-4e3e-8cc7-95a6996e293d_pt_iphone6.5_screen_1.png/320x480bb.jpg",
@@ -148,18 +148,18 @@
       ],
       "versions": [
         {
-          "version": "7.135.2",
-          "buildVersion": "7.135.2.1",
-          "date": "2026-08-14T13:02:48Z",
-          "size": 211536961,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.135.2.ipa",
+          "version": "7.136.0",
+          "buildVersion": "7.136.0.16",
+          "date": "2026-08-18T14:00:10Z",
+          "size": 212569010,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.136.0.ipa",
           "localizedDescription": "Nosso mascote, a coruja Duo, resolveu atender a pedidos e caçar bugs nas horas livres. É isso mesmo, estamos tirando aqueles erros chatos do caminho para você ter uma experiência ainda melhor.\n\nPara ficar por dentro das novidades, concursos e lançamentos de produtos do Duolingo, siga a gente no Facebook, X e Instagram pelo @duolingobrasil."
         }
       ],
-      "version": "7.135.2",
-      "versionDate": "2026-08-14T13:02:48Z",
-      "size": 211536961,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.135.2.ipa"
+      "version": "7.136.0",
+      "versionDate": "2026-08-18T14:00:10Z",
+      "size": 212569010,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.136.0.ipa"
     },
     {
       "name": "Facebook",
