@@ -698,6 +698,34 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa"
     },
     {
+      "name": "TikTok",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "developerName": "TIKTOK PTE. LTD.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/30/09/043009e2-9f6a-1671-c5af-ba6b7b52d994/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "TikTok é uma comunidade de videos global. \n\nCom TikTok criar videos curtos se tornou ainda mais facil. Grave e edite seus próprios videos com nossos efeitos especiais, filtros, stickers e muito mais. Depois é só compartilhar com o mundo seu talento.\n\nAssista a milhões de videos escolhidos especialmente pra você. Uma experiência personalizada, baseada no conteúdo que você assiste, curte e compartilha! Oferecemos, baseados nos seus hábitos de consumo, os vídeos mais relevantes, interessantes e inspiradores. Divirta-se e se inspire em criadores de todo o mundo.Milhões de criadores usam o TikTok diariamente para compartilhar suas histórias e talento. Descubra os melhores videos da internet.\n\nAdicione suas músicas ou sons favoritos aos seus videos, tudo de graça! Adicione emoção ao seu video ao incluir uma trilha. Milhões de trechos musicais e sons estao dispon[iveis na nossa biblioteca. Nós criamos playlists musicais para você com as faixas mais tocadas de todos os gêneros, incluso pop, rock, rap, eletronic, R&B, Country e muito mais.\n\nUse emojis e Filtros 3D \nMais de 100 emojis disponíveis gratuitamente para tornar seu vídeos mais divertido. Descubra um monte de filtros e efeitos de beleza que levarão seu vídeo a um outro patamar!  Ferramentas de edição que te permitem cortar, editar, duplicar, mesclar e duplicar seus videos.  \n■ Filtros de Livestreaming são constantemente atualizados com designs criativos\n■ Video de dança, comédia, vlog, DIY, e esportes prontos para serem assistidos \n\nTenha acesso aos benefícios do LIVE para interagir melhor com os hosts!\nSelecione uma assinatura mensal ou uma com renovação automática para aproveitar os benefícios especiais do LIVE (disponível em regiões limitadas)\n\nObservação: \nSe você se inscrever pela conta da Apple, o pagamento será feito pela conta da AppStore ao confirmar a compra. A assinatura será renovada automaticamente, a menos que essa opção seja desativada com, no mínimo, 24 horas de antecedência ao término do período vigente. A conta receberá uma cobrança pela renovação dentro de 24 horas antes do término do período vigente com o preço do plano selecionado. As assinaturas e renovações automáticas podem ser gerenciadas acessando Configurações da conta após a compra.\n\nTermos de serviço:\nhttps://www.tiktok.com/legal/terms-of-service\n\nPolítica de Privacidade:\nhttps://www.tiktok.com/legal/privacy-policy\n\nTem um feedback? Entre em contato conosco através de: https://www.tiktok.com/legal/report/feedback",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/55/0c/ae/550caeb2-5ed6-2826-7453-fa571dc0170b/9be42b01-48b4-405c-b69b-8f13e457af39_img5_5_0_pt-BR.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d0/71/27/d07127e8-6aa3-9b14-cf7c-5ec6d99cd764/96131b4d-d675-4db4-bf7e-9e3b1a2251fe_img5_5_1_pt-BR.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/61/9c/68619ceb-dba5-966a-6771-789c534cb89e/52db8975-d123-4143-86b5-0d8b6c9c7f90_img5_5_2_pt-BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e8/5d/28/e85d28ea-07cd-f967-8ab7-8ce0eb41620a/7c460fe3-65c5-4a2b-8224-1b5325aaeb1e_img5_5_3_pt-BR.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0a/95/8b/0a958b31-9007-0880-645d-0a8e191af9ba/0e9eab73-1063-4038-8f05-5ac5f30973a2_img5_5_4_pt-BR.jpg/392x696bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "46.5.0",
+          "buildVersion": "465042",
+          "date": "2026-08-18T21:52:48Z",
+          "size": 460921329,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.5.0.ipa",
+          "localizedDescription": "Temos trabalhado para melhorar sua experiência no TikTok com atualizações e correções de erros."
+        }
+      ],
+      "version": "46.5.0",
+      "versionDate": "2026-08-18T21:52:48Z",
+      "size": 460921329,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.5.0.ipa"
+    },
+    {
       "name": "WhatsApp",
       "bundleIdentifier": "net.whatsapp.WhatsApp",
       "developerName": "WhatsApp Inc.",
