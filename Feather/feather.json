@@ -668,6 +668,36 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.33.0.ipa"
     },
     {
+      "name": "Telegram",
+      "bundleIdentifier": "ph.telegra.Telegraph",
+      "developerName": "Telegram FZ-LLC",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/83/96/c183964f-32d7-16fe-57ab-8c66518f6625/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Mensageiro instantâneo puro — simples, rápido, seguro e sincronizado em todos os seus dispositivos. Um dos 5 aplicativos mais baixados do mundo com mais de 1 bilhão de usuários ativos.\n\nRÁPIDO: o Telegram é o mensageiro instantâneo mais rápido do mercado, conectando pessoas de maneira única, distribuída entre diversos servidores ao redor do mundo.\n\nSINCRONIZADO: você pode acessar as suas mensagens de todos os seus celulares, tablets e computadores ao mesmo tempo. Os aplicativos do Telegram são independentes, por isso você não precisa manter o seu celular conectado. Comece a escrever em um dispositivo e termine a mensagem em outro. Nunca mais perca os seus dados.\n\nILIMITADO: você pode enviar mídias e arquivos, sem qualquer limite de tamanho ou tipo. Todo o seu histórico de conversas não precisará ocupar espaço em disco do seu dispositivo e será armazenado de forma segura na nuvem do Telegram por quanto tempo você precisar.\n\nSEGURO: temos como missão providenciar a melhor segurança combinada com um uso fácil. Tudo no Telegram, incluindo conversas, grupos, mídias, etc. é fortemente criptografado utilizando a combinação simétrica AES de 256-bits, RSA 2048-bit e troca de chaves seguras Diffie–Hellman.\n\n100% GRATUITO E ABERTO: o Telegram tem uma API completamente gratuita e documentada para desenvolvedores, aplicativos de código-fonte aberto e builds verificáveis para provar que o aplicativo que você baixa foi construído usando o mesmo código-fonte publicado.\n\nPODEROSO: você pode criar grandes grupos de conversa com até 200.000 membros, compartilhar de forma rápida vídeos grandes, documentos de qualquer tipo (.DOCX, .MP3, .ZIP, etc.) de até 2 GB cada, e definir bots para tarefas específicas utilizando a nossa API. Esta é a ferramenta perfeita para hospedar comunidades online e equipes de trabalho.\n\nCONFIÁVEL: construído para entregar as suas mensagens utilizando a menor quantidade de bytes possíveis, o Telegram é o sistema de mensagens mais confiável já desenvolvido. Ele funciona até nas conexões móveis mais instáveis.\n\nDIVERTIDO: o Telegram possui ferramentas de edição de fotos e vídeos poderosas, stickers e emojis animados, temas completamente personalizáveis para alterar a aparência do seu aplicativo, e uma plataforma aberta de GIFs/stickers para fornecer toda a expressão que você precisar.\n\nSIMPLES: ao fornecer uma variedade sem precedentes de funcionalidades, estamos tomando muito cuidado para manter a interface limpa. O Telegram é tão simples que você já sabe como usar.\n\nPRIVADO: levamos a sua privacidade a sério e nunca daremos acesso aos seus dados para terceiros. Você pode apagar qualquer mensagem que já enviou ou recebeu para ambos os lados, a qualquer momento e sem rastros. O Telegram nunca usará os seus dados para te mostrar anúncios.\n\nPara os interessados em máxima privacidade, o Telegram oferece os Chats Secretos. As mensagens dos Chats Secretos podem ser programadas para se autodestruírem nos dois dispositivos. Dessa forma, você pode enviar qualquer tipo de arquivo — mensagens, fotos, vídeos e arquivos. Os Chats Secretos usam criptografia de ponto a ponto para assegurar que a mensagem só poderá ser lida pelo destinatário.\n\nContinuamos expandindo os limites do que é possível fazer com um aplicativo de mensagens. Não espere anos para os mensageiros mais velhos alcançarem o Telegram — faça parte da revolução hoje.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/9e/97/509e9718-89bd-0400-6ddf-c4caa35f61c3/0_APP_IPHONE_55_0.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/e9/cc/abe9cc9e-e9ef-0313-6b31-e02ee291e826/1_APP_IPHONE_55_1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/41/c8/4a41c816-e893-1f96-5d71-278ef1a66308/2_APP_IPHONE_55_2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/20/3d/32203da1-7e93-0e4b-6a17-8400ea2085c7/3_APP_IPHONE_55_3.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/6c/88/236c8843-ac66-4797-7934-6d6cb666d5a9/4_APP_IPHONE_55_4.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/14/44/63144438-2554-2df9-2e7a-a8aeeb8ec883/5_APP_IPHONE_55_5.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/b9/d7/cbb9d7b1-e28d-7223-5cbc-f283e3346e2f/6_APP_IPHONE_55_6.png/392x696bb.png"
+      ],
+      "versions": [
+        {
+          "version": "12.9.2",
+          "buildVersion": "34474",
+          "date": "2026-07-20T02:46:05Z",
+          "size": 85026237,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa",
+          "localizedDescription": "Correções de bugs, pequenas melhorias e mais."
+        }
+      ],
+      "version": "12.9.2",
+      "versionDate": "2026-07-20T02:46:05Z",
+      "size": 85026237,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa"
+    },
+    {
       "name": "WhatsApp",
       "bundleIdentifier": "net.whatsapp.WhatsApp",
       "developerName": "WhatsApp Inc.",
