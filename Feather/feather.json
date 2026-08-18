@@ -162,39 +162,6 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo%20-%207.136.0.ipa"
     },
     {
-      "name": "Facebook",
-      "bundleIdentifier": "com.facebook.Facebook",
-      "developerName": "Meta Platforms, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/1e/e0/091ee060-69ab-37fd-dee8-c62713a89ffc/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Onde pessoas reais estimulam a curiosidade. Não importa se você está comprando acessórios usados, mostrando um reel para aquele grupo que entende você ou rindo junto por causa de imagens divertidas elaboradas pela IA: o Facebook ajuda a fazer as coisas acontecerem como nenhuma outra rede social.\n\nExplore e amplie seus interesses: \n* Peça que a IA da Meta pesquise tópicos importantes para você e receba resultados instantâneos e mais interativos do que apenas textos\n* Busque as melhores ofertas e tesouros escondidos no Marketplace para cultivar seus hobbies\n* Personalize seu feed para ver mais coisas de que você gosta e menos coisas de que não gosta\n* Explore reels e vídeos para assistir a tutoriais ou para um rápido entretenimento\n\nConecte-se com pessoas e comunidades:\n* Participe de grupos para obter dicas de pessoas reais com experiências reais\n* Ative o compartilhamento com o Instagram para economizar tempo\n* Envie, de forma privada, publicações com as quais só seu melhor amigo vai se identificar ou aquela tendência do Reels que todo mundo está comentando\n\nCompartilhe seu mundo:\n* Use a IA generativa para encantar os amigos com imagens personalizadas ou para ajudar você a escrever publicações\n* Personalize seu perfil para escolher como você se apresenta e quem vê suas publicações\n* Crie reels com facilidade usando modelos em alta ou mostre sua criatividade com um conjunto completo de ferramentas de edição\n* Capture momentos enquanto eles acontecem com os stories\n\nTermos e políticas: https://www.facebook.com/policies_center\n\nSaiba como estamos trabalhando para ajudar a manter nossas comunidades seguras por meio das tecnologias da Meta na Central de Segurança da Meta: https://about.meta.com/actions/safety",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/d9/9b/6ad99bf8-e769-1fd2-0ac7-f9f0553978a2/c795c58d-ec37-463c-9ab9-ba0b8bc00ddd_2-iOS-5.5-Reels.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/96/e9/f496e921-c05e-ade9-ef3c-c37949d0e6aa/0130e841-7bad-4f8c-83c9-61ea0bac7d7b_3-iOS-5.5-Stories.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/c9/20/a5c9207f-2eb4-ccf1-6573-bda3c3e089cb/9b761f68-4cd1-4c66-b5f2-76de4f58005f_4-iOS-5.5-Groups.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/40/05/e9400518-1876-dbdd-89aa-a2f88916f117/68c29824-a52c-4766-8aea-0a70c7a2f86f_5-iOS-5.5-Profile.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/b2/5c/40b25ca0-8eee-0e9c-b068-08ec6741908b/28ff37e9-d855-4e6e-a8b4-fb2d585bb9ca_6-iOS-5.5-Marketplace.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/a0/d6/dfa0d6c7-a1a2-873f-953c-4997aab4acbb/691c88f4-f976-46bb-92e1-5f088e8aa47f_7-iOS-5.5-Share.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/50/41/325041cd-f718-ba5b-5c05-3c930a8af80c/d49c0719-9500-4504-8a4c-3124b914bafa_8-iOS-5.5-Search_with_AI.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/29/3e/02293e8a-d565-25b2-2405-31389c8a6e6e/ee650e7b-1eaa-4de6-81a2-0b35dac16446_9-iOS-5.5-Write_with_AI.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/b2/32/f6b2327b-e56b-7c4c-b41b-2ee19340e8d5/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
-      ],
-      "versions": [
-        {
-          "version": "574.0.0",
-          "buildVersion": "1038059635",
-          "date": "2026-08-13T02:14:14Z",
-          "size": 226754557,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facebook/Facebook%20-%20574.0.0.ipa",
-          "localizedDescription": "Nossas equipes solucionaram muitas falhas, corrigiram problemas que você relatou e tornaram o app mais rápido."
-        }
-      ],
-      "version": "574.0.0",
-      "versionDate": "2026-08-13T02:14:14Z",
-      "size": 226754557,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Facebook/Facebook%20-%20574.0.0.ipa"
-    },
-    {
       "name": "Facetune",
       "bundleIdentifier": "com.lightricks.Facetune2",
       "developerName": "Lightricks Ltd.",
@@ -576,7 +543,7 @@
       "name": "Picsart",
       "bundleIdentifier": "com.picsart.studio",
       "developerName": "PicsArt, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/8b/55/498b55e4-7aab-ad55-b4cb-8ce68366deed/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/c2/6a/fec26a5c-f17b-777a-3a41-1847919ac99d/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Desperte seu potencial criativo com o Picsart — o editor de fotos com IA, editor de vídeo com IA e estúdio de design tudo em um, gratuito e fácil de usar. De designs para negócios a arte com IA, vá da inspiração à criação rapidamente. Crie com um Criador de Imagem IA e gerador de vídeo com IA, edite com um editor de imagens com IA, remova fundos com o Removedor de Fundo (BG remover), apague objetos com o Removedor de Objetos (Object Eraser), aplique efeitos de IA, filtros e ferramentas de retoque e transforme ideias em designs com templates, colagens, criador de stories e muito mais. Crie com novas ferramentas de imagem para vídeo, avatares de vídeo com IA, prova virtual com IA, avatares de IA, Gen AI Studio, AI Playground e Picsart Persona.\n\nCONHEÇA O PICSART AURA\nTransforme sua visão em visuais conversando com Aura, seu parceiro criativo baseado na plataforma Picsart e usado por mais de 150 milhões de criadores. Em segundos, ele cria, edita e aprimora imagens e vídeos com IA, sugere prompts, lembra seus chats e permite compartilhar sessões. Use o Nano Banana™ para gerar imagens e modelos de vídeo como Veo™ (Veo 3), Kling, Runway e Luma. A disponibilidade pode variar; marcas registradas pertencem a seus donos.\n\nINICIE PROJETOS COM TEMPLATES\n• Use templates personalizáveis criados por editores profissionais.\n• Crie logos com o criador de logo IA, posts para redes sociais, stories, cartões de visita, pôsteres e muito mais.\n\nTRANSFORME DESIGNS COM O REMOVEDOR DE FUNDO\n• Remova o fundo para recortes limpos e fotos de produtos.\n• O Fundo Inteligente cria planos de fundo perfeitos — um trocador de fundo rápido para anúncios e promoções.\n• Remova o fundo, refine as bordas e crie estilos estéticos para projetos de editor de fotos.\n\nREMOVA OBJETOS FACILMENTE\n• Removedor/Apagador de Objetos apaga itens indesejados.\n• Elimine a desordem e imperfeições para uma foto limpa.\n\nSEJA CRIATIVO COM IA\n• Criador de Imagem IA / Criador de fotos IA: transforme texto em arte, imagens e GIFs com IA.\n• Gerador de vídeo com IA: faça vídeos a partir de texto, imagens ou ideias em segundos.\n• Realce de IA melhora instantaneamente a qualidade das imagens.\n• Aplique filtros e efeitos de IA estilizados no seu editor de fotos.\n• Repor IA transforma imagens com trocas de rosto, cor de cabelo e edições de selfie.\n• Retoque de IA aperfeiçoa retratos com ajustes avançados de pele, rosto e detalhes.\n• Expansão de IA amplia imagens além do enquadramento.\n• Prova Virtual de IA permite testar roupas e estilos na hora.\n• Escritor de IA cria legendas, textos e copies de marketing.\n• Envie selfies para gerar avatares de IA personalizados.\n• Explore novas ideias no AI Playground e crie mais rápido com o Gen AI Studio.\n\nEDITE VÍDEOS COMO UM PROFISSIONAL\n• Use o editor intuitivo para criar clipes com música.\n• Gere vídeos com IA, efeitos, texto e filtros da moda.\n• Dê movimento às suas fotos.\n• Crie vídeos curtos para qualquer plataforma.\n• Junte seus melhores momentos em uma colagem de vídeo.\n\nADICIONE SEU TOQUE COM O CRIADOR DE STICKERS\n• Mais de 60 milhões de stickers.\n• Use stickers em fotos e promos.\n• Crie stickers personalizados.\n\nCONTE EM TEXTO\n• Escreva com o Editor de Texto do Picsart.\n• Centenas de fontes clássicas e modernas.\n• Ajuste o estilo do texto.\n\nMAGIA DE COLAGENS\n• Colagens divertidas com suas fotos.\n• Use grade ou freestyle para mood boards e molduras.\n\nDESCUBRA INSPIRAÇÃO INFINITA\nDe solopreneurs a fãs de design, arte com IA e edição de fotos — compartilhe ideias e inspire-se para o próximo projeto com o Picsart Spaces.\n\nMELHORE SEU DESIGN\nPicsart Plus: conteúdo premium, modelos e retoque extra.\nPicsart Pro: mais IA, mais vagas de equipe e mais armazenamento.\n\nTermos e condições: https://picsart.com/terms-and-conditions\nSobre anúncios: https://picsart.com/privacy-policy#interest-base",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/90/25/1d/90251d88-fe29-4f4e-fd84-393a07ba0934/2e4e77b4-1dc6-4c1c-a599-d038d2076098_01_5_U002c5_All-in-One_Editor_5.jpg/392x696bb.jpg",
@@ -592,18 +559,18 @@
       ],
       "versions": [
         {
-          "version": "30.5.3",
-          "buildVersion": "30503",
-          "date": "2026-08-12T17:40:19Z",
-          "size": 116996950,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.5.3.ipa",
+          "version": "30.6.1",
+          "buildVersion": "30601",
+          "date": "2026-08-18T18:57:05Z",
+          "size": 117712092,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.6.1.ipa",
           "localizedDescription": "A maioria das novidades não espera por uma atualização. Esta corrige alguns bugs, mas o que importa mesmo acontece nos bastidores - novos recursos, conteúdos, stickers e templates chegam o tempo todo. Fica de olho nas nossas redes pra não perder nada."
         }
       ],
-      "version": "30.5.3",
-      "versionDate": "2026-08-12T17:40:19Z",
-      "size": 116996950,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.5.3.ipa"
+      "version": "30.6.1",
+      "versionDate": "2026-08-18T18:57:05Z",
+      "size": 117712092,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.6.1.ipa"
     },
     {
       "name": "Pocket Terço",
@@ -639,93 +606,6 @@
       ]
     },
     {
-      "name": "Reddit",
-      "bundleIdentifier": "com.reddit.Reddit",
-      "developerName": "REDDIT, INC.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/41/4a/21414a76-4704-5801-452d-949dcb554447/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Bem-vindo ao Reddit – o lugar para conversas autênticas onde sua voz importa.\nDescubra o poder da sua voz em discussões reais. Das últimas notícias a debates profundos, esta plataforma social e de notícias impulsiona conversas genuínas. Faça perguntas, obtenha respostas reais, compartilhe dicas e seja você mesmo. Participe de comunidades onde as pessoas discutem o que realmente importa—um post de cada vez.\nPor que Reddit?\n■ Encontre fóruns de notícias e discussão\n Seja você fã de cultura pop, esportes ou tecnologia, o Reddit tem conteúdo para qualquer interesse. Mergulhe em discussões em alta, crie posts e fale sobre os temas que você gosta.\n■ Faça perguntas e obtenha respostas reais\n O Reddit é feito para conversas reais com pessoas reais. Peça conselhos, obtenha respostas de quem já passou por isso, compartilhe dicas, expresse suas ideias e tenha ótimas conversas.\n■ Fale sobre qualquer coisa\n Conheça pessoas que compartilham suas paixões, peça conselhos ou descubra algo novo. Encontre comunidades dedicadas ao que você realmente se importa.\nEncontre comunidades organizadas por interesses e expertise:\n■ r/PergunteReddit & r/AskReddit\n Faça perguntas e obtenha respostas reais de comunidades engajadas. Seja explorando objetivos pessoais ou reagindo a eventos atuais, sempre há algo novo para descobrir e conversar.\n■ r/brasil & r/News\n Descubra as últimas notícias, discuta eventos reais e fique por dentro do que está acontecendo no mundo todo.\n■ r/Funny\n Procurando por risadas? O Reddit tem. Encontre comunidades dedicadas a humor e memes.\n■ r/Gaming\n Conheça gamers de verdade, peça conselhos a jogadores experientes e explore conteúdos de jogos.\n■ r/Music & r/Movies\n Fale sobre seus filmes e músicas favoritos. Descubra novas paixões e compartilhe sua opinião sobre tudo relacionado a música e cinema.\nVotação e Karma\n Cada post e comentário pode receber votos positivos ou negativos da comunidade. Quanto mais votos positivos você recebe, mais visível seu conteúdo se torna. Seu karma reflete o quanto a comunidade valoriza suas contribuições.\nReddit Premium:\n Adquira o Reddit Premium para aproveitar uma experiência sem anúncios e acesso a itens premium para avatar, r/lounge, ícones personalizados do app e muito mais.\n O pagamento será cobrado de forma recorrente mensal ou anual pela sua conta Apple. Sua assinatura Premium mensal ou anual será renovada automaticamente, a menos que você cancele pelo menos 24 horas antes do término do período. Cancele a qualquer momento nas configurações de conta do seu dispositivo. Não há reembolsos parciais.\nPolítica de Privacidade: https://www.redditinc.com/policies/privacy-policy\nContrato do Usuário: https://www.redditinc.com/policies/user-agreement\nRegras do Reddit: https://redditinc.com/policies/reddit-rules\nSe você tiver algum problema com o app, obtenha suporte em RedditHelp.com",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9c/fe/dc/9cfedc93-8398-6579-d091-f7cdec3d93be/68c6f56a-7248-442c-8964-f2896c78f0a3_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0b/bb/ab/0bbbab8f-118f-d545-bf44-65d4c672a372/1ce864e1-8011-491a-be55-57abd3ae455d_Reddit_SS_5.5_2.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/10/94/75/1094758d-67ce-217d-9dfa-c438a657225f/d6915eb0-706c-4251-810f-8eaf377901b7_Reddit_SS_5.5_3.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/b2/9e/87/b29e8774-907f-afac-1580-c2aa2038f972/fe7d70c9-aa53-4a14-b94f-a19c0d32795d_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/8f/15/4b/8f154b1f-15ed-133b-9dd9-dc27b7facf9d/f89be370-c66e-402f-b84e-c03b7e0b471e_Reddit_SS_5.5_5.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/6c/41/8d6c415e-6c02-c4a2-5626-b3f5f4847015/93d42de6-a7a0-4615-b63b-4f58acd73132_Reddit_SS_5.5_6.jpg/392x696bb.jpg"
-      ],
-      "versions": [
-        {
-          "version": "2026.33.0",
-          "buildVersion": "636848",
-          "date": "2026-08-17T19:58:20Z",
-          "size": 141426460,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.33.0.ipa",
-          "localizedDescription": "Obrigado por atualizar o app do Reddit! Atualizamos nossos apps para iOS com correções de bugs e algumas mudanças para melhorar sua experiência."
-        }
-      ],
-      "version": "2026.33.0",
-      "versionDate": "2026-08-17T19:58:20Z",
-      "size": 141426460,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.33.0.ipa"
-    },
-    {
-      "name": "Telegram",
-      "bundleIdentifier": "ph.telegra.Telegraph",
-      "developerName": "Telegram FZ-LLC",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/83/96/c183964f-32d7-16fe-57ab-8c66518f6625/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Mensageiro instantâneo puro — simples, rápido, seguro e sincronizado em todos os seus dispositivos. Um dos 5 aplicativos mais baixados do mundo com mais de 1 bilhão de usuários ativos.\n\nRÁPIDO: o Telegram é o mensageiro instantâneo mais rápido do mercado, conectando pessoas de maneira única, distribuída entre diversos servidores ao redor do mundo.\n\nSINCRONIZADO: você pode acessar as suas mensagens de todos os seus celulares, tablets e computadores ao mesmo tempo. Os aplicativos do Telegram são independentes, por isso você não precisa manter o seu celular conectado. Comece a escrever em um dispositivo e termine a mensagem em outro. Nunca mais perca os seus dados.\n\nILIMITADO: você pode enviar mídias e arquivos, sem qualquer limite de tamanho ou tipo. Todo o seu histórico de conversas não precisará ocupar espaço em disco do seu dispositivo e será armazenado de forma segura na nuvem do Telegram por quanto tempo você precisar.\n\nSEGURO: temos como missão providenciar a melhor segurança combinada com um uso fácil. Tudo no Telegram, incluindo conversas, grupos, mídias, etc. é fortemente criptografado utilizando a combinação simétrica AES de 256-bits, RSA 2048-bit e troca de chaves seguras Diffie–Hellman.\n\n100% GRATUITO E ABERTO: o Telegram tem uma API completamente gratuita e documentada para desenvolvedores, aplicativos de código-fonte aberto e builds verificáveis para provar que o aplicativo que você baixa foi construído usando o mesmo código-fonte publicado.\n\nPODEROSO: você pode criar grandes grupos de conversa com até 200.000 membros, compartilhar de forma rápida vídeos grandes, documentos de qualquer tipo (.DOCX, .MP3, .ZIP, etc.) de até 2 GB cada, e definir bots para tarefas específicas utilizando a nossa API. Esta é a ferramenta perfeita para hospedar comunidades online e equipes de trabalho.\n\nCONFIÁVEL: construído para entregar as suas mensagens utilizando a menor quantidade de bytes possíveis, o Telegram é o sistema de mensagens mais confiável já desenvolvido. Ele funciona até nas conexões móveis mais instáveis.\n\nDIVERTIDO: o Telegram possui ferramentas de edição de fotos e vídeos poderosas, stickers e emojis animados, temas completamente personalizáveis para alterar a aparência do seu aplicativo, e uma plataforma aberta de GIFs/stickers para fornecer toda a expressão que você precisar.\n\nSIMPLES: ao fornecer uma variedade sem precedentes de funcionalidades, estamos tomando muito cuidado para manter a interface limpa. O Telegram é tão simples que você já sabe como usar.\n\nPRIVADO: levamos a sua privacidade a sério e nunca daremos acesso aos seus dados para terceiros. Você pode apagar qualquer mensagem que já enviou ou recebeu para ambos os lados, a qualquer momento e sem rastros. O Telegram nunca usará os seus dados para te mostrar anúncios.\n\nPara os interessados em máxima privacidade, o Telegram oferece os Chats Secretos. As mensagens dos Chats Secretos podem ser programadas para se autodestruírem nos dois dispositivos. Dessa forma, você pode enviar qualquer tipo de arquivo — mensagens, fotos, vídeos e arquivos. Os Chats Secretos usam criptografia de ponto a ponto para assegurar que a mensagem só poderá ser lida pelo destinatário.\n\nContinuamos expandindo os limites do que é possível fazer com um aplicativo de mensagens. Não espere anos para os mensageiros mais velhos alcançarem o Telegram — faça parte da revolução hoje.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/9e/97/509e9718-89bd-0400-6ddf-c4caa35f61c3/0_APP_IPHONE_55_0.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/e9/cc/abe9cc9e-e9ef-0313-6b31-e02ee291e826/1_APP_IPHONE_55_1.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/41/c8/4a41c816-e893-1f96-5d71-278ef1a66308/2_APP_IPHONE_55_2.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/20/3d/32203da1-7e93-0e4b-6a17-8400ea2085c7/3_APP_IPHONE_55_3.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/6c/88/236c8843-ac66-4797-7934-6d6cb666d5a9/4_APP_IPHONE_55_4.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/14/44/63144438-2554-2df9-2e7a-a8aeeb8ec883/5_APP_IPHONE_55_5.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/b9/d7/cbb9d7b1-e28d-7223-5cbc-f283e3346e2f/6_APP_IPHONE_55_6.png/392x696bb.png"
-      ],
-      "versions": [
-        {
-          "version": "12.9.2",
-          "buildVersion": "34474",
-          "date": "2026-07-20T02:46:05Z",
-          "size": 85026949,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa",
-          "localizedDescription": "Correções de bugs, pequenas melhorias e mais."
-        }
-      ],
-      "version": "12.9.2",
-      "versionDate": "2026-07-20T02:46:05Z",
-      "size": 85026949,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram%20-%2012.9.2.ipa"
-    },
-    {
-      "name": "TikTok",
-      "bundleIdentifier": "com.zhiliaoapp.musically",
-      "developerName": "TIKTOK PTE. LTD.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/d0/94/e4d094f7-6a77-6fc1-8b01-c6ab09d471fc/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "TikTok é uma comunidade de videos global. \n\nCom TikTok criar videos curtos se tornou ainda mais facil. Grave e edite seus próprios videos com nossos efeitos especiais, filtros, stickers e muito mais. Depois é só compartilhar com o mundo seu talento.\n\nAssista a milhões de videos escolhidos especialmente pra você. Uma experiência personalizada, baseada no conteúdo que você assiste, curte e compartilha! Oferecemos, baseados nos seus hábitos de consumo, os vídeos mais relevantes, interessantes e inspiradores. Divirta-se e se inspire em criadores de todo o mundo.Milhões de criadores usam o TikTok diariamente para compartilhar suas histórias e talento. Descubra os melhores videos da internet.\n\nAdicione suas músicas ou sons favoritos aos seus videos, tudo de graça! Adicione emoção ao seu video ao incluir uma trilha. Milhões de trechos musicais e sons estao dispon[iveis na nossa biblioteca. Nós criamos playlists musicais para você com as faixas mais tocadas de todos os gêneros, incluso pop, rock, rap, eletronic, R&B, Country e muito mais.\n\nUse emojis e Filtros 3D \nMais de 100 emojis disponíveis gratuitamente para tornar seu vídeos mais divertido. Descubra um monte de filtros e efeitos de beleza que levarão seu vídeo a um outro patamar!  Ferramentas de edição que te permitem cortar, editar, duplicar, mesclar e duplicar seus videos.  \n■ Filtros de Livestreaming são constantemente atualizados com designs criativos\n■ Video de dança, comédia, vlog, DIY, e esportes prontos para serem assistidos \n\nTenha acesso aos benefícios do LIVE para interagir melhor com os hosts!\nSelecione uma assinatura mensal ou uma com renovação automática para aproveitar os benefícios especiais do LIVE (disponível em regiões limitadas)\n\nObservação: \nSe você se inscrever pela conta da Apple, o pagamento será feito pela conta da AppStore ao confirmar a compra. A assinatura será renovada automaticamente, a menos que essa opção seja desativada com, no mínimo, 24 horas de antecedência ao término do período vigente. A conta receberá uma cobrança pela renovação dentro de 24 horas antes do término do período vigente com o preço do plano selecionado. As assinaturas e renovações automáticas podem ser gerenciadas acessando Configurações da conta após a compra.\n\nTermos de serviço:\nhttps://www.tiktok.com/legal/terms-of-service\n\nPolítica de Privacidade:\nhttps://www.tiktok.com/legal/privacy-policy\n\nTem um feedback? Entre em contato conosco através de: https://www.tiktok.com/legal/report/feedback",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/55/0c/ae/550caeb2-5ed6-2826-7453-fa571dc0170b/9be42b01-48b4-405c-b69b-8f13e457af39_img5_5_0_pt-BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d0/71/27/d07127e8-6aa3-9b14-cf7c-5ec6d99cd764/96131b4d-d675-4db4-bf7e-9e3b1a2251fe_img5_5_1_pt-BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/61/9c/68619ceb-dba5-966a-6771-789c534cb89e/52db8975-d123-4143-86b5-0d8b6c9c7f90_img5_5_2_pt-BR.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e8/5d/28/e85d28ea-07cd-f967-8ab7-8ce0eb41620a/7c460fe3-65c5-4a2b-8224-1b5325aaeb1e_img5_5_3_pt-BR.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0a/95/8b/0a958b31-9007-0880-645d-0a8e191af9ba/0e9eab73-1063-4038-8f05-5ac5f30973a2_img5_5_4_pt-BR.jpg/392x696bb.jpg"
-      ],
-      "versions": [
-        {
-          "version": "46.4.0",
-          "buildVersion": "464038",
-          "date": "2026-08-13T11:24:10Z",
-          "size": 458543990,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.4.0.ipa",
-          "localizedDescription": "Encontre e marque seus amigos em comentários com rapidez."
-        }
-      ],
-      "version": "46.4.0",
-      "versionDate": "2026-08-13T11:24:10Z",
-      "size": 458543990,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.4.0.ipa"
-    },
-    {
       "name": "WhatsApp",
       "bundleIdentifier": "net.whatsapp.WhatsApp",
       "developerName": "WhatsApp Inc.",
@@ -752,36 +632,6 @@
       "versionDate": "2026-08-18T21:20:19Z",
       "size": 156413300,
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp%20-%2026.32.75.ipa"
-    },
-    {
-      "name": "X",
-      "bundleIdentifier": "com.atebits.Tweetie2",
-      "developerName": "X Corp.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/be/94/70be94c8-164a-a404-db3e-0e39830b97e8/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Bem-vindo ao X, anteriormente conhecido como Twitter, sua praça digital confiável onde as conversas se desenrolam em tempo real e o mundo se conecta por meio de notícias de última hora, eventos ao vivo, podcasts e tudo mais.\n\nSeja você apaixonado por esportes, tecnologia, música ou política, o X é o seu lugar na primeira fila para o que está acontecendo no mundo todo.\n\nO X não é apenas mais um app de rede social, é o destino definitivo para se manter bem informado, compartilhar ideias e construir comunidades. Com o X, você sempre fica por dentro dos tópicos em alta e das notícias de última hora, entregues instantaneamente na sua tela, cruas e sem filtros.\n\nO que você pode fazer no X:\n• Acompanhe notícias de última hora do mundo todo antes de elas virarem manchete e fique à frente com atualizações em tempo real sobre tópicos em alta e conversas virais.\n• Poste seus pensamentos, fotos e vídeos com uma comunidade global. Junte-se a milhões de usuários para moldar o diálogo público em conversas sociais, culturais e políticas.\n• Descubra o Grok, o assistente de IA alimentado por dados em tempo real do X. Você pode pedir ao Grok para resumir notícias em alta, explicar vídeos ou dar mais contexto sobre posts.\n• Transmita vídeo ao vivo ou entre ao vivo com Spaces, nosso recurso de áudio que permite hospedar discussões, fazer entrevistas ou iniciar seu próximo podcast ao vivo. Seja transmitindo um show, um jogo ao vivo ou suas opiniões sobre um tópico quente, o X mantém sua audiência engajada.\n• Assista a vídeos: de notícias de última hora ao vivo e clipes de esportes a podcasts e sessões de jogos que duram até 3 horas. Muitas das vozes líderes mundiais em comédia, jogos, podcasts e política compartilham seu conteúdo no X.\n• Conecte-se e converse em particular com amigos, seguidores, clientes ou colaboradores por meio de Mensagens Diretas.\n• Participe e crie comunidades personalizadas para seus interesses: de notícias de esportes, jogos, entretenimento, cripto, empreendedorismo, tecnologia e mais.\n• Assine o X Premium para desbloquear recursos exclusivos, como o selo azul, visibilidade ampliada, respostas priorizadas, menos anúncios, vídeos mais longos e edição de posts. O X Premium também dá acesso ao compartilhamento de receita para criadores e a capacidade de oferecer conteúdo exclusivo para assinantes.\n\nPor que o X?\nEm um mundo de mudanças constantes, o X é sua fonte em tempo real para ficar à frente, se conectar com pessoas e explorar perspectivas diversas. De notícias de última hora ao vivo e memes em alta a podcasts de ponta e transmissões ao vivo dos seus criadores favoritos, o X reúne tudo em uma experiência social poderosa.\n\nPolítica de Privacidade: https://x.com/privacy\nTermos e Condições: https://x.com/tos",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/04/78/2b047800-76f7-8e80-fb87-b21b16c6c6e0/1242x2688-1.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/6e/00/ac6e00cc-eee5-d10d-c4a2-c1d94773e15c/1242x2688-2.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/9d/70/289d701d-ed9d-c999-086a-fe40fa1e52c9/1242x2688-4.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/68/d9/f268d980-b7df-88c5-e7a8-5b219f2b0113/1242x2688-5.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/ae/1a/6eae1aad-aa4f-4db4-6daf-15add67a20f6/1242x2688-3.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/76/6c/7c766c56-09ec-392e-49b1-f147c3371865/1242x2688-6.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/0d/56/830d560e-9448-17b5-887f-7b3c2b6c7ff1/1242x2688-7.jpg/320x480bb.jpg"
-      ],
-      "versions": [
-        {
-          "version": "12.18",
-          "buildVersion": "16",
-          "date": "2026-08-18T12:58:04Z",
-          "size": 233187692,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X%20-%2012.18.ipa",
-          "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você."
-        }
-      ],
-      "version": "12.18",
-      "versionDate": "2026-08-18T12:58:04Z",
-      "size": 233187692,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X%20-%2012.18.ipa"
     },
     {
       "name": "YouTube",
