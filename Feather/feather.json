@@ -606,6 +606,35 @@
       ]
     },
     {
+      "name": "Reddit",
+      "bundleIdentifier": "com.reddit.Reddit",
+      "developerName": "REDDIT, INC.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/41/4a/21414a76-4704-5801-452d-949dcb554447/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Bem-vindo ao Reddit – o lugar para conversas autênticas onde sua voz importa.\nDescubra o poder da sua voz em discussões reais. Das últimas notícias a debates profundos, esta plataforma social e de notícias impulsiona conversas genuínas. Faça perguntas, obtenha respostas reais, compartilhe dicas e seja você mesmo. Participe de comunidades onde as pessoas discutem o que realmente importa—um post de cada vez.\nPor que Reddit?\n■ Encontre fóruns de notícias e discussão\n Seja você fã de cultura pop, esportes ou tecnologia, o Reddit tem conteúdo para qualquer interesse. Mergulhe em discussões em alta, crie posts e fale sobre os temas que você gosta.\n■ Faça perguntas e obtenha respostas reais\n O Reddit é feito para conversas reais com pessoas reais. Peça conselhos, obtenha respostas de quem já passou por isso, compartilhe dicas, expresse suas ideias e tenha ótimas conversas.\n■ Fale sobre qualquer coisa\n Conheça pessoas que compartilham suas paixões, peça conselhos ou descubra algo novo. Encontre comunidades dedicadas ao que você realmente se importa.\nEncontre comunidades organizadas por interesses e expertise:\n■ r/PergunteReddit & r/AskReddit\n Faça perguntas e obtenha respostas reais de comunidades engajadas. Seja explorando objetivos pessoais ou reagindo a eventos atuais, sempre há algo novo para descobrir e conversar.\n■ r/brasil & r/News\n Descubra as últimas notícias, discuta eventos reais e fique por dentro do que está acontecendo no mundo todo.\n■ r/Funny\n Procurando por risadas? O Reddit tem. Encontre comunidades dedicadas a humor e memes.\n■ r/Gaming\n Conheça gamers de verdade, peça conselhos a jogadores experientes e explore conteúdos de jogos.\n■ r/Music & r/Movies\n Fale sobre seus filmes e músicas favoritos. Descubra novas paixões e compartilhe sua opinião sobre tudo relacionado a música e cinema.\nVotação e Karma\n Cada post e comentário pode receber votos positivos ou negativos da comunidade. Quanto mais votos positivos você recebe, mais visível seu conteúdo se torna. Seu karma reflete o quanto a comunidade valoriza suas contribuições.\nReddit Premium:\n Adquira o Reddit Premium para aproveitar uma experiência sem anúncios e acesso a itens premium para avatar, r/lounge, ícones personalizados do app e muito mais.\n O pagamento será cobrado de forma recorrente mensal ou anual pela sua conta Apple. Sua assinatura Premium mensal ou anual será renovada automaticamente, a menos que você cancele pelo menos 24 horas antes do término do período. Cancele a qualquer momento nas configurações de conta do seu dispositivo. Não há reembolsos parciais.\nPolítica de Privacidade: https://www.redditinc.com/policies/privacy-policy\nContrato do Usuário: https://www.redditinc.com/policies/user-agreement\nRegras do Reddit: https://redditinc.com/policies/reddit-rules\nSe você tiver algum problema com o app, obtenha suporte em RedditHelp.com",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9c/fe/dc/9cfedc93-8398-6579-d091-f7cdec3d93be/68c6f56a-7248-442c-8964-f2896c78f0a3_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0b/bb/ab/0bbbab8f-118f-d545-bf44-65d4c672a372/1ce864e1-8011-491a-be55-57abd3ae455d_Reddit_SS_5.5_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/10/94/75/1094758d-67ce-217d-9dfa-c438a657225f/d6915eb0-706c-4251-810f-8eaf377901b7_Reddit_SS_5.5_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/b2/9e/87/b29e8774-907f-afac-1580-c2aa2038f972/fe7d70c9-aa53-4a14-b94f-a19c0d32795d_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/8f/15/4b/8f154b1f-15ed-133b-9dd9-dc27b7facf9d/f89be370-c66e-402f-b84e-c03b7e0b471e_Reddit_SS_5.5_5.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/6c/41/8d6c415e-6c02-c4a2-5626-b3f5f4847015/93d42de6-a7a0-4615-b63b-4f58acd73132_Reddit_SS_5.5_6.jpg/392x696bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "2026.33.0",
+          "buildVersion": "636848",
+          "date": "2026-08-17T19:58:20Z",
+          "size": 141427149,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.33.0.ipa",
+          "localizedDescription": "Obrigado por atualizar o app do Reddit! Atualizamos nossos apps para iOS com correções de bugs e algumas mudanças para melhorar sua experiência."
+        }
+      ],
+      "version": "2026.33.0",
+      "versionDate": "2026-08-17T19:58:20Z",
+      "size": 141427149,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.33.0.ipa"
+    },
+    {
       "name": "WhatsApp",
       "bundleIdentifier": "net.whatsapp.WhatsApp",
       "developerName": "WhatsApp Inc.",
