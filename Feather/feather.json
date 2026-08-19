@@ -787,7 +787,7 @@
       "name": "YouTube",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Google LLC",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/8c/5b/308c5b2e-3cba-9dbd-50d3-4f7593695c1e/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/f3/27/bcf32768-0d66-6d54-f426-040b4688b6e7/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Instale o app YouTube oficial em iPhones e iPads. Veja o que as pessoas ao redor do mundo mais gostam de assistir: desde vídeos de música famosos até conteúdo em alta sobre games, beleza, moda, notícias, aprendizado e muito mais. Acompanhe canais que você curte, crie seu próprio conteúdo, compartilhe vídeos com amigos e assista em qualquer dispositivo.\n\nAssista e se inscreva\n● Confira recomendações exclusivas na guia “Início”.\n● Veja os últimos envios dos seus canais favoritos na guia “Inscrições”.\n● Use a biblioteca para encontrar os vídeos que você gostou, assistiu e salvou para ver mais tarde.\n\nDescubra assuntos diferentes, confira vídeos em alta e conheça canais em ascensão\n● Fique por dentro das novidades com as categorias de música, games, beleza, notícias, aprendizado e muito mais.\n● Use a guia “Explorar” para assistir vídeos em alta do mundo todo.\n● Saiba mais sobre os incríveis criadores de conteúdo, gamers e artistas que participam\ndo nosso programa de canais em ascensão (disponível em alguns países).\n\nParticipe da comunidade do YouTube\n● Acompanhe as postagens, histórias, Estreias e transmissões ao vivo dos seus criadores\nde conteúdo favoritos.\n● Poste comentários para fazer parte da conversa e interagir com os criadores e outros\nmembros da comunidade.\n\nCrie conteúdo usando seu dispositivo móvel\n● Use o aplicativo para enviar e criar seus próprios vídeos.\n● Interaja com seu público em tempo real usando as transmissões ao vivo no app.\n\nEncontre a melhor experiência para você e sua família usando nossos recursos (disponíveis em\nalguns países)\n● Toda família tem as próprias regras sobre assistir vídeos on-line. Por isso, criamos opções personalizadas: o app YouTube Kids ou a nova experiência supervisionada pela família.\nSaiba mais: youtube.com/myfamily.\n\nFaça upgrade para o YouTube Premium (disponível em alguns países)\n● Assista vídeos sem interrupções de anúncios enquanto usa outros apps ou com a tela bloqueada.\n● Salve conteúdo para assistir em qualquer lugar, como durante uma viagem de avião\nou no transporte público.\n● Ganhe acesso ao YouTube Music Premium como parte dos seus benefícios.\n\nObservação: se você fizer a assinatura pela Apple, o valor será cobrado na sua conta da App Store quando a compra for confirmada. As assinaturas serão renovadas automaticamente, a menos que\nesse recurso seja desativado no mínimo 24 horas antes do fim do ciclo de faturamento atual. Sua conta receberá uma cobrança pela renovação no valor do plano selecionado em até 24 horas antes do fim do ciclo de faturamento atual. Depois que a compra for concluída, a assinatura e a renovação automática poderão ser gerenciadas nas configurações da conta.\n\nTermos dos serviços pagos do YouTube: https://www.youtube.com/t/terms_paidservice.\nPolítica de privacidade: https://www.google.com/policies/privacy.",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/fe/5a/55/fe5a550c-48a4-df3d-37c9-67f803f9caee/eedbb88b-ac25-4839-b99c-f892f11b740e_iOS-5.5-in_1.jpg/392x696bb.jpg",
@@ -798,18 +798,18 @@
       ],
       "versions": [
         {
-          "version": "21.32.4",
-          "buildVersion": "21.32.4",
-          "date": "2026-08-09T16:02:51Z",
-          "size": 137744291,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube%20-%2021.32.4.ipa",
-          "localizedDescription": "Corrigimos bugs, melhoramos o desempenho e tomamos muito café."
+          "version": "21.33.5",
+          "buildVersion": "21.33.5",
+          "date": "2026-08-19T16:27:10Z",
+          "size": 138371434,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube%20-%2021.33.5.ipa",
+          "localizedDescription": "Corrigimos bugs, melhoramos o desempenho e desbravamos os confins do universo."
         }
       ],
-      "version": "21.32.4",
-      "versionDate": "2026-08-09T16:02:51Z",
-      "size": 137744291,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube%20-%2021.32.4.ipa"
+      "version": "21.33.5",
+      "versionDate": "2026-08-19T16:27:10Z",
+      "size": 138371434,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube%20-%2021.33.5.ipa"
     }
   ]
 }
