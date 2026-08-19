@@ -30,6 +30,14 @@ jobs:
           token: ${{ secrets.R2_CORE_TOKEN }}
           path: private-core
 
+      - name: Baixar configuração compartilhada
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-shared-config-core
+          token: ${{ secrets.SHARED_CONFIG_TOKEN }}
+          path: shared-config
+          fetch-depth: 1
+
 
       # ============================================================
       # 2. INSTALAR DEPENDÊNCIAS
