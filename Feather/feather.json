@@ -543,7 +543,7 @@
       "name": "PhotoRoom",
       "bundleIdentifier": "com.dr1ven.eraser",
       "developerName": "Photoroom",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/51/6f/48516f30-9168-bf13-7702-8fd705abf066/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/ea/f0/0aeaf091-3683-8610-b0b7-28f1873a505c/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "O Photoroom é o aplicativo definitivo de edição de fotos com IA, confiado por mais de 300 milhões de usuários. \n\nCrie fotos de produtos com qualidade de estúdio em segundos com a tecnologia avançada de edição de fotos com IA do Photoroom. Não são necessárias habilidades de design. \n\n\nPOR QUE ESCOLHER O PHOTOROOM? \n\nMELHORE OS ANÚNCIOS DE PRODUTOS. Exiba roupas em modelos virtuais, manequins fantasma e em flat lay. Sem necessidade de estúdio. \n\nREMOVA, SUBSTITUA E RECOLORA. Remova fundos, troque por edições geradas por IA e recolora produtos em segundos. \n\nECONOMIZE TEMPO COM EDIÇÃO EM LOTE. Edite todo o seu catálogo de produtos de uma vez. \n\nCONECTE AO SHOPIFY. Crie listagens otimizadas para SEO e sincronize diretamente com o Shopify. \n\nVENDA EM TODOS OS MARKETPLACES. Exporte imagens nos tamanhos certos para Shopify, Amazon, Etsy, Depop, Poshmark, Vinted, Instagram e mais. \n\nMANTENHA A IDENTIDADE DA MARCA. Salve cores, fontes e logotipos no Brand Kit. \n\nCOLABORE EM EQUIPE. Convide membros da equipe para editar, revisar e compartilhar recursos. \n\n\nPRINCIPAIS RECURSOS \n\n• Fundos com IA: remova, substitua e gere estilos. \n• Edição em lote: edite centenas de fotos de uma vez. \n• Edite com IA: faça alterações com prompts de texto. \n• Manequim fantasma e modelo virtual: exiba produtos em modelos realistas. \n• Geração de vídeo: transforme imagens de produtos em clipes. \n• Recoloração: mude as cores de roupas e produtos com IA. \n• Foto de estúdio: crie visuais prontos para listagem instantaneamente. \n• Sombras com IA: adicione profundidade realista. \n• Passagem com IA: remova amassados de visuais de roupas. \n• Redimensionamento para e-commerce: exporte para qualquer plataforma. \n• Modelos editáveis: designs profissionais para e-commerce. \n\n\nFAÇA UPGRADE DA SUA CONTA \n\nDesbloqueie ferramentas avançadas, velocidades de processamento mais rápidas e limites de crédito aumentados. \n\nO pagamento será cobrado na sua conta Apple ID na confirmação da compra. As assinaturas são renovadas automaticamente, a menos que sejam canceladas pelo menos 24 horas antes do fim do período atual. Você pode gerenciar ou cancelar sua assinatura a qualquer momento nas configurações da sua conta do App Store. \n\nJunte-se a mais de 300 milhões de usuários e crie visuais de qualidade profissional sem esforço com o Photoroom! \n\nTermos de Uso: https://photoroom.app/legal/terms-and-conditions/",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/af/d4/d1afd4ca-df44-6341-a4d1-32bf514441b2/PT_BR_-_AI_backgrounds_01.png/320x480bb.jpg",
@@ -559,18 +559,18 @@
       ],
       "versions": [
         {
-          "version": "2026.34.01",
-          "buildVersion": "2442",
-          "date": "2026-08-17T08:54:12Z",
-          "size": 239645810,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PhotoRoom/PhotoRoom%20-%202026.34.01.ipa",
+          "version": "2026.34.02",
+          "buildVersion": "2449",
+          "date": "2026-08-20T17:47:55Z",
+          "size": 131925877,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PhotoRoom/PhotoRoom%20-%202026.34.02.ipa",
           "localizedDescription": "Estamos trabalhando nos bastidores para melhorar seu app favorito.\n\nPerformance mais fluida, menos bugs e uma experiência de edição aprimorada — tudo para você criar com mais confiança.\n\nMais novidades em breve!"
         }
       ],
-      "version": "2026.34.01",
-      "versionDate": "2026-08-17T08:54:12Z",
-      "size": 239645810,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PhotoRoom/PhotoRoom%20-%202026.34.01.ipa"
+      "version": "2026.34.02",
+      "versionDate": "2026-08-20T17:47:55Z",
+      "size": 131925877,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/PhotoRoom/PhotoRoom%20-%202026.34.02.ipa"
     },
     {
       "name": "Picsart",
