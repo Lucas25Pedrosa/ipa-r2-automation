@@ -297,7 +297,7 @@
       "name": "Instagram",
       "bundleIdentifier": "com.burbn.instagram",
       "developerName": "Instagram, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/65/5a/0d655aec-c06b-8ce7-6bbe-342aa631a724/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/5c/ce/a55cce34-2819-a03f-45d3-3993ea6d7ea2/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Pequenos momentos levam a grandes amizades. Compartilhe os seus no Instagram.\n— Da Meta\n\nConecte-se com amigos, encontre outros fãs e veja o que as pessoas ao seu redor estão fazendo e curtindo. Explore seus interesses e publique o que está acontecendo na sua vida, desde momentos diários a grandes eventos.\n\nCompartilhe o que você está fazendo e curtindo.\n- Mantenha contato com amigos em qualquer lugar com o Stories e as Notas que desaparecem após 24 horas.\n- Inicie bate-papos em grupo e compartilhe momentos sem filtro com seus Amigos Próximos.\n- Compartilhe lembranças de eventos recentes ou viagens no Feed.\n- Transforme sua vida em um filme e descubra vídeos curtos e envolventes no Instagram com o Reels.\n- Personalize suas publicações com modelos exclusivos, música, figurinhas e filtros.\n\nAprofunde-se nos seus interesses.\n- Assista a vídeo dos seus criadores de conteúdo favoritos e descubra novos conteúdos personalizados de acordo com seus interesses.\n- Inspire-se com fotos e vídeos de novas contas no Explorar.\n- Descubra marcas e pequenas empresas e compre produtos que são relevantes para seu estilo pessoal.\n\nAlguns recursos do Instagram podem não estar disponíveis no seu país ou na sua região.\n\nTermos e Políticas - https://help.instagram.com/581066165581870\n\nSaiba como estamos trabalhando para ajudar a manter nossas comunidades seguras por meio das tecnologias da Meta na Central de Segurança do Instagram: https://about.instagram.com/safety",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/43/9e/e6439ecd-45c1-a349-c12f-cf8cd900dd28/c71e28c0-03da-4065-93d0-3d1e9abbaefd_1_iOS_5.5_pt_BR.jpg/392x696bb.jpg",
@@ -309,18 +309,18 @@
       ],
       "versions": [
         {
-          "version": "443.0.0",
-          "buildVersion": "1043399932",
-          "date": "2026-08-18T18:41:48Z",
-          "size": 299093406,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Instagram/Instagram%20-%20443.0.0.ipa",
+          "version": "443.1.0",
+          "buildVersion": "1045455915",
+          "date": "2026-08-21T12:30:29Z",
+          "size": 305265795,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Instagram/Instagram%20-%20443.1.0.ipa",
           "localizedDescription": "A versão mais recente contém correções de erros e melhorias no desempenho."
         }
       ],
-      "version": "443.0.0",
-      "versionDate": "2026-08-18T18:41:48Z",
-      "size": 299093406,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Instagram/Instagram%20-%20443.0.0.ipa"
+      "version": "443.1.0",
+      "versionDate": "2026-08-21T12:30:29Z",
+      "size": 305265795,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Instagram/Instagram%20-%20443.1.0.ipa"
     },
     {
       "name": "iTranslate",
