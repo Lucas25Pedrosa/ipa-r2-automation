@@ -22,14 +22,14 @@
           "version": "8.9.0",
           "buildVersion": "5",
           "date": "2026-08-17T07:55:45Z",
-          "size": 277169021,
+          "size": 270225694,
           "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.9.0.ipa",
           "localizedDescription": "Deixamos o Aloha mais fluido, inteligente e confiável. Veja as novidades:\n\nNovos recursos:\n- Os chats privados com IA agora contam com cache mais inteligente para conversas mais rápidas e eficientes.\n\nCorreções de bugs e melhorias:\n- Melhoramos o processamento de uploads duplicados para a nuvem.\n- Corrigimos loops no Login com Google em alguns sites.\n- Melhoramos o salvamento de senhas em sites, para que as solicitações de salvamento apareçam de forma mais consistente após o login.\n- Corrigimos casos em que alertas da web bloqueavam a navegação a partir do Speed Dial.\n- Corrigimos várias falhas e problemas de estabilidade, incluindo falhas relacionadas à memória com várias abas de vídeo.\n\nObrigado por usar o Aloha! Agradecemos seu feedback e continuamos trabalhando para tornar o app melhor a cada atualização."
         }
       ],
       "version": "8.9.0",
       "versionDate": "2026-08-17T07:55:45Z",
-      "size": 277169021,
+      "size": 270225694,
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Aloha%20Browser/Aloha%20Browser%20-%208.9.0.ipa"
     },
     {
