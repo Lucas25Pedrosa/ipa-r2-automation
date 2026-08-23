@@ -13,22 +13,7 @@ jobs:
     timeout-minutes: 2
 
     steps:
-      - name: Enviar heartbeat ao Cloudflare
-        shell: bash
-        env:
-          HEALTHCHECK_SECRET: ${{ secrets.HEALTHCHECK_SECRET }}
+      - name: Verificar runner
         run: |
-          set -euo pipefail
-
-          curl \
-            --fail \
-            --silent \
-            --show-error \
-            --request POST \
-            "https://appstore-monitor-trigger.f8s79jzkbk.workers.dev/healthcheck" \
-            --header "Content-Type: application/json" \
-            --header "X-Healthcheck-Secret: ${HEALTHCHECK_SECRET}" \
-            --data '{"service":"r2_automation"}'
-
-          echo
-          echo "✅ Heartbeat do R2 Automation enviado."
+          echo "R2 Automation runner ativo."
+          date -u
