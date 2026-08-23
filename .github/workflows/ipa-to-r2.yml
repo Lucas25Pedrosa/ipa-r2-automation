@@ -2,6 +2,17 @@ name: IPA to R2
 
 on:
   workflow_dispatch:
+    inputs:
+      telegram_message_id:
+        description: "ID da mensagem temporária enviada pelo bot"
+        required: false
+        default: ""
+        type: string
+      callback_url:
+        description: "Callback do Worker do bot do R2"
+        required: false
+        default: ""
+        type: string
 
 permissions:
   contents: read
@@ -71,3 +82,24 @@ jobs:
 
         run: |
           python private-core/scripts/ipa_to_r2.py
+
+      # ============================================================
+      # 4. INFORMAR AO WORKER QUE O WORKFLOW TERMINOU
+      # ============================================================
+
+      - name: Finalizar notificação do /iniciar
+        if: ${{ always() && inputs.telegram_message_id != '' && inputs.callback_url != '' }}
+        continue-on-error: true
+        env:
+          CALLBACK_URL: ${{ inputs.callback_url }}
+          TELEGRAM_MESSAGE_ID: ${{ inputs.telegram_message_id }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          curl -fsS -X POST \
+            "${CALLBACK_URL}" \
+            -H "Content-Type: application/json" \
+            -H "X-Telegram-Bot-Token: ${TELEGRAM_BOT_TOKEN}" \
+            --data "{\"telegram_message_id\":\"${TELEGRAM_MESSAGE_ID}\",\"status\":\"${JOB_STATUS}\"}" \
+            >/dev/null
+
