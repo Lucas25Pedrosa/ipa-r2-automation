@@ -447,7 +447,7 @@
       "name": "Moovit",
       "bundleIdentifier": "com.tranzmate.tranzmate1",
       "developerName": "Moovit App Global LTD",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/26/24/8e262471-f12a-5928-3d44-a272d393b327/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/a3/63/78a36374-6709-bdd5-5069-081ea2fbd873/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Confie no Moovit como seu aplicativo preferido para transporte público. Se você viaja de ônibus, metrô, trem, VLT, bonde, teleférico, barca, bicicleta, patinete, ou utiliza Uber, o Moovit é a solução ideal para todas as suas necessidades de transporte público. O Moovit guia você do ponto A ao ponto B de forma fácil e eficiente, mostrando os horários de ônibus, metrô, e outros transportes públicos, mapas, chegadas em tempo real, e ajudando você a planejar seu itinerário com confiança. Receba alertas de alterações de serviço e instruções passo a passo para encontrar o melhor itinerário usando diferentes modais e transportes públicos.\n\n\n\nO Moovit guia mais de 865 milhões de usuários em mais de 3.200 cidades ao redor do mundo. Os passageiros encontrarão horários atualizados do transporte, mapas e, quando disponíveis, chegadas das linhas em tempo real. Localize os pontos de ônibus e estações de trem nas proximidades, viaje com orientações ao vivo e receba alertas de desembarque para que você faça uma viagem tranquila. É exatamente por isso que o Moovit foi selecionado um dos melhores aplicativos de 2017 pela App Store.\n\n\n\nO Moovit é o seu assistente pessoal para todas as suas viagens!\n\n\n\nChegadas em tempo real: Veja os horários de chegada em tempo real obtidos diretamente de dispositivos GPS instalados em ônibus e trens. Evite perder tempo adivinhando os horários de trem, ônibus, bonde, VLT ou balsa.\n\n\n\nAlertas em tempo real: Saiba antecipadamente sobre quaisquer alterações no transporte, interrupções, atrasos, engarrafamentos, obras e muito mais. Desta forma, você poderá se planejar antes de sair de casa.\n\n\n\nDireções passo a passo: Obtenha direções passo a passo ao viajar de ônibus ou trem com orientação ao vivo desde o ponto A até o ponto B: saiba quanto tempo você precisa para caminhar até a estação, veja o horário de chegada da sua linha, receba alertas de desembarque e muito mais.\n\n\n\nReporte dos usuários: Os usuários do Moovit podem reportar problemas nas estações, no serviço ou nos horários de uma linha e desta forma, ajudar a informar os passageiros sobre quaisquer irregularidades.\n\n\n\nLinhas, estações e locais favoritos: Obtenha acesso fácil às linhas, estações e lugares que você mais pesquisa ou visita.\n\nRotas de bicicleta: Além das rotas de ônibus, metrô, trem, bonde ou VLT - obtenha rotas de bicicleta! Se você anda de bicicleta (própria ou compartilhada), podemos planejar uma viagem que a inclua em rotas com outros modais. As estações de bicicleta são atualizadas em tempo real. *Recurso disponível em localidades limitadas no momento.\n\n\n\nMapa: Procura uma visão geral? Veja no mapa todos os pontos, estações, rotas e linhas. Além disso, há mapas disponíveis em PDF para que você possa ter acesso quando estiver off-line.\n\n\n\nConfie no Moovit como seu aplicativo preferido para transporte público. Temos orgulho de colaborar com operadores de transporte de todo o Brasil, incluindo:\n\n\n\nSPTrans\nMetrô SP\nCPTM\nEMTU\nFetranspor\nVLT Carioca\nDFTrans\nBHTrans\nURBS \nETUFOR\nGrande Recife\nEPTC\nCBTU\nCCR\nEMDEC\nBikeSampa\nCicloSampa\nBikeRio\n\n\n\nVocê precisa de apenas um aplicativo para viajar pelo Brasil e em outros 106 países e em 45 idiomas. Se você quiser saber os horários de ônibus ou trem em Londres, Barcelona, Madri ou Roma, ou se precisar saber quando o último ônibus sai de uma determinada estação no Rio de Janeiro, São Paulo, Melbourne, Seul - o Moovit te leva até lá. Você viaja, o Moovit guia!\n\n\n\nDúvida ou sugestão? Escreva para:\n\n\nhttps://moovitapp.zendesk.com/hc/requests/new moovit@Facebook, Twitter, Instagram\n\n\n\nTermos de serviço https://moovitapp.com/en-us/legal/terms-of-service-pt-pt",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/5d/82/355d821c-7382-bf5f-768f-3d809ddf8b20/pr_source.png/392x696bb.png",
@@ -461,18 +461,18 @@
       ],
       "versions": [
         {
-          "version": "5.198.1",
-          "buildVersion": "143678",
-          "date": "2026-08-18T10:27:42Z",
-          "size": 94424464,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Moovit/Moovit%20-%205.198.1.ipa",
+          "version": "5.199.0",
+          "buildVersion": "143696",
+          "date": "2026-08-25T05:56:07Z",
+          "size": 125632692,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Moovit/Moovit%20-%205.199.0.ipa",
           "localizedDescription": "Descubra um trajeto mais inteligente e personalizado com os novos recursos com IA do Moovit+:\n• Best For You – Rotas personalizadas com base nas suas preferências\n• Smart Weather – Rotas adaptadas às condições do clima\n• Tight Transfer Alerts – Evite conexões estressantes\nMoovit+: o trajeto ideal, feito para você"
         }
       ],
-      "version": "5.198.1",
-      "versionDate": "2026-08-18T10:27:42Z",
-      "size": 94424464,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Moovit/Moovit%20-%205.198.1.ipa"
+      "version": "5.199.0",
+      "versionDate": "2026-08-25T05:56:07Z",
+      "size": 125632692,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Moovit/Moovit%20-%205.199.0.ipa"
     },
     {
       "name": "PDF Expert",
