@@ -9,6 +9,12 @@ on:
         default: false
         type: boolean
 
+      silent:
+        description: Não enviar confirmação própria no Telegram
+        required: false
+        default: false
+        type: boolean
+
       rebuild_all:
         description: Atualizar metadados de todos os apps
         required: false
@@ -145,6 +151,7 @@ jobs:
           echo "✅ Feather salvo no repositório público."
 
       - name: Enviar confirmação no Telegram
+        if: ${{ inputs.silent != true }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -157,4 +164,8 @@ jobs:
         if: steps.atualizar.outputs.changed != 'true'
         run: |
           echo "Nenhum commit foi necessário."
-          echo "A confirmação do Feather foi enviada ao Telegram."
+          if [ "${{ inputs.silent }}" = "true" ]; then
+            echo "Execução silenciosa solicitada pelo /del."
+          else
+            echo "A confirmação do Feather foi enviada ao Telegram."
+          fi
