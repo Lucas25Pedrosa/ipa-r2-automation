@@ -78,6 +78,15 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
+          # Progresso visual temporário no Telegram.
+          # O script registra a mensagem no Worker e depois a edita
+          # diretamente durante download/upload, sem gravar percentuais no KV.
+          TELEGRAM_START_MESSAGE_ID: ${{ inputs.telegram_message_id }}
+          TELEGRAM_WORKER_CALLBACK_URL: ${{ inputs.callback_url }}
+          TELEGRAM_PROGRESS_STATE_FILE: .telegram-progress.json
+          CUSTOM_EMOJIS_FILE: shared-config/custom_emojis.json
+          INJECTOR_R2_EMOJIS_FILE: shared-config/injector_r2_emojis.json
+
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
