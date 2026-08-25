@@ -52,18 +52,18 @@
       ],
       "versions": [
         {
-          "version": "4.3.6",
-          "buildVersion": "2",
-          "date": "2026-08-25T18:56:38Z",
-          "size": 114912715,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.6.ipa",
-          "localizedDescription": "Aprimoramos tudo por baixo do capô para que o BoldVoice pareça mais ágil e confiável. Essa atualização corrige alguns bugs e suaviza a experiência, então tudo funciona melhor."
+          "version": "4.3.5",
+          "buildVersion": "1",
+          "date": "Tue, 25 Aug 2026 22:07:11 GMT",
+          "size": 114563981,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.5.ipa",
+          "localizedDescription": "Novidades não disponíveis."
         }
       ],
-      "version": "4.3.6",
-      "versionDate": "2026-08-25T18:56:38Z",
-      "size": 114912715,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.6.ipa"
+      "version": "4.3.5",
+      "versionDate": "Tue, 25 Aug 2026 22:07:11 GMT",
+      "size": 114563981,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.5.ipa"
     },
     {
       "name": "CamScanner",
