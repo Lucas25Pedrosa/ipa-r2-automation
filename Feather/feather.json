@@ -416,7 +416,7 @@
       "name": "Messenger",
       "bundleIdentifier": "com.facebook.Messenger",
       "developerName": "Meta Platforms, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/e9/3c/d2e93c3f-5772-25d3-4f58-94d2f4770d58/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/48/a0/8448a081-711c-2a6a-0d49-a0a5d15b3683/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "O Messenger é um app de mensagens que ajuda você a se conectar com qualquer pessoa em qualquer lugar. Mantenha contato com amigos e familiares, explore seus interesses com pessoas como você, construa sua comunidade e expresse seu estilo além das palavras, tudo isso em um só app.\n\nCONVERSE E LIGUE PARA QUEM VOCÊ QUISER, EM QUALQUER LUGAR\n\n\nEncontre seus amigos e familiares e conecte-se com eles no Facebook e Messenger, sem precisar de número de telefone.\n\nTENHA RESPOSTAS RÁPIDAS COM SEU ASSISTENTE DE IA*\nA Meta AI é seu assistente que pode responder a qualquer pergunta, dar conselhos, ajudar com seu dever de casa e muito mais.\n\nENVIE SUAS FOTOS EM ALTA DEFINIÇÃO\nEnvie e receba fotos mais nítidas e definidas dos seus momentos preferidos com o Messenger.\n\nCRIE ÁLBUNS COMPARTILHADOS\nDas férias de verão até o aniversário de 80 anos da sua avó, crie álbuns de fotos e vídeos para compartilhar, organizar e relembrar momentos importantes nos bate-papos em grupo.\n\nADICIONE FACILMENTE NOVAS CONEXÕES COM QR CODES\nConecte-se com pessoas que você encontra na vida real, escaneando o QR code do Messenger delas ou compartilhando o seu via link.\n\nCOMPARTILHE ARQUIVOS GRANDES DIRETAMENTE NO BATE-PAPO\nSeja um Word, PDF ou Excel, envie arquivos grandes de até 100 MB sem sair do Messenger.\n\nEDITE E CANCELE O ENVIO DE MENSAGENS \nEnviou a mensagem antes da hora? Você pode editar a mensagem até 15 minutos após o envio\n\nMENSAGENS TEMPORÁRIAS\nAlgumas coisas não devem durar para sempre. Escolha por quanto tempo seus bate-papos criptografados de ponta a ponta permanecerão disponíveis após serem lidos.\n\nJUNTE-SE ÀS SUAS COMUNIDADES\nEstabeleça conexões significativas com pessoas de sua escola, comunidade ou grupos de interesse.\n\nPARTICIPE DO CÍRCULO DOS SEUS CRIADORES FAVORITOS\nAcompanhe as novidades dos criadores e participe dos canais de transmissão para acessar conteúdos autênticos e leves.\n\nSOLTE SUA IMAGINAÇÃO COM A META AI*\nTrabalhe com seu parceiro criativo para criar, editar, animar imagens e muito mais.\n\nCAPTURE MOMENTOS COTIDIANOS NOS STORIES\nDestaque os momentos do seu dia com fotos e vídeos que somem depois de 24 horas no Stories.\n\nDEIXE UMA NOTA SOBRE O QUE VOCÊ PENSA\nMantenha a conexão com seus amigos compartilhando atualizações rápidas que desaparecem após 24 horas.\n\nMOSTRE SEU ESTILO NO BATE-PAPO\nÀs vezes, palavras não são suficientes. Descubra outras maneiras de se expressar com figurinhas animadas, GIFs, reações e muito mais.\n\nDEFINA O TOM DO BATE-PAPO COM TEMAS\nDeixe as conversas do seu jeito com uma grande lista de temas em constante evolução com artistas populares, feriados e muito mais. \n\n*A Meta AI está disponível somente em alguns idiomas e países selecionados, com mais opções chegando em breve.",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/76/83/6a7683e7-060b-ab17-ae55-f9dc67ceaa49/iPhone_14_Pro_-_Screen_1_pt_BR.png/320x480bb.jpg",
@@ -430,18 +430,18 @@
       ],
       "versions": [
         {
-          "version": "575.0.0",
-          "buildVersion": "1043783737",
-          "date": "2026-08-19T01:59:12Z",
-          "size": 113382664,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger%20-%20575.0.0.ipa",
+          "version": "576.0.0",
+          "buildVersion": "1049580600",
+          "date": "2026-08-26T12:15:22Z",
+          "size": 114055292,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger%20-%20576.0.0.ipa",
           "localizedDescription": "Atualizamos nosso app regularmente para torná-lo ainda melhor para você se conectar facilmente com as pessoas que importam. Atualize para a versão mais recente para obter todos os novos recursos e melhorias. \n\nEste lançamento inclui:\n- Correções para falhas nas experiências de mensagem \n- Melhorias de desempenho para remover a latência em algumas das nossas principais experiências \n- Suporte para iOS 26\n\nVocê tem alguma dúvida? Toque em Ajuda no app do Messenger ou acesse \n[facebook.com/help/messenger-app]"
         }
       ],
-      "version": "575.0.0",
-      "versionDate": "2026-08-19T01:59:12Z",
-      "size": 113382664,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger%20-%20575.0.0.ipa"
+      "version": "576.0.0",
+      "versionDate": "2026-08-26T12:15:22Z",
+      "size": 114055292,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger%20-%20576.0.0.ipa"
     },
     {
       "name": "Moovit",
