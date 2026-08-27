@@ -191,6 +191,61 @@
         }
       ]
     },
+    "com.wellocution.iosapp": {
+      "name": "BoldVoice",
+      "addons": [
+        {
+          "name": "BoldVoice Premium",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "BoldVoice Premium 1.0"
+        }
+      ]
+    },
+    "com.intsig.CamScannerLite": {
+      "name": "CamScanner",
+      "addons": [
+        {
+          "name": "CamScanner VIP",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "CamScanner VIP 1.0"
+        }
+      ]
+    },
+    "com.ilovepdf.www": {
+      "name": "iLovePDF",
+      "addons": [
+        {
+          "name": "iLovePDF Premium",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "iLovePDF Premium 1.0"
+        }
+      ]
+    },
+    "com.camerasideas.InstaShot": {
+      "name": "InShot",
+      "addons": [
+        {
+          "name": "InShot Pro",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "InShot Pro 1.0"
+        }
+      ]
+    },
+    "com.outerspaceapps.itranslate": {
+      "name": "iTranslate",
+      "addons": [
+        {
+          "name": "iTranslate Pro",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "iTranslate Pro 1.0"
+        }
+      ]
+    },
     "com.tranzmate.tranzmate1": {
       "name": "Moovit",
       "addons": [
