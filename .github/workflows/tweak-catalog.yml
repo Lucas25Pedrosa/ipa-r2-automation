@@ -1,0 +1,44 @@
+name: Sync Feather Tweak Catalog
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - Feather/feather.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feather-tweak-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v6
+
+      - name: Atualizar catálogo público de tweaks
+        id: catalog
+        env:
+          PUBLIC_REPO_DIR: ${{ github.workspace }}
+        run: |
+          python .github/scripts/update_tweak_catalog.py
+
+      - name: Salvar catálogo
+        if: steps.catalog.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Feather/tweaks.json
+          git commit -m "Update Feather tweak catalog"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Nenhuma alteração
+        if: steps.catalog.outputs.changed != 'true'
+        run: echo "Catálogo já estava atualizado."
