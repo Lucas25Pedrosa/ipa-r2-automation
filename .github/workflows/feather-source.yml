@@ -90,7 +90,7 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          python -m pip install awscli requests langdetect
+          python -m pip install awscli requests langdetect telethon
 
       - name: Atualizar e sincronizar Feather
         id: atualizar
@@ -122,11 +122,25 @@ jobs:
         run: |
           python private-core/scripts/feather_source.py update
 
+      - name: Aplicar metadados de pacote do Injector
+        id: pacote
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          TELEGRAM_STORAGE_CHANNEL_NAME: IPA Storage
+          BUNDLE_ID: ${{ inputs.bundle_id }}
+          IPA_VERSION: ${{ inputs.version }}
+          PUBLIC_REPO_DIR: ${{ github.workspace }}
+        run: |
+          python .github/scripts/feather_package_metadata.py
+
       - name: Salvar atualização no repositório público
-        if: steps.atualizar.outputs.changed == 'true'
+        if: steps.atualizar.outputs.changed == 'true' || steps.pacote.outputs.changed == 'true'
         env:
           SYNC_ONLY_RESULT: ${{ steps.atualizar.outputs.sync_only }}
           REBUILD_ALL_RESULT: ${{ steps.atualizar.outputs.rebuild_all }}
+          PACKAGE_CHANGED: ${{ steps.pacote.outputs.changed }}
           APP_NAME: ${{ inputs.app_name }}
           IPA_VERSION: ${{ inputs.version }}
         run: |
@@ -139,6 +153,8 @@ jobs:
             git commit -m "Rebuild IPA Library metadata"
           elif [ "$SYNC_ONLY_RESULT" = "true" ]; then
             git commit -m "Sync IPA Library with R2"
+          elif [ "$PACKAGE_CHANGED" = "true" ] && [ "${{ steps.atualizar.outputs.changed }}" != "true" ]; then
+            git commit -m "Update IPA Library package: $APP_NAME $IPA_VERSION"
           else
             git commit -m "Update IPA Library: $APP_NAME $IPA_VERSION"
           fi
@@ -161,7 +177,7 @@ jobs:
           python private-core/scripts/feather_source.py notify
 
       - name: Nenhuma alteração
-        if: steps.atualizar.outputs.changed != 'true'
+        if: steps.atualizar.outputs.changed != 'true' && steps.pacote.outputs.changed != 'true'
         run: |
           echo "Nenhum commit foi necessário."
           if [ "${{ inputs.silent }}" = "true" ]; then
