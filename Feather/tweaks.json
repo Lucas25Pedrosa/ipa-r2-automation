@@ -103,6 +103,116 @@
         }
       ]
     },
+    "com.picsart.studio": {
+      "name": "Picsart",
+      "addons": [
+        {
+          "name": "Picsart Gold",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Picsart Gold 1.0"
+        }
+      ]
+    },
+    "com.verycoolapp.mediaconvert": {
+      "name": "Media Converter",
+      "addons": [
+        {
+          "name": "Media Converter Pro",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Media Converter Pro 1.0"
+        }
+      ]
+    },
+    "com.edsonteco.PocketTerco": {
+      "name": "Pocket Terço",
+      "addons": [
+        {
+          "name": "Satella",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Satella 1.0"
+        }
+      ]
+    },
+    "com.lightricks.Enlight-Editor": {
+      "name": "Photoleap",
+      "addons": [
+        {
+          "name": "Photoleap Unlimited",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Photoleap Unlimited 1.0"
+        }
+      ]
+    },
+    "com.readdle.ReaddleDocsIPad": {
+      "name": "Documents",
+      "addons": [
+        {
+          "name": "Documents Pro",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Documents Pro 1.0"
+        }
+      ]
+    },
+    "com.readdle.PDFExpert5": {
+      "name": "PDF Expert",
+      "addons": [
+        {
+          "name": "PDF Expert Premium",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "PDF Expert Premium 1.0"
+        }
+      ]
+    },
+    "com.duolingo.DuolingoMobile": {
+      "name": "Duolingo",
+      "addons": [
+        {
+          "name": "Duolingo Max",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Duolingo Max 1.0"
+        }
+      ]
+    },
+    "com.alohabrowser.alohabrowser": {
+      "name": "Aloha Browser",
+      "addons": [
+        {
+          "name": "Aloha Premium Plus",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Aloha Premium Plus 1.0"
+        }
+      ]
+    },
+    "com.tranzmate.tranzmate1": {
+      "name": "Moovit",
+      "addons": [
+        {
+          "name": "Moovit+",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Moovit+ 1.0"
+        }
+      ]
+    },
+    "com.lightricks.Facetune2": {
+      "name": "Facetune",
+      "addons": [
+        {
+          "name": "Facetune VIP",
+          "currentVersion": "1.0",
+          "knownVersions": ["1.0"],
+          "packageLabel": "Facetune VIP 1.0"
+        }
+      ]
+    },
     "net.whatsapp.WhatsApp": {
       "name": "WhatsApp",
       "addons": [
