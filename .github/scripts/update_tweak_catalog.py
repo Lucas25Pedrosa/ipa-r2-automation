@@ -4,6 +4,23 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
 
+# Apps whose package identity does not come from the Injector. Injector/source
+# metadata always wins when present; these entries are only the fallback used
+# to keep the Feather tweak catalog complete for pre-patched/premium IPAs.
+STATIC_PACKAGES = {
+    "com.picsart.studio": {"name": "Picsart Gold", "version": "1.0"},
+    "com.verycoolapp.mediaconvert": {"name": "Media Converter Pro", "version": "1.0"},
+    "com.edsonteco.PocketTerco": {"name": "Satella", "version": "1.0"},
+    "com.lightricks.Enlight-Editor": {"name": "Photoleap Unlimited", "version": "1.0"},
+    "com.readdle.ReaddleDocsIPad": {"name": "Documents Pro", "version": "1.0"},
+    "com.readdle.PDFExpert5": {"name": "PDF Expert Premium", "version": "1.0"},
+    "com.duolingo.DuolingoMobile": {"name": "Duolingo Max", "version": "1.0"},
+    "com.alohabrowser.alohabrowser": {"name": "Aloha Premium Plus", "version": "1.0"},
+    "com.tranzmate.tranzmate1": {"name": "Moovit+", "version": "1.0"},
+    "com.lightricks.Facetune2": {"name": "Facetune VIP", "version": "1.0"},
+}
+
+
 def _set_output(name: str, value: str) -> None:
     output = os.environ.get("GITHUB_OUTPUT", "").strip()
     if not output:
@@ -62,6 +79,26 @@ def _source_package(app: dict) -> dict | None:
     return None
 
 
+def _static_package(bundle: str) -> dict | None:
+    definition = STATIC_PACKAGES.get(bundle)
+    if definition is None:
+        folded_bundle = bundle.casefold()
+        definition = next(
+            (value for key, value in STATIC_PACKAGES.items() if key.casefold() == folded_bundle),
+            None,
+        )
+    if definition is None:
+        return None
+    name = definition["name"]
+    version = definition["version"]
+    return {
+        "name": name,
+        "version": version,
+        "revision": "",
+        "label": f"{name} {version}",
+    }
+
+
 def main() -> None:
     _set_output("changed", "false")
     repo = Path(os.environ.get("PUBLIC_REPO_DIR") or os.getcwd()).resolve()
@@ -95,7 +132,10 @@ def main() -> None:
         bundle = str(app.get("bundleIdentifier") or app.get("bundleID") or "").strip()
         if not bundle:
             continue
-        package = _source_package(app)
+
+        # Injector metadata is authoritative. Static identities are used only
+        # for apps whose premium/tweak package is already baked into the IPA.
+        package = _source_package(app) or _static_package(bundle)
         if not package:
             continue
 
