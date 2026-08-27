@@ -512,20 +512,6 @@
       "developerName": "Lightricks Ltd.",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/c1/af/17c1af74-f40a-26d8-991c-36a047b13d17/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Conheça o LTX AI Generator (anteriormente Photoleap) — uma ferramenta gratuita, alimentada por IA, para transformar imagens em vídeos, dar vida às ideias com texto para imagem ou aplicar presets de IA em alta.\n\nBem-vindo à ferramenta criativa de nova geração que transforma fotos estáticas em vídeos dinâmicos e impactantes usando IA generativa. Seja você um criador de conteúdo, contador de histórias ou apenas queira se divertir com suas fotos, o LTX AI oferece resultados de qualidade profissional em segundos.\n\nNo centro está o modelo LTX AI — um motor poderoso que transforma suas ideias em visuais impressionantes, sem necessidade de habilidades técnicas. Basta escrever um prompt e gerar seu vídeo gratuitamente.\n\nRecursos Gratuitos\n\nTexto para Imagem: Transforme palavras em arte deslumbrante com a poderosa ferramenta de texto para imagem da Photoleap.\n\nGerador de Imagem para Vídeo (I2V): Transforme qualquer foto em uma animação cinematográfica com um único toque. Adicione movimento, estilo e atmosfera em segundos.\n\nEfeitos e Presets de IA em Alta: Aplique efeitos de IA populares para transformações rápidas e de alta qualidade.\n\nAssinantes\n\nAtualize para desbloquear ferramentas premium como edição de fotos avançada, retratos com IA, animação, camadas e efeitos visuais de nível profissional.\n\nPor Que Criadores Amam o LTX AI\n\nBaseado no LTX AI da Lightricks\n\nSem limites de renderização para recursos principais\n\nSaídas de alta qualidade e alta resolução\n\nProcessamento ultrarrápido\n\nExportações prontas para redes sociais\n\nPerfeito para Instagram, TikTok, Reels, YouTube Shorts e mais\n\nSeja criando conteúdo para seu público ou explorando sua imaginação, o LTX AI oferece liberdade para criar, publicar e impressionar.\n\n- Termos de uso: https://static.lightricks.com/legal/terms-of-use.pdf;\n- Política de privacidade: https://static.lightricks.com/legal/privacy-policy.pdf.",
-      "versions": [
-        {
-          "version": "2.124",
-          "buildVersion": "6814",
-          "date": "2026-08-05T12:01:03Z",
-          "size": 401093196,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Photoleap/Photoleap%20-%202.124.ipa",
-          "localizedDescription": "Demos uma transformação no AI Transform! Agora com o Preenchimento Generativo, você pode Recriar qualquer coisa que imaginar. Selecione uma área de imagem, insira um prompt e aproveite resultados melhores."
-        }
-      ],
-      "version": "2.124",
-      "versionDate": "2026-08-05T12:01:03Z",
-      "size": 401093196,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Photoleap/Photoleap%20-%202.124.ipa",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a1/23/f4/a123f4d6-6be0-3248-b046-2ea4d88d2e3f/37c29d34-cd8e-4ad5-b723-c40e421aa593_5.5__Screen_01_v2_PTBR.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/23/40/f5/2340f572-ff6c-d7b6-ae77-b3fc5dd75522/98f21f87-f3aa-4557-aae3-b7cdd9da5743_PL-AS-230802-AiScenes-Localization-PTBR-5.5-Op.1__U00281_U0029.jpg/392x696bb.jpg",
@@ -537,7 +523,21 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e3/fb/e5/e3fbe508-ffe0-5a7a-7fca-15e73be69112/9219007f-e764-403f-b542-fb26ab8995ad_5.5__Screen_05_PTBR.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/5a/d9/fc/5ad9fcae-4c22-a4c7-ec1f-8dc6526d6248/7668f5cd-89af-4f86-ace3-cfa2aef185a7_5.5__Screen_06_PTBR.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d9/55/f0d9557f-33aa-ee15-a5ea-508d1b2a7a9f/94106921-d253-481f-8d2b-98e04788eba6_5.5__Screen_08_PTBR.jpg/392x696bb.jpg"
-      ]
+      ],
+      "versions": [
+        {
+          "version": "2.124",
+          "buildVersion": "6814",
+          "date": "2026-08-05T12:01:03Z",
+          "size": 393025838,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Photoleap/Photoleap%20-%202.124.ipa?packageRevision=2461b7fb7ac71c61afdaa4f2828b0519427fd2d883af935a36859760b0c1c320&tweak=Photoleap+Unlimited&tweakVersion=1.0&packageLabel=Photoleap+Unlimited+1.0",
+          "localizedDescription": "Demos uma transformação no AI Transform! Agora com o Generative Fill, você pode Recriar qualquer coisa que imaginar. Selecione uma área de imagem, insira um prompt e aproveite resultados melhores."
+        }
+      ],
+      "version": "2.124",
+      "versionDate": "2026-08-05T12:01:03Z",
+      "size": 393025838,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Photoleap/Photoleap%20-%202.124.ipa?packageRevision=2461b7fb7ac71c61afdaa4f2828b0519427fd2d883af935a36859760b0c1c320&tweak=Photoleap+Unlimited&tweakVersion=1.0&packageLabel=Photoleap+Unlimited+1.0"
     },
     {
       "name": "PhotoRoom",
