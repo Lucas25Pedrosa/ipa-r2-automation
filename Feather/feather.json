@@ -668,37 +668,6 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit%20-%202026.33.0.ipa"
     },
     {
-      "name": "Spotify",
-      "bundleIdentifier": "com.spotify.client",
-      "developerName": "Spotify",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/d3/2a/78d32a70-87dc-58e9-86c7-04b87c88f873/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Com o app Spotify, você tem uma biblioteca de músicas e podcasts de graça. Crie as melhores playlists e ouça milhões de músicas, álbuns e podcasts originais grátis no celular ou tablet. Assine o Spotify Premium para baixar e escutar no modo offline de onde estiver e descubra nosso catálogo de audiolivros.\n\nPor que usar o Spotify como seu app de músicas e podcasts?\n• Ouça mais de 100 milhões de músicas e 6 milhões de podcasts\n• Conheça a seleção do Spotify de playlists exclusivas de artistas\n• Encontre seus álbuns, músicas, artistas e podcasts favoritos\n• Receba recomendações de música personalizadas para seu gosto\n• Assine grátis seus podcasts favoritos. Assim você nunca perde um episódio e ainda cria a própria biblioteca\n\nO Spotify Free é mais do que um player grátis: ache os sons que adora e faça stream de músicas e podcasts grátis online. Curta playlists personalizadas ou crie e compartilhe uma sua, descubra lançamentos, saiba dos eventos de seus artistas favoritos e muito mais.\n• Ouça milhões de músicas e podcasts de graça\n• Crie playlists com músicas favoritas\n• Compartilhe músicas e playlists com amigos e família (alguns recursos são limitados em certas regiões)\n• Descubra playlists personalizadas e colabore em playlists com a galera\n• Curta a sua playlist personalizada de Descobertas da Semana\n• Saiba de tudo com as playlists Radar de Novidades e Sextou\n• Descubra eventos e shows por perto de artistas favoritos\n• Conheça seus gêneros, artistas, músicas e podcasts favoritos com a Retrospectiva do Spotify\n• Faça stream nos seus dispositivos com o Spotify\n• Use o Spotify Connect e ouça músicas em alto-falantes inteligentes, no desktop, laptop, smart TV, Chromecast, PlayStation®, XBOX®, smartwatch, no carro e muito mais. – Limite de modelos de dispositivo\n\nSpotify Premium: curta os benefícios de um aplicativo de música offline e ouça faixas sem Wi-Fi. Baixe e escute canções, podcasts, playlists e audiolivros no modo offline em qualquer lugar.\n• Ouça músicas, podcasts e audiolivros em um só lugar\n• Música sem anúncios: curta seu som sem interrupções\n• Curta um stream completo sob demanda\n• No momento, audiolivros no Premium são só estão disponíveis no Reino Unido, EUA, Austrália, Irlanda, Nova Zelândia e Canadá. Descubra mais de 250 mil títulos com 15 horas/mês de stream disponível para assinantes do Premium Individual e administradores dos planos Duo e Família.\n• Curta áudio em alta qualidade em dispositivos compatíveis\n• DJ de IA: um guia personalizado que conhece seu gosto musical tão bem que escolhe a próxima música perfeita para você\n• Ouça no desktop, celular, tablet, computador, smartwatch e no carro\n• Ouça e controle sua Jam em tempo real com a galera\n• Baixe e ouça músicas, podcasts e audiolivros no modo offline, sem conexão com a internet\n• Sem contrato: cancele sua assinatura quando quiser\n\nCom o Spotify, você ouve música de onde estiver. Escute seus sons favoritos e descubra novos podcasts, audiolivros e canções com o app Spotify.\n\nADORA O SPOTIFY?\nSiga a gente no Instagram: https://www.instagram.com/spotify\nSiga a gente no TikTok: https://www.tiktok.com/@spotify",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/94/02/cd94021c-36ad-82d5-a187-ae745bea88ea/IOS_-_5.5_-_S01_-__PT_-_BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/95/64/b195647e-6adc-d135-8835-4ab906d223e1/IOS_-_5.5_-_S02_-__PT_-_BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/26/91/1a269105-1351-f2e9-c004-abd94feafda9/IOS_-_5.5_-_S02_-___U005bPortuguese__U0028Brasil_U0029_U005d.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/da/4a/bada4aea-34c1-3cbf-0ce9-65c1da9b8dfd/IOS_-_5.5_-_S03_-__PT_-_BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/b1/57/18b15780-4543-a732-96f6-de4c71a62eb4/IOS_-_5.5_-_S04_-__PT_-_BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/de/1e/c3de1e1d-feca-ca8c-9e65-53ee6a1a4baa/IOS_-_5.5_-_S05_-__PT_-_BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/e3/0b/93e30b01-9c16-2e6d-4518-098b9527f70e/IOS_-_5.5_-_S06_-__PT_-_BR.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/bb/f2/85bbf21a-dc1e-e9cf-8a59-81b9e8bc91f8/IOS_-_5.5_-_S07_-__PT_-_BR.png/392x696bb.png"
-      ],
-      "versions": [
-        {
-          "version": "9.1.74",
-          "buildVersion": "91074",
-          "date": "Thu, 27 Aug 2026 03:46:37 GMT",
-          "size": 562018,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Spotify/Spotify%20-%209.1.74.ipa",
-          "localizedDescription": "Novidades não disponíveis."
-        }
-      ],
-      "version": "9.1.74",
-      "versionDate": "Thu, 27 Aug 2026 03:46:37 GMT",
-      "size": 562018,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Spotify/Spotify%20-%209.1.74.ipa"
-    },
-    {
       "name": "Telegram",
       "bundleIdentifier": "ph.telegra.Telegraph",
       "developerName": "Telegram FZ-LLC",
