@@ -233,20 +233,6 @@
       "developerName": "ILOVEPDF S.L.",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/aa/1d/e1aa1d83-8e15-181d-9c1b-72640b4612ea/logo-ilovepdf-glass-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Leia, converta, anote e assine PDFs em segundos com este simples e prático editor e digitalizador de documentos. Aumente a sua produtividade com a ajuda de todas as ferramentas que precisa, que poderá utilizar onde quer que esteja.\n \nDIGITALIZAR COM O TELEMÓVEL\n \n• Digitalizar com o seu iPhone ou iPad: Tire uma fotografia a qualquer coisa e guarde como PDF. Pode criar um PDF com várias páginas.\n• Reconhecimento ótico de caracteres (OCR): Converta, com alta precisão, qualquer tipo de texto ou imagem em PDF\n \nCONVERSÃO DE PDF\n \n• De JPG para PDF: Tire uma fotografia de um documento e guarde em PDF.\n• Conversor de e para Microsoft Office: Converta documentos do Office em ficheiros PDF, ou os seus PDFs em ficheiros editáveis do Office, tais como Word, Excel ou PowerPoint\n• Extrair imagens de PDFs: Extraia imagens do seu documento PDF com alta qualidade. Converta as suas próprias imagens em ficheiros PDF múltiplos ou individuais.\n \nEDITOR DE PDF\n \n•Anotar PDFs: Sublinhe texto com facilidade no seu PDF. Adicione notas e sugestões, deixe comentários, desenhe ou insira imagens no seu documento PDF. Escolha o seu formato de anotação.\n•Preencher e assinar formulários: Preencha facilmente formulários em PDF adicionando texto e assine-o usando o seu dedo.\n•Leitor de PDF: Visualize, edite e modifique ficheiros PDF que estejam armazenados na Cloud ou no seu dispositivo sempre que precisar.\n \nOTIMIZE, ORGANIZE E PROTEJA OS SEUS DOCUMENTOS\n \n•Comprimir PDFs: Reduza o tamanho do seu documento sem perder qualidade visual.\n•Juntar documentos num ficheiro PDF: Combine vários documentos e junte-os num só ficheiro PDF.\n•Separar PDFs: Separe ou extraia páginas de um PDF, criando novos ficheiros com alta qualidade.\n•Rodar PDFs: Rode páginas específicas de um ficheiro PDF e ajuste-as ao resto do documento.\n•Proteger PDFs: Remova ou adicione palavras-passe aos seus PDFs.\n•Adicionar número de página a PDFs: Personalize os seus ficheiros PDF. Escolha uma posição, um tipo e um tamanho para a paginação do seu ficheiro.\n•Aplicar marcas de água ao seu PDF: Escolha uma imagem ou texto e adicione-o ao seu documento PDF. Selecione a posição, a transparência e o tipo de marca para um melhor resultado.\n \nLigue-se ao Google Drive ou à Dropbox para selecionar e partilhar documentos da Cloud.\n \n \nSubscreva o plano Premium e tire partido de todos os benefícios deste versátil editor de PDF tudo-em-um. iLovePDF Premium está disponível para compra com as seguintes condições de subscrição auto-renovável:\n \n• Subscrição Anual ou Mensal.\n• O pagamento será feito através da sua conta iTunes.\n• A sua conta será debitada pela renovação num período de 24 horas antes do fim da subscrição atual.\n• As subscrições e a auto-renovação podem ser geridas e desativadas pelo utilizador.\n \nDefinições da conta após a aquisição:\n• Não é permitido o cancelamento da subscrição atual durante um período de subscrição ativo.\n• Qualquer porção de tempo da amostra gratuita que não seja utilizada será perdida quando o utilizador adquirir uma nova subscrição.\n \nTermos de utilização: https://www.ilovepdf.com/help/terms\nPolítica de Privacidade: https://www.ilovepdf.com/help/privacy",
-      "versions": [
-        {
-          "version": "4.0.4",
-          "buildVersion": "3",
-          "date": "2026-08-04T06:22:55Z",
-          "size": 138580196,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iLovePDF/iLovePDF%20-%204.0.4.ipa",
-          "localizedDescription": "Conheça o novo Visualizador de imagens, além de uma experiência ainda mais fluida em todo o aplicativo!\n• Novo Visualizador de imagens: edite imagens sem sair do aplicativo. Recorte, gire, ajuste o brilho, aplique filtros, adicione destaques, anotações e muito mais.\n• Experiência aprimorada em tablets: visual renovado com navegação melhorada, tornando tudo mais fácil de encontrar e usar.\n• Mais fluidez para todos: animações fluidas e um fluxo aprimorado em todos os dispositivos.\nAtualize agora para experimentar o novo Visualizador de imagens."
-        }
-      ],
-      "version": "4.0.4",
-      "versionDate": "2026-08-04T06:22:55Z",
-      "size": 138580196,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iLovePDF/iLovePDF%20-%204.0.4.ipa",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5e/5f/21/5e5f2183-481b-430e-e661-85265fc3f5ae/f113cf6d-947b-4719-987b-0b89d3e1d6e0_5.5_inch_screen_1-17.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/bd/ce/70bdcec4-de1d-34cc-cab0-88883902b099/cdbf23cb-9633-46b8-9d85-b07b898c7a4c_5.5_inch_screen_10-17.png/392x696bb.png",
@@ -258,7 +244,21 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/84/52/a6845269-300c-e444-4d7e-cf91783eccab/aaa4188e-f7c0-4a30-8dd2-d4d972909511_5.5_inch_screen_7-17.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4f/02/a34f0296-1b0f-f703-9fee-4b1404643ec2/3bea28d9-3f11-478d-bea3-a638ad8f492c_5.5_inch_screen_8-17.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/88/d9/fa88d9c0-71cd-671f-a23d-e90526cec574/ea5b697e-c9d0-4b71-a289-2dec291be3bf_5.5_inch_screen_9-17.png/392x696bb.png"
-      ]
+      ],
+      "versions": [
+        {
+          "version": "4.0.4",
+          "buildVersion": "3",
+          "date": "2026-08-04T06:22:55Z",
+          "size": 131843046,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iLovePDF/iLovePDF%20-%204.0.4.ipa?packageRevision=67750cffade09928e4d8a40764f60e46e8188b10abd44394a8f8c1467f01ec88&tweak=iLovePDF+Premium&tweakVersion=1.0&packageLabel=iLovePDF+Premium+1.0",
+          "localizedDescription": "Conheça o novo Visualizador de imagens, além de uma experiência ainda mais fluida em todo o aplicativo!\n• Novo Visualizador de imagens: edite imagens sem sair do aplicativo. Recorte, gire, ajuste o brilho, aplique filtros, adicione destaques, anotações e muito mais.\n• Experiência aprimorada em tablets: visual renovado com navegação melhorada, tornando tudo mais fácil de encontrar e usar.\n• Mais fluidez para todos: animações fluidas e um fluxo aprimorado em todos os dispositivos.\nAtualize agora para experimentar o novo Visualizador de imagens."
+        }
+      ],
+      "version": "4.0.4",
+      "versionDate": "2026-08-04T06:22:55Z",
+      "size": 131843046,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iLovePDF/iLovePDF%20-%204.0.4.ipa?packageRevision=67750cffade09928e4d8a40764f60e46e8188b10abd44394a8f8c1467f01ec88&tweak=iLovePDF+Premium&tweakVersion=1.0&packageLabel=iLovePDF+Premium+1.0"
     },
     {
       "name": "InShot",
