@@ -609,7 +609,7 @@
       "name": "Pocket Terço",
       "bundleIdentifier": "com.edsonteco.PocketTerco",
       "developerName": "Edson Pieczarka Junior",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/3c/ee/db3cee64-3a12-a636-e370-2a6d311273d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/57/5e/3e575e1e-d06e-a0a0-b2f2-3f9da452738e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Pocket Terço – O app católico mais completo para sua vida de oração\n\nO Pocket Terço é um aplicativo gratuito, sem publicidade, que reúne mais de 250 terços, novenas, meditações e devoções, além de centenas de orações, músicas católicas e a Liturgia Diária mais completa em língua portuguesa. Ideal para quem deseja rezar a qualquer hora e em qualquer lugar, mesmo sem um terço físico em mãos. Todas as orações são guiadas com as contas na tela, tornando a experiência de oração ainda mais prática e profunda.\n\nPrincipais funcionalidades:\n\n• Terços\nReze com facilidade o Rosário completo (em português e latim), Terço da Misericórdia, Terço da Providência, Terço de São José e muitos outros.\n\n• Novenas\nAcompanhe o início de cada novena com notificações e reze dia após dia com os textos completos, sem se perder.\n\n• Meditações\nFaça diariamente a meditação do dia com o recurso de Meditação Dirigida. Cresça sua vida espiritual com as meditações de Santo Afonso Maria de Ligório para cada dia do ano.\n\n• Devocionários\nTenha sempre à mão as orações essenciais para o seu dia: orações da manhã, da noite e muito mais – também em formato de áudio.\n\n• Consagrações\nPrepare-se para a Consagração a Jesus pelas mãos de Maria ou para a Consagração a São José. Renove suas promessas batismais com acompanhamento diário.\n\n• Liturgia do Dia (atualizada diariamente)\nAcompanhe as leituras completas (conforme o calendário da Igreja Católica no Brasil), com Homilia do dia (texto e áudio), Santo do dia, antífonas e orações do Missal, além das antífonas do Gradual (tradução \noficial aprovada no Brasil) para cantar.\n\n• Rede de intercessão\nEnvie suas intenções de oração e interceda pelas intenções de outros usuários. Uma rede de oração viva.\n\n• Orações\nAcesse rapidamente mais de 630 orações organizadas por temas e em ordem alfabética. Use o campo de busca para localizar com facilidade a oração desejada.\n\n• Exame de consciência\nFaça seu exame de consciência para uma boa confissão. Você conta com vários modelos, inclusive exame de consciência para pecados veniais.\n\n• Player com músicas católicas\nReze com cantos gregorianos, salmos e músicas de diversos artistas católicos enquanto descansa, trabalha ou dirige.\n\n• Notificações inteligentes\nReceba alertas sempre que uma novena estiver prestes a começar para não perder nenhuma oportunidade de oração.\n\nTudo isso totalmente gratuito e sem limitações.\nPara quem deseja apoiar o projeto, oferecemos conteúdos adicionais opcionais que ajudam a manter o aplicativo no ar.\n\nAjude-nos com sua avaliação!\nSeu comentário na App Store é muito importante. Para avaliá-lo, abra o app, toque em “Sobre” e clique no link para deixar sua opinião.\n\nDúvidas, sugestões ou pedidos de novas orações?\nEntre em contato conosco: contato@pocketterco.com.br",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3f/8d/41/3f8d412a-edf6-5ca9-a582-ee053d6be405/pr_source.png/392x696bb.png",
@@ -625,18 +625,18 @@
       ],
       "versions": [
         {
-          "version": "2.9.9",
-          "buildVersion": "251104",
-          "date": "2025-11-07T10:54:17Z",
-          "size": 63922416,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Pocket%20Ter%C3%A7o/Pocket%20Ter%C3%A7o%20-%202.9.9.ipa?packageRevision=616a0cf0f2f4f7e1dd4ea4fb72d5c12be549fd8100d66142ab351016dc3aecbd&tweak=Pocket+Ter%C3%A7o+%E2%80%93+Satella&tweakVersion=1.0&packageLabel=Pocket+Ter%C3%A7o+%E2%80%93+Satella+1.0",
-          "localizedDescription": "Atualizamos a forma como os vídeos incorporados do Youtube são apresentados conforme as novas regras da plataforma. Esperamos que sua experiência no app seja a melhor possível!"
+          "version": "2.9.10",
+          "buildVersion": "260521",
+          "date": "2026-08-29T18:09:14Z",
+          "size": 63935942,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Pocket%20Ter%C3%A7o/Pocket%20Ter%C3%A7o%20-%202.9.10.ipa?packageRevision=616a0cf0f2f4f7e1dd4ea4fb72d5c12be549fd8100d66142ab351016dc3aecbd&tweak=Pocket+Ter%C3%A7o+%E2%80%93+Satella&tweakVersion=1.0&packageLabel=Pocket+Ter%C3%A7o+%E2%80%93+Satella+1.0",
+          "localizedDescription": "Esta atualização melhora a experiência de oração com os terços em texto e áudio.\n\n• Maior estabilidade ao navegar por terços longos.\n• O app salva melhor o ponto em que você parou.\n• Transições mais suaves entre as contas e a música final.\n• Correções visuais nas barras e botões nas versões mais recentes do iOS.\n\nTambém fizemos ajustes gerais de estabilidade e desempenho."
         }
       ],
-      "version": "2.9.9",
-      "versionDate": "2025-11-07T10:54:17Z",
-      "size": 63922416,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Pocket%20Ter%C3%A7o/Pocket%20Ter%C3%A7o%20-%202.9.9.ipa?packageRevision=616a0cf0f2f4f7e1dd4ea4fb72d5c12be549fd8100d66142ab351016dc3aecbd&tweak=Pocket+Ter%C3%A7o+%E2%80%93+Satella&tweakVersion=1.0&packageLabel=Pocket+Ter%C3%A7o+%E2%80%93+Satella+1.0"
+      "version": "2.9.10",
+      "versionDate": "2026-08-29T18:09:14Z",
+      "size": 63935942,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Pocket%20Ter%C3%A7o/Pocket%20Ter%C3%A7o%20-%202.9.10.ipa?packageRevision=616a0cf0f2f4f7e1dd4ea4fb72d5c12be549fd8100d66142ab351016dc3aecbd&tweak=Pocket+Ter%C3%A7o+%E2%80%93+Satella&tweakVersion=1.0&packageLabel=Pocket+Ter%C3%A7o+%E2%80%93+Satella+1.0"
     },
     {
       "name": "Reddit",
