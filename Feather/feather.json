@@ -36,7 +36,7 @@
       "name": "BoldVoice",
       "bundleIdentifier": "com.wellocution.iosapp",
       "developerName": "Wellocution Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/69/84/f9698495-7ab8-18cf-17e3-c7c4efa32706/BoldVoice-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/9a/7f/889a7f74-4c34-2b2b-898d-fd79787ed26f/BoldVoice-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "BoldVoice é o app mais eficiente para treinamento de sotaque em inglês. Você aprende com vídeos de treinadores especialistas em sotaque e ainda pode gravar sua voz para receber feedback imediato sobre sua pronúncia. Dedicando só 10 minutos por dia já lhe torna um falante confiante do inglês.\n\n\nCom o BoldVoice, você pode:\n* Treinar seu sotaque americano com aulas em vídeo de treinadores especialistas em sotaque de Hollywood \n* Domine a pronúncia em inglês de sons, palavras e frases\n* Fale inglês com confiança praticando com nossa IA de fala avançada\n* Obtenha dicas para se tornar um orador público melhor como profissional de ESL\n* Veja uma melhora perceptível na sua pronúncia com apenas 10 minutos de prática por dia.\n\n\n> O que torna o BoldVoice diferente?\nBoldVoice é o único app de treinamento de sotaque que disponibiliza aulas em vídeo personalizadas por treinadores especialistas em sotaque. Nossos treinadores ensinarão e demonstrarão como pronunciar sons e palavras complicadas. Assim, você poderá praticar com sua própria voz e obter feedback. Este método de aprendizagem é a melhor maneira de lapidar sua pronúncia em inglês.\n\n\n> Aprenda com treinadores de fala especializados\nNossos treinadores de sotaque são os melhores do setor, ajudando as estrelas de Hollywood a dominar seus sotaques. Eles serão seus guias no caminho para uma pronúncia clara e confiante em inglês. Com aulas em vídeo curtas e divertidas, você vai dominar os sons, a entonação, o ritmo, a altura e todos os elementos do sotaque americano.\n\n\n> Obtenha feedback imediato sobre sua pronúncia\nGrave sua voz, e nossa avançada Inteligência Artificial de fala irá avaliá-lo e fornecer feedback personalizado. Você pode ouvir sua própria voz e compará-la com a gravação do treinador para aperfeiçoar ainda mais sua pronúncia.\n\n\n> Descubra seu nível de pronúncia\nRealize o teste de sotaque e obtenha uma visão clara dos seus pontos fortes e das áreas onde pode evoluir. Você pode fazer o teste de sotaque gratuito à medida que avança nas suas lições do BoldVoice, assim você sempre saberá o quanto está melhorando.\n\n\n> Aprendizado Altamente Personalizado\nPersonalizamos seu curso de pronúncia em inglês para seu idioma nativo. Seu plano de aulas será focado nos aspectos da pronúncia americana que são desafiadores para falantes de português.\n\n\n> Para quem é o BoldVoice?\nO BoldVoice ajuda profissionais que não são falantes nativos de inglês a falar com mais confiança e clareza. Se você já se perguntou como aprender o sotaque americano ou quis melhorar sua pronúncia em inglês de forma geral, você está no lugar certo. Seja seu objetivo reduzir o sotaque ou falar em público com confiança, o BoldVoice resolve.\n\n\nUsuários de mais de 100 idiomas nativos usam o BoldVoice para se tornarem comunicadores mais confiantes, liderarem equipes com mais eficácia, se darem bem em suas entrevistas de emprego, melhorarem a colaboração com colegas de trabalho, brilharem em apresentações profissionais e se prepararem para testes padronizados de inglês como o TOEFL, IELTS e TOEIC.\n\n\n> Assinatura\nPara acessar o BoldVoice, você precisará aderir a uma das opções de assinatura disponíveis no app.\nAssinar permite o desbloqueio de todas as aulas de treinadores de sotaque, materiais práticos e recursos do aplicativo. Sem uma assinatura, você só poderá acessar a primeira aula gratuitamente.\nO pagamento da assinatura será cobrado em sua conta Apple ID após a confirmação da compra. As assinaturas serão renovadas automaticamente, a menos que sejam canceladas 24 horas antes do término da sua assinatura atual. Para cancelar sua assinatura ou ajustar as configurações de renovação automática, vá até as configurações do seu dispositivo, acesse seu Apple ID no app Ajustes e selecione Assinaturas.\n---\nConecte-se conosco\nE-mail: support@boldvoice.com\nSite: https://boldvoice.com\nTermos de Serviço: https://boldvoice.com/terms\nPolítica de Privacidade: https://boldvoice.com/privacy",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/55/fa/ab55fa64-7240-76d1-e748-984774a41ead/BoldVoice_iOS_6.5_-_1.jpg/320x480bb.jpg",
@@ -52,18 +52,18 @@
       ],
       "versions": [
         {
-          "version": "4.3.7",
-          "buildVersion": "1",
-          "date": "2026-08-28T17:24:57Z",
-          "size": 112049000,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.7.ipa?packageRevision=5513b2da3b81c833b53741bb6e627959c44dd00ee2c8e79aa328714bdea37f9a&tweak=BoldVoice+Premium&tweakVersion=1.0&packageLabel=BoldVoice+Premium+1.0",
-          "localizedDescription": "Aprimoramos o app e corrigimos alguns bugs para que tudo parecesse mais rápido e confiável. Esta atualização foca nos pequenos detalhes que, somando, tornam uma experiência mais suave e agradável toda vez que você usa o BoldVoice."
+          "version": "4.3.8",
+          "buildVersion": "2",
+          "date": "2026-08-29T18:18:57Z",
+          "size": 115271896,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.8.ipa?packageRevision=5513b2da3b81c833b53741bb6e627959c44dd00ee2c8e79aa328714bdea37f9a&tweak=BoldVoice+Premium&tweakVersion=1.0&packageLabel=BoldVoice+Premium+1.0",
+          "localizedDescription": "Aprimoramos o app com melhorias de desempenho e correções de bugs para que tudo pareça mais ágil e confiável. Você notará interações mais fluidas e uma experiência mais refinada no geral."
         }
       ],
-      "version": "4.3.7",
-      "versionDate": "2026-08-28T17:24:57Z",
-      "size": 112049000,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.7.ipa?packageRevision=5513b2da3b81c833b53741bb6e627959c44dd00ee2c8e79aa328714bdea37f9a&tweak=BoldVoice+Premium&tweakVersion=1.0&packageLabel=BoldVoice+Premium+1.0"
+      "version": "4.3.8",
+      "versionDate": "2026-08-29T18:18:57Z",
+      "size": 115271896,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/BoldVoice/BoldVoice%20-%204.3.8.ipa?packageRevision=5513b2da3b81c833b53741bb6e627959c44dd00ee2c8e79aa328714bdea37f9a&tweak=BoldVoice+Premium&tweakVersion=1.0&packageLabel=BoldVoice+Premium+1.0"
     },
     {
       "name": "CamScanner",
