@@ -69,7 +69,7 @@
       "name": "CamScanner",
       "bundleIdentifier": "com.intsig.CamScannerLite",
       "developerName": "INTSIG Information Co., Ltd",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/ae/9f/f7ae9f20-d5ed-fdb8-c75e-7b5844536878/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/07/ea/8d07eabd-76eb-ba47-a010-0adc5cd99849/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "A aplicação de digitalização mais inteligente.\nCom a confiança de mais de 750M de utilizadores.\n\nCamScanner transforma o seu dispositivo num scanner portátil potente que reconhece texto automaticamente (OCR) e o ajuda a tornar-se mais produtivo no seu trabalho e vida diária. Descarregue esta aplicação de digitalização gratuitamente para digitalizar, guardar e partilhar instantaneamente qualquer documento nos formatos PDF, JPG, Word ou TXT.\n\nSCANNER DE DOCUMENTO\nEsta aplicação de digitalização grátis pequena e potente é obrigatória para estudantes e para quem estiver envolvido em negócios pequenos: contabilistas, correctores de imóveis, gerentes ou advogados. Digitalize tudo o que precisar, incluindo facturas, contratos, notas em papel, faxes, livros, e armazene em ficheiros JPG ou PDF com várias páginas.\n\nVÁRIOS MODOS DE DIGITALIZAÇÃO\n- CARTÃO DE CIDADÃO E PASSAPORTE - um modo desenhado especificamente para a digitalização rápida e conveniente de documentos de identificação.\n- CÓDIGO QR - leia qualquer código QR com a câmara do seu dispositivo.\n\nCONVERSOR PDF\n- Conversor PDF: crie pdf de um website, converta ficheiros de docimento (doc, docx, ppt, pptx) para PDF.\n– Formatos de ficheiros suportados: pdf, jpg, doc, docx, txt, xls, xlsm, xlsx, csv, ppt, pptm, pptx,\n\nPARTILHE COM FACILIDADE\n– Partilhe ficheiros para adicionar comentários ou ver no WhatsApp, iMessage, Microsoft Teams.\n- Recolha comentários de várias pessoas num único ficheiro online.\n- Agilize as revisões de documentos respondendo aos comentários.\n- Receba notificações de actividade para ficheiros que partilhou.\n- Envie o anexo ou link do documento por email.\n\nSCANNER PDF INOVADOR\n- Digitalize documentos e fotografias para PDF, JPG ou TXT\n- Digitalize facilmente várias páginas num único documento\n- Reconhecimento de texto de qualquer objecto digitalizável com OCR\n- Adicione a sua assinatura electrónica em documentos\n\nEDITOR DE DOCUMENTOS E GESTOR DE FICHEIROS PRÁTICO\n- Edite as digitalizações com as funções de correcção de cor e remoção de ruído\n- Utilize o gestor de ficheiros com as funções de pastas, arrastar e largar e edição de documentos\n- Proteja as suas digitalizações confidenciais bloqueando pastas e ficheiros com PIN\n\nPARTILHA DE DOCUMENTOS SIMPLES\n- Partilhe documentos e partilhe-os com poucos gestos\n- Imprima contratos e facturas directamente da aplicação de digitalização\n– Partilhe e carregue os documentos digitalizados para serviços de nuvem como Dropbox, Google Drive, Evernote, OneDrive.\nCom esta aplicação de scanner grátis segura, qualquer documento digitalizado ou exportado é armazenado localmente no seu iPhone e nem nós nem qualquer terceiro terá acesso a eles.\n\nSUBSCRIÇÃO DE MEMBRO DE ACESSO ILIMITADO\n- Pode subscrever-se para obter acesso ilimitado a todas as funções da aplicação\n- As subscrições são cobradas semanalmente, mensalmente, trimestralmente ou anualmente conforme o preço do plano de subscrição\n- O pagamento será cobrado na Conta iTunes na confirmação da compra\n- A subscrição é renovada automaticamente a menos que a renovação automática seja desligada pelo menos 24 horas antes do final do período actual\n- A conta será cobrada pela renovação dentro de 24 horas antes do final do período actual. O custo depende do plano seleccionado\n- As subscrições podem ser geridas pelo utilizador e a renovação automática pode ser desligada através das Definições da Conta após a compra\n- Qualquer porção não utilizada do período experimental será perdida quando o utilizador comprar uma subscrição\n\nPara termos de uso, visite\nhttps://www.camscanner.com/app/service?language=en-us\nPara política de privacidade, visite https://www.camscanner.com/app/privacy?language=en-us\n\nEnvie-nos a sua opinião: isupport@camscanner.com\nSiga-nos no Twitter: @CamScanner\nDeixe um Gosto no Facebook: CamScanner\nSiga-nos no Google+: CamScanner\n\nVeja outros produtos da INTSIG:\nCamCard - Leitor de Cartão de Negócios",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/c2/a6/b4c2a6fe-d36a-17a8-1db4-6262c70b1f37/fcdf77f3-8d75-484e-bd55-69032ebb742c_iPhone_8P__U5e94_U7528_U622a_U5c4f_U8bbe_U8ba1-1.jpg/392x696bb.jpg",
@@ -84,18 +84,18 @@
       ],
       "versions": [
         {
-          "version": "7.24.0",
-          "buildVersion": "7.24.0.2608141113",
-          "date": "2026-08-18T02:55:14Z",
-          "size": 183675407,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.24.0.ipa?packageRevision=c29ad15fb384fc41622fc0a9389dfd8ad9df1cbfc2d06da7db7f0f3a5ddbdc46&tweak=CamScanner+VIP&tweakVersion=1.0&packageLabel=CamScanner+VIP+1.0",
-          "localizedDescription": "· Modo Slides aprimorado: digitalize várias páginas com mais fluidez e troque filtros com mais facilidade.\n· Agora é possível editar documentos Markdown."
+          "version": "7.25.0",
+          "buildVersion": "7.25.0.2608272226",
+          "date": "2026-08-31T02:19:21Z",
+          "size": 179997478,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.25.0.ipa?packageRevision=c29ad15fb384fc41622fc0a9389dfd8ad9df1cbfc2d06da7db7f0f3a5ddbdc46&tweak=CamScanner+VIP&tweakVersion=1.0&packageLabel=CamScanner+VIP+1.0",
+          "localizedDescription": "· Motor de tradução de imagens atualizado. O layout agora corresponde melhor ao original.\n· Várias melhorias para uma experiência ainda melhor."
         }
       ],
-      "version": "7.24.0",
-      "versionDate": "2026-08-18T02:55:14Z",
-      "size": 183675407,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.24.0.ipa?packageRevision=c29ad15fb384fc41622fc0a9389dfd8ad9df1cbfc2d06da7db7f0f3a5ddbdc46&tweak=CamScanner+VIP&tweakVersion=1.0&packageLabel=CamScanner+VIP+1.0"
+      "version": "7.25.0",
+      "versionDate": "2026-08-31T02:19:21Z",
+      "size": 179997478,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.25.0.ipa?packageRevision=c29ad15fb384fc41622fc0a9389dfd8ad9df1cbfc2d06da7db7f0f3a5ddbdc46&tweak=CamScanner+VIP&tweakVersion=1.0&packageLabel=CamScanner+VIP+1.0"
     },
     {
       "name": "Documents",
