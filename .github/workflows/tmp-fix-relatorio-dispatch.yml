@@ -1,0 +1,58 @@
+name: Temp Fix Relatorio Dispatch
+
+on:
+  push:
+    paths:
+      - ".github/workflows/tmp-fix-relatorio-dispatch.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ipa-r2-core-write
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: private-core
+
+      - name: Corrigir workflow do relatório
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("private-core/scripts/ipa_to_r2.py")
+          text = path.read_text(encoding="utf-8")
+          old = '"/actions/workflows/r2-daily-report.yml/dispatches"'
+          new = '"/actions/workflows/relatorio-diario.yml/dispatches"'
+
+          if text.count(old) != 1:
+              raise SystemExit(f"Esperava 1 referência antiga; encontrei {text.count(old)}")
+
+          text = text.replace(old, new, 1)
+          compile(text, str(path), "exec")
+          path.write_text(text, encoding="utf-8")
+          print("Referência corrigida e sintaxe validada.")
+          PY
+
+      - name: Salvar correção no Core privado
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd private-core
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/ipa_to_r2.py
+          git diff --cached --check
+          git commit -m "Corrigir dispatch do Relatório Diário"
+          git pull --rebase origin main
+          git push origin main
