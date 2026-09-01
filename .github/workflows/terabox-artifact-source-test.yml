@@ -1,0 +1,25 @@
+name: TeraBox Artifact Source Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  create-artifact:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Criar arquivo de teste
+        run: |
+          mkdir -p .terabox-artifact-source
+          printf 'TeraBox Artifact bridge test\n' > .terabox-artifact-source/Artifact_Test_0.0.0.txt
+
+      - name: Publicar Artifact temporário
+        uses: actions/upload-artifact@v4
+        with:
+          name: terabox-archive-test
+          path: .terabox-artifact-source/Artifact_Test_0.0.0.txt
+          retention-days: 1
+          if-no-files-found: error
