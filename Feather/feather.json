@@ -701,7 +701,7 @@
       "name": "TikTok",
       "bundleIdentifier": "com.zhiliaoapp.musically",
       "developerName": "TIKTOK PTE. LTD.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/f6/9e/b4f69e23-a20c-784c-7f41-400fd8ab3d1c/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/f9/7a/86f97a45-d6d6-efd9-c24a-d7c614482369/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "TikTok é uma comunidade de videos global. \n\nCom TikTok criar videos curtos se tornou ainda mais facil. Grave e edite seus próprios videos com nossos efeitos especiais, filtros, stickers e muito mais. Depois é só compartilhar com o mundo seu talento.\n\nAssista a milhões de videos escolhidos especialmente pra você. Uma experiência personalizada, baseada no conteúdo que você assiste, curte e compartilha! Oferecemos, baseados nos seus hábitos de consumo, os vídeos mais relevantes, interessantes e inspiradores. Divirta-se e se inspire em criadores de todo o mundo.Milhões de criadores usam o TikTok diariamente para compartilhar suas histórias e talento. Descubra os melhores videos da internet.\n\nAdicione suas músicas ou sons favoritos aos seus videos, tudo de graça! Adicione emoção ao seu video ao incluir uma trilha. Milhões de trechos musicais e sons estao dispon[iveis na nossa biblioteca. Nós criamos playlists musicais para você com as faixas mais tocadas de todos os gêneros, incluso pop, rock, rap, eletronic, R&B, Country e muito mais.\n\nUse emojis e Filtros 3D \nMais de 100 emojis disponíveis gratuitamente para tornar seu vídeos mais divertido. Descubra um monte de filtros e efeitos de beleza que levarão seu vídeo a um outro patamar!  Ferramentas de edição que te permitem cortar, editar, duplicar, mesclar e duplicar seus videos.  \n■ Filtros de Livestreaming são constantemente atualizados com designs criativos\n■ Video de dança, comédia, vlog, DIY, e esportes prontos para serem assistidos \n\nTenha acesso aos benefícios do LIVE para interagir melhor com os hosts!\nSelecione uma assinatura mensal ou uma com renovação automática para aproveitar os benefícios especiais do LIVE (disponível em regiões limitadas)\n\nObservação: \nSe você se inscrever pela conta da Apple, o pagamento será feito pela conta da AppStore ao confirmar a compra. A assinatura será renovada automaticamente, a menos que essa opção seja desativada com, no mínimo, 24 horas de antecedência ao término do período vigente. A conta receberá uma cobrança pela renovação dentro de 24 horas antes do término do período vigente com o preço do plano selecionado. As assinaturas e renovações automáticas podem ser gerenciadas acessando Configurações da conta após a compra.\n\nTermos de serviço:\nhttps://www.tiktok.com/legal/terms-of-service\n\nPolítica de Privacidade:\nhttps://www.tiktok.com/legal/privacy-policy\n\nTem um feedback? Entre em contato conosco através de: https://www.tiktok.com/legal/report/feedback",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/55/0c/ae/550caeb2-5ed6-2826-7453-fa571dc0170b/9be42b01-48b4-405c-b69b-8f13e457af39_img5_5_0_pt-BR.png/392x696bb.png",
@@ -712,18 +712,18 @@
       ],
       "versions": [
         {
-          "version": "46.6.0",
-          "buildVersion": "466034",
-          "date": "2026-08-24T22:08:37Z",
-          "size": 469315097,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.6.0.ipa",
-          "localizedDescription": "Implementamos melhorias de desempenho e correções de erros. Agradecemos por usar o TikTok!"
+          "version": "46.7.0",
+          "buildVersion": "467038",
+          "date": "2026-08-31T22:55:06Z",
+          "size": 472366821,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok_46.7.0.ipa?packageRevision=bce64b441a130dcd55ea771a9ac0734ac395e15bbc9d5de984f289fed66d69f6&tweak=RXTikTok&tweakVersion=1.6.6&packageLabel=RXTikTok+1.6.6",
+          "localizedDescription": "Nós aprimoramos o TikTok para tornar a criação e a navegação em nosso app mais rápidas e melhores do que nunca."
         }
       ],
-      "version": "46.6.0",
-      "versionDate": "2026-08-24T22:08:37Z",
-      "size": 469315097,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok%20-%2046.6.0.ipa"
+      "version": "46.7.0",
+      "versionDate": "2026-08-31T22:55:06Z",
+      "size": 472366821,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/TikTok/TikTok_46.7.0.ipa?packageRevision=bce64b441a130dcd55ea771a9ac0734ac395e15bbc9d5de984f289fed66d69f6&tweak=RXTikTok&tweakVersion=1.6.6&packageLabel=RXTikTok+1.6.6"
     },
     {
       "name": "WhatsApp",
