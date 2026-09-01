@@ -13,7 +13,7 @@ jobs:
   upload-to-terabox:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Baixar repositório
@@ -35,13 +35,16 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
 
+      - name: Conferir arquivo recebido
+        run: ls -lh .terabox-artifact/Artifact_Test_50MiB.bin
+
       - name: Enviar Artifact ao TeraBox
         env:
           TERABOX_NDUS: ${{ secrets.TERABOX_NDUS }}
           TERABOX_JS_TOKEN: ${{ secrets.TERABOX_JS_TOKEN }}
           TERABOX_APP_ID: ${{ secrets.TERABOX_APP_ID }}
-          LOCAL_FILE: .terabox-artifact/Artifact_Test_0.0.0.txt
-          REMOTE_DIR: /IPAS/Teste/Artifact
+          LOCAL_FILE: .terabox-artifact/Artifact_Test_50MiB.bin
+          REMOTE_DIR: /IPAS/Teste/Artifact-50MiB
         run: node scripts/terabox_upload.js
 
       - name: Apagar Artifact após upload confirmado
