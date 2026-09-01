@@ -84,6 +84,7 @@ jobs:
           TELEGRAM_START_MESSAGE_ID: ${{ inputs.telegram_message_id }}
           TELEGRAM_WORKER_CALLBACK_URL: ${{ inputs.callback_url }}
           TELEGRAM_PROGRESS_STATE_FILE: .telegram-progress.json
+          TERABOX_STAGE_DIR: .terabox-archive
           CUSTOM_EMOJIS_FILE: shared-config/custom_emojis.json
           INJECTOR_R2_EMOJIS_FILE: shared-config/injector_r2_emojis.json
 
@@ -93,7 +94,24 @@ jobs:
           python private-core/scripts/ipa_to_r2.py
 
       # ============================================================
-      # 4. INFORMAR AO WORKER QUE O WORKFLOW TERMINOU
+      # 4. PUBLICAR ARTIFACT TEMPORÁRIO PARA O TERABOX
+      # ============================================================
+      # Esta etapa é propositalmente não bloqueante:
+      # qualquer falha aqui não altera o resultado do fluxo R2/Feather.
+
+      - name: Publicar Artifact para TeraBox
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: terabox-archive
+          path: .terabox-archive/
+          retention-days: 1
+          compression-level: 0
+          include-hidden-files: true
+          if-no-files-found: ignore
+
+      # ============================================================
+      # 5. INFORMAR AO WORKER QUE O WORKFLOW TERMINOU
       # ============================================================
 
       - name: Finalizar notificação do /iniciar
