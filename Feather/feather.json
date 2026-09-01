@@ -98,35 +98,6 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/CamScanner/CamScanner%20-%207.25.0.ipa?packageRevision=c29ad15fb384fc41622fc0a9389dfd8ad9df1cbfc2d06da7db7f0f3a5ddbdc46&tweak=CamScanner+VIP&tweakVersion=1.0&packageLabel=CamScanner+VIP+1.0"
     },
     {
-      "name": "Discord",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "Discord Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/de/7c/57de7c45-71d5-0b1e-23a3-290c0b39be58/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "O Discord foi criado para jogos e é perfeito para apenas relaxar com amigos ou construir uma comunidade. Personalize seu próprio espaço e reúna seus amigos para falar enquanto joga seus jogos favoritos, ou apenas para passar o tempo.\n\nBATE-PAPO EM GRUPO QUE É SÓ DIVERSÃO E JOGOS\n∙ O Discord é excelente para jogar e relaxar com amigos, ou até mesmo para construir uma comunidade global. Personalize seu próprio espaço para falar, jogar e passar o tempo.\n\nTORNE SEUS BATE-PAPOS EM GRUPO MAIS DIVERTIDOS\n∙ Crie emojis personalizados, figurinhas, efeitos de painel de som e muito mais para adicionar sua personalidade ao bate-papo de voz, vídeo ou texto. Defina seu avatar, um status personalizado e escreva seu próprio perfil para se apresentar no bate-papo do seu jeito.\n\nTRANSMITA COMO SE ESTIVESSE NA MESMA SALA\n∙ A transmissão de alta qualidade e baixa latência faz com que você se sinta no sofá com seus amigos enquanto joga, assiste shows, olha fotos, ou, sei lá, faz o dever de casa ou algo do tipo.\n\nENTRE QUANDO ESTIVER LIVRE, NÃO PRECISA LIGAR\n∙ Entre e saia facilmente dos bate-papos de voz ou de texto sem precisar ligar ou convidar alguém, para que você possa conversar com seus amigos antes, durante e após a sessão de jogo.\n\nVEJA QUEM ESTÁ DISPONÍVEL PARA RELAXAR\n∙ Veja quem está por perto, jogando ou apenas relaxando. Para jogos compatíveis, você pode ver quais modos ou personagens seus amigos estão jogando e se juntar a eles diretamente.\n\nSEMPRE TENHA ALGO PARA FAZER JUNTOS\n∙ Assista a vídeos, jogue jogos integrados, ouça música ou simplesmente navegue juntos e compartilhe memes. Envie mensagens, faça ligações, participe de bate-papo em vídeo e jogue, tudo em uma única conversa em grupo.\n\nONDE QUER QUE VOCÊ JOGUE, FIQUE POR AQUI\n∙ No seu PC, telefone ou console, você ainda pode ficar no Discord. Alterne facilmente entre dispositivos e use ferramentas para gerenciar múltiplos bate-papos em grupo com amigos.",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/b9/50/74b95078-4818-4f87-d1ba-89e8bef93ee9/a28f114a-2749-482d-873e-830a59caadb0_1_GroupChat_Tile_pt-BR_5-5.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/57/80/3e57809d-9c7f-5d81-80f6-21f0598c5a44/d7f76d77-4fe3-421f-9d7f-6287aa61ebce_2_Stream_Tile_pt-BR_5-5.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/07/af/d107af5b-e7ca-d2be-6947-5ff76797eaf3/aa2aa785-8275-4243-960d-93edf24023f8_3_SeeWhos_Tile_pt-BR_5-5.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/80/c0/2f80c072-57fa-2b6b-fc99-f3212f366497/ac76b036-d870-4c95-956b-f3f17b697242_4_HopIn_Tile_pt-BR_5-5.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/c1/eb/a3c1eb67-63f5-ef34-f9f5-40c8438879eb/ee2c14b0-7f1d-4968-93ae-a723130bfaaf_5_ToDo_Tile_pt-BR_5-5.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/5f/d7/aa5fd7b2-33f7-e3da-7635-0fa00e0e437a/Hero_Image__U0028for_Apple_store_U0029_Server__U0028no_members_list_U0029_1242x2208_BRPT.png/392x696bb.png"
-      ],
-      "versions": [
-        {
-          "version": "343.0",
-          "buildVersion": "109809",
-          "date": "2026-08-31T17:16:20Z",
-          "size": 107735825,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Discord/Discord_343.0.ipa?packageRevision=1cab7907a329c6b4484488f3a7b95ea2c19795959aacb443eaf2d00cfebfc516&tweak=Rain&tweakVersion=0.9.6&packageLabel=Rain+0.9.6",
-          "localizedDescription": "Trabalhamos arduamente a fim de melhorar o Discord para você. Isso inclui correções de bugs e melhorias de desempenho. Para informações mais detalhadas, acesse o seu perfil no app e role até “Novidades”."
-        }
-      ],
-      "version": "343.0",
-      "versionDate": "2026-08-31T17:16:20Z",
-      "size": 107735825,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Discord/Discord_343.0.ipa?packageRevision=1cab7907a329c6b4484488f3a7b95ea2c19795959aacb443eaf2d00cfebfc516&tweak=Rain&tweakVersion=0.9.6&packageLabel=Rain+0.9.6"
-    },
-    {
       "name": "Documents",
       "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
       "developerName": "Readdle Technologies Limited",
