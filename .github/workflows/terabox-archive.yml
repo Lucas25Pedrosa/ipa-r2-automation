@@ -1,0 +1,401 @@
+name: TeraBox Archive
+
+on:
+  workflow_run:
+    workflows: ["IPA to R2"]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  archive:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v6
+
+      - name: Baixar configuração compartilhada
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-shared-config-core
+          token: ${{ secrets.SHARED_CONFIG_TOKEN }}
+          path: shared-config
+          fetch-depth: 1
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Instalar cliente TeraBox
+        run: npm install --no-save --ignore-scripts terabox-upload-tool@1.4.1
+
+      - name: Baixar Artifact do IPA to R2
+        id: artifact_download
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: terabox-archive
+          path: .terabox-artifact
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Ler e validar metadados
+        id: metadata
+        if: ${{ steps.artifact_download.outcome == 'success' }}
+        continue-on-error: true
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          root = Path(".terabox-artifact")
+          metadata_path = root / "metadata.json"
+
+          if not metadata_path.is_file():
+              raise SystemExit("metadata.json não encontrado no Artifact.")
+
+          metadata = json.loads(
+              metadata_path.read_text(encoding="utf-8")
+          )
+
+          file_name = str(metadata.get("file_name") or "").strip()
+          remote_dir = str(metadata.get("remote_dir") or "").strip()
+          bundle_id = str(metadata.get("bundle_id") or "").strip()
+
+          if not file_name:
+              raise SystemExit("file_name ausente em metadata.json.")
+
+          if not remote_dir:
+              raise SystemExit("remote_dir ausente em metadata.json.")
+
+          if not bundle_id:
+              raise SystemExit("bundle_id ausente em metadata.json.")
+
+          ipa_path = root / file_name
+
+          if not ipa_path.is_file():
+              raise SystemExit(
+                  f"IPA esperado não encontrado no Artifact: {ipa_path}"
+              )
+
+          local_size = ipa_path.stat().st_size
+          expected_size = int(metadata.get("size") or 0)
+
+          if expected_size and local_size != expected_size:
+              raise SystemExit(
+                  "Tamanho do IPA no Artifact diverge do metadata: "
+                  f"esperado={expected_size}, recebido={local_size}"
+              )
+
+          values = {
+              "local_file": str(ipa_path),
+              "remote_dir": remote_dir,
+              "file_name": file_name,
+              "app_name": str(metadata.get("app_name") or "IPA"),
+              "app_version": str(metadata.get("app_version") or ""),
+              "bundle_id": bundle_id,
+              "tweak_name": str(metadata.get("tweak_name") or ""),
+              "tweak_version": str(metadata.get("tweak_version") or ""),
+          }
+
+          for key, value in values.items():
+              if "\n" in value or "\r" in value:
+                  raise SystemExit(
+                      f"Valor inválido em metadata.json: {key}"
+                  )
+
+          with open(
+              os.environ["GITHUB_OUTPUT"],
+              "a",
+              encoding="utf-8",
+          ) as output:
+              for key, value in values.items():
+                  output.write(f"{key}={value}\n")
+
+          print(
+              "TeraBox preparado para: "
+              f"{remote_dir}/{file_name}"
+          )
+          print(
+              "App: "
+              f"{values['app_name']} {values['app_version']}"
+          )
+          print(
+              "Tweak: "
+              f"{values['tweak_name']} {values['tweak_version']}"
+          )
+          PY
+
+      - name: Enviar IPA ao TeraBox
+        id: terabox
+        if: ${{ steps.metadata.outcome == 'success' }}
+        continue-on-error: true
+        shell: bash
+        env:
+          TERABOX_NDUS: ${{ secrets.TERABOX_NDUS }}
+          TERABOX_JS_TOKEN: ${{ secrets.TERABOX_JS_TOKEN }}
+          TERABOX_APP_ID: ${{ secrets.TERABOX_APP_ID }}
+          LOCAL_FILE: ${{ steps.metadata.outputs.local_file }}
+          REMOTE_DIR: ${{ steps.metadata.outputs.remote_dir }}
+        run: |
+          set +e
+
+          node scripts/terabox_upload.js 2>&1 | tee .terabox-upload.log
+          STATUS="${PIPESTATUS[0]}"
+
+          if [ "$STATUS" -eq 0 ]; then
+            echo "reason=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          REASON="$(
+            grep 'TERABOX_ERROR=' .terabox-upload.log \
+              | tail -n 1 \
+              | sed 's/^.*TERABOX_ERROR=//' \
+              | tr '\r\n' '  ' \
+              | sed 's/[[:space:]]\+/ /g' \
+              | sed 's/^ //;s/ $//'
+          )"
+
+          if [ -z "$REASON" ]; then
+            REASON="Falha desconhecida durante o upload ao TeraBox."
+          fi
+
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+          exit "$STATUS"
+
+      - name: Enviar resultado ao Telegram
+        if: ${{ always() }}
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+          ARTIFACT_OUTCOME: ${{ steps.artifact_download.outcome }}
+          METADATA_OUTCOME: ${{ steps.metadata.outcome }}
+          TERABOX_OUTCOME: ${{ steps.terabox.outcome }}
+          TERABOX_REASON: ${{ steps.terabox.outputs.reason }}
+
+          APP_NAME: ${{ steps.metadata.outputs.app_name }}
+          APP_BUNDLE_ID: ${{ steps.metadata.outputs.bundle_id }}
+        run: |
+          python - <<'PY'
+          import html
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+          from pathlib import Path
+
+          CUSTOM_EMOJIS = Path(
+              "shared-config/custom_emojis.json"
+          )
+          ANIMATED_EMOJIS = Path(
+              "shared-config/telegram_animated_emojis.json"
+          )
+
+          TERABOX_BUNDLE_ID = "com.dubox.drive"
+
+          def load_json(path):
+              try:
+                  data = json.loads(
+                      path.read_text(encoding="utf-8")
+                  )
+                  return data if isinstance(data, dict) else {}
+              except Exception:
+                  return {}
+
+          def emoji_from_record(record, fallback):
+              if not isinstance(record, dict):
+                  return html.escape(fallback)
+
+              custom_emoji_id = str(
+                  record.get("custom_emoji_id") or ""
+              ).strip()
+              fallback_value = str(
+                  record.get("fallback") or fallback
+              )
+
+              if not custom_emoji_id:
+                  return html.escape(fallback_value)
+
+              return (
+                  '<tg-emoji emoji-id="'
+                  + html.escape(custom_emoji_id, quote=True)
+                  + '">'
+                  + html.escape(fallback_value)
+                  + "</tg-emoji>"
+              )
+
+          custom_emojis = load_json(CUSTOM_EMOJIS)
+          animated_emojis = load_json(ANIMATED_EMOJIS)
+
+          terabox_emoji = emoji_from_record(
+              custom_emojis.get(TERABOX_BUNDLE_ID),
+              "☁️",
+          )
+
+          app_bundle_id = str(
+              os.environ.get("APP_BUNDLE_ID") or ""
+          ).strip()
+
+          app_emoji = emoji_from_record(
+              custom_emojis.get(app_bundle_id),
+              "📱",
+          )
+
+          artifact_outcome = str(
+              os.environ.get("ARTIFACT_OUTCOME") or ""
+          ).strip()
+          metadata_outcome = str(
+              os.environ.get("METADATA_OUTCOME") or ""
+          ).strip()
+          terabox_outcome = str(
+              os.environ.get("TERABOX_OUTCOME") or ""
+          ).strip()
+
+          success = (
+              artifact_outcome == "success"
+              and metadata_outcome == "success"
+              and terabox_outcome == "success"
+          )
+
+          if success:
+              status_emoji = emoji_from_record(
+                  animated_emojis.get("nopopup_applied"),
+                  "🟢",
+              )
+          else:
+              status_emoji = emoji_from_record(
+                  animated_emojis.get("nopopup_not_applied"),
+                  "🔴",
+              )
+
+          app_name = str(
+              os.environ.get("APP_NAME") or "IPA"
+          ).strip() or "IPA"
+
+          if success:
+              body = (
+                  f"{terabox_emoji} <b>TeraBox:</b> "
+                  f"{app_emoji} {html.escape(app_name)} "
+                  f"arquivado com sucesso. {status_emoji}"
+              )
+          else:
+              if artifact_outcome != "success":
+                  reason = (
+                      "O Artifact do IPA não pôde ser baixado."
+                  )
+              elif metadata_outcome != "success":
+                  reason = (
+                      "O metadata.json do Artifact é inválido "
+                      "ou está incompleto."
+                  )
+              else:
+                  reason = str(
+                      os.environ.get("TERABOX_REASON")
+                      or "Falha desconhecida durante o arquivamento."
+                  ).strip()
+
+              body = (
+                  f"{terabox_emoji} <b>TeraBox:</b> "
+                  f"{app_emoji} {html.escape(app_name)} "
+                  f"não foi arquivado. {status_emoji}\n"
+                  f"Motivo: {html.escape(reason)}"
+              )
+
+          message = f"<blockquote>{body}</blockquote>"
+
+          token = str(
+              os.environ.get("TELEGRAM_BOT_TOKEN") or ""
+          ).strip()
+          chat_id = str(
+              os.environ.get("TELEGRAM_CHAT_ID") or ""
+          ).strip()
+
+          if not token or not chat_id:
+              raise SystemExit(
+                  "Credenciais do Telegram ausentes."
+              )
+
+          payload = json.dumps(
+              {
+                  "chat_id": chat_id,
+                  "text": message,
+                  "parse_mode": "HTML",
+                  "disable_web_page_preview": True,
+              }
+          ).encode("utf-8")
+
+          request = urllib.request.Request(
+              f"https://api.telegram.org/bot{token}/sendMessage",
+              data=payload,
+              headers={"Content-Type": "application/json"},
+              method="POST",
+          )
+
+          try:
+              with urllib.request.urlopen(
+                  request,
+                  timeout=30,
+              ) as response:
+                  result = json.loads(
+                      response.read().decode(
+                          "utf-8",
+                          errors="replace",
+                      )
+                  )
+          except urllib.error.HTTPError as exc:
+              detail = exc.read().decode(
+                  "utf-8",
+                  errors="replace",
+              )
+              raise SystemExit(
+                  f"Telegram HTTP {exc.code}: {detail}"
+              ) from exc
+
+          if not result.get("ok"):
+              raise SystemExit(
+                  f"Telegram recusou a mensagem: {result}"
+              )
+
+          print("Resultado do TeraBox enviado ao Telegram.")
+          PY
+
+      - name: Apagar Artifact após upload confirmado
+        if: ${{ steps.terabox.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          ARTIFACT_ID="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}/artifacts" \
+            --jq '.artifacts[] | select(.name == "terabox-archive") | .id' \
+            | head -n 1)"
+
+          if [ -z "$ARTIFACT_ID" ]; then
+            echo "Artifact já ausente ou não localizado; nada para apagar."
+            exit 0
+          fi
+
+          gh api \
+            --method DELETE \
+            "repos/${GITHUB_REPOSITORY}/actions/artifacts/${ARTIFACT_ID}"
+
+          echo "Artifact ${ARTIFACT_ID} removido após confirmação do upload."
+
+      - name: Marcar falha real do arquivamento
+        if: ${{ always() && (steps.artifact_download.outcome != 'success' || steps.metadata.outcome != 'success' || steps.terabox.outcome != 'success') }}
+        run: |
+          echo "O fluxo principal IPA to R2 já foi concluído com sucesso."
+          echo "Esta falha pertence somente ao arquivamento no TeraBox."
+          exit 1
