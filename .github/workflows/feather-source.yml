@@ -149,6 +149,11 @@ jobs:
 
           git add Feather/feather.json
 
+          if git diff --cached --quiet; then
+            echo "ℹ️ Nenhuma alteração líquida no Feather; commit não necessário."
+            exit 0
+          fi
+
           if [ "$REBUILD_ALL_RESULT" = "true" ]; then
             git commit -m "Rebuild IPA Library metadata"
           elif [ "$SYNC_ONLY_RESULT" = "true" ]; then
