@@ -47,6 +47,7 @@ jobs:
           set -euo pipefail
           file build/iQFaceEnhancer.dylib | grep -qi arm64
           xcrun otool -L build/iQFaceEnhancer.dylib
+
           for marker in \
             'FBTabBarItemDefaultView' \
             'UIContextMenuInteraction' \
@@ -55,16 +56,25 @@ jobs:
             'IQFPresentSettings' \
             'MSHookMessageEx' \
             'IQFLoc' \
-            'MSHookFunction' \
-            'Ajustes do iQFace' \
-            'Bloquear anúncios' \
-            'Baixar vídeos' \
-            'Confirmações'; do
+            'MSHookFunction'; do
             strings build/iQFaceEnhancer.dylib | grep -F "$marker" >/dev/null || {
-              echo "Missing marker: $marker"
+              echo "Missing binary marker: $marker"
               exit 1
             }
           done
+
+          for marker in \
+            'Ajustes do iQFace' \
+            'Bloquear anúncios' \
+            'Baixar vídeos' \
+            'Confirmações' \
+            'IQFLocReplacement'; do
+            grep -F "$marker" iqface-enhancer-ptbr/Tweak.m >/dev/null || {
+              echo "Missing source marker: $marker"
+              exit 1
+            }
+          done
+
           shasum -a 256 build/iQFaceEnhancer.dylib | tee build/SHA256.txt
 
       - name: Upload pt-BR test dylib
