@@ -1,0 +1,75 @@
+name: iQFace Enhancer pt-BR Persistent
+
+on:
+  push:
+    branches:
+      - test/iqface-enhancer-glow-activation
+    paths:
+      - iqface-enhancer-ptbr-ui-persistent/Tweak.m
+      - .github/workflows/iqface-enhancer-ptbr-persistent.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Compile arm64 dylib
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          mkdir -p build
+          xcrun --sdk iphoneos clang \
+            -target arm64-apple-ios14.0 \
+            -arch arm64 \
+            -dynamiclib \
+            -Os \
+            -fobjc-arc \
+            -fblocks \
+            -isysroot "$SDK" \
+            -framework Foundation \
+            -framework UIKit \
+            -framework QuartzCore \
+            -install_name '@rpath/iQFaceEnhancer.dylib' \
+            iqface-enhancer-ptbr-ui-persistent/Tweak.m \
+            -o build/iQFaceEnhancer.dylib
+          chmod 755 build/iQFaceEnhancer.dylib
+
+      - name: Validate persistent UI-only build
+        shell: bash
+        run: |
+          set -euo pipefail
+          file build/iQFaceEnhancer.dylib | grep -qi arm64
+          xcrun otool -L build/iQFaceEnhancer.dylib
+          strings build/iQFaceEnhancer.dylib | grep -F 'FBTabBarItemDefaultView'
+          strings build/iQFaceEnhancer.dylib | grep -F 'iqf_installButton'
+          strings build/iQFaceEnhancer.dylib | grep -F 'IQFPresentSettings'
+          strings build/iQFaceEnhancer.dylib | grep -F 'IQFSettingsViewController'
+          strings build/iQFaceEnhancer.dylib | grep -F 'viewDidLayoutSubviews'
+          strings build/iQFaceEnhancer.dylib | grep -F 'viewDidAppear:'
+          strings build/iQFaceEnhancer.dylib | grep -F 'Ajustes do iQFace'
+          if strings build/iQFaceEnhancer.dylib | grep -F 'IQFLoc' >/dev/null; then
+            echo 'Unexpected IQFLoc hook marker'
+            exit 1
+          fi
+          if strings build/iQFaceEnhancer.dylib | grep -F 'MSHookFunction' >/dev/null; then
+            echo 'Unexpected MSHookFunction marker'
+            exit 1
+          fi
+          shasum -a 256 build/iQFaceEnhancer.dylib | tee build/SHA256.txt
+
+      - name: Upload persistent pt-BR test dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: iqface-enhancer-0.3.2-ptbr-persistent
+          path: |
+            build/iQFaceEnhancer.dylib
+            build/SHA256.txt
+          if-no-files-found: error
+          retention-days: 3
