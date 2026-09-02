@@ -1,0 +1,78 @@
+name: iQFace Enhancer pt-BR Test
+
+on:
+  push:
+    branches:
+      - test/iqface-enhancer-glow-activation
+    paths:
+      - iqface-enhancer-ptbr/Tweak.m
+      - .github/workflows/iqface-enhancer-ptbr-test.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Compile arm64 dylib
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          mkdir -p build
+          xcrun --sdk iphoneos clang \
+            -target arm64-apple-ios14.0 \
+            -arch arm64 \
+            -dynamiclib \
+            -Os \
+            -fobjc-arc \
+            -fblocks \
+            -isysroot "$SDK" \
+            -framework Foundation \
+            -framework UIKit \
+            -framework QuartzCore \
+            -install_name '@rpath/iQFaceEnhancer.dylib' \
+            iqface-enhancer-ptbr/Tweak.m \
+            -o build/iQFaceEnhancer.dylib
+          chmod 755 build/iQFaceEnhancer.dylib
+
+      - name: Validate stable activation + pt-BR layer
+        shell: bash
+        run: |
+          set -euo pipefail
+          file build/iQFaceEnhancer.dylib | grep -qi arm64
+          xcrun otool -L build/iQFaceEnhancer.dylib
+          for marker in \
+            'FBTabBarItemDefaultView' \
+            'UIContextMenuInteraction' \
+            'iqf_installButton' \
+            'iqf_dropButton' \
+            'IQFPresentSettings' \
+            'MSHookMessageEx' \
+            'IQFLoc' \
+            'MSHookFunction' \
+            'Ajustes do iQFace' \
+            'Bloquear anúncios' \
+            'Baixar vídeos' \
+            'Confirmações'; do
+            strings build/iQFaceEnhancer.dylib | grep -F "$marker" >/dev/null || {
+              echo "Missing marker: $marker"
+              exit 1
+            }
+          done
+          shasum -a 256 build/iQFaceEnhancer.dylib | tee build/SHA256.txt
+
+      - name: Upload pt-BR test dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: iqface-enhancer-0.3.0-ptbr-test
+          path: |
+            build/iQFaceEnhancer.dylib
+            build/SHA256.txt
+          if-no-files-found: error
+          retention-days: 3
