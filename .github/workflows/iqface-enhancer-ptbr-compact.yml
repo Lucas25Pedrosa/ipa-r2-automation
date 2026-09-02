@@ -1,0 +1,108 @@
+name: iQFace Enhancer pt-BR Compact
+
+on:
+  push:
+    branches:
+      - test/iqface-enhancer-glow-activation
+    paths:
+      - .github/workflows/iqface-enhancer-ptbr-compact.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Create compact-label source from stable 0.3.2
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          cp iqface-enhancer-ptbr-ui-persistent/Tweak.m build/Tweak.m
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('build/Tweak.m')
+          s = p.read_text()
+          replacements = {
+              '@"Hide group suggestions": @"Ocultar sugestões de grupos"': '@"Hide group suggestions": @"Ocultar grupos sugeridos"',
+              '@"Hide \\\"People You May Know\\\"": @"Ocultar \\\"Pessoas que você talvez conheça\\\""': '@"Hide \\\"People You May Know\\\"": @"Ocultar pessoas sugeridas"',
+              '@"Confirm friend requests": @"Confirmar solicitações de amizade"': '@"Confirm friend requests": @"Confirmar amizades"',
+              '@"Confirm follow and join": @"Confirmar ações de seguir e entrar"': '@"Confirm follow and join": @"Confirmar seguir/entrar"',
+              '@"Confirm sending a message": @"Confirmar envio de mensagens"': '@"Confirm sending a message": @"Confirmar mensagem"',
+              '@"Confirm reporting": @"Confirmar denúncia",': '@"Confirm reporting": @"Confirmar denúncia",\n            @"Confirm posting a comment": @"Confirmar comentário",',
+          }
+          for old, new in replacements.items():
+              if old not in s:
+                  raise SystemExit(f'Missing source string: {old}')
+              s = s.replace(old, new)
+          p.write_text(s)
+          PY
+
+      - name: Compile arm64 dylib
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          xcrun --sdk iphoneos clang \
+            -target arm64-apple-ios14.0 \
+            -arch arm64 \
+            -dynamiclib \
+            -Os \
+            -fobjc-arc \
+            -fblocks \
+            -isysroot "$SDK" \
+            -framework Foundation \
+            -framework UIKit \
+            -framework QuartzCore \
+            -install_name '@rpath/iQFaceEnhancer.dylib' \
+            build/Tweak.m \
+            -o build/iQFaceEnhancer.dylib
+          chmod 755 build/iQFaceEnhancer.dylib
+
+      - name: Validate compact translations
+        shell: bash
+        run: |
+          set -euo pipefail
+          file build/iQFaceEnhancer.dylib | grep -qi arm64
+          xcrun otool -L build/iQFaceEnhancer.dylib
+          for marker in \
+            'FBTabBarItemDefaultView' \
+            'IQFPresentSettings' \
+            'IQFSettingsViewController' \
+            'viewDidLayoutSubviews' \
+            'viewDidAppear:'; do
+            strings build/iQFaceEnhancer.dylib | grep -F "$marker" >/dev/null
+          done
+          for marker in \
+            'Ocultar grupos sugeridos' \
+            'Ocultar pessoas sugeridas' \
+            'Confirmar amizades' \
+            'Confirmar seguir/entrar' \
+            'Confirmar mensagem' \
+            'Confirmar comentário'; do
+            grep -F "$marker" build/Tweak.m >/dev/null
+          done
+          if strings build/iQFaceEnhancer.dylib | grep -F 'IQFLoc' >/dev/null; then
+            echo 'Unexpected IQFLoc marker'
+            exit 1
+          fi
+          if strings build/iQFaceEnhancer.dylib | grep -F 'MSHookFunction' >/dev/null; then
+            echo 'Unexpected MSHookFunction marker'
+            exit 1
+          fi
+          shasum -a 256 build/iQFaceEnhancer.dylib | tee build/SHA256.txt
+
+      - name: Upload 0.3.3 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iqface-enhancer-0.3.3-ptbr-compact
+          path: |
+            build/iQFaceEnhancer.dylib
+            build/SHA256.txt
+          if-no-files-found: error
+          retention-days: 3
