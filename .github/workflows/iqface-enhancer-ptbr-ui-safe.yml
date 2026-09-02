@@ -1,0 +1,202 @@
+name: iQFace Enhancer pt-BR UI-safe
+
+on:
+  push:
+    branches:
+      - test/iqface-enhancer-glow-activation
+    paths:
+      - .github/workflows/iqface-enhancer-ptbr-ui-safe.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Rebuild exact 0.2.0 base and add UI-only translation
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          python3 <<'PY'
+          from pathlib import Path
+          src = Path('.github/workflows/iqface-enhancer-glow-test.yml').read_text()
+          start = "          cat > build/iQFaceEnhancer.m <<'OBJC'\n"
+          end = "          OBJC\n"
+          body = src.split(start, 1)[1].split(end, 1)[0]
+          lines = []
+          for line in body.splitlines():
+              lines.append(line[10:] if line.startswith('          ') else line)
+          code = '\n'.join(lines) + '\n'
+
+          helper = r'''
+          static NSDictionary<NSString *, NSString *> *IQFPortugueseUIStrings(void) {
+              static NSDictionary<NSString *, NSString *> *map;
+              static dispatch_once_t onceToken;
+              dispatch_once(&onceToken, ^{
+                  map = @{
+                      @"iQFace Settings": @"Ajustes do iQFace",
+                      @"Back": @"Voltar",
+                      @"Language": @"Idioma",
+                      @"Follow system": @"Seguir idioma do sistema",
+                      @"Features": @"Recursos",
+                      @"Block ads": @"Bloquear anúncios",
+                      @"Download videos": @"Baixar vídeos",
+                      @"Anonymous stories": @"Stories anônimos",
+                      @"Feed": @"Feed",
+                      @"Hide suggested Reels": @"Ocultar Reels sugeridos",
+                      @"Hide group suggestions": @"Ocultar sugestões de grupos",
+                      @"Hide \"People You May Know\"": @"Ocultar \"Pessoas que você talvez conheça\"",
+                      @"Confirmations": @"Confirmações",
+                      @"Tools": @"Ferramentas",
+                      @"Developer": @"Desenvolvedor",
+                      @"Join Telegram channel": @"Entrar no canal do Telegram",
+                      @"About": @"Sobre",
+                      @"English": @"Inglês",
+                      @"Confirm friend requests": @"Confirmar solicitações de amizade",
+                      @"Confirm follow and join": @"Confirmar ações de seguir e entrar",
+                      @"Confirm sending a message": @"Confirmar envio de mensagens",
+                      @"Confirm likes": @"Confirmar curtidas",
+                      @"Confirm sharing": @"Confirmar compartilhamento",
+                      @"Confirm publishing": @"Confirmar publicação",
+                      @"Confirm reporting": @"Confirmar denúncia",
+                      @"Asks before an action that is easy to tap by accident. Everything here is off until you turn it on.": @"Pede confirmação antes de ações que podem ser tocadas por engano. Todas ficam desativadas até você ativá-las.",
+                      @"Blocks sponsored posts in the feed, and ads inside stories and Reels.": @"Bloqueia publicações patrocinadas no feed e anúncios dentro de stories e Reels.",
+                      @"Removes these cards from the feed entirely — nothing is left in their place. Each is off until you turn it on.": @"Remove completamente esses cartões do feed, sem deixar espaços no lugar. Cada opção fica desativada até você ativá-la."
+                  };
+              });
+              return map;
+          }
+
+          static NSString *IQFTranslateUIString(NSString *text) {
+              if (text.length == 0) return text;
+              return IQFPortugueseUIStrings()[text] ?: text;
+          }
+
+          static void IQFTranslateBarButtonItem(UIBarButtonItem *item) {
+              if (item == nil || item.title.length == 0) return;
+              NSString *translated = IQFTranslateUIString(item.title);
+              if (![translated isEqualToString:item.title]) item.title = translated;
+          }
+
+          static void IQFTranslateViewTree(UIView *view) {
+              if (view == nil) return;
+              if ([view isKindOfClass:UILabel.class]) {
+                  UILabel *label = (UILabel *)view;
+                  NSString *translated = IQFTranslateUIString(label.text);
+                  if (![translated isEqualToString:label.text]) label.text = translated;
+              } else if ([view isKindOfClass:UIButton.class]) {
+                  UIButton *button = (UIButton *)view;
+                  NSString *title = [button titleForState:UIControlStateNormal];
+                  NSString *translated = IQFTranslateUIString(title);
+                  if (![translated isEqualToString:title]) [button setTitle:translated forState:UIControlStateNormal];
+              } else if ([view isKindOfClass:UITextView.class]) {
+                  UITextView *textView = (UITextView *)view;
+                  NSString *translated = IQFTranslateUIString(textView.text);
+                  if (![translated isEqualToString:textView.text]) textView.text = translated;
+              } else if ([view isKindOfClass:UITextField.class]) {
+                  UITextField *field = (UITextField *)view;
+                  NSString *translated = IQFTranslateUIString(field.text);
+                  if (![translated isEqualToString:field.text]) field.text = translated;
+                  NSString *placeholder = field.placeholder;
+                  NSString *translatedPlaceholder = IQFTranslateUIString(placeholder);
+                  if (![translatedPlaceholder isEqualToString:placeholder]) field.placeholder = translatedPlaceholder;
+              }
+              for (UIView *subview in view.subviews.copy) IQFTranslateViewTree(subview);
+          }
+
+          static void IQFTranslateControllerTree(UIViewController *controller, BOOL insideIQF) {
+              if (controller == nil) return;
+              BOOL isIQF = insideIQF || [NSStringFromClass(controller.class) isEqualToString:@"IQFSettingsViewController"];
+              if (isIQF) {
+                  NSString *title = IQFTranslateUIString(controller.title);
+                  if (![title isEqualToString:controller.title]) controller.title = title;
+                  UINavigationItem *item = controller.navigationItem;
+                  NSString *navTitle = IQFTranslateUIString(item.title);
+                  if (![navTitle isEqualToString:item.title]) item.title = navTitle;
+                  IQFTranslateBarButtonItem(item.leftBarButtonItem);
+                  IQFTranslateBarButtonItem(item.rightBarButtonItem);
+                  if (controller.isViewLoaded) IQFTranslateViewTree(controller.view);
+              }
+              for (UIViewController *child in controller.childViewControllers.copy) IQFTranslateControllerTree(child, isIQF);
+              if (controller.presentedViewController != nil) IQFTranslateControllerTree(controller.presentedViewController, isIQF);
+          }
+
+          static void IQFTranslateVisibleSettings(void) {
+              for (UIWindow *window in UIApplication.sharedApplication.windows) {
+                  if (window.rootViewController != nil) IQFTranslateControllerTree(window.rootViewController, NO);
+              }
+          }
+
+          static void IQFScheduleTranslationPasses(void) {
+              const NSTimeInterval delays[] = {0.03, 0.12, 0.35, 0.75, 1.25};
+              for (NSUInteger i = 0; i < sizeof(delays) / sizeof(delays[0]); i++) {
+                  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delays[i] * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                      IQFTranslateVisibleSettings();
+                  });
+              }
+          }
+          '''
+
+          needle = 'static BOOL IQFSettingsVisible(void) {'
+          if needle not in code:
+              raise SystemExit('base marker not found')
+          code = code.replace(needle, helper + '\n' + needle, 1)
+          code = code.replace('    present();\n}', '    present();\n    IQFScheduleTranslationPasses();\n}', 1)
+          Path('build/iQFaceEnhancer.m').write_text(code)
+          PY
+
+      - name: Compile arm64 dylib
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          xcrun --sdk iphoneos clang \
+            -target arm64-apple-ios14.0 \
+            -arch arm64 \
+            -dynamiclib \
+            -Os \
+            -fobjc-arc \
+            -fblocks \
+            -isysroot "$SDK" \
+            -framework Foundation \
+            -framework UIKit \
+            -install_name '@rpath/iQFaceEnhancer.dylib' \
+            build/iQFaceEnhancer.m \
+            -o build/iQFaceEnhancer.dylib
+          chmod 755 build/iQFaceEnhancer.dylib
+
+      - name: Validate UI-safe build
+        shell: bash
+        run: |
+          set -euo pipefail
+          file build/iQFaceEnhancer.dylib | grep -qi arm64
+          strings build/iQFaceEnhancer.dylib | grep -F 'FBTabBarItemDefaultView'
+          strings build/iQFaceEnhancer.dylib | grep -F 'iqf_installButton'
+          strings build/iQFaceEnhancer.dylib | grep -F 'IQFPresentSettings'
+          strings build/iQFaceEnhancer.dylib | grep -F 'IQFSettingsViewController'
+          strings build/iQFaceEnhancer.dylib | grep -F 'Ajustes do iQFace'
+          if strings build/iQFaceEnhancer.dylib | grep -Fq 'MSHookFunction'; then
+            echo 'Unexpected MSHookFunction marker'
+            exit 1
+          fi
+          if strings build/iQFaceEnhancer.dylib | grep -Fq 'IQFLoc'; then
+            echo 'Unexpected IQFLoc marker'
+            exit 1
+          fi
+          shasum -a 256 build/iQFaceEnhancer.dylib | tee build/SHA256.txt
+
+      - name: Upload UI-safe test dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: iqface-enhancer-0.3.1-ptbr-ui-safe
+          path: |
+            build/iQFaceEnhancer.dylib
+            build/SHA256.txt
+          if-no-files-found: error
+          retention-days: 3
