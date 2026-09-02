@@ -1,0 +1,276 @@
+name: iQFace Enhancer Glow Activation Test
+
+on:
+  push:
+    branches:
+      - test/iqface-enhancer-glow-activation
+    paths:
+      - .github/workflows/iqface-enhancer-glow-test.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - name: Create test source
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          cat > build/iQFaceEnhancer.m <<'OBJC'
+          #import <Foundation/Foundation.h>
+          #import <UIKit/UIKit.h>
+          #import <objc/runtime.h>
+          #import <dlfcn.h>
+          #import <string.h>
+
+          typedef BOOL (*IQFSettingsVisibleFunction)(void);
+          typedef void (*IQFPresentSettingsFunction)(void);
+          typedef void (*MSHookMessageExType)(Class, SEL, IMP, IMP *);
+
+          static BOOL gIconHookInstalled = NO;
+          static BOOL gTabHookInstalled = NO;
+          static void (*gOriginalTabLayout)(id, SEL) = NULL;
+          static NSTimeInterval gLastPresentation = 0;
+          static const void *kIQFContextMenuKey = &kIQFContextMenuKey;
+
+          static void *IQFFindSymbol(const char *name) {
+              void *symbol = dlsym(RTLD_DEFAULT, name);
+              if (symbol != NULL) return symbol;
+
+              char underscored[128] = {0};
+              if (strlen(name) + 2 < sizeof(underscored)) {
+                  underscored[0] = '_';
+                  strlcpy(underscored + 1, name, sizeof(underscored) - 1);
+                  symbol = dlsym(RTLD_DEFAULT, underscored);
+              }
+              return symbol;
+          }
+
+          static BOOL IQFSettingsVisible(void) {
+              IQFSettingsVisibleFunction visible =
+                  (IQFSettingsVisibleFunction)IQFFindSymbol("IQFSettingsVisible");
+              return visible != NULL && visible();
+          }
+
+          static void IQFOpenSettings(void) {
+              NSTimeInterval now = NSDate.timeIntervalSinceReferenceDate;
+              if (now - gLastPresentation < 0.9 || IQFSettingsVisible()) return;
+
+              IQFPresentSettingsFunction present =
+                  (IQFPresentSettingsFunction)IQFFindSymbol("IQFPresentSettings");
+              if (present == NULL) return;
+
+              gLastPresentation = now;
+              present();
+          }
+
+          static void IQFCallVoid(id object, SEL selector) {
+              if (object == nil || selector == NULL ||
+                  ![object respondsToSelector:selector]) return;
+              IMP imp = [object methodForSelector:selector];
+              if (imp != NULL) ((void (*)(id, SEL))imp)(object, selector);
+          }
+
+          static void IQFDropButton(id navigationBar) {
+              IQFCallVoid(navigationBar, NSSelectorFromString(@"iqf_dropButton"));
+          }
+
+          static void IQFBlockedInstallButton(id self, SEL command) {
+              (void)command;
+              IQFDropButton(self);
+          }
+
+          static void IQFDropRecursively(UIView *view, Class navigationBarClass) {
+              if (view == nil) return;
+              if (navigationBarClass != Nil &&
+                  [view isKindOfClass:navigationBarClass]) {
+                  IQFDropButton(view);
+              }
+              for (UIView *subview in view.subviews.copy) {
+                  IQFDropRecursively(subview, navigationBarClass);
+              }
+          }
+
+          static void IQFRemoveExistingButtons(void) {
+              Class cls = NSClassFromString(@"FBNavigationBar");
+              if (cls == Nil) return;
+              for (UIWindow *window in UIApplication.sharedApplication.windows) {
+                  IQFDropRecursively(window, cls);
+              }
+          }
+
+          static BOOL IQFInstallIconHook(void) {
+              if (gIconHookInstalled) return YES;
+              Class cls = NSClassFromString(@"FBNavigationBar");
+              SEL selector = NSSelectorFromString(@"iqf_installButton");
+              if (cls == Nil || selector == NULL) return NO;
+
+              Method method = class_getInstanceMethod(cls, selector);
+              if (method == NULL) return NO;
+              method_setImplementation(method, (IMP)&IQFBlockedInstallButton);
+              gIconHookInstalled = YES;
+              IQFRemoveExistingButtons();
+              return YES;
+          }
+
+          @interface IQFContextMenuDelegate : NSObject <UIContextMenuInteractionDelegate>
+          + (instancetype)shared;
+          @end
+
+          @implementation IQFContextMenuDelegate
+          + (instancetype)shared {
+              static IQFContextMenuDelegate *delegate;
+              static dispatch_once_t onceToken;
+              dispatch_once(&onceToken, ^{ delegate = [IQFContextMenuDelegate new]; });
+              return delegate;
+          }
+
+          - (UIContextMenuConfiguration *)contextMenuInteraction:(UIContextMenuInteraction *)interaction
+                                configurationForMenuAtLocation:(CGPoint)location {
+              (void)interaction;
+              (void)location;
+              return [UIContextMenuConfiguration
+                  configurationWithIdentifier:@"com.7md.iqface.enhancer.settings"
+                               previewProvider:nil
+                                actionProvider:^UIMenu * _Nullable(NSArray<UIMenuElement *> *suggested) {
+                  (void)suggested;
+                  UIImage *image = [UIImage systemImageNamed:@"gearshape"];
+                  UIAction *action = [UIAction
+                      actionWithTitle:@"Ajustes do iQFace"
+                               image:image
+                          identifier:@"com.7md.iqface.enhancer.open-settings"
+                             handler:^(__kindof UIAction * _Nonnull actionObject) {
+                      (void)actionObject;
+                      dispatch_async(dispatch_get_main_queue(), ^{ IQFOpenSettings(); });
+                  }];
+                  return [UIMenu menuWithTitle:@"" children:@[action]];
+              }];
+          }
+          @end
+
+          static void IQFAttachContextMenu(UIView *view) {
+              if (view == nil || objc_getAssociatedObject(view, kIQFContextMenuKey) != nil) {
+                  return;
+              }
+              UIContextMenuInteraction *interaction =
+                  [[UIContextMenuInteraction alloc] initWithDelegate:IQFContextMenuDelegate.shared];
+              [view addInteraction:interaction];
+              objc_setAssociatedObject(view,
+                                       kIQFContextMenuKey,
+                                       interaction,
+                                       OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+          }
+
+          static void IQFTabLayout(id self, SEL command) {
+              if (gOriginalTabLayout != NULL) gOriginalTabLayout(self, command);
+              if ([self isKindOfClass:UIView.class]) {
+                  IQFAttachContextMenu((UIView *)self);
+              }
+          }
+
+          static BOOL IQFInstallGlowStyleTabHook(void) {
+              if (gTabHookInstalled) return YES;
+              Class cls = NSClassFromString(@"FBTabBarItemDefaultView");
+              MSHookMessageExType hook =
+                  (MSHookMessageExType)IQFFindSymbol("MSHookMessageEx");
+              if (cls == Nil || hook == NULL ||
+                  class_getInstanceMethod(cls, @selector(layoutSubviews)) == NULL) {
+                  return NO;
+              }
+
+              hook(cls,
+                   @selector(layoutSubviews),
+                   (IMP)&IQFTabLayout,
+                   (IMP *)&gOriginalTabLayout);
+              if (gOriginalTabLayout == NULL) return NO;
+              gTabHookInstalled = YES;
+              return YES;
+          }
+
+          static void IQFTryInstall(NSUInteger attempt) {
+              BOOL icon = IQFInstallIconHook();
+              BOOL tab = IQFInstallGlowStyleTabHook();
+              if ((!icon || !tab) && attempt < 40) {
+                  dispatch_after(dispatch_time(DISPATCH_TIME_NOW,
+                                               (int64_t)(0.25 * NSEC_PER_SEC)),
+                                 dispatch_get_main_queue(), ^{
+                      IQFTryInstall(attempt + 1);
+                  });
+              }
+          }
+
+          __attribute__((constructor))
+          static void IQFEnhancerInitialize(void) {
+              @autoreleasepool {
+                  if (![NSBundle.mainBundle.bundleIdentifier isEqualToString:@"com.facebook.Facebook"] ||
+                      [NSBundle.mainBundle.bundlePath hasSuffix:@".appex"]) {
+                      return;
+                  }
+
+                  [NSNotificationCenter.defaultCenter
+                      addObserverForName:UIApplicationDidBecomeActiveNotification
+                                  object:nil
+                                   queue:NSOperationQueue.mainQueue
+                              usingBlock:^(NSNotification *note) {
+                      (void)note;
+                      dispatch_after(dispatch_time(DISPATCH_TIME_NOW,
+                                                   (int64_t)(0.25 * NSEC_PER_SEC)),
+                                     dispatch_get_main_queue(), ^{
+                          IQFInstallIconHook();
+                          IQFRemoveExistingButtons();
+                      });
+                  }];
+
+                  dispatch_async(dispatch_get_main_queue(), ^{
+                      IQFTryInstall(0);
+                      IQFRemoveExistingButtons();
+                  });
+              }
+          }
+          OBJC
+
+      - name: Compile arm64 dylib
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          xcrun --sdk iphoneos clang \
+            -target arm64-apple-ios14.0 \
+            -arch arm64 \
+            -dynamiclib \
+            -Os \
+            -fobjc-arc \
+            -fblocks \
+            -isysroot "$SDK" \
+            -framework Foundation \
+            -framework UIKit \
+            -install_name '@rpath/iQFaceEnhancer.dylib' \
+            build/iQFaceEnhancer.m \
+            -o build/iQFaceEnhancer.dylib
+          chmod 755 build/iQFaceEnhancer.dylib
+
+      - name: Validate dylib
+        shell: bash
+        run: |
+          set -euo pipefail
+          file build/iQFaceEnhancer.dylib
+          xcrun otool -L build/iQFaceEnhancer.dylib
+          strings build/iQFaceEnhancer.dylib | grep -F 'FBTabBarItemDefaultView'
+          strings build/iQFaceEnhancer.dylib | grep -F 'iqf_installButton'
+          strings build/iQFaceEnhancer.dylib | grep -F 'iqf_dropButton'
+          strings build/iQFaceEnhancer.dylib | grep -F 'IQFPresentSettings'
+          strings build/iQFaceEnhancer.dylib | grep -F 'MSHookMessageEx'
+          shasum -a 256 build/iQFaceEnhancer.dylib
+
+      - name: Upload test dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: iqface-enhancer-0.2.0-glow-activation-test
+          path: build/iQFaceEnhancer.dylib
+          if-no-files-found: error
+          retention-days: 3
