@@ -17,8 +17,13 @@ jobs:
         with:
           ruby-version: '3.3'
 
-      - name: Instalar cliente TeraBox
-        run: gem install terabox-api-ruby --no-document
+      - name: Baixar cliente TeraBox
+        shell: bash
+        run: |
+          git clone --depth 1 https://github.com/dangkhoa2016/terabox-api-ruby.git /tmp/terabox-api-ruby
+          cd /tmp/terabox-api-ruby
+          git fetch --depth 1 origin 0e8883e57a613c5e35bfe2f751d45ec6041e56a5
+          git checkout --detach 0e8883e57a613c5e35bfe2f751d45ec6041e56a5
 
       - name: Testar login e geração da sessão
         env:
@@ -26,7 +31,7 @@ jobs:
           TERABOX_PASSWORD: ${{ secrets.TERABOX_PASSWORD }}
         shell: bash
         run: |
-          ruby <<'RUBY'
+          ruby -I/tmp/terabox-api-ruby/lib <<'RUBY'
           require 'terabox_api'
 
           def required_secret(name)
