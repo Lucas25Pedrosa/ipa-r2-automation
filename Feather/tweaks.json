@@ -5,9 +5,11 @@
       "name": "Facebook",
       "addons": [
         {
-          "name": "Glow",
-          "currentVersion": "1.3.1",
-          "knownVersions": ["1.3.1"]
+          "name": "iQFace",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ]
         }
       ]
     },
@@ -17,9 +19,14 @@
         {
           "name": "MSGPlusX",
           "currentVersion": "1.1",
-          "knownVersions": ["1.1"],
+          "knownVersions": [
+            "1.1"
+          ],
           "components": [
-            {"name": "MSGPlusX", "version": "1.1"}
+            {
+              "name": "MSGPlusX",
+              "version": "1.1"
+            }
           ]
         }
       ]
@@ -30,7 +37,9 @@
         {
           "name": "Regram",
           "currentVersion": "6.0.1",
-          "knownVersions": ["6.0.1"]
+          "knownVersions": [
+            "6.0.1"
+          ]
         }
       ]
     },
@@ -40,7 +49,9 @@
         {
           "name": "RXTikTok",
           "currentVersion": "1.6.6",
-          "knownVersions": ["1.6.6"]
+          "knownVersions": [
+            "1.6.6"
+          ]
         }
       ]
     },
@@ -50,10 +61,18 @@
         {
           "name": "BHTwitter",
           "currentVersion": "6.5.0",
-          "knownVersions": ["6.5.0"],
+          "knownVersions": [
+            "6.5.0"
+          ],
           "components": [
-            {"name": "BHTwitter", "version": "6.5.0"},
-            {"name": "TwitDate", "version": "0.0.1-2"}
+            {
+              "name": "BHTwitter",
+              "version": "6.5.0"
+            },
+            {
+              "name": "TwitDate",
+              "version": "0.0.1-2"
+            }
           ]
         }
       ]
@@ -64,12 +83,16 @@
         {
           "name": "MxGram",
           "currentVersion": "1.0.0",
-          "knownVersions": ["1.0.0"]
+          "knownVersions": [
+            "1.0.0"
+          ]
         },
         {
           "name": "Lead",
           "currentVersion": "1.4.4",
-          "knownVersions": ["1.4.4"]
+          "knownVersions": [
+            "1.4.4"
+          ]
         }
       ]
     },
@@ -79,7 +102,9 @@
         {
           "name": "MoesReddit",
           "currentVersion": "2.4",
-          "knownVersions": ["2.4"]
+          "knownVersions": [
+            "2.4"
+          ]
         }
       ]
     },
@@ -89,7 +114,9 @@
         {
           "name": "Photoroom Max",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"]
+          "knownVersions": [
+            "1.0"
+          ]
         }
       ]
     },
@@ -99,7 +126,9 @@
         {
           "name": "Letterboxd Patron",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"]
+          "knownVersions": [
+            "1.0"
+          ]
         }
       ]
     },
@@ -109,7 +138,9 @@
         {
           "name": "Picsart Gold",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Picsart Gold 1.0"
         }
       ]
@@ -120,7 +151,9 @@
         {
           "name": "Media Converter Pro",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Media Converter Pro 1.0"
         }
       ]
@@ -131,7 +164,9 @@
         {
           "name": "Satella",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Satella 1.0"
         }
       ]
@@ -142,7 +177,9 @@
         {
           "name": "Photoleap Unlimited",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Photoleap Unlimited 1.0"
         }
       ]
@@ -153,7 +190,9 @@
         {
           "name": "Documents Pro",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Documents Pro 1.0"
         }
       ]
@@ -164,7 +203,9 @@
         {
           "name": "PDF Expert Premium",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "PDF Expert Premium 1.0"
         }
       ]
@@ -175,7 +216,9 @@
         {
           "name": "Duolingo Max",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Duolingo Max 1.0"
         }
       ]
@@ -186,7 +229,9 @@
         {
           "name": "Aloha Premium Plus",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Aloha Premium Plus 1.0"
         }
       ]
@@ -197,7 +242,9 @@
         {
           "name": "BoldVoice Premium",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "BoldVoice Premium 1.0"
         }
       ]
@@ -208,7 +255,9 @@
         {
           "name": "CamScanner VIP",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "CamScanner VIP 1.0"
         }
       ]
@@ -219,7 +268,9 @@
         {
           "name": "iLovePDF Premium",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "iLovePDF Premium 1.0"
         }
       ]
@@ -230,7 +281,9 @@
         {
           "name": "InShot Pro",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "InShot Pro 1.0"
         }
       ]
@@ -241,7 +294,9 @@
         {
           "name": "iTranslate Pro",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "iTranslate Pro 1.0"
         }
       ]
@@ -252,7 +307,9 @@
         {
           "name": "Moovit+",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Moovit+ 1.0"
         }
       ]
@@ -263,7 +320,9 @@
         {
           "name": "Facetune VIP",
           "currentVersion": "1.0",
-          "knownVersions": ["1.0"],
+          "knownVersions": [
+            "1.0"
+          ],
           "packageLabel": "Facetune VIP 1.0"
         }
       ]
@@ -274,12 +333,26 @@
         {
           "name": "Watusi 3",
           "currentVersion": "1.3.22",
-          "knownVersions": ["1.3.22"],
+          "knownVersions": [
+            "1.3.22"
+          ],
           "components": [
-            {"name": "Watusi 3", "version": "1.3.22"},
-            {"name": "ContactSync", "version": "1.1.15"},
-            {"name": "OnlineNotify", "version": "3.5.4"},
-            {"name": "Stalky", "version": "4.3.0"}
+            {
+              "name": "Watusi 3",
+              "version": "1.3.22"
+            },
+            {
+              "name": "ContactSync",
+              "version": "1.1.15"
+            },
+            {
+              "name": "OnlineNotify",
+              "version": "3.5.4"
+            },
+            {
+              "name": "Stalky",
+              "version": "4.3.0"
+            }
           ]
         }
       ]
@@ -290,9 +363,14 @@
         {
           "name": "YouTube Plus",
           "currentVersion": "5.2.2",
-          "knownVersions": ["5.2.2"],
+          "knownVersions": [
+            "5.2.2"
+          ],
           "components": [
-            {"name": "YouTube Plus", "version": "5.2.2"}
+            {
+              "name": "YouTube Plus",
+              "version": "5.2.2"
+            }
           ]
         }
       ]
