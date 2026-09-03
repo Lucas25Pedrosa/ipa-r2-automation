@@ -12,18 +12,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Preparar Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Preparar Node.js
+        uses: actions/setup-node@v6
         with:
-          ruby-version: '3.3'
+          node-version: '24'
 
-      - name: Baixar cliente TeraBox
-        shell: bash
-        run: |
-          git clone --depth 1 https://github.com/dangkhoa2016/terabox-api-ruby.git /tmp/terabox-api-ruby
-          cd /tmp/terabox-api-ruby
-          git fetch --depth 1 origin 0e8883e57a613c5e35bfe2f751d45ec6041e56a5
-          git checkout --detach 0e8883e57a613c5e35bfe2f751d45ec6041e56a5
+      - name: Instalar cliente TeraBox
+        run: npm install --no-save --ignore-scripts terabox-api@2.9.5
 
       - name: Testar login e geração da sessão
         env:
@@ -31,68 +26,82 @@ jobs:
           TERABOX_PASSWORD: ${{ secrets.TERABOX_PASSWORD }}
         shell: bash
         run: |
-          ruby -I/tmp/terabox-api-ruby/lib <<'RUBY'
-          require 'terabox_api'
+          node --input-type=module <<'NODE'
+          import { TeraBoxApp } from 'terabox-api';
 
-          def required_secret(name)
-            value = ENV[name].to_s
-            if value.empty?
-              warn "::error::Secret ausente: #{name}"
-              exit 1
-            end
-            value
-          end
+          function requiredSecret(name) {
+            const value = String(process.env[name] || '');
+            if (!value) {
+              console.error(`::error::Secret ausente: ${name}`);
+              process.exit(1);
+            }
+            return value;
+          }
 
-          email = required_secret('TERABOX_EMAIL')
-          password = required_secret('TERABOX_PASSWORD')
+          function safeMessage(value, email, password) {
+            let text = String(value ?? '');
+            if (email) text = text.split(email).join('[email]');
+            if (password) text = text.split(password).join('[password]');
+            return text.slice(0, 500);
+          }
 
-          begin
-            puts '1/4 Iniciando pré-login no TeraBox...'
-            app = TeraBoxApi::TeraBoxApp.new('')
-            pre_login = app.passport_pre_login(email)
+          const email = requiredSecret('TERABOX_EMAIL');
+          const password = requiredSecret('TERABOX_PASSWORD');
 
-            required_prelogin_fields = %w[seval random timestamp]
-            unless pre_login.is_a?(Hash) && required_prelogin_fields.all? { |key| !pre_login[key].to_s.empty? }
-              code = pre_login.is_a?(Hash) ? pre_login['code'] : nil
-              raise "pré-login recusado (code=#{code || 'desconhecido'})"
-            end
-            puts '✅ Pré-login concluído.'
+          try {
+            console.log('1/4 Iniciando pré-login no TeraBox...');
+            const app = new TeraBoxApp('');
+            const preLogin = await app.passportPreLogin(email);
+            const preData = preLogin?.data?.seval ? preLogin.data : preLogin;
+            const requiredFields = ['seval', 'random', 'timestamp'];
 
-            puts '2/4 Autenticando com e-mail e senha...'
-            login = app.passport_login(pre_login, email, password)
-            code = login.is_a?(Hash) ? login['code'] : nil
-            raise "login recusado (code=#{code || 'desconhecido'})" unless code.to_i.zero?
+            if (!preData || !requiredFields.every((key) => String(preData[key] ?? '').length > 0)) {
+              const code = preLogin?.code ?? 'desconhecido';
+              const msg = safeMessage(preLogin?.msg ?? preLogin?.message ?? '', email, password);
+              throw new Error(`pré-login recusado (code=${code}${msg ? `, msg=${msg}` : ''})`);
+            }
+            console.log('✅ Pré-login concluído.');
 
-            ndus = login.dig('data', 'ndus').to_s
-            raise 'login aceito, mas o TeraBox não retornou NDUS' if ndus.empty?
-            puts "::add-mask::#{ndus}"
-            puts '✅ NDUS gerado com sucesso.'
+            console.log('2/4 Autenticando com e-mail e senha...');
+            const login = await app.passportLogin(preData, email, password);
+            const loginCode = Number(login?.code);
+            if (loginCode !== 0) {
+              const msg = safeMessage(login?.msg ?? login?.message ?? '', email, password);
+              throw new Error(`login recusado (code=${login?.code ?? 'desconhecido'}${msg ? `, msg=${msg}` : ''})`);
+            }
 
-            puts '3/4 Validando a nova sessão...'
-            session = TeraBoxApi::TeraBoxApp.new(ndus)
-            login_check = session.check_login
-            errno = login_check.is_a?(Hash) ? login_check['errno'] : nil
-            raise "NDUS não validado (errno=#{errno || 'desconhecido'})" unless errno.to_i.zero?
-            puts '✅ Sessão NDUS válida.'
+            const ndus = String(login?.data?.ndus || '');
+            if (!ndus) throw new Error('login aceito, mas o TeraBox não retornou NDUS');
+            console.log(`::add-mask::${ndus}`);
+            console.log('✅ NDUS gerado com sucesso.');
 
-            puts '4/4 Obtendo jsToken...'
-            session.update_app_data
-            js_token = session.data[:js_token].to_s
-            raise 'sessão válida, mas não foi possível obter jsToken' if js_token.empty?
-            puts "::add-mask::#{js_token}"
+            console.log('3/4 Validando a nova sessão...');
+            const session = new TeraBoxApp(ndus);
+            const loginCheck = await session.checkLogin();
+            const errno = Number(loginCheck?.errno);
+            if (errno !== 0) {
+              throw new Error(`NDUS não validado (errno=${loginCheck?.errno ?? 'desconhecido'})`);
+            }
+            console.log('✅ Sessão NDUS válida.');
 
-            quota = session.get_quota
-            quota_errno = quota.is_a?(Hash) ? quota['errno'] : nil
-            raise "API autenticada recusou a consulta de quota (errno=#{quota_errno || 'desconhecido'})" unless quota_errno.to_i.zero?
+            console.log('4/4 Obtendo jsToken...');
+            await session.updateAppData();
+            const jsToken = String(session?.data?.jsToken || '');
+            if (!jsToken) throw new Error('sessão válida, mas não foi possível obter jsToken');
+            console.log(`::add-mask::${jsToken}`);
 
-            puts '✅ jsToken gerado com sucesso.'
-            puts '✅ API TeraBox validada.'
-            puts 'TERABOX_LOGIN_TEST=OK'
-          rescue StandardError => e
-            message = e.message.to_s
-            message = message.gsub(email, '[email]') unless email.empty?
-            message = message.gsub(password, '[password]') unless password.empty?
-            warn "::error::TeraBox Login Test falhou: #{message}"
-            exit 1
-          end
-          RUBY
+            const quota = await session.getQuota();
+            const quotaErrno = Number(quota?.errno);
+            if (quotaErrno !== 0) {
+              throw new Error(`API autenticada recusou a consulta de quota (errno=${quota?.errno ?? 'desconhecido'})`);
+            }
+
+            console.log('✅ jsToken gerado com sucesso.');
+            console.log('✅ API TeraBox validada.');
+            console.log('TERABOX_LOGIN_TEST=OK');
+          } catch (error) {
+            const message = safeMessage(error?.message || error, email, password);
+            console.error(`::error::TeraBox Login Test falhou: ${message}`);
+            process.exit(1);
+          }
+          NODE
