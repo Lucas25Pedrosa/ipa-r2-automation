@@ -414,37 +414,6 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/iTranslate/iTranslate%20-%2017.4.75.ipa?packageRevision=204e0555ce482fd10f4433a2f0e0084d3baea02bf4dc18f6897e8aa5aa6bf26b&tweak=iTranslate+Pro&tweakVersion=1.0&packageLabel=iTranslate+Pro+1.0"
     },
     {
-      "name": "Letterboxd",
-      "bundleIdentifier": "com.letterboxd.LetterboxdApp",
-      "developerName": "Letterboxd Ltd",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/27/ab/6827ab68-bf45-5975-144b-f1a05d40c6cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "O Letterboxd para iOS coloca a rede social popular para amantes de cinema no seu iPhone ou iPad, para que você possa registrar filmes e acompanhar as atividades dos seus amigos com facilidade. \n\nFaça login com sua conta existente (ou crie uma gratuitamente) para aproveitar nossa interface nativa do aplicativo. Esses recursos da experiência web são suportados, com mais novidades a vir: \n\n– Faça login (com suporte ao 1Password) ou crie uma conta\n– Navegue pelos filmes populares, altamente avaliados e mais aguardados (incluindo nossa lista oficial dos 250 Melhores Longas-Narrativas)\n– Registrar filmes com data, classificação, crítica e tags\n– Ver informações sobre filmes (incluindo elenco e equipe, listas e críticas populares) e avaliar, curtir, lista de assistência ou marcar como assistido\n– Visualize (e filtre) seu feed de atividades\n– Leia e comente resenhas e listas\n– Criar e editar listas\n– Veja perfis de membros, incluindo filmes, análises, entradas de diário, tags, estatísticas e muito mais\n– Siga os membros para ver suas atividades no seu feed\n– Filtrar e ordenar coleções de filmes com base em critérios específicos\n– Buscar por filmes, conteúdos e pessoas\n– Editar as configurações do seu perfil\n\nNosso aplicativo oferece upgrades de conta: \n\n– Upgrade para 1 ano de Letterboxd Pro ou Patron\n– O nível Pro adiciona páginas anuais e de estatísticas históricas baseadas na atividade da sua conta, filtros avançados de atividade e serviços de streaming (incluindo a opção de selecionar e filtrar pelos serviços de streaming que você assina, alimentados pela JustWatch.com), clonagem de listas e remove anúncios de terceiros. \n– O nível Patron oferece todos os benefícios do Pro, além da opção de personalizar pôsteres de filmes, cenários no seu perfil e conteúdo (se disponível), estatísticas adicionais, uma listagem no diretório de Patronos em nosso site e acesso antecipado a novos recursos. \n– O pagamento é cobrado na sua conta iTunes quando você confirma a compra e sua assinatura é renovada automaticamente, a menos que a renovação automática seja desativada pelo menos 24 horas antes do término do período atual. Sua conta iTunes será cobrada por renovação até 24 horas antes do término de cada período atual, pela mesma taxa anual. \n– Você pode gerenciar sua assinatura e desativar as renovações automáticas no aplicativo da App Store após a compra. \n– Qualquer parte não utilizada do período de teste gratuito, se oferecida, será perdida se você adquirir uma assinatura dessa publicação, quando aplicável\n\nNossos termos de uso estão sempre disponíveis em: https://letterboxd.com/legal/terms-of-use/ \n\nAgradecemos seu feedback sobre o Letterboxd para iOS. Por favor, envie-nos um e-mail: hello@letterboxd.com",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/1b/35/851b35c0-43c8-c9b3-1d6f-f7e634d6b85d/Store_1c.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/e7/9f/25e79f8f-8327-75cf-afad-fa4bb51270f1/pr_source.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/d3/c1/77d3c16e-5771-08ab-2630-bd79d22d681d/pr_source.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/50/0b/b3500b6f-0761-7d55-a7af-1356433275cc/pr_source.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d8/fb/07d8fba4-5e27-80d4-89ab-e23bd65d8df8/pr_source.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/61/cc/9e61cc90-6671-89cc-48db-edb5feec0a57/pr_source.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/96/8b/f4968bf8-138a-3254-f906-cb6bf5b41c1b/20242ed4-7701-4e63-b4fd-ec7b9b78a838_Store_0c.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/00/a0/4f00a08d-918d-c4fb-ba10-2c87fabd0318/d5dce809-15c6-4aa2-bd43-eeaee2bf15b8_Store_7c.png/392x696bb.png"
-      ],
-      "versions": [
-        {
-          "version": "4.12.3",
-          "buildVersion": "6613",
-          "date": "2026-06-23T16:22:53Z",
-          "size": 57449691,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Letterboxd/Letterboxd%20-%204.12.3.ipa",
-          "localizedDescription": "– Correções e melhorias de bugs diversos"
-        }
-      ],
-      "version": "4.12.3",
-      "versionDate": "2026-06-23T16:22:53Z",
-      "size": 57449691,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Letterboxd/Letterboxd%20-%204.12.3.ipa"
-    },
-    {
       "name": "Media Converter",
       "bundleIdentifier": "com.verycoolapp.mediaconvert",
       "developerName": "荣 马",
@@ -863,15 +832,15 @@
           "version": "12.21",
           "buildVersion": "26",
           "date": "2026-08-27T03:59:30Z",
-          "size": 248721041,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X%20-%2012.21.ipa?packageRevision=e857587089f6558a511b99ef781cdc69dad65f6dd1cf2e384774a749b58fa1cc&tweak=BHTwitter&tweakVersion=6.5.1&packageLabel=BHTwitter+6.5.1",
+          "size": 248729494,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X_12.21.ipa?packageRevision=733379b7e98921effde60247f715f2bab3863ce9842ed1df3b101e3491570a16&tweak=BHTwitter&tweakVersion=6.6.0&packageLabel=BHTwitter+6.6.0",
           "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você."
         }
       ],
       "version": "12.21",
       "versionDate": "2026-08-27T03:59:30Z",
-      "size": 248721041,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X%20-%2012.21.ipa?packageRevision=e857587089f6558a511b99ef781cdc69dad65f6dd1cf2e384774a749b58fa1cc&tweak=BHTwitter&tweakVersion=6.5.1&packageLabel=BHTwitter+6.5.1"
+      "size": 248729494,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/X/X_12.21.ipa?packageRevision=733379b7e98921effde60247f715f2bab3863ce9842ed1df3b101e3491570a16&tweak=BHTwitter&tweakVersion=6.6.0&packageLabel=BHTwitter+6.6.0"
     },
     {
       "name": "YouTube",
