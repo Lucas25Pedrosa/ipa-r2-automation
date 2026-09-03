@@ -21,6 +21,16 @@ STATIC_PACKAGES = {
 }
 
 
+# Historical package names that were replaced by a new Injector package identity.
+# Removal only happens when the source currently identifies the replacement package,
+# so apps that legitimately expose multiple addons (for example Telegram) are untouched.
+REPLACED_PACKAGES = {
+    "com.facebook.Facebook": {
+        "iQFace": {"Glow"},
+    },
+}
+
+
 def _set_output(name: str, value: str) -> None:
     output = os.environ.get("GITHUB_OUTPUT", "").strip()
     if not output:
@@ -154,6 +164,30 @@ def main() -> None:
             addons = []
             record["addons"] = addons
             changed = True
+
+        replacements = REPLACED_PACKAGES.get(bundle, {})
+        legacy_names = next(
+            (
+                names
+                for replacement_name, names in replacements.items()
+                if replacement_name.casefold() == package["name"].casefold()
+            ),
+            set(),
+        )
+        if legacy_names:
+            legacy_folded = {name.casefold() for name in legacy_names}
+            filtered_addons = [
+                item
+                for item in addons
+                if not (
+                    isinstance(item, dict)
+                    and str(item.get("name") or "").casefold() in legacy_folded
+                )
+            ]
+            if len(filtered_addons) != len(addons):
+                addons = filtered_addons
+                record["addons"] = addons
+                changed = True
 
         addon = next(
             (
