@@ -636,7 +636,7 @@
       "name": "Picsart",
       "bundleIdentifier": "com.picsart.studio",
       "developerName": "PicsArt, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/c6/4c/5bc64c82-100a-d5b2-d086-c6ad13c0337b/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/0d/45/ff0d452b-a3bf-abec-ab36-7d13a2980b11/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Desperte seu potencial criativo com o Picsart — o editor de fotos com IA, editor de vídeo com IA e estúdio de design tudo em um, gratuito e fácil de usar. De designs para negócios a arte com IA, vá da inspiração à criação rapidamente. Crie com um Criador de Imagem IA e gerador de vídeo com IA, edite com um editor de imagens com IA, remova fundos com o Removedor de Fundo (BG remover), apague objetos com o Removedor de Objetos (Object Eraser), aplique efeitos de IA, filtros e ferramentas de retoque e transforme ideias em designs com templates, colagens, criador de stories e muito mais. Crie com novas ferramentas de imagem para vídeo, avatares de vídeo com IA, prova virtual com IA, avatares de IA, Gen AI Studio, AI Playground e Picsart Persona.\n\nCONHEÇA O PICSART AURA\nTransforme sua visão em visuais conversando com Aura, seu parceiro criativo baseado na plataforma Picsart e usado por mais de 150 milhões de criadores. Em segundos, ele cria, edita e aprimora imagens e vídeos com IA, sugere prompts, lembra seus chats e permite compartilhar sessões. Use o Nano Banana™ para gerar imagens e modelos de vídeo como Veo™ (Veo 3), Kling, Runway e Luma. A disponibilidade pode variar; marcas registradas pertencem a seus donos.\n\nINICIE PROJETOS COM TEMPLATES\n• Use templates personalizáveis criados por editores profissionais.\n• Crie logos com o criador de logo IA, posts para redes sociais, stories, cartões de visita, pôsteres e muito mais.\n\nTRANSFORME DESIGNS COM O REMOVEDOR DE FUNDO\n• Remova o fundo para recortes limpos e fotos de produtos.\n• O Fundo Inteligente cria planos de fundo perfeitos — um trocador de fundo rápido para anúncios e promoções.\n• Remova o fundo, refine as bordas e crie estilos estéticos para projetos de editor de fotos.\n\nREMOVA OBJETOS FACILMENTE\n• Removedor/Apagador de Objetos apaga itens indesejados.\n• Elimine a desordem e imperfeições para uma foto limpa.\n\nSEJA CRIATIVO COM IA\n• Criador de Imagem IA / Criador de fotos IA: transforme texto em arte, imagens e GIFs com IA.\n• Gerador de vídeo com IA: faça vídeos a partir de texto, imagens ou ideias em segundos.\n• Realce de IA melhora instantaneamente a qualidade das imagens.\n• Aplique filtros e efeitos de IA estilizados no seu editor de fotos.\n• Repor IA transforma imagens com trocas de rosto, cor de cabelo e edições de selfie.\n• Retoque de IA aperfeiçoa retratos com ajustes avançados de pele, rosto e detalhes.\n• Expansão de IA amplia imagens além do enquadramento.\n• Prova Virtual de IA permite testar roupas e estilos na hora.\n• Escritor de IA cria legendas, textos e copies de marketing.\n• Envie selfies para gerar avatares de IA personalizados.\n• Explore novas ideias no AI Playground e crie mais rápido com o Gen AI Studio.\n\nEDITE VÍDEOS COMO UM PROFISSIONAL\n• Use o editor intuitivo para criar clipes com música.\n• Gere vídeos com IA, efeitos, texto e filtros da moda.\n• Dê movimento às suas fotos.\n• Crie vídeos curtos para qualquer plataforma.\n• Junte seus melhores momentos em uma colagem de vídeo.\n\nADICIONE SEU TOQUE COM O CRIADOR DE STICKERS\n• Mais de 60 milhões de stickers.\n• Use stickers em fotos e promos.\n• Crie stickers personalizados.\n\nCONTE EM TEXTO\n• Escreva com o Editor de Texto do Picsart.\n• Centenas de fontes clássicas e modernas.\n• Ajuste o estilo do texto.\n\nMAGIA DE COLAGENS\n• Colagens divertidas com suas fotos.\n• Use grade ou freestyle para mood boards e molduras.\n\nDESCUBRA INSPIRAÇÃO INFINITA\nDe solopreneurs a fãs de design, arte com IA e edição de fotos — compartilhe ideias e inspire-se para o próximo projeto com o Picsart Spaces.\n\nMELHORE SEU DESIGN\nPicsart Plus: conteúdo premium, modelos e retoque extra.\nPicsart Pro: mais IA, mais vagas de equipe e mais armazenamento.\n\nTermos e condições: https://picsart.com/terms-and-conditions\nSobre anúncios: https://picsart.com/privacy-policy#interest-base",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/90/25/1d/90251d88-fe29-4f4e-fd84-393a07ba0934/2e4e77b4-1dc6-4c1c-a599-d038d2076098_01_5_U002c5_All-in-One_Editor_5.jpg/392x696bb.jpg",
@@ -652,18 +652,18 @@
       ],
       "versions": [
         {
-          "version": "30.6.2",
-          "buildVersion": "30602",
-          "date": "2026-08-20T19:53:05Z",
-          "size": 104477836,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.6.2.ipa?packageRevision=839fa1626cec9da8d0c59dc79019115c78748948bbc1a9e89554b790ec190ded&tweak=Picsart+Gold&tweakVersion=1.0&packageLabel=Picsart+Gold+1.0",
+          "version": "30.7.1",
+          "buildVersion": "30701",
+          "date": "2026-09-03T05:52:02Z",
+          "size": 105037267,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart_30.7.1.ipa?packageRevision=839fa1626cec9da8d0c59dc79019115c78748948bbc1a9e89554b790ec190ded&tweak=Picsart+Gold&tweakVersion=1.0&packageLabel=Picsart+Gold+1.0",
           "localizedDescription": "A maioria das novidades não espera por uma atualização. Esta corrige alguns bugs, mas o que importa mesmo acontece nos bastidores - novos recursos, conteúdos, stickers e templates chegam o tempo todo. Fica de olho nas nossas redes pra não perder nada."
         }
       ],
-      "version": "30.6.2",
-      "versionDate": "2026-08-20T19:53:05Z",
-      "size": 104477836,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart%20-%2030.6.2.ipa?packageRevision=839fa1626cec9da8d0c59dc79019115c78748948bbc1a9e89554b790ec190ded&tweak=Picsart+Gold&tweakVersion=1.0&packageLabel=Picsart+Gold+1.0"
+      "version": "30.7.1",
+      "versionDate": "2026-09-03T05:52:02Z",
+      "size": 105037267,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Picsart/Picsart_30.7.1.ipa?packageRevision=839fa1626cec9da8d0c59dc79019115c78748948bbc1a9e89554b790ec190ded&tweak=Picsart+Gold&tweakVersion=1.0&packageLabel=Picsart+Gold+1.0"
     },
     {
       "name": "Pocket Terço",
