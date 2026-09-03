@@ -1,0 +1,109 @@
+name: TeraBox Session Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-session:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Preparar Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Instalar cliente TeraBox
+        run: npm install --no-save --ignore-scripts terabox-api@2.9.5
+
+      - name: Restaurar sessão salva
+        env:
+          TERABOX_SESSION_B64: ${{ secrets.TERABOX_SESSION_B64 }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${TERABOX_SESSION_B64:-}" ]; then
+            echo "::error::Secret ausente: TERABOX_SESSION_B64"
+            exit 1
+          fi
+          printf '%s' "$TERABOX_SESSION_B64" | base64 --decode > "$RUNNER_TEMP/terabox-session.json"
+          chmod 600 "$RUNNER_TEMP/terabox-session.json"
+          echo "✅ Sessão restaurada no runner."
+
+      - name: Validar sessão TeraBox no runner
+        env:
+          SESSION_FILE: ${{ runner.temp }}/terabox-session.json
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import { TeraBoxApp } from 'terabox-api';
+
+          const file = process.env.SESSION_FILE;
+          if (!file || !fs.existsSync(file)) {
+            console.error('::error::Arquivo de sessão não encontrado.');
+            process.exit(1);
+          }
+
+          try {
+            const state = JSON.parse(fs.readFileSync(file, 'utf8'));
+            const cookies = Array.isArray(state?.cookies) ? state.cookies : [];
+
+            const ndusCookie = cookies.find((c) => String(c?.name || '').toLowerCase() === 'ndus');
+            const browserIdCookie = cookies.find((c) => String(c?.name || '').toLowerCase() === 'browserid');
+
+            const ndus = String(ndusCookie?.value || '');
+            const browserId = String(browserIdCookie?.value || '');
+
+            if (!ndus) {
+              throw new Error('NDUS não encontrado na sessão salva');
+            }
+
+            console.log(`::add-mask::${ndus}`);
+            if (browserId) console.log(`::add-mask::${browserId}`);
+
+            console.log('1/3 NDUS encontrado na sessão salva.');
+            console.log(browserId ? '✅ browserid encontrado.' : '⚠️ browserid não encontrado.');
+
+            console.log('2/3 Validando NDUS a partir do IP do GitHub Actions...');
+            const app = new TeraBoxApp(ndus);
+            const loginCheck = await app.checkLogin();
+            const errno = Number(loginCheck?.errno);
+
+            if (errno !== 0) {
+              throw new Error(`sessão recusada pelo TeraBox (errno=${loginCheck?.errno ?? 'desconhecido'})`);
+            }
+            console.log('✅ Sessão aceita pelo TeraBox no GitHub Actions.');
+
+            console.log('3/3 Obtendo jsToken e validando API autenticada...');
+            await app.updateAppData();
+            const jsToken = String(app?.data?.jsToken || '');
+            if (!jsToken) {
+              throw new Error('sessão válida, mas não foi possível obter jsToken');
+            }
+            console.log(`::add-mask::${jsToken}`);
+
+            const quota = await app.getQuota();
+            const quotaErrno = Number(quota?.errno);
+            if (quotaErrno !== 0) {
+              throw new Error(`consulta autenticada recusada (errno=${quota?.errno ?? 'desconhecido'})`);
+            }
+
+            console.log('✅ jsToken obtido.');
+            console.log('✅ API autenticada validada.');
+            console.log('TERABOX_SESSION_TEST=OK');
+          } catch (error) {
+            const message = String(error?.message || error).slice(0, 500);
+            console.error(`::error::TeraBox Session Test falhou: ${message}`);
+            process.exit(1);
+          }
+          NODE
+
+      - name: Remover arquivo temporário
+        if: always()
+        shell: bash
+        run: rm -f "$RUNNER_TEMP/terabox-session.json"
