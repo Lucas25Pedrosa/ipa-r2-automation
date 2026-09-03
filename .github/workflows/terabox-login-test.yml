@@ -1,0 +1,93 @@
+name: TeraBox Login Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Preparar Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Instalar cliente TeraBox
+        run: gem install terabox-api-ruby --no-document
+
+      - name: Testar login e geração da sessão
+        env:
+          TERABOX_EMAIL: ${{ secrets.TERABOX_EMAIL }}
+          TERABOX_PASSWORD: ${{ secrets.TERABOX_PASSWORD }}
+        shell: bash
+        run: |
+          ruby <<'RUBY'
+          require 'terabox_api'
+
+          def required_secret(name)
+            value = ENV[name].to_s
+            if value.empty?
+              warn "::error::Secret ausente: #{name}"
+              exit 1
+            end
+            value
+          end
+
+          email = required_secret('TERABOX_EMAIL')
+          password = required_secret('TERABOX_PASSWORD')
+
+          begin
+            puts '1/4 Iniciando pré-login no TeraBox...'
+            app = TeraBoxApi::TeraBoxApp.new('')
+            pre_login = app.passport_pre_login(email)
+
+            required_prelogin_fields = %w[seval random timestamp]
+            unless pre_login.is_a?(Hash) && required_prelogin_fields.all? { |key| !pre_login[key].to_s.empty? }
+              code = pre_login.is_a?(Hash) ? pre_login['code'] : nil
+              raise "pré-login recusado (code=#{code || 'desconhecido'})"
+            end
+            puts '✅ Pré-login concluído.'
+
+            puts '2/4 Autenticando com e-mail e senha...'
+            login = app.passport_login(pre_login, email, password)
+            code = login.is_a?(Hash) ? login['code'] : nil
+            raise "login recusado (code=#{code || 'desconhecido'})" unless code.to_i.zero?
+
+            ndus = login.dig('data', 'ndus').to_s
+            raise 'login aceito, mas o TeraBox não retornou NDUS' if ndus.empty?
+            puts "::add-mask::#{ndus}"
+            puts '✅ NDUS gerado com sucesso.'
+
+            puts '3/4 Validando a nova sessão...'
+            session = TeraBoxApi::TeraBoxApp.new(ndus)
+            login_check = session.check_login
+            errno = login_check.is_a?(Hash) ? login_check['errno'] : nil
+            raise "NDUS não validado (errno=#{errno || 'desconhecido'})" unless errno.to_i.zero?
+            puts '✅ Sessão NDUS válida.'
+
+            puts '4/4 Obtendo jsToken...'
+            session.update_app_data
+            js_token = session.data[:js_token].to_s
+            raise 'sessão válida, mas não foi possível obter jsToken' if js_token.empty?
+            puts "::add-mask::#{js_token}"
+
+            quota = session.get_quota
+            quota_errno = quota.is_a?(Hash) ? quota['errno'] : nil
+            raise "API autenticada recusou a consulta de quota (errno=#{quota_errno || 'desconhecido'})" unless quota_errno.to_i.zero?
+
+            puts '✅ jsToken gerado com sucesso.'
+            puts '✅ API TeraBox validada.'
+            puts 'TERABOX_LOGIN_TEST=OK'
+          rescue StandardError => e
+            message = e.message.to_s
+            message = message.gsub(email, '[email]') unless email.empty?
+            message = message.gsub(password, '[password]') unless password.empty?
+            warn "::error::TeraBox Login Test falhou: #{message}"
+            exit 1
+          end
+          RUBY
