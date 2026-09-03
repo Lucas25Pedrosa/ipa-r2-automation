@@ -46,7 +46,7 @@ jobs:
           }
 
           function safeDiagnostics(response, email, password) {
-            const allowed = ['code', 'errno', 'error_code', 'status', 'msg', 'message', 'error_msg', 'err_msg'];
+            const allowed = ['code', 'errno', 'error_code', 'status', 'msg', 'message', 'errmsg', 'error_msg', 'err_msg'];
             const out = {};
             const add = (prefix, obj) => {
               if (!obj || typeof obj !== 'object') return;
