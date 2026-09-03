@@ -32,8 +32,8 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Instalar cliente TeraBox
-        run: npm install --no-save --ignore-scripts terabox-upload-tool@1.4.1
+      - name: Instalar clientes TeraBox
+        run: npm install --no-save --ignore-scripts terabox-upload-tool@1.4.1 terabox-api@2.9.5
 
       - name: Baixar Artifact do IPA to R2
         id: artifact_download
@@ -134,14 +134,129 @@ jobs:
           )
           PY
 
-      - name: Enviar IPA ao TeraBox
-        id: terabox
+      - name: Restaurar e validar sessão TeraBox
+        id: terabox_session
         if: ${{ steps.metadata.outcome == 'success' }}
         continue-on-error: true
         shell: bash
         env:
-          TERABOX_NDUS: ${{ secrets.TERABOX_NDUS }}
-          TERABOX_JS_TOKEN: ${{ secrets.TERABOX_JS_TOKEN }}
+          TERABOX_SESSION_B64: ${{ secrets.TERABOX_SESSION_B64 }}
+        run: |
+          set +e
+
+          SESSION_FILE="$RUNNER_TEMP/terabox-session.json"
+          rm -f "$SESSION_FILE"
+
+          if [ -z "${TERABOX_SESSION_B64:-}" ]; then
+            echo "valid=false" >> "$GITHUB_OUTPUT"
+            echo "reason=Secret TERABOX_SESSION_B64 ausente." >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+          printf '%s' "$TERABOX_SESSION_B64" | base64 --decode > "$SESSION_FILE"
+          DECODE_STATUS="$?"
+
+          if [ "$DECODE_STATUS" -ne 0 ] || [ ! -s "$SESSION_FILE" ]; then
+            echo "valid=false" >> "$GITHUB_OUTPUT"
+            echo "reason=Não foi possível restaurar a sessão salva do TeraBox." >> "$GITHUB_OUTPUT"
+            rm -f "$SESSION_FILE"
+            exit 1
+          fi
+
+          chmod 600 "$SESSION_FILE"
+
+          SESSION_FILE="$SESSION_FILE" node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import { TeraBoxApp } from 'terabox-api';
+
+          const file = process.env.SESSION_FILE;
+          const output = process.env.GITHUB_OUTPUT;
+          const envFile = process.env.GITHUB_ENV;
+
+          function writeOutput(key, value) {
+            fs.appendFileSync(output, `${key}=${String(value).replace(/[\r\n]+/g, ' ')}\n`);
+          }
+
+          function fail(reason) {
+            writeOutput('valid', 'false');
+            writeOutput('reason', reason);
+            console.error(`::error::${reason}`);
+            process.exit(1);
+          }
+
+          try {
+            const state = JSON.parse(fs.readFileSync(file, 'utf8'));
+            const cookies = Array.isArray(state?.cookies) ? state.cookies : [];
+
+            const ndusCookie = cookies.find(
+              (cookie) => String(cookie?.name || '').toLowerCase() === 'ndus'
+            );
+            const browserIdCookie = cookies.find(
+              (cookie) => String(cookie?.name || '').toLowerCase() === 'browserid'
+            );
+
+            const ndus = String(ndusCookie?.value || '');
+            const browserId = String(browserIdCookie?.value || '');
+
+            if (!ndus) {
+              fail('Sessão TeraBox invalidada: NDUS não encontrado na sessão salva.');
+            }
+
+            console.log(`::add-mask::${ndus}`);
+            if (browserId) console.log(`::add-mask::${browserId}`);
+
+            const app = new TeraBoxApp(ndus);
+            const loginCheck = await app.checkLogin();
+            const errno = Number(loginCheck?.errno);
+
+            if (errno !== 0) {
+              fail(
+                `Sessão TeraBox invalidada pelo servidor (errno=${loginCheck?.errno ?? 'desconhecido'}).`
+              );
+            }
+
+            await app.updateAppData();
+            const jsToken = String(app?.data?.jsToken || '');
+
+            if (!jsToken) {
+              fail('Sessão TeraBox invalidada: não foi possível gerar jsToken.');
+            }
+
+            console.log(`::add-mask::${jsToken}`);
+
+            const quota = await app.getQuota();
+            const quotaErrno = Number(quota?.errno);
+
+            if (quotaErrno !== 0) {
+              fail(
+                `Sessão TeraBox invalidada durante a validação da API (errno=${quota?.errno ?? 'desconhecido'}).`
+              );
+            }
+
+            fs.appendFileSync(envFile, `TERABOX_NDUS=${ndus}\n`);
+            fs.appendFileSync(envFile, `TERABOX_JS_TOKEN=${jsToken}\n`);
+
+            writeOutput('valid', 'true');
+            writeOutput('reason', '');
+
+            console.log('Sessão TeraBox válida.');
+          } catch (error) {
+            fail(
+              `Sessão TeraBox invalidada: ${String(error?.message || error).slice(0, 300)}`
+            );
+          }
+          NODE
+
+          STATUS="$?"
+          rm -f "$SESSION_FILE"
+          exit "$STATUS"
+
+      - name: Enviar IPA ao TeraBox
+        id: terabox
+        if: ${{ steps.metadata.outcome == 'success' && steps.terabox_session.outcome == 'success' }}
+        continue-on-error: true
+        shell: bash
+        env:
           TERABOX_APP_ID: ${{ secrets.TERABOX_APP_ID }}
           LOCAL_FILE: ${{ steps.metadata.outputs.local_file }}
           REMOTE_DIR: ${{ steps.metadata.outputs.remote_dir }}
@@ -181,6 +296,9 @@ jobs:
 
           ARTIFACT_OUTCOME: ${{ steps.artifact_download.outcome }}
           METADATA_OUTCOME: ${{ steps.metadata.outcome }}
+          SESSION_OUTCOME: ${{ steps.terabox_session.outcome }}
+          SESSION_VALID: ${{ steps.terabox_session.outputs.valid }}
+          SESSION_REASON: ${{ steps.terabox_session.outputs.reason }}
           TERABOX_OUTCOME: ${{ steps.terabox.outcome }}
           TERABOX_REASON: ${{ steps.terabox.outputs.reason }}
 
@@ -258,6 +376,15 @@ jobs:
           metadata_outcome = str(
               os.environ.get("METADATA_OUTCOME") or ""
           ).strip()
+          session_outcome = str(
+              os.environ.get("SESSION_OUTCOME") or ""
+          ).strip()
+          session_valid = str(
+              os.environ.get("SESSION_VALID") or ""
+          ).strip().lower()
+          session_reason = str(
+              os.environ.get("SESSION_REASON") or ""
+          ).strip()
           terabox_outcome = str(
               os.environ.get("TERABOX_OUTCOME") or ""
           ).strip()
@@ -265,6 +392,8 @@ jobs:
           success = (
               artifact_outcome == "success"
               and metadata_outcome == "success"
+              and session_outcome == "success"
+              and session_valid == "true"
               and terabox_outcome == "success"
           )
 
@@ -299,6 +428,8 @@ jobs:
                       "O metadata.json do Artifact é inválido "
                       "ou está incompleto."
                   )
+              elif session_outcome != "success" or session_valid != "true":
+                  reason = "Sessão TeraBox invalidada pelo servidor."
               else:
                   reason = str(
                       os.environ.get("TERABOX_REASON")
@@ -308,8 +439,9 @@ jobs:
               body = (
                   f"{terabox_emoji} <b>TeraBox:</b> "
                   f"{app_emoji} {html.escape(app_name)} "
-                  f"não foi arquivado. {status_emoji}\n"
-                  f"Motivo: {html.escape(reason)}"
+                  f"não foi arquivado. "
+                  f"Motivo: {html.escape(reason)} "
+                  f"{status_emoji}"
               )
 
           message = f"<blockquote>{body}</blockquote>"
@@ -394,7 +526,7 @@ jobs:
           echo "Artifact ${ARTIFACT_ID} removido após confirmação do upload."
 
       - name: Marcar falha real do arquivamento
-        if: ${{ always() && (steps.artifact_download.outcome != 'success' || steps.metadata.outcome != 'success' || steps.terabox.outcome != 'success') }}
+        if: ${{ always() && (steps.artifact_download.outcome != 'success' || steps.metadata.outcome != 'success' || steps.terabox_session.outcome != 'success' || steps.terabox.outcome != 'success') }}
         run: |
           echo "O fluxo principal IPA to R2 já foi concluído com sucesso."
           echo "Esta falha pertence somente ao arquivamento no TeraBox."
