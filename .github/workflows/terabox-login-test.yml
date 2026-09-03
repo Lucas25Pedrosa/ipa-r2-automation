@@ -45,6 +45,30 @@ jobs:
             return text.slice(0, 500);
           }
 
+          function safeDiagnostics(response, email, password) {
+            const allowed = ['code', 'errno', 'error_code', 'status', 'msg', 'message', 'error_msg', 'err_msg'];
+            const out = {};
+            const add = (prefix, obj) => {
+              if (!obj || typeof obj !== 'object') return;
+              for (const key of allowed) {
+                if (obj[key] !== undefined && obj[key] !== null) {
+                  out[`${prefix}${key}`] = safeMessage(obj[key], email, password);
+                }
+              }
+            };
+            add('', response);
+            add('data.', response?.data);
+            out.top_level_keys = response && typeof response === 'object'
+              ? Object.keys(response).filter((k) => !['ndus', 'token', 'jsToken', 'bdstoken', 'csrf', 'pcftoken'].includes(k)).slice(0, 20).join(',')
+              : typeof response;
+            if (response?.data && typeof response.data === 'object') {
+              out.data_keys = Object.keys(response.data)
+                .filter((k) => !['ndus', 'token', 'jsToken', 'bdstoken', 'csrf', 'pcftoken'].includes(k))
+                .slice(0, 20).join(',');
+            }
+            return Object.entries(out).map(([k, v]) => `${k}=${v}`).join('; ');
+          }
+
           const email = requiredSecret('TERABOX_EMAIL');
           const password = requiredSecret('TERABOX_PASSWORD');
 
@@ -56,22 +80,29 @@ jobs:
             const requiredFields = ['seval', 'random', 'timestamp'];
 
             if (!preData || !requiredFields.every((key) => String(preData[key] ?? '').length > 0)) {
-              const code = preLogin?.code ?? 'desconhecido';
-              const msg = safeMessage(preLogin?.msg ?? preLogin?.message ?? '', email, password);
-              throw new Error(`pré-login recusado (code=${code}${msg ? `, msg=${msg}` : ''})`);
+              throw new Error(`pré-login recusado (${safeDiagnostics(preLogin, email, password)})`);
             }
             console.log('✅ Pré-login concluído.');
 
             console.log('2/4 Autenticando com e-mail e senha...');
             const login = await app.passportLogin(preData, email, password);
-            const loginCode = Number(login?.code);
-            if (loginCode !== 0) {
-              const msg = safeMessage(login?.msg ?? login?.message ?? '', email, password);
-              throw new Error(`login recusado (code=${login?.code ?? 'desconhecido'}${msg ? `, msg=${msg}` : ''})`);
+
+            const directCode = login?.code;
+            const nestedCode = login?.data?.code;
+            const directErrno = login?.errno;
+            const nestedErrno = login?.data?.errno;
+            const explicitSuccess = [directCode, nestedCode, directErrno, nestedErrno]
+              .some((value) => value !== undefined && value !== null && Number(value) === 0);
+
+            const ndus = String(login?.data?.ndus || login?.ndus || '');
+
+            if (!explicitSuccess && !ndus) {
+              throw new Error(`login recusado (${safeDiagnostics(login, email, password)})`);
+            }
+            if (!ndus) {
+              throw new Error(`login respondeu sucesso, mas não retornou NDUS (${safeDiagnostics(login, email, password)})`);
             }
 
-            const ndus = String(login?.data?.ndus || '');
-            if (!ndus) throw new Error('login aceito, mas o TeraBox não retornou NDUS');
             console.log(`::add-mask::${ndus}`);
             console.log('✅ NDUS gerado com sucesso.');
 
