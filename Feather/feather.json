@@ -747,15 +747,15 @@
           "version": "12.9.3",
           "buildVersion": "34622",
           "date": "2026-08-21T18:59:33Z",
-          "size": 80311769,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram_12.9.3.ipa?packageRevision=dc0a7efcdce23c943f3e437e65adc83a12758ebc46fef78de63693ef9d5960e8&tweak=MxGram&tweakVersion=1.0.0&packageLabel=MxGram+1.0.0",
+          "size": 71344446,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram_12.9.3.ipa?packageRevision=dc28e154e0510dbc841dbef7c10e384fb7d8a5dc29ac4aab0d948d4981960dac&tweak=iQTele&tweakVersion=1.2&packageLabel=iQTele+1.2",
           "localizedDescription": "Correções de bugs, pequenas melhorias e mais."
         }
       ],
       "version": "12.9.3",
       "versionDate": "2026-08-21T18:59:33Z",
-      "size": 80311769,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram_12.9.3.ipa?packageRevision=dc0a7efcdce23c943f3e437e65adc83a12758ebc46fef78de63693ef9d5960e8&tweak=MxGram&tweakVersion=1.0.0&packageLabel=MxGram+1.0.0"
+      "size": 71344446,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Telegram/Telegram_12.9.3.ipa?packageRevision=dc28e154e0510dbc841dbef7c10e384fb7d8a5dc29ac4aab0d948d4981960dac&tweak=iQTele&tweakVersion=1.2&packageLabel=iQTele+1.2"
     },
     {
       "name": "TeraBox",
