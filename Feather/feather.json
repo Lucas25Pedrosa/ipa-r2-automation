@@ -819,7 +819,7 @@
       "name": "WhatsApp",
       "bundleIdentifier": "net.whatsapp.WhatsApp",
       "developerName": "WhatsApp Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/b5/1f/cbb51f14-c56c-f35d-421b-c89f5592a923/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/ee/c3/05eec37b-94a9-4c02-2455-900a936bdbb8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "O WhatsApp from Meta é um app gratuito de mensagens e ligações usado por mais de dois bilhões de pessoas em mais de 180 países. O app é muito simples, confiável e privado, o que o torna perfeito para manter contato com seus amigos e familiares em todo o mundo. O WhatsApp está disponível para celular, tablet e computador, não cobra taxas de assinatura* e funciona mesmo quando a conexão à internet está lenta.\n\nMensagens e ligações privadas para o mundo todo\n\nSua privacidade é nossa prioridade. Com a criptografia de ponta a ponta, você pode ter certeza de que suas mensagens e ligações ficam somente entre você e as pessoas que você escolher. Nem mesmo o WhatsApp pode ler ou ouvi-las.\n\nConexões simples e seguras num piscar de olhos\n\nVocê só precisa de um número de telefone. Não é necessário criar nome de usuário ou senha. Veja facilmente seus contatos no WhatsApp e comece a conversar. Além disso, é possível vincular facilmente seus outros dispositivos, incluindo iPads, garantindo uma conectividade perfeita.\n\nLigações de voz e de vídeo de alta qualidade\n\nAproveite as ligações de voz e de vídeo seguras e gratuitas com até 32 pessoas de uma só vez. Suas ligações funcionam em todos os dispositivos, mesmo em conexões mais lentas, usando o serviço de internet do seu celular ou tablet.\n\nConversas em grupo para manter o contato\n\nFique perto de amigos e familiares por meio de ligações e conversas em grupo protegidas com a criptografia de ponta a ponta. Compartilhe mensagens, fotos, vídeos e documentos em celulares, tablets e computadores. Você também pode usar links de ligações e compartilhamento de tela para facilitar as ligações em grupo e a colaboração.\n\nComunicação em tempo real\n\nVocê pode compartilhar sua localização com as pessoas em suas conversas individuais ou em grupo ao usar o WhatsApp no seu celular. Ou gravar uma mensagem de voz para aqueles momentos em que apenas o texto não é suficiente.\n\nCompartilhe seu dia a dia no Status\n\nCompartilhe momentos do dia a dia com aqueles que mais importam. Com o Status, você pode compartilhar atualizações de texto, fotos, vídeos e GIFs que desaparecem após 24 horas. Além disso, você tem total controle sobre quem pode ver seu status. Escolha com quem deseja compartilhá-lo: todos os seus contatos ou somente as pessoas que você selecionar. E dê vida ao seu dia a dia.\n\n*O uso de dados móveis poderá ser cobrado. Fale com sua operadora para saber mais.\n\n\n---------------------------------------------------------------------------\n\nSe tiver alguma dúvida ou comentário, abra o WhatsApp e acesse Configurações > Ajuda > Fale conosco.\n\nTermos de Serviço: https://www.whatsapp.com/legal/terms-of-service \n\nSaiba mais sobre o envio de mensagens privadas: https://www.whatsapp.com/privacy \n\nSaiba mais sobre a segurança do WhatsApp: https://www.whatsapp.com/security",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/61/90/e3619011-540d-7ca8-3080-6468edfa3e7d/6.9__Display_1-pt_BR.png/320x480bb.jpg",
@@ -830,18 +830,18 @@
       ],
       "versions": [
         {
-          "version": "26.34.72",
-          "buildVersion": "1053546560",
-          "date": "2026-08-31T13:21:38Z",
-          "size": 158701990,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp%20-%2026.34.72.ipa?packageRevision=127a403e30bdb032ff75ad7da82a5ce984704f46ec9cc140d3ea569b3c304cfc&tweak=Watusi+3&tweakVersion=1.3.22&packageLabel=Watusi+3+1.3.22",
+          "version": "26.34.74",
+          "buildVersion": "1057770602",
+          "date": "2026-09-04T00:14:27Z",
+          "size": 151012393,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp_26.34.74.ipa?packageRevision=127a403e30bdb032ff75ad7da82a5ce984704f46ec9cc140d3ea569b3c304cfc&tweak=Watusi+3&tweakVersion=1.3.22&packageLabel=Watusi+3+1.3.22",
           "localizedDescription": "Atualizamos nosso app regularmente para corrigir erros, otimizar o desempenho e aprimorar a experiência dos nossos usuários. Agradecemos por usar o WhatsApp!"
         }
       ],
-      "version": "26.34.72",
-      "versionDate": "2026-08-31T13:21:38Z",
-      "size": 158701990,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp%20-%2026.34.72.ipa?packageRevision=127a403e30bdb032ff75ad7da82a5ce984704f46ec9cc140d3ea569b3c304cfc&tweak=Watusi+3&tweakVersion=1.3.22&packageLabel=Watusi+3+1.3.22"
+      "version": "26.34.74",
+      "versionDate": "2026-09-04T00:14:27Z",
+      "size": 151012393,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/WhatsApp/WhatsApp_26.34.74.ipa?packageRevision=127a403e30bdb032ff75ad7da82a5ce984704f46ec9cc140d3ea569b3c304cfc&tweak=Watusi+3&tweakVersion=1.3.22&packageLabel=Watusi+3+1.3.22"
     },
     {
       "name": "X",
