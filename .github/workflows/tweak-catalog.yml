@@ -2,11 +2,17 @@ name: Sync Feather Tweak Catalog
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Feather Source
+    types:
+      - completed
   push:
     branches:
       - main
     paths:
       - Feather/feather.json
+      - .github/workflows/tweak-catalog.yml
 
 permissions:
   contents: write
@@ -17,6 +23,7 @@ concurrency:
 
 jobs:
   sync:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Baixar repositório
