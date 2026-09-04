@@ -9,7 +9,9 @@
           "currentVersion": "1.0",
           "knownVersions": [
             "1.0"
-          ]
+          ],
+          "currentRevision": "359af02bc5835326859c3d4811b9e8ed93f125c9b92521fd8ffbe8d1b837f153",
+          "packageLabel": "iQFace 1.0"
         }
       ]
     },
@@ -27,7 +29,9 @@
               "name": "MSGPlusX",
               "version": "1.1"
             }
-          ]
+          ],
+          "currentRevision": "0c33cd8f4383835a4e41444bed31aa4af5f2a89c698c39e9810340613c3f64d0",
+          "packageLabel": "MSGPlusX 1.1"
         }
       ]
     },
@@ -36,10 +40,13 @@
       "addons": [
         {
           "name": "Regram",
-          "currentVersion": "6.0.1",
+          "currentVersion": "6.1",
           "knownVersions": [
-            "6.0.1"
-          ]
+            "6.0.1",
+            "6.1"
+          ],
+          "currentRevision": "38ea811277b82b3ebdfd021d9bf4a930788653a14a64c9232b01cd47788ade75",
+          "packageLabel": "Regram 6.1"
         }
       ]
     },
@@ -51,7 +58,9 @@
           "currentVersion": "1.6.6",
           "knownVersions": [
             "1.6.6"
-          ]
+          ],
+          "currentRevision": "bce64b441a130dcd55ea771a9ac0734ac395e15bbc9d5de984f289fed66d69f6",
+          "packageLabel": "RXTikTok 1.6.6"
         }
       ]
     },
@@ -60,9 +69,10 @@
       "addons": [
         {
           "name": "BHTwitter",
-          "currentVersion": "6.5.0",
+          "currentVersion": "6.6.1",
           "knownVersions": [
-            "6.5.0"
+            "6.5.0",
+            "6.6.1"
           ],
           "components": [
             {
@@ -73,7 +83,9 @@
               "name": "TwitDate",
               "version": "0.0.1-2"
             }
-          ]
+          ],
+          "currentRevision": "5d72a340ec8a58a7aad838f26a07930de3eebf74390c86087810278b1211416f",
+          "packageLabel": "BHTwitter 6.6.1"
         }
       ]
     },
@@ -93,6 +105,15 @@
           "knownVersions": [
             "1.4.4"
           ]
+        },
+        {
+          "name": "iQTele",
+          "currentVersion": "1.2",
+          "knownVersions": [
+            "1.2"
+          ],
+          "currentRevision": "dc28e154e0510dbc841dbef7c10e384fb7d8a5dc29ac4aab0d948d4981960dac",
+          "packageLabel": "iQTele 1.2"
         }
       ]
     },
@@ -101,22 +122,27 @@
       "addons": [
         {
           "name": "MoesReddit",
-          "currentVersion": "2.4",
+          "currentVersion": "3.1",
           "knownVersions": [
-            "2.4"
-          ]
+            "2.4",
+            "3.1"
+          ],
+          "currentRevision": "10708b6472439c64146e4e017d66671eb9a7889186b2add6a4a7687f187e079d",
+          "packageLabel": "MoesReddit 3.1"
         }
       ]
     },
     "com.dr1ven.eraser": {
-      "name": "Photoroom",
+      "name": "PhotoRoom",
       "addons": [
         {
           "name": "Photoroom Max",
           "currentVersion": "1.0",
           "knownVersions": [
             "1.0"
-          ]
+          ],
+          "currentRevision": "cc001fd230386266e646bbab18c6e1ae232f8acd105c3ed5845d78a880df45a0",
+          "packageLabel": "Photoroom Max 1.0"
         }
       ]
     },
@@ -128,7 +154,9 @@
           "currentVersion": "1.0",
           "knownVersions": [
             "1.0"
-          ]
+          ],
+          "currentRevision": "b027873a8b0b775ca8705b25a02f131135d108c7969c61b34fedf849fe9aebda",
+          "packageLabel": "Letterboxd Patron 1.0"
         }
       ]
     },
@@ -141,7 +169,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Picsart Gold 1.0"
+          "packageLabel": "Picsart Gold 1.0",
+          "currentRevision": "839fa1626cec9da8d0c59dc79019115c78748948bbc1a9e89554b790ec190ded"
         }
       ]
     },
@@ -154,7 +183,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Media Converter Pro 1.0"
+          "packageLabel": "Media Converter Pro 1.0",
+          "currentRevision": "076a3ac4da354d17611275fe6121dbba748e5b03683426b2b135a6ac391e3508"
         }
       ]
     },
@@ -168,6 +198,15 @@
             "1.0"
           ],
           "packageLabel": "Satella 1.0"
+        },
+        {
+          "name": "Pocket Terço – Satella",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ],
+          "currentRevision": "616a0cf0f2f4f7e1dd4ea4fb72d5c12be549fd8100d66142ab351016dc3aecbd",
+          "packageLabel": "Pocket Terço – Satella 1.0"
         }
       ]
     },
@@ -180,7 +219,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Photoleap Unlimited 1.0"
+          "packageLabel": "Photoleap Unlimited 1.0",
+          "currentRevision": "2461b7fb7ac71c61afdaa4f2828b0519427fd2d883af935a36859760b0c1c320"
         }
       ]
     },
@@ -194,6 +234,15 @@
             "1.0"
           ],
           "packageLabel": "Documents Pro 1.0"
+        },
+        {
+          "name": "Documents Plus",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ],
+          "currentRevision": "d54fd5975380834399dd072164fa9c246fd3038504b173c73e0d61f4048fe227",
+          "packageLabel": "Documents Plus 1.0"
         }
       ]
     },
@@ -206,7 +255,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "PDF Expert Premium 1.0"
+          "packageLabel": "PDF Expert Premium 1.0",
+          "currentRevision": "131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45"
         }
       ]
     },
@@ -219,7 +269,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Duolingo Max 1.0"
+          "packageLabel": "Duolingo Max 1.0",
+          "currentRevision": "07ca366395695e64b4838e615dcfcfafec9ef4af47eda3eb52fdcd71a70fd641"
         }
       ]
     },
@@ -232,7 +283,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Aloha Premium Plus 1.0"
+          "packageLabel": "Aloha Premium Plus 1.0",
+          "currentRevision": "2f22ed816175a0b1bc800b289334795aa1f24f2f542c9e5eefa0903ffa5a97b2"
         }
       ]
     },
@@ -245,7 +297,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "BoldVoice Premium 1.0"
+          "packageLabel": "BoldVoice Premium 1.0",
+          "currentRevision": "5513b2da3b81c833b53741bb6e627959c44dd00ee2c8e79aa328714bdea37f9a"
         }
       ]
     },
@@ -258,7 +311,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "CamScanner VIP 1.0"
+          "packageLabel": "CamScanner VIP 1.0",
+          "currentRevision": "c29ad15fb384fc41622fc0a9389dfd8ad9df1cbfc2d06da7db7f0f3a5ddbdc46"
         }
       ]
     },
@@ -271,7 +325,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "iLovePDF Premium 1.0"
+          "packageLabel": "iLovePDF Premium 1.0",
+          "currentRevision": "67750cffade09928e4d8a40764f60e46e8188b10abd44394a8f8c1467f01ec88"
         }
       ]
     },
@@ -285,6 +340,15 @@
             "1.0"
           ],
           "packageLabel": "InShot Pro 1.0"
+        },
+        {
+          "name": "InShot Premium",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ],
+          "currentRevision": "98634756a456fb9a1d1e9af9e195f2c5cdef3a649d6e383d70ef994b7faaf586",
+          "packageLabel": "InShot Premium 1.0"
         }
       ]
     },
@@ -297,7 +361,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "iTranslate Pro 1.0"
+          "packageLabel": "iTranslate Pro 1.0",
+          "currentRevision": "204e0555ce482fd10f4433a2f0e0084d3baea02bf4dc18f6897e8aa5aa6bf26b"
         }
       ]
     },
@@ -310,7 +375,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Moovit+ 1.0"
+          "packageLabel": "Moovit+ 1.0",
+          "currentRevision": "d3352d3c82bedfc58b37075d95a1f60d00e78e557e8ec1a8b510c2ba9b82d195"
         }
       ]
     },
@@ -323,7 +389,8 @@
           "knownVersions": [
             "1.0"
           ],
-          "packageLabel": "Facetune VIP 1.0"
+          "packageLabel": "Facetune VIP 1.0",
+          "currentRevision": "d90ffac785e6d8f8d1c049d3e6bb4cc7272faaf2c3cdb8e594940491f2567758"
         }
       ]
     },
@@ -353,7 +420,9 @@
               "name": "Stalky",
               "version": "4.3.0"
             }
-          ]
+          ],
+          "currentRevision": "127a403e30bdb032ff75ad7da82a5ce984704f46ec9cc140d3ea569b3c304cfc",
+          "packageLabel": "Watusi 3 1.3.22"
         }
       ]
     },
@@ -371,7 +440,51 @@
               "name": "YouTube Plus",
               "version": "5.2.2"
             }
-          ]
+          ],
+          "currentRevision": "1778413c56763f0727a298c2f3c7c881ddc3f3a6f70f9a8efb5095cb13b47ded",
+          "packageLabel": "YouTube Plus 5.2.2"
+        }
+      ]
+    },
+    "com.hammerandchisel.discord": {
+      "name": "Discord",
+      "addons": [
+        {
+          "name": "Rain",
+          "currentVersion": "0.9.6",
+          "knownVersions": [
+            "0.9.6"
+          ],
+          "currentRevision": "228b7ec39d82aa46b5cc6425c9b3655b9141fb3708e47e59217e156a918fb15e",
+          "packageLabel": "Rain 0.9.6"
+        }
+      ]
+    },
+    "com.frontpocketsoftware.happyscale": {
+      "name": "Happy Scale",
+      "addons": [
+        {
+          "name": "Happy Scale+",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ],
+          "currentRevision": "5e35c40701577d8f570e8c457b26ca3a1087b00a27e5365fe66c49ae6969cce6",
+          "packageLabel": "Happy Scale+ 1.0"
+        }
+      ]
+    },
+    "com.dubox.drive": {
+      "name": "TeraBox",
+      "addons": [
+        {
+          "name": "TeraBox Premium+",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ],
+          "currentRevision": "58421a2e80f99796d1a4368a736db422b1752cac3c62f6a8b9faf8a8dab1defa",
+          "packageLabel": "TeraBox Premium+ 1.0"
         }
       ]
     }
