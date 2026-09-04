@@ -309,6 +309,7 @@ jobs:
           import html
           import json
           import os
+          import time
           import urllib.error
           import urllib.request
           from pathlib import Path
@@ -474,25 +475,57 @@ jobs:
               method="POST",
           )
 
-          try:
-              with urllib.request.urlopen(
-                  request,
-                  timeout=30,
-              ) as response:
-                  result = json.loads(
-                      response.read().decode(
-                          "utf-8",
-                          errors="replace",
+          result = None
+
+          for attempt in range(1, 4):
+              try:
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=30,
+                  ) as response:
+                      result = json.loads(
+                          response.read().decode(
+                              "utf-8",
+                              errors="replace",
+                          )
                       )
+                  break
+
+              except urllib.error.HTTPError as exc:
+                  detail = exc.read().decode(
+                      "utf-8",
+                      errors="replace",
                   )
-          except urllib.error.HTTPError as exc:
-              detail = exc.read().decode(
-                  "utf-8",
-                  errors="replace",
-              )
+
+                  if exc.code == 429:
+                      try:
+                          error_data = json.loads(detail)
+                          retry_after = int(
+                              error_data
+                              .get("parameters", {})
+                              .get("retry_after", 5)
+                          )
+                      except Exception:
+                          retry_after = 5
+
+                      print(
+                          "Telegram limitou o envio. "
+                          f"Aguardando {retry_after}s "
+                          f"(tentativa {attempt}/3)..."
+                      )
+
+                      if attempt < 3:
+                          time.sleep(retry_after + 1)
+                          continue
+
+                  raise SystemExit(
+                      f"Telegram HTTP {exc.code}: {detail}"
+                  ) from exc
+
+          if result is None:
               raise SystemExit(
-                  f"Telegram HTTP {exc.code}: {detail}"
-              ) from exc
+                  "Não foi possível enviar a mensagem ao Telegram."
+              )
 
           if not result.get("ok"):
               raise SystemExit(
