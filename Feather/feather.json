@@ -702,7 +702,7 @@
       "name": "Reddit",
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "REDDIT, INC.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/e7/8d/97e78dbf-1372-82b6-cac2-0268aa1299d7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/86/5c/0b865c74-dabb-b36b-bf69-6189ef33de7c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Bem-vindo ao Reddit – o lugar para conversas autênticas onde sua voz importa.\nDescubra o poder da sua voz em discussões reais. Das últimas notícias a debates profundos, esta plataforma social e de notícias impulsiona conversas genuínas. Faça perguntas, obtenha respostas reais, compartilhe dicas e seja você mesmo. Participe de comunidades onde as pessoas discutem o que realmente importa—um post de cada vez.\nPor que Reddit?\n■ Encontre fóruns de notícias e discussão\n Seja você fã de cultura pop, esportes ou tecnologia, o Reddit tem conteúdo para qualquer interesse. Mergulhe em discussões em alta, crie posts e fale sobre os temas que você gosta.\n■ Faça perguntas e obtenha respostas reais\n O Reddit é feito para conversas reais com pessoas reais. Peça conselhos, obtenha respostas de quem já passou por isso, compartilhe dicas, expresse suas ideias e tenha ótimas conversas.\n■ Fale sobre qualquer coisa\n Conheça pessoas que compartilham suas paixões, peça conselhos ou descubra algo novo. Encontre comunidades dedicadas ao que você realmente se importa.\nEncontre comunidades organizadas por interesses e expertise:\n■ r/PergunteReddit & r/AskReddit\n Faça perguntas e obtenha respostas reais de comunidades engajadas. Seja explorando objetivos pessoais ou reagindo a eventos atuais, sempre há algo novo para descobrir e conversar.\n■ r/brasil & r/News\n Descubra as últimas notícias, discuta eventos reais e fique por dentro do que está acontecendo no mundo todo.\n■ r/Funny\n Procurando por risadas? O Reddit tem. Encontre comunidades dedicadas a humor e memes.\n■ r/Gaming\n Conheça gamers de verdade, peça conselhos a jogadores experientes e explore conteúdos de jogos.\n■ r/Music & r/Movies\n Fale sobre seus filmes e músicas favoritos. Descubra novas paixões e compartilhe sua opinião sobre tudo relacionado a música e cinema.\nVotação e Karma\n Cada post e comentário pode receber votos positivos ou negativos da comunidade. Quanto mais votos positivos você recebe, mais visível seu conteúdo se torna. Seu karma reflete o quanto a comunidade valoriza suas contribuições.\nReddit Premium:\n Adquira o Reddit Premium para aproveitar uma experiência sem anúncios e acesso a itens premium para avatar, r/lounge, ícones personalizados do app e muito mais.\n O pagamento será cobrado de forma recorrente mensal ou anual pela sua conta Apple. Sua assinatura Premium mensal ou anual será renovada automaticamente, a menos que você cancele pelo menos 24 horas antes do término do período. Cancele a qualquer momento nas configurações de conta do seu dispositivo. Não há reembolsos parciais.\nPolítica de Privacidade: https://www.redditinc.com/policies/privacy-policy\nContrato do Usuário: https://www.redditinc.com/policies/user-agreement\nRegras do Reddit: https://redditinc.com/policies/reddit-rules\nSe você tiver algum problema com o app, obtenha suporte em RedditHelp.com",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9c/fe/dc/9cfedc93-8398-6579-d091-f7cdec3d93be/68c6f56a-7248-442c-8964-f2896c78f0a3_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
@@ -714,18 +714,18 @@
       ],
       "versions": [
         {
-          "version": "2026.35.0",
-          "buildVersion": "637926",
-          "date": "2026-09-01T18:37:45Z",
-          "size": 133749596,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.35.0.ipa?packageRevision=10708b6472439c64146e4e017d66671eb9a7889186b2add6a4a7687f187e079d&tweak=MoesReddit&tweakVersion=3.1&packageLabel=MoesReddit+3.1",
+          "version": "2026.35.1",
+          "buildVersion": "638262",
+          "date": "2026-09-04T00:37:15Z",
+          "size": 145756369,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.35.1.ipa?packageRevision=10708b6472439c64146e4e017d66671eb9a7889186b2add6a4a7687f187e079d&tweak=MoesReddit&tweakVersion=3.1&packageLabel=MoesReddit+3.1",
           "localizedDescription": "Obrigado por atualizar o app do Reddit! Atualizamos nossos apps para iOS com correções de bugs e algumas mudanças para melhorar sua experiência."
         }
       ],
-      "version": "2026.35.0",
-      "versionDate": "2026-09-01T18:37:45Z",
-      "size": 133749596,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.35.0.ipa?packageRevision=10708b6472439c64146e4e017d66671eb9a7889186b2add6a4a7687f187e079d&tweak=MoesReddit&tweakVersion=3.1&packageLabel=MoesReddit+3.1"
+      "version": "2026.35.1",
+      "versionDate": "2026-09-04T00:37:15Z",
+      "size": 145756369,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.35.1.ipa?packageRevision=10708b6472439c64146e4e017d66671eb9a7889186b2add6a4a7687f187e079d&tweak=MoesReddit&tweakVersion=3.1&packageLabel=MoesReddit+3.1"
     },
     {
       "name": "Telegram",
