@@ -91,7 +91,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
-          python private-core/scripts/ipa_to_r2.py
+          python private-core/scripts/ipa_to_r2_by_id.py
 
       # ============================================================
       # 4. PUBLICAR ARTIFACT TEMPORÁRIO PARA O TERABOX
