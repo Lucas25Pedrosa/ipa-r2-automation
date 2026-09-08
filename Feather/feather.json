@@ -101,7 +101,7 @@
       "name": "Discord",
       "bundleIdentifier": "com.hammerandchisel.discord",
       "developerName": "Discord Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/de/7c/57de7c45-71d5-0b1e-23a3-290c0b39be58/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/4a/f57f4a8c-7bdc-c65a-041e-d9a85b9238f4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "O Discord foi criado para jogos e é perfeito para apenas relaxar com amigos ou construir uma comunidade. Personalize seu próprio espaço e reúna seus amigos para falar enquanto joga seus jogos favoritos, ou apenas para passar o tempo.\n\nBATE-PAPO EM GRUPO QUE É SÓ DIVERSÃO E JOGOS\n∙ O Discord é excelente para jogar e relaxar com amigos, ou até mesmo para construir uma comunidade global. Personalize seu próprio espaço para falar, jogar e passar o tempo.\n\nTORNE SEUS BATE-PAPOS EM GRUPO MAIS DIVERTIDOS\n∙ Crie emojis personalizados, figurinhas, efeitos de painel de som e muito mais para adicionar sua personalidade ao bate-papo de voz, vídeo ou texto. Defina seu avatar, um status personalizado e escreva seu próprio perfil para se apresentar no bate-papo do seu jeito.\n\nTRANSMITA COMO SE ESTIVESSE NA MESMA SALA\n∙ A transmissão de alta qualidade e baixa latência faz com que você se sinta no sofá com seus amigos enquanto joga, assiste shows, olha fotos, ou, sei lá, faz o dever de casa ou algo do tipo.\n\nENTRE QUANDO ESTIVER LIVRE, NÃO PRECISA LIGAR\n∙ Entre e saia facilmente dos bate-papos de voz ou de texto sem precisar ligar ou convidar alguém, para que você possa conversar com seus amigos antes, durante e após a sessão de jogo.\n\nVEJA QUEM ESTÁ DISPONÍVEL PARA RELAXAR\n∙ Veja quem está por perto, jogando ou apenas relaxando. Para jogos compatíveis, você pode ver quais modos ou personagens seus amigos estão jogando e se juntar a eles diretamente.\n\nSEMPRE TENHA ALGO PARA FAZER JUNTOS\n∙ Assista a vídeos, jogue jogos integrados, ouça música ou simplesmente navegue juntos e compartilhe memes. Envie mensagens, faça ligações, participe de bate-papo em vídeo e jogue, tudo em uma única conversa em grupo.\n\nONDE QUER QUE VOCÊ JOGUE, FIQUE POR AQUI\n∙ No seu PC, telefone ou console, você ainda pode ficar no Discord. Alterne facilmente entre dispositivos e use ferramentas para gerenciar múltiplos bate-papos em grupo com amigos.",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/b9/50/74b95078-4818-4f87-d1ba-89e8bef93ee9/a28f114a-2749-482d-873e-830a59caadb0_1_GroupChat_Tile_pt-BR_5-5.png/392x696bb.png",
@@ -113,18 +113,18 @@
       ],
       "versions": [
         {
-          "version": "343.0",
-          "buildVersion": "109809",
-          "date": "2026-08-31T17:16:20Z",
-          "size": 114976666,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Discord/Discord_343.0.ipa?packageRevision=228b7ec39d82aa46b5cc6425c9b3655b9141fb3708e47e59217e156a918fb15e&tweak=Rain&tweakVersion=0.9.6&packageLabel=Rain+0.9.6",
+          "version": "344.0",
+          "buildVersion": "110671",
+          "date": "2026-09-08T17:00:47Z",
+          "size": 115817179,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Discord/Discord_344.0.ipa?packageRevision=228b7ec39d82aa46b5cc6425c9b3655b9141fb3708e47e59217e156a918fb15e&tweak=Rain&tweakVersion=0.9.6&packageLabel=Rain+0.9.6",
           "localizedDescription": "Trabalhamos arduamente a fim de melhorar o Discord para você. Isso inclui correções de bugs e melhorias de desempenho. Para informações mais detalhadas, acesse o seu perfil no app e role até “Novidades”."
         }
       ],
-      "version": "343.0",
-      "versionDate": "2026-08-31T17:16:20Z",
-      "size": 114976666,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Discord/Discord_343.0.ipa?packageRevision=228b7ec39d82aa46b5cc6425c9b3655b9141fb3708e47e59217e156a918fb15e&tweak=Rain&tweakVersion=0.9.6&packageLabel=Rain+0.9.6"
+      "version": "344.0",
+      "versionDate": "2026-09-08T17:00:47Z",
+      "size": 115817179,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Discord/Discord_344.0.ipa?packageRevision=228b7ec39d82aa46b5cc6425c9b3655b9141fb3708e47e59217e156a918fb15e&tweak=Rain&tweakVersion=0.9.6&packageLabel=Rain+0.9.6"
     },
     {
       "name": "Documents",
