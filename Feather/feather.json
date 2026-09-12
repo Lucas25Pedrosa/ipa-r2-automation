@@ -504,39 +504,6 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Messenger/Messenger_578.1.0.ipa?packageRevision=0c33cd8f4383835a4e41444bed31aa4af5f2a89c698c39e9810340613c3f64d0&tweak=MSGPlusX&tweakVersion=1.1&packageLabel=MSGPlusX+1.1"
     },
     {
-      "name": "Minha Claro",
-      "bundleIdentifier": "com.novitech.clarocanalservicos",
-      "developerName": "Claro S A",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a8/d2/87a8d27a-ca90-760c-de6d-d21fa9b59564/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Cliente Móvel e Residencial, com o Aplicativo Minha Claro, você tem o controle total dos seus produtos (exceto corporativo). Gerencie seus planos de celular, internet banda larga e TV com agilidade e tenha acesso gratuito sem consumir sua internet.*\n\nO QUE VOCÊ ENCONTRA POR AQUI:\n\n-  Controle o consumo de internet do seu celular e gerencie o plano de banda larga da sua casa.\n-  Veja detalhes do plano, saldo, forma de pagamento, carência, benefícios, entre outros.\n-  Acesse a fatura completa de todos os produtos móveis e residenciais.\n-  Pague, baixe a 2ª via e compartilhe suas faturas móveis e residenciais direto no app.\n-  Ative a fatura digital e receba no seu e-mail.\n-  Habilite o débito automático e tenha descontos na fatura.\n-  Parcele o valor das contas em aberto ou informe um pagamento realizado.\n-  Acompanhe suas visitas técnicas e o sinal dos produtos residenciais em tempo real.\n-  Configure as redes Wi-Fi da sua residência.\n-  Gerencie e visualize todos os seus números com um único acesso.\n-  Pacotes e promoções exclusivas para os usuários do App Minha Claro.\n\nLembre-se: navegar no Minha Claro é grátis.\n*Isenção válida na rede móvel Claro.",
-      "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/69/2f/b8692fd9-2643-a95b-3d61-ee6067570d19/9cc0dc2d-646a-4636-b640-816a31f13762_Iphone_1242x2208_01.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/b3/b1/31b3b1f4-069f-c552-d06b-5e8ef3c593f3/67dedfe6-56b8-4fdf-9c1d-084a94a69dff_Iphone_1242x2208_02.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/a8/03/91a803ba-ff14-08a8-5a90-033cfdf9e23a/09e0c5e2-021f-4921-9f12-da6a90b09bcf_Iphone_1242x2208_03.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/b7/d9/83b7d9ed-ad4b-7877-7b03-fdd78d3617b9/021ff1c5-b20b-4eee-ade6-8281d6b34c6e_Iphone_1242x2208_04.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/2c/bf/8a2cbf76-a74f-b4da-c0c1-3a47d3cf6f53/f73f9d26-ae0d-4c82-85ea-a7d0dd796044_Iphone_1242x2208_05.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/83/82/018382fd-cc6b-8484-19f3-d59fc9968bb7/782f08f5-a54e-4f0f-9c25-e6f7dde482bc_Iphone_1242x2208_06.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/52/5a/c4525ae0-fed8-38f3-0eb2-91cf945644b4/2d74439b-bfe3-41d5-a003-063de1befd4e_Iphone_1242x2208_07.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/01/9b/1d019bfa-b9c9-ffbd-923c-309a3e0dc2c7/2cc6a45e-def3-4a09-981c-eb41febbec57_Iphone_1242x2208_08.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/5e/88/ce5e886e-f8b7-9211-31de-47a30cf33f40/c8d87fff-883b-4fe9-ab2a-0db7caaf3402_Iphone_1242x2208_09.jpg/392x696bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/52/73/3752734a-592b-ef35-74d8-544c9bfe58df/9f24072d-e1a1-400f-80c2-085285eb2ca5_Iphone_1242x2208_10.jpg/392x696bb.jpg"
-      ],
-      "versions": [
-        {
-          "version": "19.12.1",
-          "buildVersion": "19121",
-          "date": "2026-09-10T15:16:26Z",
-          "size": 64679635,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Minha%20Claro/Minha%20Claro_19.12.1.ipa",
-          "localizedDescription": "Cliente Claro Móvel e Residencial, preparamos uma nova atualização do app Minha Claro!\n\nNesta versão, fizemos ajustes técnicos e melhorias de performance para garantir a melhor experiência em todos os seus produtos e serviços.\n\nAproveite as facilidades."
-        }
-      ],
-      "version": "19.12.1",
-      "versionDate": "2026-09-10T15:16:26Z",
-      "size": 64679635,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Minha%20Claro/Minha%20Claro_19.12.1.ipa"
-    },
-    {
       "name": "Moovit",
       "bundleIdentifier": "com.tranzmate.tranzmate1",
       "developerName": "Moovit App Global LTD",
