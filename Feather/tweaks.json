@@ -10,7 +10,7 @@
           "knownVersions": [
             "1.0"
           ],
-          "currentRevision": "359af02bc5835326859c3d4811b9e8ed93f125c9b92521fd8ffbe8d1b837f153",
+          "currentRevision": "a2e7d2021a26579bcad0d52a78e58c685d1af0841ef378c2afdfcf87c96ca201",
           "packageLabel": "iQFace 1.0"
         }
       ]
@@ -122,13 +122,14 @@
       "addons": [
         {
           "name": "MoesReddit",
-          "currentVersion": "3.1",
+          "currentVersion": "3.3",
           "knownVersions": [
             "2.4",
-            "3.1"
+            "3.1",
+            "3.3"
           ],
-          "currentRevision": "10708b6472439c64146e4e017d66671eb9a7889186b2add6a4a7687f187e079d",
-          "packageLabel": "MoesReddit 3.1"
+          "currentRevision": "fb413f0e5a4ceaa7a318e512c36d998a5d0e019d99624df04e657028deb212cb",
+          "packageLabel": "MoesReddit 3.3"
         }
       ]
     },
@@ -399,9 +400,10 @@
       "addons": [
         {
           "name": "Watusi 3",
-          "currentVersion": "1.3.22",
+          "currentVersion": "1.3.23",
           "knownVersions": [
-            "1.3.22"
+            "1.3.22",
+            "1.3.23"
           ],
           "components": [
             {
@@ -421,8 +423,8 @@
               "version": "4.3.0"
             }
           ],
-          "currentRevision": "127a403e30bdb032ff75ad7da82a5ce984704f46ec9cc140d3ea569b3c304cfc",
-          "packageLabel": "Watusi 3 1.3.22"
+          "currentRevision": "e7844caa288f76b09dd3b81aa3692f005411a0f73d2ed4d0f2974efae7a5aa32",
+          "packageLabel": "Watusi 3 1.3.23"
         }
       ]
     },
