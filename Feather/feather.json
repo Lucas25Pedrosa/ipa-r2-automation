@@ -888,18 +888,18 @@
       ],
       "versions": [
         {
-          "version": "21.35.3",
-          "buildVersion": "21.35.3",
-          "date": "Mon, 07 Sep 2026 16:58:22 GMT",
-          "size": 140162162,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube_21.35.3.ipa?packageRevision=1778413c56763f0727a298c2f3c7c881ddc3f3a6f70f9a8efb5095cb13b47ded&tweak=YouTube+Plus&tweakVersion=5.2.2&packageLabel=YouTube+Plus+5.2.2",
-          "localizedDescription": "Novidades não disponíveis."
+          "version": "21.36.6",
+          "buildVersion": "21.36.6",
+          "date": "2026-09-07T16:03:21Z",
+          "size": 129962156,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube_21.36.6.ipa?packageRevision=3eaa491dd074888f11af966757ad78dfc26f05332f3b72f7bced7b6fca93bb13&tweak=YTKACE&tweakVersion=0.9.3&packageLabel=YTKACE+0.9.3",
+          "localizedDescription": "Correções de bugs, melhorias na estabilidade, reparos no contínuo espaço-tempo."
         }
       ],
-      "version": "21.35.3",
-      "versionDate": "Mon, 07 Sep 2026 16:58:22 GMT",
-      "size": 140162162,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube_21.35.3.ipa?packageRevision=1778413c56763f0727a298c2f3c7c881ddc3f3a6f70f9a8efb5095cb13b47ded&tweak=YouTube+Plus&tweakVersion=5.2.2&packageLabel=YouTube+Plus+5.2.2"
+      "version": "21.36.6",
+      "versionDate": "2026-09-07T16:03:21Z",
+      "size": 129962156,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/YouTube/YouTube_21.36.6.ipa?packageRevision=3eaa491dd074888f11af966757ad78dfc26f05332f3b72f7bced7b6fca93bb13&tweak=YTKACE&tweakVersion=0.9.3&packageLabel=YTKACE+0.9.3"
     }
   ]
 }
