@@ -260,7 +260,7 @@
       "name": "Happy Scale",
       "bundleIdentifier": "com.frontpocketsoftware.happyscale",
       "developerName": "Front Pocket Software LLC",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/8e/c2/aa8ec2c1-9cd1-c561-ced9-4933d27027d8/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/a0/61/e2a06194-7f0c-72be-0922-a8c1e65196a2/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/512x512bb.jpg",
       "localizedDescription": "Fazer dieta é muito difícil. E quando você se esforça ao máximo, mas só vê os números da balança subirem? Isso não é justo!\n\nChegou a hora de mostrar à balança quem manda.\n\nCom o Happy Scale, você pode dar adeus às pesagens diárias e prever sua perda de peso real.\n\n• CONFIRA SEU PROGRESSO REAL: o Happy Scale usa um sofisticado conceito matemático para determinar a tendência real do seu progresso. Você consegue saber detalhes sobre o seu emagrecimento a cada semana.\n\n• ESQUEÇA O EFEITO PLATÔ: use as opções para monitorar o progresso da sua média móvel e ver resultados todos os dias.\n\n• DEVAGAR SE VAI AO LONGE: você precisa emagrecer muito? Divida seu objetivo em metas parciais de emagrecimento para poder se concentrar em objetivos viáveis que podem ser alcançados a curto prazo.\n\n• A FERRAMENTA QUE FALTAVA: use esse aplicativo com outros aplicativos populares. É possível importar automaticamente as informações sobre o seu peso de outros aplicativos que permitam exportar dados para o aplicativo Saúde da Apple. O Happy Scale exportará todas essas informações para o aplicativo Saúde da Apple para que você possa usá-las em outros aplicativos.\n\n• VISLUMBRE O SUCESSO: confira as previsões sobre o seu peso com base nas tendências atuais e defina suas metas.\n\n• CONHEÇA SEUS NÚMEROS: Nossa nova calculadora de IMC mostra exatamente onde você está e quais faixas de peso você precisa atingir para diferentes categorias de saúde. Chega de adivinhar se você está quase lá!\n\n• COMPATIBILIDADE COM TODOS OS SEUS DISPOSITIVOS: aproveite a sincronia total com iPhone e iPad.\n\nVocê já fez outras dietas, mas perdeu a motivação no meio do processo? Conheça o Happy Scale hoje mesmo e junte-se a milhares de usuários que usam esse aplicativo para MOSTRAR À BALANÇA QUEM MANDA.\n\n------------------\n\nEste aplicativo se integra opcionalmente ao Apple Health. É um recurso de aceitação que pode ser acessado no menu Configurações.\n\n------------------\n\nSe você comprar uma assinatura mensal ou anual, o pagamento será cobrado na sua conta do iTunes. Sua conta será cobrada automaticamente pela renovação dentro de 24 horas antes do final da assinatura atual, a menos que você desative a renovação automática. Você pode desativar a renovação automática a qualquer momento, acessando as Configurações da sua conta na App Store após a compra.\n\nPolítica de Privacidade: https://happyscale.com/privacy\n\nTermos de Uso: https://happyscale.com/terms",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/ec/64/2dec64c5-a69f-d013-b040-5e857d0e1009/75E0714B-D010-4853-9D1D-73E4A08C43E7-iPhone69-01.png/320x480bb.jpg",
@@ -274,18 +274,18 @@
       ],
       "versions": [
         {
-          "version": "2026.6.3",
-          "buildVersion": "3619",
-          "date": "2026-09-01T16:25:51Z",
-          "size": 26382543,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Happy%20Scale/Happy%20Scale_2026.6.3.ipa?packageRevision=5e35c40701577d8f570e8c457b26ca3a1087b00a27e5365fe66c49ae6969cce6&tweak=Happy+Scale%2B&tweakVersion=1.0&packageLabel=Happy+Scale%2B+1.0",
-          "localizedDescription": "UMA NOVA DEMÃO DE TINTA\n\nFizemos melhorias visuais de cima a baixo: cada tema e cada tela foram cuidadosamente ajustados para que o Happy Scale fique mais agradável, mais consistente e mais legível. São mudanças puramente estéticas; o Happy Scale funciona exatamente como antes, só que com uma aparência melhor.\n\n\nPERSONALIZAÇÃO DE CORES APRIMORADA\n\nO roxo agora se junta ao vermelho, ao verde e ao azul como quarta opção para representar o ganho ou a perda de peso no app. Suas escolhas de cores agora são aplicadas de forma consistente em todas as áreas do app, incluindo o cartão de Estatísticas recentes, e podem ser configuradas a partir de qualquer cartão que use essas cores.\n\n\nCORREÇÕES E AJUSTES\n\nEstamos sempre fazendo o nosso melhor para trazer muitas pequenas melhorias em todo o app.\n\nPara obter mais detalhes sobre esses novos recursos, vá para Configurações → Ajuda e suporte → Atualizações recentes."
+          "version": "2026.7",
+          "buildVersion": "3620",
+          "date": "2026-09-14T02:19:22Z",
+          "size": 40455064,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Happy%20Scale/Happy%20Scale_2026.7.ipa?packageRevision=5e35c40701577d8f570e8c457b26ca3a1087b00a27e5365fe66c49ae6969cce6&tweak=Happy+Scale%2B&tweakVersion=1.0&packageLabel=Happy+Scale%2B+1.0",
+          "localizedDescription": "SUPORTE AO iOS 27\n\nO Happy Scale agora oferece suporte total ao iOS 27.\n\n\nCORREÇÕES E AJUSTES\n\nEstamos sempre fazendo o nosso melhor para trazer muitas pequenas melhorias em todo o app."
         }
       ],
-      "version": "2026.6.3",
-      "versionDate": "2026-09-01T16:25:51Z",
-      "size": 26382543,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Happy%20Scale/Happy%20Scale_2026.6.3.ipa?packageRevision=5e35c40701577d8f570e8c457b26ca3a1087b00a27e5365fe66c49ae6969cce6&tweak=Happy+Scale%2B&tweakVersion=1.0&packageLabel=Happy+Scale%2B+1.0"
+      "version": "2026.7",
+      "versionDate": "2026-09-14T02:19:22Z",
+      "size": 40455064,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Happy%20Scale/Happy%20Scale_2026.7.ipa?packageRevision=5e35c40701577d8f570e8c457b26ca3a1087b00a27e5365fe66c49ae6969cce6&tweak=Happy+Scale%2B&tweakVersion=1.0&packageLabel=Happy+Scale%2B+1.0"
     },
     {
       "name": "iLovePDF",
