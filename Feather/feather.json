@@ -714,18 +714,18 @@
       ],
       "versions": [
         {
-          "version": "2026.36.0",
-          "buildVersion": "664762",
-          "date": "2026-09-09T14:03:08Z",
-          "size": 146445075,
-          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.36.0.ipa?packageRevision=08606f4b402067ef502c80c2bce1001ddd6ae9d8648326b66fe16ad030a368a9&tweak=MoesReddit&tweakVersion=3.9&packageLabel=MoesReddit+3.9",
-          "localizedDescription": "Obrigado por atualizar o app do Reddit! Atualizamos nossos apps para iOS com correções de bugs e algumas mudanças para melhorar sua experiência."
+          "version": "2026.35.0",
+          "buildVersion": "637926",
+          "date": "Mon, 14 Sep 2026 14:13:24 GMT",
+          "size": 133740777,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.35.0.ipa?packageRevision=e9d2e6af61a08fd125869648e059000012cc2c78210a6cdccd98aed6ccf18c8d&tweak=MoesReddit&tweakVersion=3.0&packageLabel=MoesReddit+3.0",
+          "localizedDescription": "Novidades não disponíveis."
         }
       ],
-      "version": "2026.36.0",
-      "versionDate": "2026-09-09T14:03:08Z",
-      "size": 146445075,
-      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.36.0.ipa?packageRevision=08606f4b402067ef502c80c2bce1001ddd6ae9d8648326b66fe16ad030a368a9&tweak=MoesReddit&tweakVersion=3.9&packageLabel=MoesReddit+3.9"
+      "version": "2026.35.0",
+      "versionDate": "Mon, 14 Sep 2026 14:13:24 GMT",
+      "size": 133740777,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Reddit/Reddit_2026.35.0.ipa?packageRevision=e9d2e6af61a08fd125869648e059000012cc2c78210a6cdccd98aed6ccf18c8d&tweak=MoesReddit&tweakVersion=3.0&packageLabel=MoesReddit+3.0"
     },
     {
       "name": "Telegram",
