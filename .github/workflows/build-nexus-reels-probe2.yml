@@ -1,0 +1,56 @@
+name: Build Nexus Reels Probe 2
+on:
+  push:
+    branches: [chatgpt/nexus-reels-probe2-build]
+    paths: [diagnostics/NexusReelsProbe2/**, .github/workflows/build-nexus-reels-probe2.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - name: Compile
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          xcrun --sdk iphoneos clang -target arm64-apple-ios15.0 -arch arm64 -dynamiclib -Os -fobjc-arc -fblocks \
+            -include math.h -include stdlib.h -include dispatch/dispatch.h -isysroot "$SDK" \
+            -framework Foundation -framework UIKit -framework QuartzCore \
+            -install_name '@rpath/NexusReelsProbe2.dylib' -Wl,-dead_strip \
+            diagnostics/NexusReelsProbe2/NexusReelsProbe2.m -o build/NexusReelsProbe2.dylib
+          chmod 755 build/NexusReelsProbe2.dylib
+      - name: Validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          file build/NexusReelsProbe2.dylib | tee build/validation.txt
+          file build/NexusReelsProbe2.dylib | grep -qi arm64
+          xcrun otool -L build/NexusReelsProbe2.dylib | tee -a build/validation.txt
+          xcrun otool -D build/NexusReelsProbe2.dylib | tee -a build/validation.txt
+          xcrun otool -D build/NexusReelsProbe2.dylib | grep -F '@rpath/NexusReelsProbe2.dylib'
+          if strings build/NexusReelsProbe2.dylib | grep -Eq 'method_setImplementation|class_replaceMethod|MSHookMessageEx|fishhook|Substrate|Substitute|ElleKit'; then exit 1; fi
+          shasum -a 256 build/NexusReelsProbe2.dylib | tee build/SHA256.txt
+      - name: Notes
+        shell: bash
+        run: |
+          cp diagnostics/NexusReelsProbe2/NexusReelsProbe2.m build/NexusReelsProbe2.m
+          cat > build/README.txt <<'EOF'
+          NexusReelsProbe 2.0 — Nexus 1.1 Beta diagnostics
+          Target discovered by Probe 1 on Facebook 579.0.0:
+          FBShortsSwiftPersistentScrubber.FBShortsSwiftPersistentScrubberView
+          FBShortsSwiftPersistentScrubber.FBShortsScrubberCustomSlider
+
+          Test: open Facebook, wait 6 seconds, enter Reels, allow controls to disappear naturally,
+          tap once to show them again, play several Reels, pause/resume, swipe 4-5 times, exit and re-enter.
+          Retrieve Documents/NexusReelsProbe2.txt and send it back for analysis.
+          EOF
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NexusReelsProbe2-2.0
+          path: build/
+          retention-days: 3
