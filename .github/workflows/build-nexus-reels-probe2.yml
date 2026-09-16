@@ -20,7 +20,7 @@ jobs:
           SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
           xcrun --sdk iphoneos clang -target arm64-apple-ios15.0 -arch arm64 -dynamiclib -Os -fobjc-arc -fblocks \
             -include math.h -include stdlib.h -include dispatch/dispatch.h -isysroot "$SDK" \
-            -framework Foundation -framework UIKit -framework QuartzCore \
+            -framework Foundation -framework UIKit -framework QuartzCore -framework CoreGraphics \
             -install_name '@rpath/NexusReelsProbe2.dylib' -Wl,-dead_strip \
             diagnostics/NexusReelsProbe2/NexusReelsProbe2.m -o build/NexusReelsProbe2.dylib
           chmod 755 build/NexusReelsProbe2.dylib
