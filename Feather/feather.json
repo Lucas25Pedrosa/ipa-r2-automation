@@ -191,6 +191,32 @@
       "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Duolingo/Duolingo_7.140.0.ipa?packageRevision=07ca366395695e64b4838e615dcfcfafec9ef4af47eda3eb52fdcd71a70fd641&tweak=Duolingo+Max&tweakVersion=1.0&packageLabel=Duolingo+Max+1.0"
     },
     {
+      "name": "Dynamic-Lyrics",
+      "bundleIdentifier": "com.bing.lyrics",
+      "developerName": "Guangzhou Haoke Information Technology Co., Ltd",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/78/34/a47834d7-c2f5-2ce3-6477-86745e9fd48a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Letras Dinâmicas (Dynamic Lyrics) é um aplicativo que exibe letras e traduções em tempo real na tela de bloqueio, no Dynamic Island, nos widgets e nas janelas flutuantes. É compatível com Apple Music e Spotify.\nVocê também pode usar o modo Shazam para identificar músicas tocando em qualquer aplicativo, página da web ou no ambiente ao seu redor.\n\n• Letras na Tela de Bloqueio e Dynamic Island\nExibe letras em tempo real na tela de bloqueio e no Dynamic Island usando o recurso Live Activity.\n\n• Widget de Letras\nExibe letras em tempo real no widget da tela inicial e no modo StandBy.\n\n• Letras Flutuantes\nExibe letras em qualquer lugar usando uma janela flutuante.\n\n• Suporte à Tradução de Letras\nPermite traduzir letras para qualquer idioma suportado.\n\n• Suporte a Vários Apps de Música\nAtualmente, é compatível com Apple Music e Spotify.\n\n• Modo Shazam\nCom o modo Shazam, você pode identificar músicas tocando em qualquer aplicativo, página da web ou no ambiente ao seu redor e visualizar as letras.\n\nDescrição da Assinatura Dynamic Lyrics®:\nAo se tornar um membro do Dynamic Lyrics®, você pode desbloquear todos os recursos pagos, aproveitar atualizações gratuitas no futuro e ter uma experiência sem anúncios.\nVocê pode optar por uma assinatura ou uma assinatura vitalícia com pagamento único.\nSe você escolher a assinatura, ela será renovada automaticamente através da sua conta iTunes.\nSua conta Apple iTunes será cobrada dentro de 24 horas antes do término do período atual, e a assinatura será renovada para o próximo ciclo.\nPara cancelar a renovação, desative manualmente a opção de renovação automática nas configurações do ID Apple pelo menos 24 horas antes do final do período atual.\nSe você não cancelar durante o período de teste, a assinatura será ativada automaticamente e a cobrança será feita ao final do período de teste.\nEste serviço é totalmente opcional. Se você optar por não cancelar, a próxima renovação será feita automaticamente.\nPolítica de Privacidade: https://musiclyrics.cn/privacy.html\nTermos de Uso: https://musiclyrics.cn/agreement.html",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/29/3a/6e293aae-0260-7fb4-96f3-8336896b07ff/6249d2fd-0e04-45cb-8b19-bdf4e20ce2df__U9501_U5c4f_U6b4c_U8bcd@3x.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/a5/a9/fea5a94d-e79d-39a4-fe4a-5c29f0f54ba6/f6627788-9dae-476c-b061-6fd66b18477f__U684c_U9762_U5c0f_U7ec4_U4ef6@3x.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/5c/dc/5f5cdcbc-77e1-7684-55fa-384de00bed5c/8690c652-9752-4bb5-9a67-53963febcc2a__U60ac_U6d6e_U6b4c_U8bcd@3x.png/392x696bb.png"
+      ],
+      "versions": [
+        {
+          "version": "2.0.5",
+          "buildVersion": "179",
+          "date": "2026-09-17T23:44:57Z",
+          "size": 20476164,
+          "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Dynamic-Lyrics/Dynamic-Lyrics_2.0.5.ipa?packageRevision=64f0ec6efc5495e154711180726c86780514ea501705b52ee8fb5086ce2231cf&tweak=Premium&tweakVersion=1.0&packageLabel=Premium+1.0",
+          "localizedDescription": "- correção de bugs"
+        }
+      ],
+      "version": "2.0.5",
+      "versionDate": "2026-09-17T23:44:57Z",
+      "size": 20476164,
+      "downloadURL": "https://pub-4c58191013f0429aab20e217182b7f04.r2.dev/Dynamic-Lyrics/Dynamic-Lyrics_2.0.5.ipa?packageRevision=64f0ec6efc5495e154711180726c86780514ea501705b52ee8fb5086ce2231cf&tweak=Premium&tweakVersion=1.0&packageLabel=Premium+1.0"
+    },
+    {
       "name": "Facebook",
       "bundleIdentifier": "com.facebook.Facebook",
       "developerName": "Meta Platforms, Inc.",
