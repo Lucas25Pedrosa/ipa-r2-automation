@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: Lucas25Pedrosa/ipa-shared-config-core
-          token: ${{ secrets.SHARED_CONFIG_TOKEN }}
+          token: ${{ secrets.SHARED_CONFIG_WRITE_TOKEN }}
           path: shared-config
           fetch-depth: 0
 
