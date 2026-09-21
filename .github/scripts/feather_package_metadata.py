@@ -324,18 +324,22 @@ def update_source(metadata, bundle_id, app_version):
 
     versions = target.get("versions")
     target_version = None
+
     if isinstance(versions, list):
         for item in versions:
             if not isinstance(item, dict):
                 continue
+
             if normalize_version(item.get("version")) == normalize_version(app_version):
                 target_version = item
                 break
 
-    if target_version is None and isinstance(versions, list) and versions:
-        first = versions[0]
-        if isinstance(first, dict):
-            target_version = first
+    if target_version is None:
+        print(
+            "⚠️ Feather package metadata: versão exata não encontrada na source: "
+            f"{bundle_id} {app_version}. Nenhuma outra versão será alterada."
+        )
+        return False
 
     source_size = 0
     if isinstance(target_version, dict):
@@ -367,12 +371,22 @@ def update_source(metadata, bundle_id, app_version):
                 target_version["downloadURL"] = updated
                 changed = True
 
-    current_top = str(target.get("downloadURL") or "").strip()
-    if current_top:
-        updated_top = with_package_query(current_top, metadata)
-        if updated_top != current_top:
-            target["downloadURL"] = updated_top
-            changed = True
+    current_app_version = str(target.get("version") or "").strip()
+
+    if normalize_version(current_app_version) == normalize_version(app_version):
+        current_top = str(target.get("downloadURL") or "").strip()
+
+        if current_top:
+            updated_top = with_package_query(current_top, metadata)
+
+            if updated_top != current_top:
+                target["downloadURL"] = updated_top
+                changed = True
+    else:
+        print(
+            "ℹ️ Feather package metadata: versão histórica atualizada sem "
+            "alterar o downloadURL principal do app."
+        )
 
     if changed:
         source_path.write_text(
