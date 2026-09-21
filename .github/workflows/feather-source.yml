@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       sync_only:
-        description: Sincronizar apenas remoções do R2
+        description: Sincronizar apenas com o drive_index.json
         required: false
         default: false
         type: boolean
@@ -52,7 +52,7 @@ on:
         type: string
 
       r2_key:
-        description: Caminho do IPA no R2
+        description: Legado — mantido por compatibilidade (ignorado)
         required: false
         default: ""
         type: string
@@ -90,16 +90,11 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          python -m pip install awscli requests langdetect telethon
+          python -m pip install requests langdetect telethon
 
       - name: Atualizar e sincronizar Feather
         id: atualizar
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
-          AWS_DEFAULT_REGION: auto
-
           SYNC_ONLY: ${{ inputs.sync_only }}
           REBUILD_ALL: ${{ inputs.rebuild_all }}
           APP_NAME: ${{ inputs.app_name }}
@@ -107,9 +102,7 @@ jobs:
           IPA_VERSION: ${{ inputs.version }}
           IPA_BUILD: ${{ inputs.build }}
           APP_STORE_ID: ${{ inputs.app_store_id }}
-          R2_KEY: ${{ inputs.r2_key }}
-
-          R2_PUBLIC_BASE_URL: https://pub-4c58191013f0429aab20e217182b7f04.r2.dev
+          DRIVE_PUBLIC_BASE_URL: https://drive.lucaspedrosa.shop
           SOURCE_ICON_URL: https://raw.githubusercontent.com/Lucas25Pedrosa/ipa-r2-automation/main/Feather/icons/repo.png
 
           PUBLIC_REPO_DIR: ${{ github.workspace }}
@@ -157,7 +150,7 @@ jobs:
           if [ "$REBUILD_ALL_RESULT" = "true" ]; then
             git commit -m "Rebuild IPA Library metadata"
           elif [ "$SYNC_ONLY_RESULT" = "true" ]; then
-            git commit -m "Sync IPA Library with R2"
+            git commit -m "Sync IPA Library with Google Drive"
           elif [ "$PACKAGE_CHANGED" = "true" ] && [ "${{ steps.atualizar.outputs.changed }}" != "true" ]; then
             git commit -m "Update IPA Library package: $APP_NAME $IPA_VERSION"
           else
