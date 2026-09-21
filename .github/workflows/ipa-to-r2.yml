@@ -1,4 +1,5 @@
 name: IPA to R2
+# Nome mantido temporariamente por compatibilidade com o workflow_run do TeraBox.
 
 on:
   workflow_dispatch:
@@ -9,7 +10,7 @@ on:
         default: ""
         type: string
       callback_url:
-        description: "Callback do Worker do bot do R2"
+        description: "Callback do Worker do bot de armazenamento"
         required: false
         default: ""
         type: string
@@ -45,7 +46,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: Lucas25Pedrosa/ipa-shared-config-core
-          token: ${{ secrets.SHARED_CONFIG_TOKEN }}
+          token: ${{ secrets.DRIVE_INDEX_WRITE_TOKEN }}
           path: shared-config
           fetch-depth: 1
 
@@ -57,23 +58,24 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          python -m pip install telethon cryptg requests awscli boto3
+          python -m pip install telethon cryptg requests
 
 
       # ============================================================
       # 3. EXECUTAR PROCESSAMENTO PRIVADO
       # ============================================================
 
-      - name: Executar IPA to R2
+      - name: Executar IPA to Google Drive
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
 
-          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
-          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          DRIVE_PUBLIC_BASE_URL: https://drive.lucaspedrosa.shop
 
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -97,7 +99,7 @@ jobs:
       # 4. PUBLICAR ARTIFACT TEMPORÁRIO PARA O TERABOX
       # ============================================================
       # Esta etapa é propositalmente não bloqueante:
-      # qualquer falha aqui não altera o resultado do fluxo R2/Feather.
+      # qualquer falha aqui não altera o resultado do fluxo Drive/Feather.
 
       - name: Publicar Artifact para TeraBox
         continue-on-error: true
