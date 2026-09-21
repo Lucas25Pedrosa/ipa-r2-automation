@@ -6,10 +6,24 @@ on:
       action:
         description: "Ação"
         required: true
-        default: "bootstrap"
+        default: "test-all"
         type: choice
         options:
+          - test-all
+          - test-one
           - bootstrap
+      clone:
+        description: "Clone (usado somente em test-one)"
+        required: true
+        default: "II"
+        type: choice
+        options:
+          - I
+          - II
+          - III
+          - IV
+          - V
+          - VI
 
 permissions:
   contents: read
@@ -43,9 +57,10 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests
+          python -m pip install requests pillow
 
       - name: Preparar área dos WhatsApps duplicados no Google Drive
+        if: ${{ inputs.action == 'bootstrap' }}
         id: drive_bootstrap
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
@@ -56,9 +71,10 @@ jobs:
           WHATSAPP_DUPLICATES_FOLDER_NAME: WhatsApp Duplicados
           WHATSAPP_DUPLICATES_DRIVE_INDEX: shared-config/whatsapp_duplicates_drive_index.json
         run: |
-          python private-core/whatsapp_duplicates/drive.py "${{ inputs.action }}"
+          python private-core/whatsapp_duplicates/drive.py bootstrap
 
       - name: Salvar índice dos WhatsApps duplicados
+        if: ${{ inputs.action == 'bootstrap' }}
         env:
           FOLDER_ID: ${{ steps.drive_bootstrap.outputs.duplicates_folder_id }}
         run: |
@@ -75,8 +91,67 @@ jobs:
           fi
 
           git commit -m "Update WhatsApp duplicates Drive index"
-
           git pull --rebase origin main
           git push origin main
 
           echo "Índice salvo. Pasta dos duplicados: ${FOLDER_ID}"
+
+      - name: Baixar WhatsApp atual do Google Drive
+        if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' }}
+        id: source
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        run: |
+          mkdir -p work/duplicates
+
+          python private-core/whatsapp_duplicates/source.py \
+            --index shared-config/drive_index.json \
+            --output work/WhatsApp.ipa
+
+      - name: Gerar e validar WhatsApps duplicados
+        if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' }}
+        env:
+          ACTION: ${{ inputs.action }}
+          SELECTED_CLONE: ${{ inputs.clone }}
+          VERSION: ${{ steps.source.outputs.version }}
+        run: |
+          set -euo pipefail
+
+          if [ "${ACTION}" = "test-one" ]; then
+            CLONES="${SELECTED_CLONE}"
+          else
+            CLONES="I II III IV V VI"
+          fi
+
+          for CLONE in ${CLONES}; do
+            OUTPUT="work/duplicates/Magda_WA_${CLONE}_${VERSION}.ipa"
+
+            echo "========================================"
+            echo "Gerando Magda WA ${CLONE}"
+            echo "Versão base: ${VERSION}"
+            echo "========================================"
+
+            python private-core/whatsapp_duplicates/builder.py \
+              --input work/WhatsApp.ipa \
+              --clone "${CLONE}" \
+              --output "${OUTPUT}"
+
+            if [ "${ACTION}" = "test-all" ]; then
+              rm -f "${OUTPUT}"
+            fi
+          done
+
+          echo "✅ Teste concluído com sucesso."
+
+      - name: Disponibilizar IPA do teste individual
+        if: ${{ inputs.action == 'test-one' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: magda-wa-${{ inputs.clone }}-${{ steps.source.outputs.version }}
+          path: work/duplicates/*.ipa
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
