@@ -65,8 +65,9 @@ jobs:
           MIGRATION_MAX_FILES: ${{ inputs.max_files }}
 
           DRIVE_INDEX_PATH: shared-config/drive_index.json
+          PYTHONUNBUFFERED: "1"
         run: |
-          python private-core/scripts/migrate_r2_to_drive.py
+          python -u private-core/scripts/migrate_r2_to_drive.py
 
       - name: Salvar drive_index.json
         if: always()
