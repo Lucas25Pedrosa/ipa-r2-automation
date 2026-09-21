@@ -1,0 +1,91 @@
+name: Migrate R2 to Google Drive
+
+on:
+  workflow_dispatch:
+    inputs:
+      only_prefix:
+        description: "Opcional: migrar somente uma pasta do R2 (ex.: Picsart). Vazio = todas, exceto Utilitários."
+        required: false
+        default: ""
+        type: string
+      max_files:
+        description: "Opcional: limite de IPAs para teste. 0 = sem limite."
+        required: false
+        default: "0"
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: r2-to-drive-migration
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: private-core
+          fetch-depth: 1
+
+      - name: Baixar configuração compartilhada
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-shared-config-core
+          token: ${{ secrets.SHARED_CONFIG_TOKEN }}
+          path: shared-config
+          fetch-depth: 0
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install boto3 requests
+
+      - name: Migrar R2 para Google Drive
+        id: migrate
+        continue-on-error: true
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ipas
+
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+
+          MIGRATION_ONLY_PREFIX: ${{ inputs.only_prefix }}
+          MIGRATION_MAX_FILES: ${{ inputs.max_files }}
+
+          DRIVE_INDEX_PATH: shared-config/drive_index.json
+        run: |
+          python private-core/scripts/migrate_r2_to_drive.py
+
+      - name: Salvar drive_index.json
+        if: always()
+        working-directory: shared-config
+        run: |
+          if git diff --quiet -- drive_index.json; then
+            echo "drive_index.json sem alterações."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add drive_index.json
+          git commit -m "Update Google Drive storage index"
+          git push origin HEAD:main
+
+      - name: Falhar workflow se a migração teve erros
+        if: steps.migrate.outcome == 'failure'
+        run: |
+          echo "A migração teve uma ou mais falhas. Os checkpoints válidos já foram salvos em drive_index.json."
+          exit 1
