@@ -41,13 +41,14 @@
       "addons": [
         {
           "name": "Regram",
-          "currentVersion": "6.1",
+          "currentVersion": "6.2",
           "knownVersions": [
             "6.0.1",
-            "6.1"
+            "6.1",
+            "6.2"
           ],
-          "currentRevision": "38ea811277b82b3ebdfd021d9bf4a930788653a14a64c9232b01cd47788ade75",
-          "packageLabel": "Regram 6.1"
+          "currentRevision": "203187e40ec6f4c95dbd1a903f029546b359ac643e46da420c29f9f84c9d6c0d",
+          "packageLabel": "Regram 6.2"
         }
       ]
     },
@@ -453,12 +454,13 @@
         },
         {
           "name": "YTKACE",
-          "currentVersion": "0.9.3",
+          "currentVersion": "1.0.0",
           "knownVersions": [
-            "0.9.3"
+            "0.9.3",
+            "1.0.0"
           ],
-          "currentRevision": "3eaa491dd074888f11af966757ad78dfc26f05332f3b72f7bced7b6fca93bb13",
-          "packageLabel": "YTKACE 0.9.3"
+          "currentRevision": "2ead302f017cdef0da4798f1b71801b62e6782f5a77ba7061326f7a5c540bb16",
+          "packageLabel": "YTKACE 1.0.0"
         }
       ]
     },
