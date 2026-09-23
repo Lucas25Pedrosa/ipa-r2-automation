@@ -1,0 +1,70 @@
+name: Cloudflare Translator Integration Test
+
+on:
+  push:
+    paths:
+      - ".github/workflows/cloudflare-translator-integration-test.yml"
+  workflow_dispatch:
+
+jobs:
+  test-translator:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testar ipa-translator
+        env:
+          TRANSLATOR_API_KEY: ${{ secrets.TRANSLATOR_API_KEY }}
+          TRANSLATOR_WORKER_URL: https://ipa-translator.f8s79jzkbk.workers.dev/
+        shell: python
+        run: |
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.request
+
+          key = os.environ.get("TRANSLATOR_API_KEY", "").strip()
+          url = os.environ.get("TRANSLATOR_WORKER_URL", "").strip()
+
+          if not key:
+              print("❌ TRANSLATOR_API_KEY não está disponível.")
+              sys.exit(1)
+
+          body = json.dumps({
+              "text": "Bug fixes and performance improvements.",
+              "source_lang": "en",
+              "target_lang": "pt",
+          }).encode("utf-8")
+
+          request = urllib.request.Request(
+              url,
+              data=body,
+              method="POST",
+              headers={
+                  "Authorization": f"Bearer {key}",
+                  "Content-Type": "application/json; charset=utf-8",
+                  "Accept": "application/json",
+              },
+          )
+
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  status = response.status
+                  payload = json.loads(response.read().decode("utf-8"))
+          except urllib.error.HTTPError as exc:
+              detail = exc.read().decode("utf-8", errors="replace")
+              print(f"❌ HTTP {exc.code}: {detail}")
+              sys.exit(1)
+          except Exception as exc:
+              print(f"❌ Falha de conexão: {exc}")
+              sys.exit(1)
+
+          translated = str(payload.get("translated_text") or "").strip()
+
+          print(f"HTTP {status}")
+          print(f"success={payload.get('success')}")
+          print(f"translated_text={translated}")
+
+          if status != 200 or payload.get("success") is not True or not translated:
+              sys.exit(1)
+
+          print("✅ Integração com ipa-translator validada.")
