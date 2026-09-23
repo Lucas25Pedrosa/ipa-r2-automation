@@ -57,7 +57,7 @@
           "date": "2026-09-23T19:38:58Z",
           "size": 114466441,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/19w7GzPB72bRf3ilZ-0YkmmnH9u-0iHH4/BoldVoice_4.4.5.ipa?packageRevision=5513b2da3b81c833b53741bb6e627959c44dd00ee2c8e79aa328714bdea37f9a&tweak=BoldVoice+Premium&tweakVersion=1.0&packageLabel=BoldVoice+Premium+1.0",
-          "localizedDescription": "We've been polishing things behind the scenes to make BoldVoice feel faster and more reliable for you. This update includes performance improvements and bug fixes to keep your practice sessions running smoothly."
+          "localizedDescription": "Nós estamos polindo coisas nos bastidores para fazer BoldVoice se sentir mais rápido e mais confiável para você.Esta atualização inclui melhorias de desempenho e correções de bugs para manter suas sessões de prática funcionando sem problemas."
         },
         {
           "version": "4.4.4",
@@ -256,7 +256,7 @@
           "date": "2026-09-17T23:44:57Z",
           "size": 20476164,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1JskODaCVuS6onTqvTxdYHXYTrxQ10pvr/Dynamic-Lyrics_2.0.5.ipa?packageRevision=64f0ec6efc5495e154711180726c86780514ea501705b52ee8fb5086ce2231cf&tweak=Premium&tweakVersion=1.0&packageLabel=Premium+1.0",
-          "localizedDescription": "- correção de bugs"
+          "localizedDescription": "- bug fix"
         }
       ],
       "version": "2.0.5",
@@ -503,7 +503,7 @@
           "date": "2026-06-08T07:06:35Z",
           "size": 92468068,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1ULKKX3EDfPxIyruNoBBn9y1vflL4d9s2/iTranslate%20-%2017.4.75.ipa?packageRevision=204e0555ce482fd10f4433a2f0e0084d3baea02bf4dc18f6897e8aa5aa6bf26b&tweak=iTranslate+Pro&tweakVersion=1.0&packageLabel=iTranslate+Pro+1.0",
-          "localizedDescription": "Olá, amantes de idiomas! \n\nBoas notícias em todos os idiomas: melhoramos o app! Seja você dizendo \"melhor\", \"melhor\", \"migliore\" ou \"meilleur\" — significa a mesma coisa: essa atualização é sensacional! \n\nCorrigimos alguns bugs e otimizamos o desempenho para que você possa focar em quebrar barreiras de idioma, não de apps. \n\nContinue traduzindo, continue aprendendo!"
+          "localizedDescription": "Oi amantes da língua! Boas notícias em todos os idiomas: melhoramos o aplicativo! Se você diz “melhor”, “melhor”, “migliore” ou “melhor” – isso significa a mesma coisa: esta atualização rocha! Nós eliminamos alguns bugs e otimizamos o desempenho para que você possa se concentrar em quebrar as barreiras da língua, não as barreiras do aplicativo."
         }
       ],
       "version": "17.4.75",
@@ -516,7 +516,7 @@
       "bundleIdentifier": "com.letterboxd.LetterboxdApp",
       "developerName": "Letterboxd Ltd",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/b2/2e/6cb22ee1-521c-ae99-a889-1d39f1202030/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "O Letterboxd para iOS coloca a rede social popular para amantes de cinema no seu iPhone ou iPad, para que você possa registrar filmes e acompanhar as atividades dos seus amigos com facilidade. \n\nFaça login com sua conta existente (ou crie uma gratuitamente) para aproveitar nossa interface nativa do aplicativo. Esses recursos da experiência web são suportados, com mais novidades a vir: \n\n– Faça login (com suporte ao 1Password) ou crie uma conta\n– Navegue pelos filmes populares, altamente avaliados e mais aguardados (incluindo nossa lista oficial dos 250 Melhores Longas-Narrativas)\n– Registrar filmes com data, classificação, crítica e tags\n– Ver informações sobre filmes (incluindo elenco e equipe, listas e críticas populares) e avaliar, curtir, lista de assistência ou marcar como assistido\n– Visualize (e filtre) seu feed de atividades\n– Leia e comente resenhas e listas\n– Criar e editar listas\n– Veja perfis de membros, incluindo filmes, análises, entradas de diário, tags, estatísticas e muito mais\n– Siga os membros para ver suas atividades no seu feed\n– Filtrar e ordenar coleções de filmes com base em critérios específicos\n– Buscar por filmes, conteúdos e pessoas\n– Editar as configurações do seu perfil\n\nNosso aplicativo oferece upgrades de conta: \n\n– Upgrade para 1 ano de Letterboxd Pro ou Patron\n– O nível Pro adiciona páginas anuais e de estatísticas históricas baseadas na atividade da sua conta, filtros avançados de atividade e serviços de streaming (incluindo a opção de selecionar e filtrar pelos serviços de streaming que você assina, alimentados pela JustWatch.com), clonagem de listas e remove anúncios de terceiros. \n– O nível Patron oferece todos os benefícios do Pro, além da opção de personalizar pôsteres de filmes, cenários no seu perfil e conteúdo (se disponível), estatísticas adicionais, uma listagem no diretório de Patronos em nosso site e acesso antecipado a novos recursos. \n– O pagamento é cobrado na sua conta iTunes quando você confirma a compra e sua assinatura é renovada automaticamente, a menos que a renovação automática seja desativada pelo menos 24 horas antes do término do período atual. Sua conta iTunes será cobrada por renovação até 24 horas antes do término de cada período atual, pela mesma taxa anual. \n– Você pode gerenciar sua assinatura e desativar as renovações automáticas no aplicativo da App Store após a compra. \n– Qualquer parte não utilizada do período de teste gratuito, se oferecida, será perdida se você adquirir uma assinatura dessa publicação, quando aplicável\n\nNossos termos de uso estão sempre disponíveis em: https://letterboxd.com/legal/terms-of-use/ \n\nAgradecemos seu feedback sobre o Letterboxd para iOS. Por favor, envie-nos um e-mail: hello@letterboxd.com",
+      "localizedDescription": "Letterboxd são o período de pagamento automático atual – Você pode aplicar os mesmos termos do seu diretório para o iOS – o seu feedback é confirmado para os subscritores de filmes no seu iPhone ou iPad, para que você possa fazer o check-in de filmes e comprar a atividade de seus amigos com facilidade. Inscreva-se com a sua conta existente (ou crie um de graça) para desfrutar da nossa interface de aplicativo nativo. Estes recursos da experiência da web são suportados, com mais para vir: – Inscreva-se (com o suporte de 1Password) ou crie uma conta quando você assistir – Explore (e filtrar) seu feed de conteúdo altamente avaliado e mais esperado (incluindo a nossa lista de filmes renováveis e comentários) – Crie e edite as nossas listas oficiais sobre o Top 250 Narrative Features",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/1b/35/851b35c0-43c8-c9b3-1d6f-f7e634d6b85d/Store_1c.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/e7/9f/25e79f8f-8327-75cf-afad-fa4bb51270f1/pr_source.png/392x696bb.png",
@@ -534,7 +534,7 @@
           "date": "2026-09-16T19:29:18Z",
           "size": 57707796,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1blMJf0uzKilACBpaeiBLCbmvkxLs7RXC/Letterboxd_4.12.6.ipa?packageRevision=b027873a8b0b775ca8705b25a02f131135d108c7969c61b34fedf849fe9aebda&tweak=Letterboxd+Patron&tweakVersion=1.0&packageLabel=Letterboxd+Patron+1.0",
-          "localizedDescription": "– Correções e melhorias de bugs diversos"
+          "localizedDescription": "Miscellaneous bug fixes e melhorias"
         }
       ],
       "version": "4.12.6",
@@ -705,7 +705,7 @@
           "date": "2026-08-05T12:01:03Z",
           "size": 393025838,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1PMo-OwP-RyM8z2kZoZQg0QYRXsAaQYn4/Photoleap%20-%202.124.ipa?packageRevision=2461b7fb7ac71c61afdaa4f2828b0519427fd2d883af935a36859760b0c1c320&tweak=Photoleap+Unlimited&tweakVersion=1.0&packageLabel=Photoleap+Unlimited+1.0",
-          "localizedDescription": "Demos uma transformação no AI Transform! Agora com o Generative Fill, você pode Recriar qualquer coisa que imaginar. Selecione uma área de imagem, insira um prompt e aproveite resultados melhores."
+          "localizedDescription": "Agora, com o Generative Fill, você pode recriar qualquer coisa que imaginar. Selecione uma área de imagem, insira uma mensagem e desfrute de resultados melhorados."
         }
       ],
       "version": "2.124",
