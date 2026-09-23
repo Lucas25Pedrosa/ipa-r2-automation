@@ -1,0 +1,110 @@
+name: Azure Translator Diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/azure-translator-diagnostic.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Azure Translator authentication
+        env:
+          AZURE_TRANSLATOR_KEY: ${{ secrets.AZURE_TRANSLATOR_KEY }}
+          AZURE_TRANSLATOR_REGION: ${{ secrets.AZURE_TRANSLATOR_REGION }}
+          AZURE_TRANSLATOR_ENDPOINT: ${{ secrets.AZURE_TRANSLATOR_ENDPOINT }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          key = os.environ.get("AZURE_TRANSLATOR_KEY", "").strip()
+          region = os.environ.get("AZURE_TRANSLATOR_REGION", "").strip()
+          endpoint = os.environ.get(
+              "AZURE_TRANSLATOR_ENDPOINT",
+              "https://api.cognitive.microsofttranslator.com",
+          ).strip().rstrip("/")
+
+          parsed = urllib.parse.urlparse(endpoint)
+          host = parsed.netloc or "<invalid>"
+
+          print("Azure Translator diagnostic")
+          print(f"Key present: {'yes' if bool(key) else 'no'}")
+          print(f"Key length: {len(key)}")
+          print(f"Region present: {'yes' if bool(region) else 'no'}")
+          print(f"Region: {region or '<empty>'}")
+          print(f"Endpoint host: {host}")
+
+          if not key or not region:
+              print("RESULT: local configuration incomplete")
+              sys.exit(2)
+
+          query = urllib.parse.urlencode({"api-version": "3.0", "to": "pt"})
+          url = f"{endpoint}/translate?{query}"
+          body = json.dumps([{"Text": "Hello"}]).encode("utf-8")
+
+          req = urllib.request.Request(
+              url,
+              data=body,
+              method="POST",
+              headers={
+                  "Ocp-Apim-Subscription-Key": key,
+                  "Ocp-Apim-Subscription-Region": region,
+                  "Content-Type": "application/json; charset=UTF-8",
+              },
+          )
+
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  status = resp.status
+                  headers = resp.headers
+                  raw = resp.read().decode("utf-8", errors="replace")
+          except urllib.error.HTTPError as exc:
+              status = exc.code
+              headers = exc.headers
+              raw = exc.read().decode("utf-8", errors="replace")
+          except Exception as exc:
+              print(f"Transport error: {type(exc).__name__}: {exc}")
+              print("RESULT: transport failure")
+              sys.exit(3)
+
+          print(f"HTTP status: {status}")
+          for name in ("X-RequestId", "X-MSEdge-Ref", "apim-request-id", "trace-id"):
+              value = headers.get(name)
+              if value:
+                  print(f"{name}: {value}")
+
+          try:
+              payload = json.loads(raw)
+          except Exception:
+              payload = None
+
+          if isinstance(payload, dict) and isinstance(payload.get("error"), dict):
+              error = payload["error"]
+              print(f"Azure error code: {error.get('code')}")
+              print(f"Azure error message: {error.get('message')}")
+          elif 200 <= status < 300 and isinstance(payload, list):
+              try:
+                  translated = payload[0]["translations"][0]["text"]
+              except Exception:
+                  translated = "<unreadable success payload>"
+              print(f"Translation result: {translated}")
+          else:
+              print("Azure response body: <non-standard response>")
+
+          if 200 <= status < 300:
+              print("RESULT: authentication OK")
+              sys.exit(0)
+
+          print("RESULT: authentication rejected")
+          sys.exit(1)
+          PY
