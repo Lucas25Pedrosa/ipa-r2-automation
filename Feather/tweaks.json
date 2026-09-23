@@ -126,15 +126,16 @@
       "addons": [
         {
           "name": "MoesReddit",
-          "currentVersion": "4.2",
+          "currentVersion": "4.3",
           "knownVersions": [
             "2.4",
             "3.1",
             "3.3",
-            "4.2"
+            "4.2",
+            "4.3"
           ],
-          "currentRevision": "46d2d6c2a8bc13b89d9e15edf363fb96f8e874e0aa1b0c8859ab08fe814bf9f1",
-          "packageLabel": "MoesReddit 4.2"
+          "currentRevision": "248084853751d61d38f7e189d69b66fd2cdb1658152a9046b20143aef199f530",
+          "packageLabel": "MoesReddit 4.3"
         }
       ]
     },
@@ -454,13 +455,14 @@
         },
         {
           "name": "YTKACE",
-          "currentVersion": "1.0.0",
+          "currentVersion": "1.0.1",
           "knownVersions": [
             "0.9.3",
-            "1.0.0"
+            "1.0.0",
+            "1.0.1"
           ],
-          "currentRevision": "2ead302f017cdef0da4798f1b71801b62e6782f5a77ba7061326f7a5c540bb16",
-          "packageLabel": "YTKACE 1.0.0"
+          "currentRevision": "e3082e9b6bb148c71a07bda86ed77256e0790859752d341534acaba2c863e1d1",
+          "packageLabel": "YTKACE 1.0.1"
         }
       ]
     },
