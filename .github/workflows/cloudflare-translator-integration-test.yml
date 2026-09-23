@@ -43,6 +43,7 @@ jobs:
                   "Authorization": f"Bearer {key}",
                   "Content-Type": "application/json; charset=utf-8",
                   "Accept": "application/json",
+                  "User-Agent": "Mozilla/5.0 (compatible; IPA-Translator-Client/1.0)",
               },
           )
 
