@@ -10,62 +10,42 @@ jobs:
   test-translator:
     runs-on: ubuntu-latest
     steps:
-      - name: Testar ipa-translator
+      - name: Baixar Core privado
+        uses: actions/checkout@v6
+        with:
+          repository: Lucas25Pedrosa/ipa-r2-core
+          token: ${{ secrets.R2_CORE_TOKEN }}
+          path: core
+
+      - name: Instalar dependências
+        run: python -m pip install requests langdetect
+
+      - name: Testar função real do Feather
         env:
           TRANSLATOR_API_KEY: ${{ secrets.TRANSLATOR_API_KEY }}
           TRANSLATOR_WORKER_URL: https://ipa-translator.f8s79jzkbk.workers.dev/
         shell: python
         run: |
-          import json
-          import os
+          import importlib.util
+          import pathlib
           import sys
-          import urllib.error
-          import urllib.request
 
-          key = os.environ.get("TRANSLATOR_API_KEY", "").strip()
-          url = os.environ.get("TRANSLATOR_WORKER_URL", "").strip()
+          path = pathlib.Path("core/scripts/feather_source.py")
+          spec = importlib.util.spec_from_file_location("feather_source", path)
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
 
-          if not key:
-              print("❌ TRANSLATOR_API_KEY não está disponível.")
-              sys.exit(1)
-
-          body = json.dumps({
-              "text": "Bug fixes and performance improvements.",
-              "source_lang": "en",
-              "target_lang": "pt",
-          }).encode("utf-8")
-
-          request = urllib.request.Request(
-              url,
-              data=body,
-              method="POST",
-              headers={
-                  "Authorization": f"Bearer {key}",
-                  "Content-Type": "application/json; charset=utf-8",
-                  "Accept": "application/json",
-                  "User-Agent": "Mozilla/5.0 (compatible; IPA-Translator-Client/1.0)",
-              },
+          original = "Bug fixes and performance improvements."
+          translated = module.traduzir_texto_cloudflare(
+              original,
+              "teste de integração Feather",
+              "en",
           )
 
-          try:
-              with urllib.request.urlopen(request, timeout=30) as response:
-                  status = response.status
-                  payload = json.loads(response.read().decode("utf-8"))
-          except urllib.error.HTTPError as exc:
-              detail = exc.read().decode("utf-8", errors="replace")
-              print(f"❌ HTTP {exc.code}: {detail}")
-              sys.exit(1)
-          except Exception as exc:
-              print(f"❌ Falha de conexão: {exc}")
-              sys.exit(1)
-
-          translated = str(payload.get("translated_text") or "").strip()
-
-          print(f"HTTP {status}")
-          print(f"success={payload.get('success')}")
           print(f"translated_text={translated}")
 
-          if status != 200 or payload.get("success") is not True or not translated:
+          if not translated or translated == original:
+              print("❌ A função real do Feather não traduziu o texto.")
               sys.exit(1)
 
-          print("✅ Integração com ipa-translator validada.")
+          print("✅ Função real do Feather validada.")
