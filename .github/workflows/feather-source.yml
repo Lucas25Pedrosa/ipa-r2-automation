@@ -108,9 +108,8 @@ jobs:
           PUBLIC_REPO_DIR: ${{ github.workspace }}
           FEATHER_STATE_FILE: ${{ runner.temp }}/ipa-library-feather-state.json
 
-          AZURE_TRANSLATOR_KEY: ${{ secrets.AZURE_TRANSLATOR_KEY }}
-          AZURE_TRANSLATOR_REGION: ${{ secrets.AZURE_TRANSLATOR_REGION }}
-          AZURE_TRANSLATOR_ENDPOINT: ${{ secrets.AZURE_TRANSLATOR_ENDPOINT }}
+          TRANSLATOR_WORKER_URL: https://ipa-translator.f8s79jzkbk.workers.dev/
+          TRANSLATOR_API_KEY: ${{ secrets.TRANSLATOR_API_KEY }}
 
         run: |
           python private-core/scripts/feather_source.py update
