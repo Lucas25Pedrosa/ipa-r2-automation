@@ -1004,6 +1004,14 @@
       ],
       "versions": [
         {
+          "version": "12.29",
+          "buildVersion": "20",
+          "date": "2026-09-24T15:01:26Z",
+          "size": 254558865,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1zpdjiJSeZCxSyonk2EQ2VUU1yJ47U_nD/X_12.29.ipa?packageRevision=421a37d759082089cf847a737af6e1a60d332e69078c86a6dfe22c9be9ef0c5c&tweak=BHTwitter&tweakVersion=7.0.0&packageLabel=BHTwitter+7.0.0",
+          "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você."
+        },
+        {
           "version": "12.28.1",
           "buildVersion": "2",
           "date": "2026-09-21T14:28:47Z",
@@ -1020,10 +1028,10 @@
           "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você."
         }
       ],
-      "version": "12.28.1",
-      "versionDate": "2026-09-21T14:28:47Z",
-      "size": 259515063,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1d6Qr6DczaxHDxxu2M1EcM0i0FxchB5Nh/X_12.28.1.ipa?packageRevision=421a37d759082089cf847a737af6e1a60d332e69078c86a6dfe22c9be9ef0c5c&tweak=BHTwitter&tweakVersion=7.0.0&packageLabel=BHTwitter+7.0.0"
+      "version": "12.29",
+      "versionDate": "2026-09-24T15:01:26Z",
+      "size": 254558865,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1zpdjiJSeZCxSyonk2EQ2VUU1yJ47U_nD/X_12.29.ipa?packageRevision=421a37d759082089cf847a737af6e1a60d332e69078c86a6dfe22c9be9ef0c5c&tweak=BHTwitter&tweakVersion=7.0.0&packageLabel=BHTwitter+7.0.0"
     },
     {
       "name": "YouTube",
