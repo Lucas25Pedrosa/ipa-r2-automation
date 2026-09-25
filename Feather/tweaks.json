@@ -71,11 +71,12 @@
       "addons": [
         {
           "name": "BHTwitter",
-          "currentVersion": "6.7.0",
+          "currentVersion": "7.0.0",
           "knownVersions": [
             "6.5.0",
             "6.6.1",
-            "6.7.0"
+            "6.7.0",
+            "7.0.0"
           ],
           "components": [
             {
@@ -87,8 +88,8 @@
               "version": "0.0.1-2"
             }
           ],
-          "currentRevision": "efc6e7aacc9643bda1b660d73778d00f8f8f238e3aefdf78089749fd2e87ec20",
-          "packageLabel": "BHTwitter 6.7.0"
+          "currentRevision": "421a37d759082089cf847a737af6e1a60d332e69078c86a6dfe22c9be9ef0c5c",
+          "packageLabel": "BHTwitter 7.0.0"
         }
       ]
     },
