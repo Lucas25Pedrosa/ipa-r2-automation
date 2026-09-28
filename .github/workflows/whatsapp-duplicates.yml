@@ -219,10 +219,23 @@ jobs:
             exit 1
           fi
 
+      - name: Enviar sucesso ao Telegram
+        if: ${{ success() && inputs.action == 'publish' }}
+        env:
+          WHATSAPP_DUPLICATES_BOT_TOKEN: ${{ secrets.WHATSAPP_DUPLICATES_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CUSTOM_EMOJIS_FILE: shared-config/custom_emojis.json
+        run: |
+          if ! python private-core/whatsapp_duplicates/notify_success.py \
+            --index shared-config/whatsapp_duplicates_drive_index.json
+          then
+            echo "::warning::Publicação concluída, mas a mensagem de sucesso no Telegram falhou."
+          fi
+
       - name: Enviar erro ao Telegram
         if: ${{ failure() && inputs.action == 'publish' }}
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          WHATSAPP_DUPLICATES_BOT_TOKEN: ${{ secrets.WHATSAPP_DUPLICATES_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CUSTOM_EMOJIS_FILE: shared-config/custom_emojis.json
         run: |
