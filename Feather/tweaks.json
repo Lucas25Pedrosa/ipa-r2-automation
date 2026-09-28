@@ -6,13 +6,14 @@
       "addons": [
         {
           "name": "iQFace",
-          "currentVersion": "1.1",
+          "currentVersion": "1.2",
           "knownVersions": [
             "1.0",
-            "1.1"
+            "1.1",
+            "1.2"
           ],
-          "currentRevision": "722b3e98f9ba14565eb492772c14b2d359a9a5b8deae0f8ad3b9ac75acd5ba2b",
-          "packageLabel": "iQFace 1.1"
+          "currentRevision": "33edb5ff4870362ecdfea74aed5bb306140d37ce6197fdb5f9116b22ab37c6f5",
+          "packageLabel": "iQFace 1.2"
         }
       ]
     },
@@ -88,7 +89,7 @@
               "version": "0.0.1-2"
             }
           ],
-          "currentRevision": "421a37d759082089cf847a737af6e1a60d332e69078c86a6dfe22c9be9ef0c5c",
+          "currentRevision": "8827000155f8c6ab9716169248541706ca70fac0b465bca0ac4b0dd836462f7a",
           "packageLabel": "BHTwitter 7.0.0"
         }
       ]
@@ -112,13 +113,14 @@
         },
         {
           "name": "iQTele",
-          "currentVersion": "1.3.2",
+          "currentVersion": "1.4",
           "knownVersions": [
             "1.2",
-            "1.3.2"
+            "1.3.2",
+            "1.4"
           ],
-          "currentRevision": "145fdcdb62ef048166d3191d62c28fe068b8bf22cd5c511c9a482ca6ea0d200d",
-          "packageLabel": "iQTele 1.3.2"
+          "currentRevision": "773f1c91de3692418b6778b73b43f60d1e7d882a914573c5503d4a8a90f7d88a",
+          "packageLabel": "iQTele 1.4"
         }
       ]
     },
@@ -127,16 +129,17 @@
       "addons": [
         {
           "name": "MoesReddit",
-          "currentVersion": "4.3",
+          "currentVersion": "4.5",
           "knownVersions": [
             "2.4",
             "3.1",
             "3.3",
             "4.2",
-            "4.3"
+            "4.3",
+            "4.5"
           ],
-          "currentRevision": "248084853751d61d38f7e189d69b66fd2cdb1658152a9046b20143aef199f530",
-          "packageLabel": "MoesReddit 4.3"
+          "currentRevision": "58e920b3819dc12de6bcda93ae7dd322c4163323902db2a9f3bdda2f68564be3",
+          "packageLabel": "MoesReddit 4.5"
         }
       ]
     },
@@ -407,11 +410,12 @@
       "addons": [
         {
           "name": "Watusi 3",
-          "currentVersion": "1.3.24",
+          "currentVersion": "1.3.25",
           "knownVersions": [
             "1.3.22",
             "1.3.23",
-            "1.3.24"
+            "1.3.24",
+            "1.3.25"
           ],
           "components": [
             {
@@ -431,8 +435,8 @@
               "version": "4.3.0"
             }
           ],
-          "currentRevision": "aff6122036decafd6aaf32b4e3183a6ea2890ee90c9b628323d7ec1d508f46bc",
-          "packageLabel": "Watusi 3 1.3.24"
+          "currentRevision": "75e23504f11f94aad5be0ea50fd90b1588ce1e2add7f7bb8ee6950b5b65bbd45",
+          "packageLabel": "Watusi 3 1.3.25"
         }
       ]
     },
@@ -464,6 +468,15 @@
           ],
           "currentRevision": "21bfa2811f30576241c35be3c7a61e7290bf4af403444c6ece5738dd7b565a8f",
           "packageLabel": "YTKACE 1.0.1"
+        },
+        {
+          "name": "YTKACE Glass",
+          "currentVersion": "1.1.0 Beta 3",
+          "knownVersions": [
+            "1.1.0 Beta 3"
+          ],
+          "currentRevision": "8c5b6842a0f992cdcef4c0cf112e6b5fea377da2f2e1546532b5bf9108e9ff72",
+          "packageLabel": "YTKACE Glass 1.1.0 Beta 3"
         }
       ]
     },
