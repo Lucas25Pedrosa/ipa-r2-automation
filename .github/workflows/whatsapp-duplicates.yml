@@ -66,7 +66,6 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
-
           WHATSAPP_DUPLICATES_FOLDER_NAME: WhatsApp Duplicados
           WHATSAPP_DUPLICATES_DRIVE_INDEX: shared-config/whatsapp_duplicates_drive_index.json
         run: |
@@ -99,16 +98,28 @@ jobs:
         if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' || inputs.action == 'publish' }}
         id: source
         env:
+          ACTION: ${{ inputs.action }}
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
         run: |
+          set -o pipefail
           mkdir -p work/duplicates
 
-          python private-core/whatsapp_duplicates/source.py \
+          if ! python private-core/whatsapp_duplicates/source.py \
             --index shared-config/drive_index.json \
-            --output work/WhatsApp.ipa
+            --output work/WhatsApp.ipa \
+            2>&1 | tee work/source.log
+          then
+            if [ "${ACTION}" = "publish" ]; then
+              {
+                echo "Falha ao baixar ou validar a IPA base do WhatsApp."
+                tail -n 25 work/source.log
+              } > work/publish_error.txt
+            fi
+            exit 1
+          fi
 
       - name: Gerar e validar WhatsApps duplicados
         if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' || inputs.action == 'publish' }}
@@ -127,25 +138,36 @@ jobs:
 
           for CLONE in ${CLONES}; do
             OUTPUT="work/duplicates/Magda_WA_${CLONE}_${VERSION}.ipa"
+            LOG="work/clone-${CLONE}.log"
 
             echo "========================================"
             echo "Gerando Magda WA ${CLONE}"
             echo "Versão base: ${VERSION}"
             echo "========================================"
 
-            python private-core/whatsapp_duplicates/builder.py \
+            if ! python private-core/whatsapp_duplicates/builder.py \
               --input work/WhatsApp.ipa \
               --clone "${CLONE}" \
-              --output "${OUTPUT}"
+              --output "${OUTPUT}" \
+              2>&1 | tee "${LOG}"
+            then
+              if [ "${ACTION}" = "publish" ]; then
+                {
+                  echo "Magda WA ${CLONE} falhou durante a geração ou validação."
+                  tail -n 25 "${LOG}"
+                } > work/publish_error.txt
+              fi
+              exit 1
+            fi
 
             if [ "${ACTION}" = "test-all" ]; then
               rm -f "${OUTPUT}"
             fi
           done
 
-          echo "✅ Geração concluída com sucesso."
+          echo "Geração concluída com sucesso."
 
-      - name: Publicar WhatsApps duplicados no Google Drive
+      - name: Publicar conjunto no Google Drive
         if: ${{ inputs.action == 'publish' }}
         id: publish
         env:
@@ -154,30 +176,60 @@ jobs:
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           DRIVE_PUBLIC_BASE_URL: https://drive.lucaspedrosa.shop
-
           WHATSAPP_DUPLICATES_DRIVE_INDEX: shared-config/whatsapp_duplicates_drive_index.json
         run: |
-          python private-core/whatsapp_duplicates/publish.py \
-            --directory work/duplicates
+          set -o pipefail
 
-      - name: Salvar índice após publicação
-        if: ${{ always() && inputs.action == 'publish' }}
-        run: |
-          cd shared-config
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add whatsapp_duplicates_drive_index.json
-
-          if git diff --cached --quiet; then
-            echo "Nenhuma alteração no índice dos WhatsApps duplicados."
-            exit 0
+          if ! python private-core/whatsapp_duplicates/publish.py \
+            --directory work/duplicates \
+            2>&1 | tee work/publish.log
+          then
+            {
+              echo "Falha ao publicar o conjunto de WhatsApps duplicados no Google Drive."
+              tail -n 35 work/publish.log
+            } > work/publish_error.txt
+            exit 1
           fi
 
-          git commit -m "Publish WhatsApp duplicates to Drive"
-          git pull --rebase origin main
-          git push origin main
+      - name: Salvar índice após publicação
+        if: ${{ inputs.action == 'publish' }}
+        run: |
+          set -o pipefail
+
+          if ! (
+            cd shared-config
+
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git add whatsapp_duplicates_drive_index.json
+
+            if git diff --cached --quiet; then
+              echo "Nenhuma alteração no índice dos WhatsApps duplicados."
+              exit 0
+            fi
+
+            git commit -m "Publish WhatsApp duplicates to Drive"
+            git pull --rebase origin main
+            git push origin main
+          ) 2>&1 | tee work/index-save.log
+          then
+            {
+              echo "Os arquivos foram processados, mas falhou ao salvar o índice dedicado."
+              tail -n 25 work/index-save.log
+            } > work/publish_error.txt
+            exit 1
+          fi
+
+      - name: Enviar erro ao Telegram
+        if: ${{ failure() && inputs.action == 'publish' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CUSTOM_EMOJIS_FILE: shared-config/custom_emojis.json
+        run: |
+          python private-core/whatsapp_duplicates/notify_failure.py \
+            --reason-file work/publish_error.txt
 
       - name: Disponibilizar IPA do teste individual
         if: ${{ inputs.action == 'test-one' }}
