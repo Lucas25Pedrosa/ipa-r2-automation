@@ -839,6 +839,38 @@
       "downloadURL": "https://drive.lucaspedrosa.shop/d/1nz0o-45Y_x98-6gHXlh7SnOxRc55woW0/Reddit_2026.38.0.ipa?packageRevision=58e920b3819dc12de6bcda93ae7dd322c4163323902db2a9f3bdda2f68564be3&tweak=MoesReddit&tweakVersion=4.5&packageLabel=MoesReddit+4.5"
     },
     {
+      "name": "SolarWatch Nascer Pôr do Sol",
+      "bundleIdentifier": "com.fifteenjugglers.solarwatch",
+      "developerName": "Fifteen Jugglers Software UG",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/72/e7/6c72e7dc-1f05-1931-b13d-206944dbde53/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Descubra o poder do sol com o SolarWatch — o companheiro ideal para amantes de atividades ao ar livre e fotógrafos!\n\nPlaneje seu dia com confiança usando horários precisos do nascer do sol, pôr do sol e crepúsculo, e nunca mais perca o momento perfeito com alarmes solares personalizáveis. O modo AR e as sobreposições de mapa do SolarWatch facilitam encontrar a melhor luz para suas fotos, enquanto os widgets mantêm você informado de relance.\n\nSeja fazendo trilhas, acampando ou simplesmente aproveitando a natureza, o SolarWatch ajuda você a viver em harmonia com o ritmo natural do sol. Imagine capturar entardeceres de tirar o fôlego e momentos da hora dourada com facilidade — tudo graças aos recursos poderosos do SolarWatch.\n\n- Rastreamento preciso do sol para sua localização\n- Modo AR e sobreposições de mapa para o planejamento perfeito de fotos\n- Widgets práticos para a Tela de Início, Tela de Bloqueio e Apple Watch\n- Alarmes solares personalizáveis para momentos importantes\n- Planeje a exposição à luz solar da sua casa ou escritório\n\nJunte-se a mais de 500 mil usuários satisfeitos e baixe o SolarWatch hoje mesmo!\n----\n\nContrato de Licença: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nPolítica de Privacidade: https://solarwatch.app/privacy",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/5f/ea/dc5fea53-f6db-387b-1aff-e8cbc8ee7812/01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/2e/89/1c2e89f6-fc8f-e6e0-02c8-a3915cb4c099/02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/3f/5b/9b3f5bc9-fc91-124e-220b-3f06cda81f5e/03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/a7/07/56a70745-23a3-7f99-1ec7-a53790810bce/04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/f2/12/c3f212e3-4072-dd94-bc18-c05d49bac977/05.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/3d/d6/ed3dd6d2-cb6e-ec2a-84b4-9a84b7f400f4/06.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/77/d6/ab77d644-d297-a4f8-5d4d-2f66c80c75a8/07.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/fb/a4/8bfba433-9c1b-4d53-f3e5-e316bc268597/08.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/d0/d3/ced0d35c-d888-52a6-9dd8-f78f346002e3/09.png/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "2026.27.6",
+          "buildVersion": "1576",
+          "date": "2026-09-26T13:32:34Z",
+          "size": 66734422,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1W01hOh3nYO1VFwSOBZdNVuCAmNs_qWSV/SolarWatch%20Nascer%20P%C3%B4r%20do%20Sol_2026.27.6.ipa?packageRevision=50a882f3ed6cc5dce2adcdef700944cafd84c922a3c0d1f94ec4d9e9d7d3df45&tweak=SolarWatch+Premium&tweakVersion=1.0&packageLabel=SolarWatch+Premium+1.0",
+          "localizedDescription": "Personalize o painel com blocos Liquid Glass. Reorganize e redimensione os blocos para deixar os horários do nascer e do pôr do sol e a duração do dia sempre à mão. Configure alarmes solares sem usar as mãos com a Siri AI: basta dizer “Siri, me acorde ao nascer do sol”. Compartilhe previsões do nascer e do pôr do sol com amigos e familiares e envie registros do Solar Sightings com fotos para ajudar a melhorar o SolarWatch.\n\nEsta atualização também aprimora a localização, as complicações e a sincronização do Apple Watch, a confiabilidade dos widgets e o desempenho."
+        }
+      ],
+      "version": "2026.27.6",
+      "versionDate": "2026-09-26T13:32:34Z",
+      "size": 66734422,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1W01hOh3nYO1VFwSOBZdNVuCAmNs_qWSV/SolarWatch%20Nascer%20P%C3%B4r%20do%20Sol_2026.27.6.ipa?packageRevision=50a882f3ed6cc5dce2adcdef700944cafd84c922a3c0d1f94ec4d9e9d7d3df45&tweak=SolarWatch+Premium&tweakVersion=1.0&packageLabel=SolarWatch+Premium+1.0"
+    },
+    {
       "name": "Telegram",
       "bundleIdentifier": "ph.telegra.Telegraph",
       "developerName": "Telegram FZ-LLC",
