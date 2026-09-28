@@ -11,6 +11,7 @@ on:
         options:
           - test-all
           - test-one
+          - publish
           - bootstrap
       clone:
         description: "Clone (usado somente em test-one)"
@@ -28,8 +29,6 @@ on:
 permissions:
   contents: read
 
-# Usa o mesmo grupo do pipeline principal para evitar escrita simultânea
-# no Core/configuração compartilhada.
 concurrency:
   group: ipa-r2-core-write
   cancel-in-progress: false
@@ -73,7 +72,7 @@ jobs:
         run: |
           python private-core/whatsapp_duplicates/drive.py bootstrap
 
-      - name: Salvar índice dos WhatsApps duplicados
+      - name: Salvar índice do bootstrap
         if: ${{ inputs.action == 'bootstrap' }}
         env:
           FOLDER_ID: ${{ steps.drive_bootstrap.outputs.duplicates_folder_id }}
@@ -97,7 +96,7 @@ jobs:
           echo "Índice salvo. Pasta dos duplicados: ${FOLDER_ID}"
 
       - name: Baixar WhatsApp atual do Google Drive
-        if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' }}
+        if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' || inputs.action == 'publish' }}
         id: source
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
@@ -112,7 +111,7 @@ jobs:
             --output work/WhatsApp.ipa
 
       - name: Gerar e validar WhatsApps duplicados
-        if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' }}
+        if: ${{ inputs.action == 'test-all' || inputs.action == 'test-one' || inputs.action == 'publish' }}
         env:
           ACTION: ${{ inputs.action }}
           SELECTED_CLONE: ${{ inputs.clone }}
@@ -144,7 +143,41 @@ jobs:
             fi
           done
 
-          echo "✅ Teste concluído com sucesso."
+          echo "✅ Geração concluída com sucesso."
+
+      - name: Publicar WhatsApps duplicados no Google Drive
+        if: ${{ inputs.action == 'publish' }}
+        id: publish
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          DRIVE_PUBLIC_BASE_URL: https://drive.lucaspedrosa.shop
+
+          WHATSAPP_DUPLICATES_DRIVE_INDEX: shared-config/whatsapp_duplicates_drive_index.json
+        run: |
+          python private-core/whatsapp_duplicates/publish.py \
+            --directory work/duplicates
+
+      - name: Salvar índice após publicação
+        if: ${{ always() && inputs.action == 'publish' }}
+        run: |
+          cd shared-config
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add whatsapp_duplicates_drive_index.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração no índice dos WhatsApps duplicados."
+            exit 0
+          fi
+
+          git commit -m "Publish WhatsApp duplicates to Drive"
+          git pull --rebase origin main
+          git push origin main
 
       - name: Disponibilizar IPA do teste individual
         if: ${{ inputs.action == 'test-one' }}
