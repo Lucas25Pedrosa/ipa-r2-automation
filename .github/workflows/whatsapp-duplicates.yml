@@ -65,7 +65,6 @@ jobs:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           WHATSAPP_DUPLICATES_FOLDER_NAME: WhatsApp Duplicados
           WHATSAPP_DUPLICATES_DRIVE_INDEX: shared-config/whatsapp_duplicates_drive_index.json
         run: |
@@ -174,7 +173,6 @@ jobs:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           DRIVE_PUBLIC_BASE_URL: https://drive.lucaspedrosa.shop
           WHATSAPP_DUPLICATES_DRIVE_INDEX: shared-config/whatsapp_duplicates_drive_index.json
         run: |
