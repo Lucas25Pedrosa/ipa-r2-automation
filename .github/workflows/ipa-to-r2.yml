@@ -66,7 +66,6 @@ jobs:
       # ============================================================
 
       - name: Executar IPA to Google Drive
-        id: ipa_to_drive
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
@@ -94,26 +93,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
-          set -euo pipefail
-          mkdir -p .workflow-state
-
-          python private-core/scripts/ipa_to_r2_by_id.py \
-            2>&1 | tee .workflow-state/ipa-to-drive.log
-
-          BUNDLE_ID="$(
-            sed -n 's/^Bundle ID: //p' .workflow-state/ipa-to-drive.log \
-              | tail -n 1
-          )"
-
-          echo "bundle_id=${BUNDLE_ID}" >> "${GITHUB_OUTPUT}"
-
-          if [ "${BUNDLE_ID}" = "net.whatsapp.WhatsApp" ]; then
-            echo "is_whatsapp=true" >> "${GITHUB_OUTPUT}"
-            echo "WhatsApp detectado; o workflow de duplicados será disparado."
-          else
-            echo "is_whatsapp=false" >> "${GITHUB_OUTPUT}"
-            echo "Aplicativo processado: ${BUNDLE_ID:-desconhecido}"
-          fi
+          python private-core/scripts/ipa_to_r2_by_id.py
 
       # ============================================================
       # 4. PUBLICAR ARTIFACT TEMPORÁRIO PARA O TERABOX
@@ -133,25 +113,7 @@ jobs:
           if-no-files-found: ignore
 
       # ============================================================
-      # 5. DISPARAR WHATSAPP DUPLICADOS QUANDO A BASE FOR WHATSAPP
-      # ============================================================
-      # O disparo é secundário e não invalida um upload já concluído
-      # da IPA Library caso a chamada ao workflow secundário falhe.
-
-      - name: Disparar WhatsApp Duplicados
-        if: ${{ steps.ipa_to_drive.outputs.is_whatsapp == 'true' }}
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh workflow run whatsapp-duplicates.yml \
-            --repo "${GITHUB_REPOSITORY}" \
-            --ref "${GITHUB_REF_NAME}" \
-            -f action=publish \
-            -f clone=II
-
-      # ============================================================
-      # 6. INFORMAR AO WORKER QUE O WORKFLOW TERMINOU
+      # 5. INFORMAR AO WORKER QUE O WORKFLOW TERMINOU
       # ============================================================
 
       - name: Finalizar notificação do /iniciar
