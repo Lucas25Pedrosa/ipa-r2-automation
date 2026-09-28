@@ -567,6 +567,35 @@
       "downloadURL": "https://drive.lucaspedrosa.shop/d/1iSGN0_7GlJ5OwyIqyEdV5gx-SFiCgLwn/Messenger_580.0.0.ipa?packageRevision=0c33cd8f4383835a4e41444bed31aa4af5f2a89c698c39e9810340613c3f64d0&tweak=MSGPlusX&tweakVersion=1.1&packageLabel=MSGPlusX+1.1"
     },
     {
+      "name": "Mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "developerName": "Mimo GmbH",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/9c/a4/0c9ca46d-3115-fe47-c9ed-84dafedfca2d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "Aprenda Python, JavaScript, HTML, CSS ou SQL e domine o desenvolvimento moderno com apoio de IA para se tornar um desenvolvedor na era da inteligência artificial. O Mimo é um app de programação que te leva do zero à criação de projetos reais com IA. Ganhe o conhecimento e as ferramentas para criar software pronto para produção e conquistar uma oportunidade como desenvolvedor. Comece a criar projetos fortes para o seu portfólio, prepare suas habilidades para o futuro e dê o próximo passo além da sintaxe — baixe o Mimo e inicie sua carreira agora!\n\nPara quem é o Mimo\n\nO Mimo se destaca por guiar iniciantes por um processo estruturado e comprovado de aprendizado. Diferente de outros apps que focam em tutoriais passivos ou truques rápidos de IA, o Mimo oferece habilidades práticas e relevantes para a carreira. Você evolui da sua primeira linha de código até o domínio do desenvolvimento assistido por IA, criando um portfólio com projetos reais que mostram o que você sabe fazer.\n\nO que você recebe no Mimo\n\nO Mimo é um app completo de programação, com trilhas guiadas e um ambiente com IA para te ajudar a criar apps, jogos e sites funcionais.\n\n- Aprenda os fundamentos de Python, JavaScript, HTML, CSS, SQL e muito mais.\n- Vá de iniciante a desenvolvedor com trilhas estruturadas em Front-End, Full-Stack, Python e Backend impulsionadas por IA.\n- Construa apps, sites e ferramentas para um portfólio profissional que se destaca.\n- Pratique desenvolvimento moderno usando IA — entenda, edite e melhore seu código como um desenvolvedor atual.\n- Programe em qualquer lugar com nosso IDE móvel, escrevendo e executando código Python, JavaScript e HTML diretamente no app.\n- Domine colaboração, ferramentas e fluxos usados por desenvolvedores modernos.\n- Acompanhe seu progresso, ganhe certificados e mantenha sua motivação com streaks e rankings.\n\nComo funciona\n1. Aprenda a programar passo a passo\nComece com lições interativas e acessíveis em Python, JavaScript ou HTML e construa uma base sólida.\n\n2. Construa com IA como um desenvolvedor moderno\nUse IA para melhorar seu fluxo: entender código, encontrar erros, explorar soluções e refinar seus projetos. Você tem o controle — a IA trabalha com você, não no seu lugar.\n\n3. Crie projetos duradouros\nTransforme suas habilidades em apps, sites, automações, jogos e outros projetos para portfólio.\n\nO que torna o Mimo diferente\n\n- O Mimo combina programação prática com ferramentas de desenvolvimento alimentadas por IA.\nDesde seu primeiro projeto, você desenvolve habilidades reais para o mercado, com apoio de experiências práticas e aprendizado guiado por IA.\n\n- Aprenda a programar criando software desde o início.\nVocê pratica Python, JavaScript, HTML, CSS, SQL, TypeScript e React — criando software real logo no começo, sem meses apenas de teoria.\n\n- Aprenda desenvolvimento moderno com IA — não só sintaxe.\nO Mimo acelera sua evolução usando IA para explorar soluções, analisar código e avançar com segurança.\n\n- Construa habilidades duradouras e um portfólio que cresce junto com sua carreira.\nQuer trabalhar como desenvolvedor? O Mimo te dá as habilidades, prática e projetos para começar.\n\nAvaliações e reconhecimentos\n\n“Assim, você consegue encaixar o aprendizado de programação no seu dia, mesmo com alguns minutos livres.” – TechCrunch\n“As lições curtas facilitam o estudo mesmo nos dias mais corridos.” – The New York Times\n\nNão aprenda apenas a sintaxe antiga nem siga qualquer hype de IA. Construa as habilidades que fazem de você o desenvolvedor do futuro.\n\nComece a aprender com o Mimo agora!\n\nLinks úteis\n\n- Privacidade e Termos: https://mimo.org/terms\n- Termos de Uso: https://apple.com/legal/internet-services/itunes/dev/stdeula\n- Suporte: support@getmimo.com",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/e8/2d/b2e82d53-8ffc-dc52-32bc-72f2d80e7b83/AppStore-screenshot-X-en-01__U00281_U0029.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/8c/3f/918c3fc8-e3fa-6954-962a-3a92ae14a2dc/AppStore-screenshot-X-en-02__U00281_U0029.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/44/7c/e2447c76-8ec6-9b13-d4ff-f3279a33f583/AppStore-screenshot-X-en-03.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/6e/07/026e07b1-53d1-b1a8-95df-da5e388f4a3f/AppStore-screenshot-X-en-04.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/c5/36/80c53642-3452-26c7-84b9-edfd31777cc2/AppStore-screenshot-X-en-05.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/2d/59/192d5964-3eeb-cf90-f9e1-987526fb251b/AppStore-screenshot-X-en-06.jpg/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "12.29.0",
+          "buildVersion": "49395",
+          "date": "2026-09-28T06:36:26Z",
+          "size": 195553917,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1hRBUJOc92eMKaMIpVE-usghvT3_nMlQ4/Mimo_12.29.0.ipa?packageRevision=366449094d5446859f50011a9c20d7255bcbd39088fde1601e76f8617b7621f8&tweak=Mimo+Max&tweakVersion=1.0&packageLabel=Mimo+Max+1.0",
+          "localizedDescription": "Nós apertamos quaisquer parafusos soltos, nos livramos de quaisquer bugs e fizemos o aplicativo limpo."
+        }
+      ],
+      "version": "12.29.0",
+      "versionDate": "2026-09-28T06:36:26Z",
+      "size": 195553917,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1hRBUJOc92eMKaMIpVE-usghvT3_nMlQ4/Mimo_12.29.0.ipa?packageRevision=366449094d5446859f50011a9c20d7255bcbd39088fde1601e76f8617b7621f8&tweak=Mimo+Max&tweakVersion=1.0&packageLabel=Mimo+Max+1.0"
+    },
+    {
       "name": "Moovit",
       "bundleIdentifier": "com.tranzmate.tranzmate1",
       "developerName": "Moovit App Global LTD",
