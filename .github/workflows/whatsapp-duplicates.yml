@@ -13,6 +13,7 @@ on:
           - test-one
           - publish
           - bootstrap
+          - test-telegram
       clone:
         description: "Clone (usado somente em test-one)"
         required: true
@@ -220,7 +221,7 @@ jobs:
           fi
 
       - name: Enviar sucesso ao Telegram
-        if: ${{ success() && inputs.action == 'publish' }}
+        if: ${{ success() && (inputs.action == 'publish' || inputs.action == 'test-telegram') }}
         env:
           WHATSAPP_DUPLICATES_BOT_TOKEN: ${{ secrets.WHATSAPP_DUPLICATES_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
