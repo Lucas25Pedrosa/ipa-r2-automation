@@ -1,4 +1,4 @@
-name: WhatsApp Duplicados
+name: WhatsApp Duplicados [PAUSADO]
 
 on:
   workflow_dispatch:
@@ -36,6 +36,7 @@ concurrency:
 
 jobs:
   whatsapp-duplicates:
+    if: ${{ false }}
     runs-on: ubuntu-latest
 
     steps:
