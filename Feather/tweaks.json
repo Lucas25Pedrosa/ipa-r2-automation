@@ -12,7 +12,7 @@
             "1.1",
             "1.2"
           ],
-          "currentRevision": "33edb5ff4870362ecdfea74aed5bb306140d37ce6197fdb5f9116b22ab37c6f5",
+          "currentRevision": "bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa",
           "packageLabel": "iQFace 1.2"
         }
       ]
@@ -42,14 +42,15 @@
       "addons": [
         {
           "name": "Regram",
-          "currentVersion": "6.2",
+          "currentVersion": "6.3",
           "knownVersions": [
             "6.0.1",
             "6.1",
-            "6.2"
+            "6.2",
+            "6.3"
           ],
-          "currentRevision": "203187e40ec6f4c95dbd1a903f029546b359ac643e46da420c29f9f84c9d6c0d",
-          "packageLabel": "Regram 6.2"
+          "currentRevision": "267a3d4941a5807e6af195f927275585ae0d224bd9849edfd150a8158d86df50",
+          "packageLabel": "Regram 6.3"
         }
       ]
     },
@@ -72,12 +73,13 @@
       "addons": [
         {
           "name": "BHTwitter",
-          "currentVersion": "7.0.0",
+          "currentVersion": "7.0.1",
           "knownVersions": [
             "6.5.0",
             "6.6.1",
             "6.7.0",
-            "7.0.0"
+            "7.0.0",
+            "7.0.1"
           ],
           "components": [
             {
@@ -89,8 +91,8 @@
               "version": "0.0.1-2"
             }
           ],
-          "currentRevision": "8827000155f8c6ab9716169248541706ca70fac0b465bca0ac4b0dd836462f7a",
-          "packageLabel": "BHTwitter 7.0.0"
+          "currentRevision": "01c2e1dc13a9dfa673afa1927de16365b6e28a6d28b901b4800a0b6ff61d40b5",
+          "packageLabel": "BHTwitter 7.0.1"
         }
       ]
     },
@@ -119,7 +121,7 @@
             "1.3.2",
             "1.4"
           ],
-          "currentRevision": "773f1c91de3692418b6778b73b43f60d1e7d882a914573c5503d4a8a90f7d88a",
+          "currentRevision": "0887b8bc7afc86910e8430e61655e62a91ab5609800664e586952e0473fa9cc6",
           "packageLabel": "iQTele 1.4"
         }
       ]
@@ -129,17 +131,18 @@
       "addons": [
         {
           "name": "MoesReddit",
-          "currentVersion": "4.5",
+          "currentVersion": "4.5.1",
           "knownVersions": [
             "2.4",
             "3.1",
             "3.3",
             "4.2",
             "4.3",
-            "4.5"
+            "4.5",
+            "4.5.1"
           ],
-          "currentRevision": "58e920b3819dc12de6bcda93ae7dd322c4163323902db2a9f3bdda2f68564be3",
-          "packageLabel": "MoesReddit 4.5"
+          "currentRevision": "042313bfccbfd4243ec47efd0012429c38c7bfc7b63b47f3d15d018b877a3000",
+          "packageLabel": "MoesReddit 4.5.1"
         }
       ]
     },
@@ -410,12 +413,13 @@
       "addons": [
         {
           "name": "Watusi 3",
-          "currentVersion": "1.3.25",
+          "currentVersion": "1.3.26",
           "knownVersions": [
             "1.3.22",
             "1.3.23",
             "1.3.24",
-            "1.3.25"
+            "1.3.25",
+            "1.3.26"
           ],
           "components": [
             {
@@ -435,8 +439,8 @@
               "version": "4.3.0"
             }
           ],
-          "currentRevision": "75e23504f11f94aad5be0ea50fd90b1588ce1e2add7f7bb8ee6950b5b65bbd45",
-          "packageLabel": "Watusi 3 1.3.25"
+          "currentRevision": "0a831107023d6a6b6b71dba6633993cfe2a4e6ac8618fd867badfc9b9a5e555d",
+          "packageLabel": "Watusi 3 1.3.26"
         }
       ]
     },
@@ -460,14 +464,15 @@
         },
         {
           "name": "YTKACE",
-          "currentVersion": "1.0.1",
+          "currentVersion": "1.1.1",
           "knownVersions": [
             "0.9.3",
             "1.0.0",
-            "1.0.1"
+            "1.0.1",
+            "1.1.1"
           ],
-          "currentRevision": "21bfa2811f30576241c35be3c7a61e7290bf4af403444c6ece5738dd7b565a8f",
-          "packageLabel": "YTKACE 1.0.1"
+          "currentRevision": "82a9fc495e6502fe79c6ffff5457ee84022485e5a5d207b13d366f1d477d4e14",
+          "packageLabel": "YTKACE 1.1.1"
         },
         {
           "name": "YTKACE Glass",
@@ -485,12 +490,13 @@
       "addons": [
         {
           "name": "Rain",
-          "currentVersion": "0.9.6",
+          "currentVersion": "0.10.0",
           "knownVersions": [
-            "0.9.6"
+            "0.9.6",
+            "0.10.0"
           ],
-          "currentRevision": "228b7ec39d82aa46b5cc6425c9b3655b9141fb3708e47e59217e156a918fb15e",
-          "packageLabel": "Rain 0.9.6"
+          "currentRevision": "07e8169712eb237a0bfa02bf4009ff8cc3aad202f5b6910c65007622ce99815d",
+          "packageLabel": "Rain 0.10.0"
         }
       ]
     },
@@ -533,6 +539,20 @@
           ],
           "currentRevision": "64f0ec6efc5495e154711180726c86780514ea501705b52ee8fb5086ce2231cf",
           "packageLabel": "Premium 1.0"
+        }
+      ]
+    },
+    "app.swiftgram.ios": {
+      "name": "Swiftgram",
+      "addons": [
+        {
+          "name": "iQTele",
+          "currentVersion": "1.4",
+          "knownVersions": [
+            "1.4"
+          ],
+          "currentRevision": "f30ec124affd59dd07f98ace8fe7c560282a23ab4d390ec6529a0b68394767eb",
+          "packageLabel": "iQTele 1.4"
         }
       ]
     }
