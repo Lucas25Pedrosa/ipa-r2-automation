@@ -1082,7 +1082,7 @@
       "name": "Swiftgram",
       "bundleIdentifier": "app.swiftgram.ios",
       "developerName": "Akentech Oy",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/4b/81/a14b816a-5f2b-58b5-e72f-651c7008df69/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/cc/44/eccc44ed-8cc5-b3ef-ae55-11663243cef8/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Swiftgram é um cliente modificado do Telegram com Muitos recursos, foco em Privacidade, Sem Limites, Sem Anúncios.\nCompletamente Open Source e inclui todas as atualizações mais recentes do Telegram plus\n\nCONTAS ILIMITADAS: Adicione quantos números quiser GRÁTIS.\n\nBACKUP DE CONTAS: Faça login nas suas contas sem código SMS. Restaure todas as Sessões que ainda estão Ativas nos servidores do Telegram.\n\nFILTRO DE MENSAGENS: Reduza a visibilidade de SPAM, promoções e mensagens irritantes.\n\nPAINEL DE FORMATAÇÃO: Negrito, Itálico, Links? Formatação com apenas um toque.\n\nÁUDIO PARA TEXTO: Transcreva mensagens de voz para texto GRÁTIS.\n\nTRADUTOR: Tradução em tempo real para um chat inteiro. Traduza mensagens que você envia com um único toque.\n\nSTORIES: Oculte stories ou desative o gesto de deslizar para gravar.\n\nAPPLE WATCH COMPANION: Envie e receba mensagens de Texto e Voz no seu Watch, exclusivo do Swiftgram!\n\nGERENCIAMENTO DE CHATS: Controle Abas, oculte \"Todos os Chats\", mova Pastas para baixo e lembre-se da última Pasta aberta para entrar rapidamente na conversa.\n\nOCULTAR NOTIFICAÇÕES: Chega de mensagens fixadas ou @menções quando você precisar de paz.\n\n50+ PERSONALIZAÇÕES: Abas, Lista de Chats e Pastas, Perfis, Stories, Tradutor, Fotos Aprimoradas, Figurinhas, Menu de Contexto e muito, MUITO MAIS!\n\nSIMPLICIDADE: O Swiftgram continua fácil de usar, sem poluição visual.\n\nFOCO EM PRIVACIDADE: Bloqueio com Código Instantâneo, Completamente Open Source, Sem Anúncios, Sem Rastreadores. Suas mensagens e chats continuam seguros.\n\nACESSIBILIDADE: Suporte aprimorado ao VoiceOver para compartilhamento de mensagens, porque acessibilidade importa!\n\nSiga as novidades: @swiftgram\nConverse com a comunidade: @swiftgram\n\nSwiftgram is an unofficial fork based on Telegram API.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/db/79/32db79a2-8e5a-efc5-1c46-ba643d109da9/33a91d32-a749-467d-abc5-309c1d008023_1.png/392x696bb.png",
@@ -1093,6 +1093,14 @@
       ],
       "versions": [
         {
+          "version": "13.0",
+          "buildVersion": "319",
+          "date": "2026-10-13T04:13:41Z",
+          "size": 88426085,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1C_MvD_eCFB1RWEaB13-0lHVKSwS0bCJD/Swiftgram_13.0.ipa?packageRevision=f30ec124affd59dd07f98ace8fe7c560282a23ab4d390ec6529a0b68394767eb&tweak=iQTele&tweakVersion=1.4&packageLabel=iQTele+1.4",
+          "localizedDescription": "Correções de bugs, melhorias menores e muito mais."
+        },
+        {
           "version": "12.9.3",
           "buildVersion": "286",
           "date": "2026-09-28T16:44:01Z",
@@ -1101,10 +1109,10 @@
           "localizedDescription": "Correções de bugs, melhorias menores e muito mais."
         }
       ],
-      "version": "12.9.3",
-      "versionDate": "2026-09-28T16:44:01Z",
-      "size": 82198320,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1KblnIS9DW0FpPqiV3nVbPNn5sir2J25i/Swiftgram_12.9.3.ipa?packageRevision=f30ec124affd59dd07f98ace8fe7c560282a23ab4d390ec6529a0b68394767eb&tweak=iQTele&tweakVersion=1.4&packageLabel=iQTele+1.4"
+      "version": "13.0",
+      "versionDate": "2026-10-13T04:13:41Z",
+      "size": 88426085,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1C_MvD_eCFB1RWEaB13-0lHVKSwS0bCJD/Swiftgram_13.0.ipa?packageRevision=f30ec124affd59dd07f98ace8fe7c560282a23ab4d390ec6529a0b68394767eb&tweak=iQTele&tweakVersion=1.4&packageLabel=iQTele+1.4"
     },
     {
       "name": "Telegram",
