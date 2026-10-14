@@ -281,7 +281,7 @@
       "name": "Facebook",
       "bundleIdentifier": "com.facebook.Facebook",
       "developerName": "Meta Platforms, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/a0/a8/8aa0a82f-fcd1-b9b4-f664-28b5389f2886/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/04/23/38042309-1e34-7b09-70c3-ec5733769459/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Onde pessoas reais estimulam a curiosidade. Não importa se você está comprando acessórios usados, mostrando um reel para aquele grupo que entende você ou rindo junto por causa de imagens divertidas elaboradas pela IA: o Facebook ajuda a fazer as coisas acontecerem como nenhuma outra rede social.\n\nExplore e amplie seus interesses: \n* Peça que a IA da Meta pesquise tópicos importantes para você e receba resultados instantâneos e mais interativos do que apenas textos\n* Busque as melhores ofertas e tesouros escondidos no Marketplace para cultivar seus hobbies\n* Personalize seu feed para ver mais coisas de que você gosta e menos coisas de que não gosta\n* Explore reels e vídeos para assistir a tutoriais ou para um rápido entretenimento\n\nConecte-se com pessoas e comunidades:\n* Participe de grupos para obter dicas de pessoas reais com experiências reais\n* Ative o compartilhamento com o Instagram para economizar tempo\n* Envie, de forma privada, publicações com as quais só seu melhor amigo vai se identificar ou aquela tendência do Reels que todo mundo está comentando\n\nCompartilhe seu mundo:\n* Use a IA generativa para encantar os amigos com imagens personalizadas ou para ajudar você a escrever publicações\n* Personalize seu perfil para escolher como você se apresenta e quem vê suas publicações\n* Crie reels com facilidade usando modelos em alta ou mostre sua criatividade com um conjunto completo de ferramentas de edição\n* Capture momentos enquanto eles acontecem com os stories\n\nTermos e políticas: https://www.facebook.com/policies_center\n\nSaiba como estamos trabalhando para ajudar a manter nossas comunidades seguras por meio das tecnologias da Meta na Central de Segurança da Meta: https://about.meta.com/actions/safety",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/26/f4/7526f4ae-6017-0e69-7a03-eab147122b19/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -296,6 +296,14 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/06/aa/7d06aa94-d6f4-d20a-50c5-e01527d280d7/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
       ],
       "versions": [
+        {
+          "version": "583.0.0",
+          "buildVersion": "1090364060",
+          "date": "2026-10-14T09:58:25Z",
+          "size": 235282027,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1PcfHY3s2EtWRRPDEdvNDmY5HLYiC4Geg/Facebook_583.0.0.ipa?packageRevision=bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa&tweak=iQFace&tweakVersion=1.2&packageLabel=iQFace+1.2",
+          "localizedDescription": "Nossas equipes solucionaram muitas falhas, corrigiram problemas que você relatou e tornaram o app mais rápido."
+        },
         {
           "version": "582.0.0",
           "buildVersion": "1084662387",
@@ -329,10 +337,10 @@
           "localizedDescription": "Nossas equipes solucionaram muitas falhas, corrigiram problemas que você relatou e tornaram o app mais rápido."
         }
       ],
-      "version": "582.0.0",
-      "versionDate": "2026-10-07T14:52:01Z",
-      "size": 233090079,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1C7UO0NfPPsqSsdZX2Lp6X076k8krMNAo/Facebook_582.0.0.ipa?packageRevision=bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa&tweak=iQFace&tweakVersion=1.2&packageLabel=iQFace+1.2"
+      "version": "583.0.0",
+      "versionDate": "2026-10-14T09:58:25Z",
+      "size": 235282027,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1PcfHY3s2EtWRRPDEdvNDmY5HLYiC4Geg/Facebook_583.0.0.ipa?packageRevision=bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa&tweak=iQFace&tweakVersion=1.2&packageLabel=iQFace+1.2"
     },
     {
       "name": "Facetune",
