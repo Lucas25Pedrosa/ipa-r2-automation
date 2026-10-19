@@ -1,0 +1,125 @@
+name: Fix Feather version aliases once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-feather-version-aliases-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Repair invalid public version aliases
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('Feather/feather.json')
+          source = json.loads(path.read_text(encoding='utf-8'))
+
+          def parse_three(version):
+              parts = str(version or '').strip().split('.')
+              if len(parts) != 3 or not all(part.isdigit() for part in parts):
+                  return None
+              return tuple(int(part) for part in parts)
+
+          def alias_allowed(public_version, ipa_version):
+              public = parse_three(public_version)
+              ipa = parse_three(ipa_version)
+              return bool(public and ipa and public[:2] == ipa[:2])
+
+          changed = False
+          repaired = []
+
+          for app in source.get('apps', []):
+              if not isinstance(app, dict):
+                  continue
+
+              name = str(app.get('name') or app.get('bundleIdentifier') or 'App')
+              versions = app.get('versions')
+
+              if isinstance(versions, list):
+                  for entry in versions:
+                      if not isinstance(entry, dict):
+                          continue
+
+                      public_version = str(entry.get('version') or '').strip()
+                      ipa_version = str(entry.get('ipaVersion') or '').strip()
+
+                      if (
+                          public_version
+                          and ipa_version
+                          and public_version != ipa_version
+                          and not alias_allowed(public_version, ipa_version)
+                      ):
+                          entry['version'] = ipa_version
+                          changed = True
+                          repaired.append(
+                              f'{name}: {public_version} -> {ipa_version}'
+                          )
+
+              current_ipa = str(app.get('ipaVersion') or '').strip()
+              current_entry = None
+
+              if current_ipa and isinstance(versions, list):
+                  for entry in versions:
+                      if not isinstance(entry, dict):
+                          continue
+                      if str(entry.get('ipaVersion') or '').strip() == current_ipa:
+                          current_entry = entry
+                          break
+
+              if current_entry is not None:
+                  desired_version = str(
+                      current_entry.get('version') or current_ipa
+                  ).strip()
+
+                  if str(app.get('version') or '').strip() != desired_version:
+                      app['version'] = desired_version
+                      changed = True
+
+                  current_date = str(current_entry.get('date') or '').strip()
+                  if current_date:
+                      if app.get('versionDate') != current_date:
+                          app['versionDate'] = current_date
+                          changed = True
+                  elif 'versionDate' in app:
+                      app.pop('versionDate', None)
+                      changed = True
+
+                  for key in ('size', 'downloadURL'):
+                      if key in current_entry and app.get(key) != current_entry.get(key):
+                          app[key] = current_entry.get(key)
+                          changed = True
+
+          if changed:
+              path.write_text(
+                  json.dumps(source, ensure_ascii=False, indent=2) + '\n',
+                  encoding='utf-8',
+              )
+
+          print('Aliases reparados:')
+          if repaired:
+              for item in repaired:
+                  print(' -', item)
+          else:
+              print(' - nenhum')
+          PY
+
+      - name: Commit cleanup and remove one-shot workflow
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/fix-feather-version-aliases-once.yml
+          git add Feather/feather.json
+          git commit -m "Fix Feather public version aliases"
+          git push
