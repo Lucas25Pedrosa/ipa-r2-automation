@@ -260,6 +260,15 @@
       ],
       "versions": [
         {
+          "version": "7.144.0",
+          "buildVersion": "7.144.0.3",
+          "date": "2026-10-12T16:03:34Z",
+          "size": 200629875,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1-enXFNHUIIiPyIz2wI1QC7WPYm7v6-xQ/Duolingo_7.144.0.ipa?packageRevision=07ca366395695e64b4838e615dcfcfafec9ef4af47eda3eb52fdcd71a70fd641&tweak=Duolingo+Max&tweakVersion=1.0&packageLabel=Duolingo+Max+1.0",
+          "localizedDescription": "Nosso mascote, a coruja Duo, resolveu atender a pedidos e caçar bugs nas horas livres. É isso mesmo, estamos tirando aqueles erros chatos do caminho para você ter uma experiência ainda melhor.\n\nPara ficar por dentro das novidades, concursos e lançamentos de produtos do Duolingo, siga a gente no Facebook, X e Instagram pelo @duolingobrasil.",
+          "ipaVersion": "7.144.0"
+        },
+        {
           "version": "7.143.1",
           "buildVersion": "7.143.1.1",
           "date": "2026-10-09T12:12:58Z",
@@ -314,11 +323,11 @@
           "ipaVersion": "7.140.0"
         }
       ],
-      "version": "7.143.1",
-      "versionDate": "2026-10-09T12:12:58Z",
-      "size": 199815417,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1p_tLVViK56ZeokS8VUGnXrZhdUOfatrK/Duolingo_7.143.1.ipa?packageRevision=07ca366395695e64b4838e615dcfcfafec9ef4af47eda3eb52fdcd71a70fd641&tweak=Duolingo+Max&tweakVersion=1.0&packageLabel=Duolingo+Max+1.0",
-      "ipaVersion": "7.143.1"
+      "version": "7.144.0",
+      "versionDate": "2026-10-12T16:03:34Z",
+      "size": 200629875,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1-enXFNHUIIiPyIz2wI1QC7WPYm7v6-xQ/Duolingo_7.144.0.ipa?packageRevision=07ca366395695e64b4838e615dcfcfafec9ef4af47eda3eb52fdcd71a70fd641&tweak=Duolingo+Max&tweakVersion=1.0&packageLabel=Duolingo+Max+1.0",
+      "ipaVersion": "7.144.0"
     },
     {
       "name": "Facebook",
