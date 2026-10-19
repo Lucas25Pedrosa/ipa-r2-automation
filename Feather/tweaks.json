@@ -42,15 +42,16 @@
       "addons": [
         {
           "name": "Regram",
-          "currentVersion": "6.3",
+          "currentVersion": "6.4",
           "knownVersions": [
             "6.0.1",
             "6.1",
             "6.2",
-            "6.3"
+            "6.3",
+            "6.4"
           ],
-          "currentRevision": "267a3d4941a5807e6af195f927275585ae0d224bd9849edfd150a8158d86df50",
-          "packageLabel": "Regram 6.3"
+          "currentRevision": "eb561e48db47246e535c54c0c6d252b99b4a69bb4aa45467cd73255bf4453391",
+          "packageLabel": "Regram 6.4"
         }
       ]
     },
@@ -65,6 +66,15 @@
           ],
           "currentRevision": "bce64b441a130dcd55ea771a9ac0734ac395e15bbc9d5de984f289fed66d69f6",
           "packageLabel": "RXTikTok 1.6.6"
+        },
+        {
+          "name": "RXTikTok Beta",
+          "currentVersion": "2.0.3",
+          "knownVersions": [
+            "2.0.3"
+          ],
+          "currentRevision": "45c0a44b2ef433d6e09e284f23ac281b0f52b0f2ea0fdd8975abeea05d89c684",
+          "packageLabel": "RXTikTok Beta 2.0.3"
         }
       ]
     },
@@ -73,13 +83,14 @@
       "addons": [
         {
           "name": "BHTwitter",
-          "currentVersion": "7.0.1",
+          "currentVersion": "7.2.0",
           "knownVersions": [
             "6.5.0",
             "6.6.1",
             "6.7.0",
             "7.0.0",
-            "7.0.1"
+            "7.0.1",
+            "7.2.0"
           ],
           "components": [
             {
@@ -91,8 +102,8 @@
               "version": "0.0.1-2"
             }
           ],
-          "currentRevision": "01c2e1dc13a9dfa673afa1927de16365b6e28a6d28b901b4800a0b6ff61d40b5",
-          "packageLabel": "BHTwitter 7.0.1"
+          "currentRevision": "19c135dad42f92198be507e7939db7a9ea997acd1a6d98b1602de61d77580526",
+          "packageLabel": "BHTwitter 7.2.0"
         }
       ]
     },
@@ -464,15 +475,16 @@
         },
         {
           "name": "YTKACE",
-          "currentVersion": "1.1.1",
+          "currentVersion": "1.1.3",
           "knownVersions": [
             "0.9.3",
             "1.0.0",
             "1.0.1",
-            "1.1.1"
+            "1.1.1",
+            "1.1.3"
           ],
-          "currentRevision": "82a9fc495e6502fe79c6ffff5457ee84022485e5a5d207b13d366f1d477d4e14",
-          "packageLabel": "YTKACE 1.1.1"
+          "currentRevision": "feec0137e88a37fdbc2b87c947cc15faadaa5d2c655da2277f5c4f29d439485d",
+          "packageLabel": "YTKACE 1.1.3"
         },
         {
           "name": "YTKACE Glass",
