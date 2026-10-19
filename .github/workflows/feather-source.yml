@@ -112,7 +112,7 @@ jobs:
           TRANSLATOR_API_KEY: ${{ secrets.TRANSLATOR_API_KEY }}
 
         run: |
-          python private-core/scripts/feather_source.py update
+          python .github/scripts/feather_source_compat.py update
 
       - name: Aplicar metadados de pacote do Injector
         id: pacote
@@ -125,7 +125,7 @@ jobs:
           IPA_VERSION: ${{ inputs.version }}
           PUBLIC_REPO_DIR: ${{ github.workspace }}
         run: |
-          python .github/scripts/feather_package_metadata.py
+          python .github/scripts/feather_package_metadata_compat.py
 
       - name: Salvar atualização no repositório público
         if: steps.atualizar.outputs.changed == 'true' || steps.pacote.outputs.changed == 'true'
@@ -171,7 +171,7 @@ jobs:
           FEATHER_STATE_FILE: ${{ runner.temp }}/ipa-library-feather-state.json
 
         run: |
-          python private-core/scripts/feather_source.py notify
+          python .github/scripts/feather_source_compat.py notify
 
       - name: Nenhuma alteração
         if: steps.atualizar.outputs.changed != 'true' && steps.pacote.outputs.changed != 'true'
