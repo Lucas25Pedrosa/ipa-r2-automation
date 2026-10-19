@@ -500,7 +500,7 @@
         {
           "version": "2026.8",
           "buildVersion": "3621",
-          "date": "2026-10-19T04:56:02Z",
+          "date": "2026-10-14T18:26:18Z",
           "size": 40877048,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1jhjAoqMSf4C1onW8itB79CmCq3sp44D_/Happy%20Scale_2026.8.ipa?packageRevision=5e35c40701577d8f570e8c457b26ca3a1087b00a27e5365fe66c49ae6969cce6&tweak=Happy+Scale%2B&tweakVersion=1.0&packageLabel=Happy+Scale%2B+1.0",
           "localizedDescription": "ANOTAÇÕES NAS EXPORTAÇÕES CSV\n\nAgora você pode incluir as anotações do seu Diário ao exportar um arquivo CSV. As anotações aparecerão em uma coluna própria, ao lado do peso daquele dia.\n\n\nACESSIBILIDADE APRIMORADA\n\nO suporte ao VoiceOver e ao Controle por Voz melhorou no Gráfico de Pesagens e em outras partes do app, e muitas telas agora lidam melhor com tamanhos de texto grandes.\n\n\nSINCRONIZAÇÃO MAIS CONFIÁVEL COM O DROPBOX\n\nA sincronização com o Dropbox agora corrige uma confusão rara que podia impedir a sincronização entre seus dispositivos.\n\n\nCORREÇÕES E AJUSTES\n\nSerá que nos importamos um pouquinho demais com o acabamento deste app? Talvez?? Andamos refinando pequenos detalhes por toda parte.",
@@ -986,10 +986,10 @@
         {
           "version": "7.26",
           "buildVersion": "7.26.0.1327",
-          "date": "2026-10-13T09:59:37Z",
+          "date": "2026-09-14T17:07:26Z",
           "size": 177175487,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1SRO2qN60VfmIr81klrhn2tz-OP7yZF8g/PDF%20Expert_7.26.ipa?packageRevision=131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45&tweak=PDF+Expert+Premium&tweakVersion=1.0&packageLabel=PDF+Expert+Premium+1.0",
-          "localizedDescription": "Nada de extravagante nesta atualização, apenas alguns ajustes técnicos.\nTem ideias ou sugestões? Mande-as para nós: rdsupport@readdle.com.",
+          "localizedDescription": "O PDF Expert agora está com um novo visual e formas mais inteligentes de trabalhar. \nAproveite uma experiência mais fluida usando o Liquid Glass tanto na visualização de documentos quanto na navegação. \nOs usuários do Apple Pencil Pro agora poderão pressioná-lo para acessarem rapidamente as ferramentas de anotação e as opções de ajustes, sem interromper seu fluxo de trabalho. Além disso, suas anotações manuscritas agora são pesquisáveis, permitindo que você encontre os textos escritos à mão da mesma forma que os digitados, seja em um PDF ou em toda a sua biblioteca. \nAtualize o PDF Expert para conferir todas as novidades e envie-nos sua opinião. Queremos muito saber o que você achou!",
           "ipaVersion": "7.26"
         }
       ],
