@@ -429,6 +429,15 @@
       ],
       "versions": [
         {
+          "version": "26.34",
+          "buildVersion": "10234",
+          "date": "2026-10-19T13:29:37Z",
+          "size": 368936659,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1AQ46iKlJBaDg3AGq1KfW3bAxKo1SqzJ0/Facetune_26.34.ipa?packageRevision=d90ffac785e6d8f8d1c049d3e6bb4cc7272faaf2c3cdb8e594940491f2567758&tweak=Facetune+VIP&tweakVersion=1.0&packageLabel=Facetune+VIP+1.0",
+          "localizedDescription": "NOVIDADE: Looks ficou melhor\nAté agora, Looks entregava o efeito completo com um toque. Agora dá pra ajustar cada área do rosto até o resultado ficar do seu jeito.",
+          "ipaVersion": "26.34"
+        },
+        {
           "version": "26.33",
           "buildVersion": "10186",
           "date": "2026-10-12T08:29:50Z",
@@ -474,11 +483,11 @@
           "ipaVersion": "26.29"
         }
       ],
-      "version": "26.33",
-      "versionDate": "2026-10-12T08:29:50Z",
-      "size": 365792575,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/16hD8ebx17EqSAVbFhvhddlowTreYq-zM/Facetune_26.33.ipa?packageRevision=d90ffac785e6d8f8d1c049d3e6bb4cc7272faaf2c3cdb8e594940491f2567758&tweak=Facetune+VIP&tweakVersion=1.0&packageLabel=Facetune+VIP+1.0",
-      "ipaVersion": "26.33"
+      "version": "26.34",
+      "versionDate": "2026-10-19T13:29:37Z",
+      "size": 368936659,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1AQ46iKlJBaDg3AGq1KfW3bAxKo1SqzJ0/Facetune_26.34.ipa?packageRevision=d90ffac785e6d8f8d1c049d3e6bb4cc7272faaf2c3cdb8e594940491f2567758&tweak=Facetune+VIP&tweakVersion=1.0&packageLabel=Facetune+VIP+1.0",
+      "ipaVersion": "26.34"
     },
     {
       "name": "Happy Scale",
