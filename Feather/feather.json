@@ -1293,6 +1293,36 @@
       "ipaVersion": "2.9.12"
     },
     {
+      "name": "Radio FM para iPhone",
+      "bundleIdentifier": "mobi.digitalminds.itunerfree",
+      "developerName": "Appgeneration, Software Technologies, Lda",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/e8/66/96e866f6-9238-8763-c906-18ad5b2c0278/AppIconFree-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "localizedDescription": "*** Este é o rádio que você compra, o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este é o rádio que você compra. este",
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/c7/4c/dec74c49-4472-b471-fe0d-adec60af6c40/6.9_a_BR_.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/cf/07/58cf07b3-184a-4b6f-d427-347fd0b28a05/6.9_b_BR_.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/1f/a6/5e1fa69c-aab5-8df6-9eac-c4dd2a58d209/6.9_c_BR_.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/33/69/c23369da-ecdd-806b-8c8e-364838eef7c1/6.9_d_BR_.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/73/9f/54739f93-00db-f7f3-45b9-81f30d5efc9b/6.9_e_BR_.jpg/320x480bb.jpg"
+      ],
+      "versions": [
+        {
+          "version": "10.2.4",
+          "buildVersion": "374",
+          "date": "2026-09-15T09:27:38Z",
+          "size": 94674081,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1jM9LiIDW_3SkrpNXMLBXLq9ugRPfgP8N/Radio%20FM%20para%20iPhone_10.2.4.ipa?packageRevision=0ada19805f205b9bb3290ba1c71f63b55b4eca2f4222d0164c73b50f3a1449c2&tweak=myTuner+Premium&tweakVersion=1.0&packageLabel=myTuner+Premium+1.0",
+          "localizedDescription": "- Correções de bugs; Estamos sempre fazendo melhorias no aplicativo de vez em quando para fornecer uma melhor experiência aos nossos usuários. Se você gosta de usar nosso aplicativo, por favor, dê-nos uma revisão sobre cada atualização!",
+          "ipaVersion": "10.2.4"
+        }
+      ],
+      "version": "10.2.4",
+      "versionDate": "2026-09-15T09:27:38Z",
+      "size": 94674081,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1jM9LiIDW_3SkrpNXMLBXLq9ugRPfgP8N/Radio%20FM%20para%20iPhone_10.2.4.ipa?packageRevision=0ada19805f205b9bb3290ba1c71f63b55b4eca2f4222d0164c73b50f3a1449c2&tweak=myTuner+Premium&tweakVersion=1.0&packageLabel=myTuner+Premium+1.0",
+      "ipaVersion": "10.2.4"
+    },
+    {
       "name": "Reddit",
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "REDDIT, INC.",
