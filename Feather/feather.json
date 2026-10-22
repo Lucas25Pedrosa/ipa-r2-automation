@@ -1032,7 +1032,7 @@
       "name": "PDF Expert",
       "bundleIdentifier": "com.readdle.PDFExpert5",
       "developerName": "Readdle Technologies Limited",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/85/c7/a485c7a9-69cb-8479-1a8a-f2f77cc71220/AppIcon-Production-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/8b/b2/548bb29f-ef2f-bb42-7253-7f0b351363a8/AppIcon-Production-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "O PDF Expert é o aplicativo definitivo de PDF para iPhone, iPad e Mac.\nÉ rápido e intuitivo, ao mesmo tempo em que lhe permite concluir sem esforço qualquer tarefa em PDF. Mais de 30 milhões de pessoas usam o PDF Expert em todo o mundo. Todas as ferramentas que você precisa, da forma certa. O PDF Expert já está disponível para Apple Vision Pro (somente iPad). \n \n\"O PDF Expert é um dos meus aplicativos para iPad indispensáveis. Um leitor de PDF de primeira linha\". – MacStories\n\"Fiquei impressionado com a facilidade de uso do aplicativo\". – MakeUseOf\n\"O melhor aplicativo para gerenciar, editar e ler PDFs no iPad\". – The Sweet Setup\n \n*** COM O PDF EXPERT, VOCÊ TEM ACESSO GRATUITO AOS SEGUINTES RECURSOS ***\n \nLEIA PDFs FACILMENTE\n- Abra PDFs de email, da web ou qualquer aplicativo que suporte o menu Compartilhar em todo o sistema Apple.\n- Habilite a busca por todo o texto, role, aproxime e distancie.\n- Use o Texto para Fala para ouvir o texto selecionado lido em voz alta.\n \nDESTAQUE E ANOTE EM PDFs\n– Marque partes importantes em livros ou documentos com as ferramentas de anotação: grifar, sublinhar, riscar, etc. \n– Use carimbos predefinidos, tais como Aprovado, Não Aprovado, Confidencial etc.\n– Expresse sua personalidade com adesivos incríveis. \n \nTRABALHE NA NUVEM\nConecte-se a qualquer armazenamento de nuvem, como Dropbox, iCloud, Box, OneDrive, Google Drive, etc., e desfrute da sincronização em 2 vias.\n \nCRIE NOTAS\nDeixe comentários no texto que você lê usando notas adesivas e ferramentas de desenho.\n \nPREENCHA FORMULÁRIOS\nPreencha qualquer formulário em PDF estático com campos interativos como texto, caixas e botões de seleção.\n \n*** O PDF EXPERT PREMIUM DESBLOQUEIA RECURSOS AVANÇADOS ***\n  \nUSE UMA SÓ CONTA NO iPHONE, iPAD E MAC\nUma assinatura permite que você trabalhe eficientemente em todos os dispositivos Apple.\n \nEDITE TEXTO EM PDF\nFonte, tamanho e opacidade do texto são detectados automaticamente, facilitando as edições.\n \nRESUMA E ANALISE PDFs EXTENSOS COM O PDF COPILOT - SEU ASSISTENTE DE IA\n– Liste os pontos principais – escaneie e destaque rapidamente os tópicos essenciais.\n– Resuma – obtenha breves resumos de seus PDFs ou anotações.\n– Faça qualquer pergunta – obtenha dados precisos por meio das respostas e referências da IA.\n– Esclareça – chega de usar o Google! Obtenha explicações imediatas sobre palavras ou frases.\n\nCONVERTA PDF\nConverta PDF para Word, Excel, PPT, JPG/PNG, TXT e vice versa.\n \nADICIONE E EDITE IMAGENS\nAdicione, substitua e redimensione facilmente imagens em PDFs. Mude um logo ou um gráfico. O PDF Expert torna tudo isso fácil. \n\nASSINE DOCUMENTOS\nUse assinaturas eletrônicas, sincronizadas entre dispositivos, para assinar contratos em qualquer lugar.\n \nBARRA DE FAVORITOS\nAcesse rapidamente suas ferramentas favoritas com uma barra de ferramentas personalizável.\n \nADICIONE LINKS\nVincule qualquer parte do texto a uma página diferente ou a um website. Adicione links a imagens.\n \nCENSURE INFORMAÇÕES CONFIDENCIAIS\nApague ou oculte permanentemente informações sensíveis em PDFs.\n \nPROTEJA COM SENHA\n– Restrinja o acesso ao PDF Expert e aos seus arquivos.\n– Proteja seus PDFs contra leitura não autorizada com uma senha.\n \nFERRAMENTAS DE CONSTRUÇÃO\n– Escala e medição\n– Formas poligonais e polilinhas\n– Revisão\n\nAgora você não precisa comprar as versões para Mac, iPhone e iPad separadamente. Tenha uma única assinatura Premium do PDF Expert em todos os seus dispositivos Apple (iPhone, iPad e Mac).\nBaixe o PDF Expert Premium e TESTE DE GRAÇA POR 7 DIAS, para vê-lo em ação.\n\nLeia nossos Termos e Condições aqui:\nhttps://pdfexpert.com/privacy\nhttps://pdfexpert.com/terms\n\nPerguntas, comentários ou problemas? Entre em contato via http://readdle.com/contact",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/69/97/936997d7-dbc6-9aab-a9c0-9c19fdfcc475/6154d0d2-366c-4eab-bbb7-85a50bd2926c_BR_5_U002c5_SS_01.jpg/392x696bb.jpg",
@@ -1047,21 +1047,30 @@
       ],
       "versions": [
         {
+          "version": "7.26.3",
+          "buildVersion": "7.26.3.1339",
+          "date": "2026-10-22T11:50:12Z",
+          "size": 172974956,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1yRYty4g0vJrBzDVMA15TyobceoZ82ARO/PDF%20Expert_7.26.3.ipa?packageRevision=131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45&tweak=PDF+Expert+Premium&tweakVersion=1.0&packageLabel=PDF+Expert+Premium+1.0",
+          "localizedDescription": "O PDF Expert já está pronto para o iPhone Duo desde o seu lançamento!\nDesfrute de um design Liquid Glass ainda mais refinado e de um reconhecimento mais preciso de sua caligrafia ao fazer anotações. Para clientes corporativos com dispositivos gerenciados, temos uma opção de login mais fácil nos Ajustes. Atualize seu app e conte-nos o que achou!",
+          "ipaVersion": "7.26.3"
+        },
+        {
           "version": "7.26.2",
           "buildVersion": "7.26.2.1336",
-          "date": "2026-10-13T09:59:37Z",
+          "date": "2026-10-22T11:50:12Z",
           "size": 167946043,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1NVeB6gkKHYnQ452HpGtwqKEbfd7xNKzm/PDF%20Expert_7.26.2.ipa?packageRevision=131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45&tweak=PDF+Expert+Premium&tweakVersion=1.0&packageLabel=PDF+Expert+Premium+1.0",
-          "localizedDescription": "Nada de extravagante nesta atualização, apenas alguns ajustes técnicos.\nTem ideias ou sugestões? Mande-as para nós: rdsupport@readdle.com.",
+          "localizedDescription": "O PDF Expert já está pronto para o iPhone Duo desde o seu lançamento!\nDesfrute de um design Liquid Glass ainda mais refinado e de um reconhecimento mais preciso de sua caligrafia ao fazer anotações. Para clientes corporativos com dispositivos gerenciados, temos uma opção de login mais fácil nos Ajustes. Atualize seu app e conte-nos o que achou!",
           "ipaVersion": "7.26.2"
         },
         {
           "version": "7.26.1",
           "buildVersion": "7.26.1.1333",
-          "date": "2026-10-13T09:59:37Z",
+          "date": "2026-10-22T11:50:12Z",
           "size": 177180397,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1cQ_u_LxK5jLqhsuJkITe28iDpa1gkT0l/PDF%20Expert_7.26.1.ipa?packageRevision=131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45&tweak=PDF+Expert+Premium&tweakVersion=1.0&packageLabel=PDF+Expert+Premium+1.0",
-          "localizedDescription": "Nada de extravagante nesta atualização, apenas alguns ajustes técnicos.\nTem ideias ou sugestões? Mande-as para nós: rdsupport@readdle.com.",
+          "localizedDescription": "O PDF Expert já está pronto para o iPhone Duo desde o seu lançamento!\nDesfrute de um design Liquid Glass ainda mais refinado e de um reconhecimento mais preciso de sua caligrafia ao fazer anotações. Para clientes corporativos com dispositivos gerenciados, temos uma opção de login mais fácil nos Ajustes. Atualize seu app e conte-nos o que achou!",
           "ipaVersion": "7.26.1"
         },
         {
@@ -1074,11 +1083,11 @@
           "ipaVersion": "7.26"
         }
       ],
-      "version": "7.26.2",
-      "versionDate": "2026-10-13T09:59:37Z",
-      "size": 167946043,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1NVeB6gkKHYnQ452HpGtwqKEbfd7xNKzm/PDF%20Expert_7.26.2.ipa?packageRevision=131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45&tweak=PDF+Expert+Premium&tweakVersion=1.0&packageLabel=PDF+Expert+Premium+1.0",
-      "ipaVersion": "7.26.2"
+      "version": "7.26.3",
+      "versionDate": "2026-10-22T11:50:12Z",
+      "size": 172974956,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1yRYty4g0vJrBzDVMA15TyobceoZ82ARO/PDF%20Expert_7.26.3.ipa?packageRevision=131d4a48d61a571dfc0f3d4e69ec3da23435d152f1507a5df0b6dde9823fed45&tweak=PDF+Expert+Premium&tweakVersion=1.0&packageLabel=PDF+Expert+Premium+1.0",
+      "ipaVersion": "7.26.3"
     },
     {
       "name": "Photoleap",
