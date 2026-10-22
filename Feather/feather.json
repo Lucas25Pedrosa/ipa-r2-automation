@@ -822,7 +822,7 @@
       "name": "Letterboxd",
       "bundleIdentifier": "com.letterboxd.LetterboxdApp",
       "developerName": "Letterboxd Ltd",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/f4/bd/0cf4bd63-c1ef-0cee-109a-805529c78de4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/89/71/208971d1-2e08-a153-a980-69df72bc527e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Letterboxd são o período de pagamento automático atual – Você pode aplicar os mesmos termos do seu diretório para o iOS – o seu feedback é confirmado para os subscritores de filmes no seu iPhone ou iPad, para que você possa fazer o check-in de filmes e comprar a atividade de seus amigos com facilidade. Inscreva-se com a sua conta existente (ou crie um de graça) para desfrutar da nossa interface de aplicativo nativo. Estes recursos da experiência da web são suportados, com mais para vir: – Inscreva-se (com o suporte de 1Password) ou crie uma conta quando você assistir – Explore (e filtrar) seu feed de conteúdo altamente avaliado e mais esperado (incluindo a nossa lista de filmes renováveis e comentários) – Crie e edite as nossas listas oficiais sobre o Top 250 Narrative Features",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/1b/35/851b35c0-43c8-c9b3-1d6f-f7e634d6b85d/Store_1c.png/392x696bb.png",
@@ -836,9 +836,18 @@
       ],
       "versions": [
         {
+          "version": "4.13.4",
+          "buildVersion": "6638",
+          "date": "2026-10-22T15:47:21Z",
+          "size": 61544319,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/15cCqqjOXNiVHfsAwgclrFnJP6J_CNldL/Letterboxd_4.13.4.ipa?packageRevision=b027873a8b0b775ca8705b25a02f131135d108c7969c61b34fedf849fe9aebda&tweak=Letterboxd+Patron&tweakVersion=1.0&packageLabel=Letterboxd+Patron+1.0",
+          "localizedDescription": "Miscellaneous bug fixes e melhorias",
+          "ipaVersion": "4.13.4"
+        },
+        {
           "version": "4.13.2",
           "buildVersion": "6632",
-          "date": "2026-10-18T20:06:33Z",
+          "date": "2026-10-22T15:47:21Z",
           "size": 61803154,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1yaS3wa3PzrvSm2Mh40NWCrNQcZduBhSX/Letterboxd_4.13.2.ipa?packageRevision=b027873a8b0b775ca8705b25a02f131135d108c7969c61b34fedf849fe9aebda&tweak=Letterboxd+Patron&tweakVersion=1.0&packageLabel=Letterboxd+Patron+1.0",
           "localizedDescription": "Miscellaneous bug fixes e melhorias",
@@ -854,11 +863,11 @@
           "ipaVersion": "4.12.6"
         }
       ],
-      "version": "4.13.2",
-      "versionDate": "2026-10-18T20:06:33Z",
-      "size": 61803154,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1yaS3wa3PzrvSm2Mh40NWCrNQcZduBhSX/Letterboxd_4.13.2.ipa?packageRevision=b027873a8b0b775ca8705b25a02f131135d108c7969c61b34fedf849fe9aebda&tweak=Letterboxd+Patron&tweakVersion=1.0&packageLabel=Letterboxd+Patron+1.0",
-      "ipaVersion": "4.13.2"
+      "version": "4.13.4",
+      "versionDate": "2026-10-22T15:47:21Z",
+      "size": 61544319,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/15cCqqjOXNiVHfsAwgclrFnJP6J_CNldL/Letterboxd_4.13.4.ipa?packageRevision=b027873a8b0b775ca8705b25a02f131135d108c7969c61b34fedf849fe9aebda&tweak=Letterboxd+Patron&tweakVersion=1.0&packageLabel=Letterboxd+Patron+1.0",
+      "ipaVersion": "4.13.4"
     },
     {
       "name": "Media Converter",
