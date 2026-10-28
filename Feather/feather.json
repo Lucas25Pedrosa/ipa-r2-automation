@@ -423,23 +423,32 @@
       "name": "Facebook",
       "bundleIdentifier": "com.facebook.Facebook",
       "developerName": "Meta Platforms, Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/a6/7a/5da67a2d-6bdd-b95b-86d7-a201d6979b35/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/5b/7b/775b7b40-4e22-ba5e-2255-668c2473048c/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "Onde pessoas reais estimulam a curiosidade. Não importa se você está comprando acessórios usados, mostrando um reel para aquele grupo que entende você ou rindo junto por causa de imagens divertidas elaboradas pela IA: o Facebook ajuda a fazer as coisas acontecerem como nenhuma outra rede social.\n\nExplore e amplie seus interesses: \n* Peça que a IA da Meta pesquise tópicos importantes para você e receba resultados instantâneos e mais interativos do que apenas textos\n* Busque as melhores ofertas e tesouros escondidos no Marketplace para cultivar seus hobbies\n* Personalize seu feed para ver mais coisas de que você gosta e menos coisas de que não gosta\n* Explore reels e vídeos para assistir a tutoriais ou para um rápido entretenimento\n\nConecte-se com pessoas e comunidades:\n* Participe de grupos para obter dicas de pessoas reais com experiências reais\n* Ative o compartilhamento com o Instagram para economizar tempo\n* Envie, de forma privada, publicações com as quais só seu melhor amigo vai se identificar ou aquela tendência do Reels que todo mundo está comentando\n\nCompartilhe seu mundo:\n* Use a IA generativa para encantar os amigos com imagens personalizadas ou para ajudar você a escrever publicações\n* Personalize seu perfil para escolher como você se apresenta e quem vê suas publicações\n* Crie reels com facilidade usando modelos em alta ou mostre sua criatividade com um conjunto completo de ferramentas de edição\n* Capture momentos enquanto eles acontecem com os stories\n\nTermos e políticas: https://www.facebook.com/policies_center\n\nSaiba como estamos trabalhando para ajudar a manter nossas comunidades seguras por meio das tecnologias da Meta na Central de Segurança da Meta: https://about.meta.com/actions/safety",
       "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/26/f4/7526f4ae-6017-0e69-7a03-eab147122b19/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/e9/55/5ae95577-c18a-0b51-71c9-a148cc0ad323/c795c58d-ec37-463c-9ab9-ba0b8bc00ddd_2-iOS-5.5-Reels.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/69/31/b86931ae-08d7-c9a3-3fae-ab5a37daac80/0130e841-7bad-4f8c-83c9-61ea0bac7d7b_3-iOS-5.5-Stories.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/70/b1/bc70b1de-cde8-59bf-9a30-2f03fd42d51c/9b761f68-4cd1-4c66-b5f2-76de4f58005f_4-iOS-5.5-Groups.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/0c/9c/510c9cf5-f4c7-2e19-6284-5eb06b60fc2e/68c29824-a52c-4766-8aea-0a70c7a2f86f_5-iOS-5.5-Profile.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/42/3e/55423ecf-a82f-dbb0-074e-9e69372297ff/28ff37e9-d855-4e6e-a8b4-fb2d585bb9ca_6-iOS-5.5-Marketplace.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/55/5a/78555a6c-f691-6318-8c1c-42e6d740d2c9/691c88f4-f976-46bb-92e1-5f088e8aa47f_7-iOS-5.5-Share.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/e1/80/51e18062-e26e-c67e-1eeb-35989fe60837/d49c0719-9500-4504-8a4c-3124b914bafa_8-iOS-5.5-Search_with_AI.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/23/cd/bf23cdd9-1aa2-d668-3af9-5e6fbac05d6f/ee650e7b-1eaa-4de6-81a2-0b35dac16446_9-iOS-5.5-Write_with_AI.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/06/aa/7d06aa94-d6f4-d20a-50c5-e01527d280d7/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/ef/b5/4eefb5b1-7289-7b88-9614-e3e259408334/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/c7/fc/afc7fcd3-26e8-3fe8-b058-de223e847969/c795c58d-ec37-463c-9ab9-ba0b8bc00ddd_2-iOS-5.5-Reels.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/c6/85/1fc68522-7ed3-20a9-0e50-d13e29d2d378/0130e841-7bad-4f8c-83c9-61ea0bac7d7b_3-iOS-5.5-Stories.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/39/c3/8939c340-0196-c8fe-ef68-282f921cba9f/9b761f68-4cd1-4c66-b5f2-76de4f58005f_4-iOS-5.5-Groups.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/3e/3a/c43e3a19-e84b-03ab-314a-c6b6809f9231/68c29824-a52c-4766-8aea-0a70c7a2f86f_5-iOS-5.5-Profile.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/7c/cd/2d7ccddf-f616-222c-0c1a-41415100bcd1/28ff37e9-d855-4e6e-a8b4-fb2d585bb9ca_6-iOS-5.5-Marketplace.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/ce/95/bece95ff-b983-0ac5-841b-313eeb4a8452/691c88f4-f976-46bb-92e1-5f088e8aa47f_7-iOS-5.5-Share.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/f4/85/50f4855c-7095-a889-6dc7-d0bd63340f36/d49c0719-9500-4504-8a4c-3124b914bafa_8-iOS-5.5-Search_with_AI.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/89/eb/2b89ebfe-c932-6628-9fa0-626458555ce2/ee650e7b-1eaa-4de6-81a2-0b35dac16446_9-iOS-5.5-Write_with_AI.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/52/91/0f529197-47d3-a2a1-c26d-2e38663f5b77/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
       ],
       "versions": [
         {
-          "version": "584.1",
+          "version": "585.0.0",
+          "buildVersion": "1101557913",
+          "date": "2026-10-28T14:06:51Z",
+          "size": 243196805,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1_ui9aaJ2ax7hmagRpg7oS1Sjcdr05IAd/Facebook_585.0.0.ipa?packageRevision=bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa&tweak=iQFace&tweakVersion=1.2&packageLabel=iQFace+1.2",
+          "localizedDescription": "Nossas equipes solucionaram muitas falhas, corrigiram problemas que você relatou e tornaram o app mais rápido.",
+          "ipaVersion": "585.0.0"
+        },
+        {
+          "version": "584.1.0",
           "buildVersion": "1097955119",
           "date": "2026-10-23T09:58:23Z",
           "size": 239931672,
@@ -502,11 +511,11 @@
           "ipaVersion": "579.0.0"
         }
       ],
-      "version": "584.1",
-      "versionDate": "2026-10-23T09:58:23Z",
-      "size": 239931672,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1EQe3fmjjw3Tdk8UtQbXO6cAwyNoSSzG9/Facebook_584.1.0.ipa?packageRevision=bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa&tweak=iQFace&tweakVersion=1.2&packageLabel=iQFace+1.2",
-      "ipaVersion": "584.1.0"
+      "version": "585.0.0",
+      "versionDate": "2026-10-28T14:06:51Z",
+      "size": 243196805,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1_ui9aaJ2ax7hmagRpg7oS1Sjcdr05IAd/Facebook_585.0.0.ipa?packageRevision=bc65e430b671d0f9f8e4cdc3a8847d03efc7e6822ad9a53bfee16fdcb8d33aaa&tweak=iQFace&tweakVersion=1.2&packageLabel=iQFace+1.2",
+      "ipaVersion": "585.0.0"
     },
     {
       "name": "Facetune",
