@@ -1608,7 +1608,7 @@
       "name": "TeraBox",
       "bundleIdentifier": "com.dubox.drive",
       "developerName": "FLEXTECH INC.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/99/e9/0d99e9a2-6fae-a6ab-ec5b-02f87ed40adf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/e7/26/fde72667-72d1-dc4f-3114-cc6b3d4cc65b/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "TeraBox: Seu Assistente de IA Tudo-em-Um Pessoal com 1024 GB de Armazenamento em Nuvem GRATUITO!\n\nTeraBox é muito mais que armazenamento em nuvem — é seu assistente inteligente de IA. Armazene, gerencie e compartilhe arquivos grandes em segundos, pesquise qualquer coisa com busca IA, crie imagens e vídeos incríveis com IA e desbloqueie ferramentas de IA úteis. Cadastre-se agora para obter 1024 GB de armazenamento em nuvem gratuito e explore infinitas possibilidades criativas com IA!\n\nRECURSOS PRINCIPAIS\n[NEW] Tera AI: agente de IA tudo-em-um\nPergunte qualquer coisa e receba respostas reais. Transforme fotos em reels, pôsteres e cartões com um toque. Resuma PDFs longos ou extraia detalhes de capturas. Pesquise, crie e resolva tudo em um só lugar, sem sair do app.\n\n[NEW] AI Study: transforme arquivos em notas e quizzes\nO AI Study transforma o que você salva em algo que realmente aprende. Adicione um arquivo e receba notas claras em segundos, ou grave uma aula ou reunião e deixe a IA fazer as notas. Depois, teste-se com quizzes, revise com flashcards e veja as ideias se conectarem em um mapa mental. Menos tempo organizando, mais tempo entendendo.\n\nBackup Automático de Dados\nFaça backup automático de fotos, vídeos, documentos e pastas no drive em nuvem do TeraBox. Tudo sincronizado e acessível de qualquer dispositivo.\n\nTransferência de Arquivos Ultragrandes\nCarregue, armazene e compartilhe arquivos de até 128 GB. Envie vídeos, documentos ou mídia em alta resolução por link seguro, sem limites de tamanho.\n\nBusca IA\nO navegador com IA permite pesquisar de forma mais inteligente. Encontre o que precisa, assista a vídeos em alta e acompanhe assuntos quentes, tudo no TeraBox.\n\nCriação e Edição de Imagens com IA\nTransforme suas fotos em arte com IA com um toque. Experimente estilos como Snoopy, Miyazaki ou Cyberpunk, ou melhore retratos com efeitos de beleza integrados.\n\nGeração de Vídeo com IA\nTransforme ideias ou fotos em vídeos criativos em segundos. Escolha efeitos dinâmicos para criar vídeos virais para redes sociais, promoções ou projetos pessoais.\n\nTranscrição com IA\nConverta voz em texto. Grave ao vivo e veja a transcrição aparecer enquanto fala, ou envie qualquer arquivo de áudio ou vídeo. Receba transcrições precisas e legíveis com pontos-chave resumidos automaticamente — economizando horas de anotações manuais.\n\nReprodutor de Vídeo HD + Legendas com IA\nReprodução suave em HD no TeraBox. A IA gera legendas precisas para palestras, filmes estrangeiros ou vídeos pessoais.\n\nDigitalização com IA e Gerenciamento de PDF\nDigitalize vários documentos rápido e edite seus PDF com facilidade. O TeraBox reconhece texto automaticamente.\n\nOutras Ferramentas de IA Avançadas\nExplore mais recursos integrados: esboço com IA, remoção de manuscrito, tradução e compressão de imagens. O TeraBox é sua caixa de ferramentas de IA inteligente.\n\nDESTAQUES\n-1024 GB grátis: faça backup de milhões de fotos, vídeos e documentos com segurança.\n-Upload e compartilhamento de arquivos grandes: envie arquivos grandes por links seguros.\n-Proteção de privacidade: criptografia avançada mantém seus arquivos seguros.\n-Sincronização em vários dispositivos: acesse e sincronize seus arquivos de qualquer dispositivo.\n-Álbuns inteligentes: categorize suas fotos automaticamente para navegação rápida.\n\nCadastre-se no TeraBox agora para obter 1 TB de armazenamento em nuvem grátis e desfrute de um poderoso assistente de IA portátil!\n\nSUPORTE\nAlguma pergunta ou precisa de ajuda? Entre em contato: helpdesk@terabox.com\n\nPolítica de Privacidade: https://www.terabox.com/terms/privacy?lang=en\nTermos de Uso: https://www.terabox.com/terms/duty?lang=en",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/cc/10/2ecc10b8-bc02-9d7f-c982-b28d20fbe2a5/1.png/392x696bb.png",
@@ -1621,6 +1621,15 @@
       ],
       "versions": [
         {
+          "version": "4.28.0",
+          "buildVersion": "4.28.0.7",
+          "date": "2026-10-30T03:21:38Z",
+          "size": 260587268,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1fTu1wvWmoecymmgKYN-mBrqpsIIIK9yk/TeraBox_4.28.0.ipa?packageRevision=58421a2e80f99796d1a4368a736db422b1752cac3c62f6a8b9faf8a8dab1defa&tweak=TeraBox+Premium%2B&tweakVersion=1.0&packageLabel=TeraBox+Premium%2B+1.0",
+          "localizedDescription": "Otimizar a experiência de uso para melhor uso de TeraBox\nCorrigidos alguns problemas conhecidos",
+          "ipaVersion": "4.28.0"
+        },
+        {
           "version": "4.27.5",
           "buildVersion": "4.27.5.1",
           "date": "2026-10-21T02:35:26Z",
@@ -1632,7 +1641,7 @@
         {
           "version": "4.27.0",
           "buildVersion": "4.27.0.10",
-          "date": "2026-10-21T02:35:26Z",
+          "date": "2026-10-16T03:15:24Z",
           "size": 256596870,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1bjvIDAtxbmn2gcnOU26F3ICOXVvwesGb/TeraBox_4.27.0.ipa?packageRevision=58421a2e80f99796d1a4368a736db422b1752cac3c62f6a8b9faf8a8dab1defa&tweak=TeraBox+Premium%2B&tweakVersion=1.0&packageLabel=TeraBox+Premium%2B+1.0",
           "localizedDescription": "O recurso de limpeza de armazenamento em nuvem já está disponível: agora você pode limpar arquivos duplicados, arquivos grandes e imagens semelhantes.",
@@ -1648,11 +1657,11 @@
           "ipaVersion": "4.26.5"
         }
       ],
-      "version": "4.27.5",
-      "versionDate": "2026-10-21T02:35:26Z",
-      "size": 256197719,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1k-if2SPrfX3KxO8lP_pQW-z35zaZq9Io/TeraBox_4.27.5.ipa?packageRevision=58421a2e80f99796d1a4368a736db422b1752cac3c62f6a8b9faf8a8dab1defa&tweak=TeraBox+Premium%2B&tweakVersion=1.0&packageLabel=TeraBox+Premium%2B+1.0",
-      "ipaVersion": "4.27.5"
+      "version": "4.28.0",
+      "versionDate": "2026-10-30T03:21:38Z",
+      "size": 260587268,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1fTu1wvWmoecymmgKYN-mBrqpsIIIK9yk/TeraBox_4.28.0.ipa?packageRevision=58421a2e80f99796d1a4368a736db422b1752cac3c62f6a8b9faf8a8dab1defa&tweak=TeraBox+Premium%2B&tweakVersion=1.0&packageLabel=TeraBox+Premium%2B+1.0",
+      "ipaVersion": "4.28.0"
     },
     {
       "name": "TikTok",
