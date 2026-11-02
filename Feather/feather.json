@@ -153,7 +153,7 @@
       "name": "Discord",
       "bundleIdentifier": "com.hammerandchisel.discord",
       "developerName": "Discord Inc.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/3b/7e/693b7e6b-55ba-51ba-2608-6b38dabd6021/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/9c/e0/659ce065-5dd8-eb35-378f-217d9658f6d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "O Discord foi criado para jogos e é perfeito para apenas relaxar com amigos ou construir uma comunidade. Personalize seu próprio espaço e reúna seus amigos para falar enquanto joga seus jogos favoritos, ou apenas para passar o tempo.\n\nBATE-PAPO EM GRUPO QUE É SÓ DIVERSÃO E JOGOS\n∙ O Discord é excelente para jogar e relaxar com amigos, ou até mesmo para construir uma comunidade global. Personalize seu próprio espaço para falar, jogar e passar o tempo.\n\nTORNE SEUS BATE-PAPOS EM GRUPO MAIS DIVERTIDOS\n∙ Crie emojis personalizados, figurinhas, efeitos de painel de som e muito mais para adicionar sua personalidade ao bate-papo de voz, vídeo ou texto. Defina seu avatar, um status personalizado e escreva seu próprio perfil para se apresentar no bate-papo do seu jeito.\n\nTRANSMITA COMO SE ESTIVESSE NA MESMA SALA\n∙ A transmissão de alta qualidade e baixa latência faz com que você se sinta no sofá com seus amigos enquanto joga, assiste shows, olha fotos, ou, sei lá, faz o dever de casa ou algo do tipo.\n\nENTRE QUANDO ESTIVER LIVRE, NÃO PRECISA LIGAR\n∙ Entre e saia facilmente dos bate-papos de voz ou de texto sem precisar ligar ou convidar alguém, para que você possa conversar com seus amigos antes, durante e após a sessão de jogo.\n\nVEJA QUEM ESTÁ DISPONÍVEL PARA RELAXAR\n∙ Veja quem está por perto, jogando ou apenas relaxando. Para jogos compatíveis, você pode ver quais modos ou personagens seus amigos estão jogando e se juntar a eles diretamente.\n\nSEMPRE TENHA ALGO PARA FAZER JUNTOS\n∙ Assista a vídeos, jogue jogos integrados, ouça música ou simplesmente navegue juntos e compartilhe memes. Envie mensagens, faça ligações, participe de bate-papo em vídeo e jogue, tudo em uma única conversa em grupo.\n\nONDE QUER QUE VOCÊ JOGUE, FIQUE POR AQUI\n∙ No seu PC, telefone ou console, você ainda pode ficar no Discord. Alterne facilmente entre dispositivos e use ferramentas para gerenciar múltiplos bate-papos em grupo com amigos.",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/7e/e0/217ee0e2-6c42-95b2-e165-c69ad12ef417/1242x2208_-_1_GroupChat.png/392x696bb.png",
@@ -164,6 +164,15 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/09/de/f209de45-1c1d-1490-9441-95c24cc43418/1242x2208_-_6_GameHere.png/392x696bb.png"
       ],
       "versions": [
+        {
+          "version": "352.0",
+          "buildVersion": "120481",
+          "date": "2026-11-02T18:10:45Z",
+          "size": 114072730,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1Dkc6mhIBTHSnVBfTBWJfVAhZrcQQvM3x/Discord_352.0.ipa?packageRevision=07e8169712eb237a0bfa02bf4009ff8cc3aad202f5b6910c65007622ce99815d&tweak=Rain&tweakVersion=0.10.0&packageLabel=Rain+0.10.0",
+          "localizedDescription": "Trabalhamos arduamente a fim de melhorar o Discord para você. Isso inclui correções de bugs e melhorias de desempenho. Para informações mais detalhadas, acesse o seu perfil no app e role até “Novidades”.",
+          "ipaVersion": "352.0"
+        },
         {
           "version": "351.0",
           "buildVersion": "118370",
@@ -228,11 +237,11 @@
           "ipaVersion": "345.0"
         }
       ],
-      "version": "351.0",
-      "versionDate": "2026-10-26T23:09:24Z",
-      "size": 110605857,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1P_q9zDMkUdqwpumxfsol03A210PVVH9-/Discord_351.0.ipa?packageRevision=07e8169712eb237a0bfa02bf4009ff8cc3aad202f5b6910c65007622ce99815d&tweak=Rain&tweakVersion=0.10.0&packageLabel=Rain+0.10.0",
-      "ipaVersion": "351.0"
+      "version": "352.0",
+      "versionDate": "2026-11-02T18:10:45Z",
+      "size": 114072730,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1Dkc6mhIBTHSnVBfTBWJfVAhZrcQQvM3x/Discord_352.0.ipa?packageRevision=07e8169712eb237a0bfa02bf4009ff8cc3aad202f5b6910c65007622ce99815d&tweak=Rain&tweakVersion=0.10.0&packageLabel=Rain+0.10.0",
+      "ipaVersion": "352.0"
     },
     {
       "name": "Documents",
