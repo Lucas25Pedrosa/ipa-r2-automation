@@ -955,15 +955,6 @@
       ],
       "versions": [
         {
-          "version": "455.0.0",
-          "buildVersion": "1109782713",
-          "date": "2026-11-09T15:57:59Z",
-          "size": 368682123,
-          "downloadURL": "https://drive.lucaspedrosa.shop/d/1Uvra018te5er9h7LmFp0Sa1aMNDUi_rl/Instagram_455.0.0.ipa?packageRevision=45b7b426a45d303939a2041592e64c85f225504d39755c9d390143f1f787874f&tweak=Regram&tweakVersion=7.0&packageLabel=Regram+7.0",
-          "localizedDescription": "A versão mais recente contém correções de erros e melhorias no desempenho.",
-          "ipaVersion": "455.0.0"
-        },
-        {
           "version": "454.1.0",
           "buildVersion": "1106185088",
           "date": "2026-11-04T14:29:10Z",
@@ -971,6 +962,15 @@
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1Wt0yDD9b1-RsZpaUz_F-6-6hk_Lpb2rB/Instagram_454.1.0.ipa?packageRevision=45b7b426a45d303939a2041592e64c85f225504d39755c9d390143f1f787874f&tweak=Regram&tweakVersion=7.0&packageLabel=Regram+7.0",
           "localizedDescription": "A versão mais recente contém correções de erros e melhorias no desempenho.",
           "ipaVersion": "454.1.0"
+        },
+        {
+          "version": "455.0.0",
+          "buildVersion": "1109782713",
+          "date": "2026-11-09T15:57:59Z",
+          "size": 368682123,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1Uvra018te5er9h7LmFp0Sa1aMNDUi_rl/Instagram_455.0.0.ipa?packageRevision=45b7b426a45d303939a2041592e64c85f225504d39755c9d390143f1f787874f&tweak=Regram&tweakVersion=7.0&packageLabel=Regram+7.0",
+          "localizedDescription": "A versão mais recente contém correções de erros e melhorias no desempenho.",
+          "ipaVersion": "455.0.0"
         },
         {
           "version": "454.0.0",
@@ -1054,11 +1054,11 @@
           "ipaVersion": "447.0.0"
         }
       ],
-      "version": "455.0.0",
-      "versionDate": "2026-11-09T15:57:59Z",
-      "size": 368682123,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1Uvra018te5er9h7LmFp0Sa1aMNDUi_rl/Instagram_455.0.0.ipa?packageRevision=45b7b426a45d303939a2041592e64c85f225504d39755c9d390143f1f787874f&tweak=Regram&tweakVersion=7.0&packageLabel=Regram+7.0",
-      "ipaVersion": "455.0.0"
+      "version": "454.1.0",
+      "versionDate": "2026-11-04T14:29:10Z",
+      "size": 367222149,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1Wt0yDD9b1-RsZpaUz_F-6-6hk_Lpb2rB/Instagram_454.1.0.ipa?packageRevision=45b7b426a45d303939a2041592e64c85f225504d39755c9d390143f1f787874f&tweak=Regram&tweakVersion=7.0&packageLabel=Regram+7.0",
+      "ipaVersion": "454.1.0"
     },
     {
       "name": "iTranslate",
