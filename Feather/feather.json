@@ -1636,7 +1636,7 @@
       "name": "Reddit",
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "REDDIT, INC.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/74/af/da74aff1-df6b-851c-0bde-b50fd50ef659/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/51/50/7251507a-76e3-49d4-aacb-266516757cfe/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "O que dá para fazer no Reddit?\nNo Reddit você lê, pergunta, responde e vota em conversas criadas por pessoas do Brasil e do mundo todo. Tem espaço para quem só quer acompanhar as novidades e para quem gosta de entrar no debate. Estudantes, profissionais, torcedores, gamers, pais, mães e curiosos  trocam experiências por aqui todos os dias.\nTudo no Reddit acontece dentro das comunidades. O que são subreddits?\nSubreddits são comunidades dedicadas a um tema específico, cada uma com suas próprias regras e moderadores voluntários. Algumas das mais populares entre brasileiros:\n- r/perguntereddit: faça qualquer pergunta e receba respostas de pessoas reais.\n- r/brasil: notícias, atualidades e debates sobre o que está acontecendo no país.\n- r/futebol: as discussões da rodada, dos clássicos e do mercado da bola.\n- r/botecodoreddit: piadas, trocadilhos e memes com humor bem brasileiro.\n- r/vidarealbrasil: histórias do dia a dia, curiosidades e aprendizados.\n- r/AskReddit, r/gaming, r/Music e r/movies: conversas globais sobre perguntas, jogos, música e cinema.\n \nPara que as pessoas usam o Reddit? As pessoas vêm ao Reddit para:\n- Tirar dúvidas\n- Pedir conselhos sobre carreira, relacionamentos, dinheiro ou saúde e ouvir quem já passou pela mesma situação\n- Acompanhar as notícias\n- Ler as notícias e ver como as pessoas estão discutindo cada acontecimento em tempo real\n- Encontrar sua turma\n- Entrar em comunidades sobre as suas paixões e conversar com quem entende do assunto tanto quanto você\n- Dar risada\n- Memes, vídeos engraçados e histórias inusitadas para qualquer hora do dia\n- Aprender algo novo\nDe receitas a programação, sempre tem alguém disposto a ensinar o passo a passo.\n \nFicou com dúvida? A gente explica\nO Reddit é gratuito?\nSim. Você pode ler, postar, comentar e participar das comunidades de graça. O Reddit Premium é uma assinatura opcional.\nComo funcionam os votos e o karma?\nCada post e comentário pode receber votos positivos ou negativos da comunidade. Quanto mais votos positivos você recebe, mais visível seu conteúdo se torna. Seu karma reflete o quanto a comunidade valoriza suas contribuições.\nPreciso de karma para participar?\nNão para começar. Algumas comunidades pedem um mínimo de karma para postar ou comentar, o que ajuda a manter a qualidade das conversas.\nPreciso criar uma conta para usar o Reddit?\nNão precisa para ler a maioria das comunidades. Para postar, comentar, votar e entrar em comunidades, basta criar uma conta gratuita.\nComo encontro comunidades sobre o que eu curto?\nUse a busca ou explore as sugestões do app. Depois que você entra em algumas comunidades, seu feed passa a mostrar mais do que você gosta.\n \nReddit Premium:\nAdquira o Reddit Premium para aproveitar uma experiência sem anúncios e acesso a itens premium para avatar, r/lounge, ícones personalizados do app e muito mais.\nO pagamento será cobrado de forma recorrente mensal ou anual pela sua conta Apple. Sua assinatura Premium mensal ou anual será renovada automaticamente, a menos que você cancele pelo menos 24 horas antes do término do período. Cancele a qualquer momento nas configurações de conta do seu dispositivo. Não há reembolsos parciais.\nPolítica de Privacidade: https://www.redditinc.com/policies/privacy-policy\nContrato do Usuário: https://www.redditinc.com/policies/user-agreement\nRegras do Reddit: https://redditinc.com/policies/reddit-rules\nSe você tiver algum problema com o app, obtenha suporte em RedditHelp.com",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/a3/4e/10a34e45-a7b0-2b91-9a09-bbc08fe62dae/68c6f56a-7248-442c-8964-f2896c78f0a3_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
@@ -1647,6 +1647,15 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/67/7c/a7677c78-2a15-d73f-129d-07be32e9eb7a/93d42de6-a7a0-4615-b63b-4f58acd73132_Reddit_SS_5.5_6.jpg/392x696bb.jpg"
       ],
       "versions": [
+        {
+          "version": "2026.45.0",
+          "buildVersion": "674908",
+          "date": "2026-11-09T21:24:19Z",
+          "size": 143332190,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1oroFGWPWgYPuUxgmyjs0monM2IgB3ORK/Reddit_2026.45.0.ipa?packageRevision=7f6aef58e33534ecf47993121453884a5c81b13fa5fc3147409d342da5afcefc&tweak=MoesReddit&tweakVersion=4.6.1&packageLabel=MoesReddit+4.6.1",
+          "localizedDescription": "Obrigado por atualizar o app do Reddit! Atualizamos nossos apps para iOS com correções de bugs e algumas mudanças para melhorar sua experiência.",
+          "ipaVersion": "2026.45.0"
+        },
         {
           "version": "2026.44.1",
           "buildVersion": "674266",
@@ -1729,11 +1738,11 @@
           "ipaVersion": "2026.37.0"
         }
       ],
-      "version": "2026.44.1",
-      "versionDate": "2026-11-06T12:49:32Z",
-      "size": 149102157,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1DY1onC-IDjQTGogz-e6GQcsNjTXmXmNh/Reddit_2026.44.1.ipa?packageRevision=7f6aef58e33534ecf47993121453884a5c81b13fa5fc3147409d342da5afcefc&tweak=MoesReddit&tweakVersion=4.6.1&packageLabel=MoesReddit+4.6.1",
-      "ipaVersion": "2026.44.1"
+      "version": "2026.45.0",
+      "versionDate": "2026-11-09T21:24:19Z",
+      "size": 143332190,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1oroFGWPWgYPuUxgmyjs0monM2IgB3ORK/Reddit_2026.45.0.ipa?packageRevision=7f6aef58e33534ecf47993121453884a5c81b13fa5fc3147409d342da5afcefc&tweak=MoesReddit&tweakVersion=4.6.1&packageLabel=MoesReddit+4.6.1",
+      "ipaVersion": "2026.45.0"
     },
     {
       "name": "Swiftgram",
