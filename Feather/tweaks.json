@@ -42,17 +42,18 @@
       "addons": [
         {
           "name": "Regram",
-          "currentVersion": "6.5",
+          "currentVersion": "7.0",
           "knownVersions": [
             "6.0.1",
             "6.1",
             "6.2",
             "6.3",
             "6.4",
-            "6.5"
+            "6.5",
+            "7.0"
           ],
-          "currentRevision": "c9da514ac3366360bfd7b34abb88e339c76e8bd8319bfa56e276be5ffa69536e",
-          "packageLabel": "Regram 6.5"
+          "currentRevision": "45b7b426a45d303939a2041592e64c85f225504d39755c9d390143f1f787874f",
+          "packageLabel": "Regram 7.0"
         }
       ]
     },
@@ -85,7 +86,7 @@
       "addons": [
         {
           "name": "BHTwitter",
-          "currentVersion": "7.2.3",
+          "currentVersion": "7.3.1",
           "knownVersions": [
             "6.5.0",
             "6.6.1",
@@ -93,7 +94,8 @@
             "7.0.0",
             "7.0.1",
             "7.2.0",
-            "7.2.3"
+            "7.2.3",
+            "7.3.1"
           ],
           "components": [
             {
@@ -105,8 +107,8 @@
               "version": "0.0.1-2"
             }
           ],
-          "currentRevision": "69e4041533d18ff91103e69e297995c6c83cc558862d8deee4c12433f7864693",
-          "packageLabel": "BHTwitter 7.2.3"
+          "currentRevision": "a1ef04ee38bf732a538d42c66460506faacc212c6c8cf14d3b92ff09d92b11d2",
+          "packageLabel": "BHTwitter 7.3.1"
         }
       ]
     },
@@ -122,10 +124,13 @@
         },
         {
           "name": "Lead",
-          "currentVersion": "1.4.4",
+          "currentVersion": "2.0.3",
           "knownVersions": [
-            "1.4.4"
-          ]
+            "1.4.4",
+            "2.0.3"
+          ],
+          "currentRevision": "ea27497cccf519aaa3546bb5b70d18a34a5c3451b9365291ad2dc19b2cc991a4",
+          "packageLabel": "Lead 2.0.3"
         },
         {
           "name": "iQTele",
@@ -429,7 +434,7 @@
       "addons": [
         {
           "name": "Watusi 3",
-          "currentVersion": "1.3.28",
+          "currentVersion": "1.3.30",
           "knownVersions": [
             "1.3.22",
             "1.3.23",
@@ -437,7 +442,8 @@
             "1.3.25",
             "1.3.26",
             "1.3.27",
-            "1.3.28"
+            "1.3.28",
+            "1.3.30"
           ],
           "components": [
             {
@@ -457,8 +463,8 @@
               "version": "4.3.0"
             }
           ],
-          "currentRevision": "987b6c90655ae12e31e6770cfe57efcefb256640e37fcbb36c4d1ff5e8f1a0c1",
-          "packageLabel": "Watusi 3 1.3.28"
+          "currentRevision": "f1445bfae19aa4453c633d3f15edbc401fa18bf41215c721a26fe05bb7b75fca",
+          "packageLabel": "Watusi 3 1.3.30"
         }
       ]
     },
@@ -482,17 +488,18 @@
         },
         {
           "name": "YTKACE",
-          "currentVersion": "1.1.4",
+          "currentVersion": "1.1.5",
           "knownVersions": [
             "0.9.3",
             "1.0.0",
             "1.0.1",
             "1.1.1",
             "1.1.3",
-            "1.1.4"
+            "1.1.4",
+            "1.1.5"
           ],
-          "currentRevision": "e8ccb4ed17eb6d572066fbbbb2e3f358c4735d86f13f724ebd1b31384b7068fc",
-          "packageLabel": "YTKACE 1.1.4"
+          "currentRevision": "269055b1fdb440ce9aeebe0bfdb5b7ca18cbddd675eccaef3fe87bb7093ba813",
+          "packageLabel": "YTKACE 1.1.5"
         },
         {
           "name": "YTKACE Glass",
@@ -574,6 +581,29 @@
           ],
           "currentRevision": "67be950e130d40cfe1cac9bd89a4bc7854cef4a25b388f046f8a7e9f3bc7bcde",
           "packageLabel": "iQTele 1.5"
+        },
+        {
+          "name": "Lead",
+          "currentVersion": "2.0.3",
+          "knownVersions": [
+            "2.0.3"
+          ],
+          "currentRevision": "e3fb8261fbe0e613bd0837f213ec6dad57108dba9e6f8a8c240e92c5f8644779",
+          "packageLabel": "Lead 2.0.3"
+        }
+      ]
+    },
+    "co.bazaart.app": {
+      "name": "Bazaart Editor de fotos com IA",
+      "addons": [
+        {
+          "name": "Bazaart Super Unlocked",
+          "currentVersion": "1.0",
+          "knownVersions": [
+            "1.0"
+          ],
+          "currentRevision": "68cd10bc6eade73dcb9eac266589a5e11681e3c4480929d58750ad7c90d1baea",
+          "packageLabel": "Bazaart Super Unlocked 1.0"
         }
       ]
     }
