@@ -2036,21 +2036,21 @@
       "versions": [
         {
           "version": "26.44.74",
+          "buildVersion": "1112500299",
+          "date": "2026-11-11T13:20:54Z",
+          "size": 175888024,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1db0Utc0YITCTWuaLVVApwTR5lAsrEUqH/WhatsApp_26.44.74.ipa?packageRevision=79bf8aec2bd3c3962fbaef7147106bbd1f2b303cf7b9228f548a2ea8454a720e&tweak=Watusi&tweakVersion=1.0&packageLabel=Watusi+1.0",
+          "localizedDescription": "Atualizamos nosso app regularmente para corrigir erros, otimizar o desempenho e aprimorar a experiência dos nossos usuários. Agradecemos por usar o WhatsApp!",
+          "ipaVersion": "26.44.74"
+        },
+        {
+          "version": "26.44.72",
           "buildVersion": "1109344707",
           "date": "2026-11-11T13:20:54Z",
           "size": 175883207,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1VIRGhEAfb1HbAmB0SY-I3FK33MfhaTBT/WhatsApp_26.44.72.ipa?packageRevision=79bf8aec2bd3c3962fbaef7147106bbd1f2b303cf7b9228f548a2ea8454a720e&tweak=Watusi&tweakVersion=1.0&packageLabel=Watusi+1.0",
           "localizedDescription": "Atualizamos nosso app regularmente para corrigir erros, otimizar o desempenho e aprimorar a experiência dos nossos usuários. Agradecemos por usar o WhatsApp!",
           "ipaVersion": "26.44.72"
-        },
-        {
-          "version": "26.44.74",
-          "buildVersion": "1112500299",
-          "date": "2026-11-11T13:20:54Z",
-          "size": 178406979,
-          "downloadURL": "https://drive.lucaspedrosa.shop/d/1db0Utc0YITCTWuaLVVApwTR5lAsrEUqH/WhatsApp_26.44.74.ipa?packageRevision=f1445bfae19aa4453c633d3f15edbc401fa18bf41215c721a26fe05bb7b75fca&tweak=Watusi+3&tweakVersion=1.3.30&packageLabel=Watusi+3+1.3.30",
-          "localizedDescription": "Atualizamos nosso app regularmente para corrigir erros, otimizar o desempenho e aprimorar a experiência dos nossos usuários. Agradecemos por usar o WhatsApp!",
-          "ipaVersion": "26.44.74"
         },
         {
           "version": "26.43.75",
@@ -2172,9 +2172,9 @@
       ],
       "version": "26.44.74",
       "versionDate": "2026-11-11T13:20:54Z",
-      "size": 175883207,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1VIRGhEAfb1HbAmB0SY-I3FK33MfhaTBT/WhatsApp_26.44.72.ipa?packageRevision=79bf8aec2bd3c3962fbaef7147106bbd1f2b303cf7b9228f548a2ea8454a720e&tweak=Watusi&tweakVersion=1.0&packageLabel=Watusi+1.0",
-      "ipaVersion": "26.44.72"
+      "size": 175888024,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1db0Utc0YITCTWuaLVVApwTR5lAsrEUqH/WhatsApp_26.44.74.ipa?packageRevision=79bf8aec2bd3c3962fbaef7147106bbd1f2b303cf7b9228f548a2ea8454a720e&tweak=Watusi&tweakVersion=1.0&packageLabel=Watusi+1.0",
+      "ipaVersion": "26.44.74"
     },
     {
       "name": "X",
