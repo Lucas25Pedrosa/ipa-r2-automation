@@ -1749,15 +1749,6 @@
       ],
       "versions": [
         {
-          "version": "13.1.2",
-          "buildVersion": "350",
-          "date": "2026-11-04T17:23:37Z",
-          "size": 91081856,
-          "downloadURL": "https://drive.lucaspedrosa.shop/d/1bMryXkU4t3xOUT2mpoFOxGaQG6HeHd6Z/Swiftgram_13.1.2.ipa?packageRevision=e3fb8261fbe0e613bd0837f213ec6dad57108dba9e6f8a8c240e92c5f8644779&tweak=Lead&tweakVersion=2.0.3&packageLabel=Lead+2.0.3",
-          "localizedDescription": "Correções de bugs, melhorias menores e muito mais.",
-          "ipaVersion": "13.1.2"
-        },
-        {
           "version": "13.2",
           "buildVersion": "361",
           "date": "2026-11-12T14:54:47Z",
@@ -1765,6 +1756,15 @@
           "downloadURL": "https://drive.lucaspedrosa.shop/d/13ESbczRRUest4k8jlrL9ICsvut_DQhTY/Swiftgram_13.2.ipa?packageRevision=e3fb8261fbe0e613bd0837f213ec6dad57108dba9e6f8a8c240e92c5f8644779&tweak=Lead&tweakVersion=2.0.3&packageLabel=Lead+2.0.3",
           "localizedDescription": "Correções de bugs, melhorias menores e muito mais.",
           "ipaVersion": "13.2"
+        },
+        {
+          "version": "13.1.2",
+          "buildVersion": "350",
+          "date": "2026-11-04T17:23:37Z",
+          "size": 91081856,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1bMryXkU4t3xOUT2mpoFOxGaQG6HeHd6Z/Swiftgram_13.1.2.ipa?packageRevision=e3fb8261fbe0e613bd0837f213ec6dad57108dba9e6f8a8c240e92c5f8644779&tweak=Lead&tweakVersion=2.0.3&packageLabel=Lead+2.0.3",
+          "localizedDescription": "Correções de bugs, melhorias menores e muito mais.",
+          "ipaVersion": "13.1.2"
         },
         {
           "version": "13.0",
@@ -1785,11 +1785,11 @@
           "ipaVersion": "12.9.3"
         }
       ],
-      "version": "13.1.2",
-      "versionDate": "2026-11-04T17:23:37Z",
-      "size": 91081856,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1bMryXkU4t3xOUT2mpoFOxGaQG6HeHd6Z/Swiftgram_13.1.2.ipa?packageRevision=e3fb8261fbe0e613bd0837f213ec6dad57108dba9e6f8a8c240e92c5f8644779&tweak=Lead&tweakVersion=2.0.3&packageLabel=Lead+2.0.3",
-      "ipaVersion": "13.1.2"
+      "version": "13.2",
+      "versionDate": "2026-11-12T14:54:47Z",
+      "size": 96616568,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/13ESbczRRUest4k8jlrL9ICsvut_DQhTY/Swiftgram_13.2.ipa?packageRevision=e3fb8261fbe0e613bd0837f213ec6dad57108dba9e6f8a8c240e92c5f8644779&tweak=Lead&tweakVersion=2.0.3&packageLabel=Lead+2.0.3",
+      "ipaVersion": "13.2"
     },
     {
       "name": "Telegram",
