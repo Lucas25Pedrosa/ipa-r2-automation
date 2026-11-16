@@ -7,21 +7,30 @@
       "name": "Aloha Browser",
       "bundleIdentifier": "com.alohabrowser.alohabrowser",
       "developerName": "Aloha Mobile Ltd.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/f9/3f/9df93f95-4dab-5b53-a473-3b14ce9cd6ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/01/2a/eb012aed-b2be-5200-0ac3-68c688ceb29d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "localizedDescription": "A sua privacidade deve ser a predefinição, não uma funcionalidade. O Aloha Browser oferece tudo o que precisa para navegar de forma privada, bloquear anúncios e rastreadores e descarregar ficheiros — numa única aplicação, sem nada extra para instalar.\nCentenas de milhões de utilizadores confiam no Aloha porque ele faz o que outros browsers não fazem: coloca a sua privacidade em primeiro lugar por predefinição, não como uma reflexão tardia.\n\nBLOQUEAR ANÚNCIOS AUTOMATICAMENTE\nOs anúncios tornam a sua navegação mais lenta e rastreiam-no na web. O Aloha remove-os antes de carregarem — cada página é mais rápida, mais limpa e sem distrações, sem anúncios. Não é necessária qualquer configuração.\n\nNAVEGUE COM UMA VPN GRATUITA INTEGRADA\nProteja a sua ligação em qualquer rede com a VPN integrada do Aloha. Escolha entre mais de 80 localizações de servidores em todo o mundo, protegidas com encriptação AES de 256 bits e proteção contra fugas de DNS. O tráfego VPN é comprimido e encriptado para reduzir o uso de largura de banda. Um toque para ativar — sem aplicação separada, sem limites de dados para uso diário.\n\nDESCARREGUE VÍDEOS E FICHEIROS\nGuarde vídeos, músicas e documentos diretamente de qualquer página web. O descarregador integrado do Aloha lida com os formatos que outros browsers não conseguem. Reproduza multimédia em segundo plano, gira ficheiros com facilidade e bloqueie downloads confidenciais com proteção biométrica.\n\nPRIVACIDADE POR DESIGN\nO Aloha nunca regista a sua atividade. Não há nada para partilhar porque não há nada armazenado. Combinado com a VPN, o bloqueio automático de anúncios e o TrafficMask, obtém privacidade total que vai muito além do que o modo de navegação anónima oferece.\n\nIA PRIVADA — SEM VIGILÂNCIA\nUse a IA para resumir, traduzir e responder a perguntas sem que as suas instruções sejam registadas, perfiladas ou usadas para treinar modelos. Privacidade por predefinição.\n\nFEITO PARA A SUA WEB DIÁRIA\nNavegação por abas com uma interface limpa e rápida. Sincronize favoritos e abas entre todos os dispositivos da sua conta Aloha. Leia códigos QR instantaneamente. Explore domínios Web3 e dApps com suporte nativo completo. Tudo funciona em perfeita sintonia, de forma elegante.\n\nALOHA PREMIUM\nFaça um upgrade para uma seleção de países VPN aprimorada, proteção VPN em todo o dispositivo, início automático da VPN, partilha de ficheiros Wi-Fi, suporte de compressão ZIP e temas premium.\nO Aloha Premium está disponível por $7,99/mês ou $69,99/ano (USD). Os preços podem variar por região. As subscrições são renovadas automaticamente, a menos que sejam desativadas pelo menos 24 horas antes do final do período atual. Gerencie as subscrições nas configurações da sua conta Apple. Qualquer parte não utilizada do período de teste gratuito será perdida após a compra.\nPolítica de privacidade: https://alohabrowser.com/policy.html\nTermos e condições: https://alohabrowser.com/terms.html\n\nSOBRE O ALOHA\nSomos uma equipa dedicada a provar que a privacidade e uma ótima experiência de navegação não são mutuamente exclusivas. Enquanto outros browsers adicionam funcionalidades de privacidade como complementos, nós construímos o Aloha de raiz para manter os seus dados seus — verificado por uma auditoria independente de terceiros do Leviathan Security Group.\n\nDescubra mais: https://alohabrowser.com\nFacebook: https://facebook.com/alohavpnbrowser\nX: https://x.com/alohabrowser\nPara feedback e suporte, envie um e-mail para support@alohabrowser.com",
       "screenshotURLs": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/f2/95/3af2956e-bf1e-20a9-995d-70eec1c9c763/Phone.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/1c/7e/3f1c7ea7-8671-01f8-5bab-d7a53b6fb24e/Phone-1.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/de/18/66de181f-9543-7e98-01ad-cf4bb1e98764/Phone-2.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/1d/e9/971de9a2-4c39-fd65-c881-663d40c165b2/Phone-5.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/bc/d5/fdbcd521-786c-885e-1554-5c953a9c7998/Phone-4.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/22/93/e52293aa-cba1-e422-add5-4e23162222cc/Phone-3.png/320x480bb.jpg"
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/46/01/814601c8-67db-1433-cdbd-0223c2ef6692/Phone.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/7d/09/0a7d0944-c381-e556-7911-592f49c12c34/Phone-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/41/0b/bd410b1f-07f3-4d5d-9c4d-562be248b72a/Phone-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/0b/7c/580b7c1f-47c7-4862-8dc7-193c1fb9b55e/Phone-5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/5b/28/0e5b28bf-81f0-79f9-f089-6fd6fae3a3d6/Phone-4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/f3/06/4bf306db-77db-342e-023e-3ba34d6685a4/Phone-3.png/320x480bb.jpg"
       ],
       "versions": [
         {
+          "version": "8.13.2",
+          "buildVersion": "2",
+          "date": "2026-11-16T06:59:15Z",
+          "size": 149744889,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/17I0vXuECQW_ec-H-WT1BAX2jA56pIpnj/Aloha%20Browser_8.13.2.ipa?packageRevision=2f22ed816175a0b1bc800b289334795aa1f24f2f542c9e5eefa0903ffa5a97b2&tweak=Aloha+Premium+Plus&tweakVersion=1.0&packageLabel=Aloha+Premium+Plus+1.0",
+          "localizedDescription": "Esta atualização permite baixar arquivos diretamente para o Aloha Cloud, traz uma nova barra de ferramentas de vídeo para o iPad e corrige vários problemas.\n\nNovos recursos e melhorias\n- Baixe arquivos diretamente para o Aloha Cloud: escolha o Aloha Cloud ao salvar um arquivo e ele será enviado automaticamente assim que o download terminar. Você também pode escolher se deseja manter uma cópia no seu dispositivo.\n- No iPad, os controles de vídeo agora ficam em um painel flutuante que você pode mover para qualquer lugar da tela ou recolher.\n- Os envios para a nuvem agora continuam após breves problemas de conexão ou login, em vez de falharem.\n\nCorreções de bugs\n- Corrigido um problema em que o Premium às vezes não era ativado depois de comprar uma assinatura novamente.\n- Corrigido um problema em que alguns vídeos longos eram salvos incompletos e marcados como baixados.\n- Aprimoramos a interface atualizada do iPad: os menus não cortam mais o texto, e o interruptor Mostrar papel de parede voltou.\n- Corrigidas várias falhas, incluindo algumas no iPad ao trabalhar com abas.\n\nObrigado por usar o Aloha. Continue enviando seu feedback — ele nos ajuda a tornar cada atualização ainda melhor.",
+          "ipaVersion": "8.13.2"
+        },
+        {
           "version": "8.13.1",
           "buildVersion": "2",
-          "date": "2026-11-05T14:23:07Z",
+          "date": "2026-11-16T06:59:15Z",
           "size": 149580361,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1IOAOO7g8lNdpJpACIK1GR57Vp6nZocVQ/Aloha%20Browser_8.13.1.ipa?packageRevision=2f22ed816175a0b1bc800b289334795aa1f24f2f542c9e5eefa0903ffa5a97b2&tweak=Aloha+Premium+Plus&tweakVersion=1.0&packageLabel=Aloha+Premium+Plus+1.0",
           "localizedDescription": "Esta atualização permite baixar arquivos diretamente para o Aloha Cloud, traz uma nova barra de ferramentas de vídeo para o iPad e corrige vários problemas.\n\nNovos recursos e melhorias\n- Baixe arquivos diretamente para o Aloha Cloud: escolha o Aloha Cloud ao salvar um arquivo e ele será enviado automaticamente assim que o download terminar. Você também pode escolher se deseja manter uma cópia no seu dispositivo.\n- No iPad, os controles de vídeo agora ficam em um painel flutuante que você pode mover para qualquer lugar da tela ou recolher.\n- Os envios para a nuvem agora continuam após breves problemas de conexão ou login, em vez de falharem.\n\nCorreções de bugs\n- Corrigido um problema em que o Premium às vezes não era ativado depois de comprar uma assinatura novamente.\n- Corrigido um problema em que alguns vídeos longos eram salvos incompletos e marcados como baixados.\n- Aprimoramos a interface atualizada do iPad: os menus não cortam mais o texto, e o interruptor Mostrar papel de parede voltou.\n- Corrigidas várias falhas, incluindo algumas no iPad ao trabalhar com abas.\n\nObrigado por usar o Aloha. Continue enviando seu feedback — ele nos ajuda a tornar cada atualização ainda melhor.",
@@ -30,7 +39,7 @@
         {
           "version": "8.13.0",
           "buildVersion": "3",
-          "date": "2026-11-05T14:23:07Z",
+          "date": "2026-11-16T06:59:15Z",
           "size": 148062107,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1RDLl1sB5AQbJbmDJNpsYgC8klpk7NFAF/Aloha%20Browser_8.13.0.ipa?packageRevision=2f22ed816175a0b1bc800b289334795aa1f24f2f542c9e5eefa0903ffa5a97b2&tweak=Aloha+Premium+Plus&tweakVersion=1.0&packageLabel=Aloha+Premium+Plus+1.0",
           "localizedDescription": "Esta atualização permite baixar arquivos diretamente para o Aloha Cloud, traz uma nova barra de ferramentas de vídeo para o iPad e corrige vários problemas.\n\nNovos recursos e melhorias\n- Baixe arquivos diretamente para o Aloha Cloud: escolha o Aloha Cloud ao salvar um arquivo e ele será enviado automaticamente assim que o download terminar. Você também pode escolher se deseja manter uma cópia no seu dispositivo.\n- No iPad, os controles de vídeo agora ficam em um painel flutuante que você pode mover para qualquer lugar da tela ou recolher.\n- Os envios para a nuvem agora continuam após breves problemas de conexão ou login, em vez de falharem.\n\nCorreções de bugs\n- Corrigido um problema em que o Premium às vezes não era ativado depois de comprar uma assinatura novamente.\n- Corrigido um problema em que alguns vídeos longos eram salvos incompletos e marcados como baixados.\n- Aprimoramos a interface atualizada do iPad: os menus não cortam mais o texto, e o interruptor Mostrar papel de parede voltou.\n- Corrigidas várias falhas, incluindo algumas no iPad ao trabalhar com abas.\n\nObrigado por usar o Aloha. Continue enviando seu feedback — ele nos ajuda a tornar cada atualização ainda melhor.",
@@ -64,11 +73,11 @@
           "ipaVersion": "8.10.0"
         }
       ],
-      "version": "8.13.1",
-      "versionDate": "2026-11-05T14:23:07Z",
-      "size": 149580361,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1IOAOO7g8lNdpJpACIK1GR57Vp6nZocVQ/Aloha%20Browser_8.13.1.ipa?packageRevision=2f22ed816175a0b1bc800b289334795aa1f24f2f542c9e5eefa0903ffa5a97b2&tweak=Aloha+Premium+Plus&tweakVersion=1.0&packageLabel=Aloha+Premium+Plus+1.0",
-      "ipaVersion": "8.13.1"
+      "version": "8.13.2",
+      "versionDate": "2026-11-16T06:59:15Z",
+      "size": 149744889,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/17I0vXuECQW_ec-H-WT1BAX2jA56pIpnj/Aloha%20Browser_8.13.2.ipa?packageRevision=2f22ed816175a0b1bc800b289334795aa1f24f2f542c9e5eefa0903ffa5a97b2&tweak=Aloha+Premium+Plus&tweakVersion=1.0&packageLabel=Aloha+Premium+Plus+1.0",
+      "ipaVersion": "8.13.2"
     },
     {
       "name": "Bazaart Editor de fotos com IA",
