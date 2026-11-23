@@ -885,7 +885,7 @@
       "name": "Flight Tracker + Avião ao Vivo",
       "bundleIdentifier": "com.iaftt.flightplusfree",
       "developerName": "Impala Studios B.V.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/5a/20/d15a2062-fb1c-17b3-d3ba-21bc32ccbd14/tft_appicon_2026-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/85/c1/e185c156-a5ee-1312-c7e8-8fd4d7622147/tft_appicon_2026-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Desde 2012, o Rastreador de voos+ (Flight Tracker+) ajuda milhões de viajantes no Brasil e no mundo a voar com mais tranquilidade, enquanto amigos e familiares acompanham seus voos.\n\nHorários, portões e programações podem mudar em segundos. Acompanhe qualquer voo ao vivo e receba alertas de atrasos, cancelamentos, mudanças de portão, partidas e chegadas.\n\nSeja para viajar, buscar alguém no aeroporto ou acompanhar a jornada de uma pessoa querida, você saberá se o voo atrasou, de onde vai partir e quando deve chegar.\n\nQUALQUER VOO\nEncontre e acompanhe voos de passageiros no mundo todo. Veja onde está o avião, se o voo está no horário, de qual portão parte e quando deve chegar.\n▶ Confira se o voo está no horário e veja os horários atualizados de partida e chegada\n▶ Receba alertas de atrasos, cancelamentos e mudanças de portão\n▶ Encontre o terminal, o portão e a esteira de bagagem corretos\n▶ Acompanhe o avião em mapas de radar ao vivo\n▶ Confira o clima na partida, na chegada e ao longo da rota\n▶ Acompanhe a partida e a chegada na Tela Bloqueada com Atividades ao Vivo e Dynamic Island\n\nPesquise por número do voo, companhia aérea, rota ou aeroporto.\n\nQUALQUER COMPANHIA AÉREA\nAcompanhe voos operados por companhias que voam no Brasil e no exterior. Receba um alerta se um voo atrasar ou for cancelado, mudar de portão ou alterar o horário de partida ou chegada.\n\nEntre as companhias mais procuradas no Brasil estão:\n▶ LATAM Airlines Brasil\n▶ GOL Linhas Aéreas\n▶ Azul Linhas Aéreas\n▶ TAP Air Portugal\n▶ Copa Airlines\n\nOutras companhias que acompanhamos são:\n▶ American Airlines\n▶ Emirates\n▶ Air France\n▶ KLM\n▶ Lufthansa\n\nQUALQUER AEROPORTO\nAcompanhe partidas e chegadas em aeroportos do mundo todo. Veja quais voos estão atrasados, de onde partem, quando pousam e onde retirar a bagagem.\n\nEntre os aeroportos brasileiros onde acompanhamos voos estão:\n▶ São Paulo-Guarulhos (GRU)\n▶ São Paulo-Congonhas (CGH)\n▶ Brasília (BSB)\n▶ Rio de Janeiro-Galeão (GIG)\n▶ Belo Horizonte-Confins (CNF)\n\nEntre os outros aeroportos onde acompanhamos voos estão:\n▶ Miami (MIA)\n▶ Lisboa (LIS)\n▶ Madrid-Barajas (MAD)\n▶ Paris-Charles de Gaulle (CDG)\n▶ Amsterdã-Schiphol (AMS)\n\nDETALHES DA AERONAVE\nAcompanhe no mapa de radar a aeronave que opera seu voo e confira modelo, altitude, velocidade, rota e histórico.\n\nAeronaves de passageiros compatíveis:\n▶ Boeing 737\n▶ Família Airbus A320\n▶ Boeing 777\n▶ Boeing 787 Dreamliner\n▶ Airbus A350\n\nPARA VIAJAR, BUSCAR ALGUÉM OU ACOMPANHAR UM VOO\nSaiba quando sair, para onde ir e quando o voo chegará, seja você quem viaja ou quem espera por alguém.\n▶ Confira seu voo antes de sair para o aeroporto\n▶ Saiba na hora se o voo atrasou ou mudou de portão\n▶ Decida quando sair com base nos atrasos ou no horário previsto de chegada\n▶ Veja quando o avião realmente decolou e pousou\n▶ Mantenha seus voos e viagens salvos juntos\n\nPOR QUE MILHÕES ESCOLHEM O Rastreador de voos+\n▶ Acompanhe voos ao vivo da partida à chegada\n▶ Receba alertas imediatos de atrasos, cancelamentos e mudanças de portão\n▶ Acompanhe voos, companhias e aeroportos no mundo todo\n▶ Saiba quando um voo parte, onde está e quando chegará\n\nRASTREADOR DE VOOS SEM LIMITES\n▶ Acompanhe voos ilimitados no mundo todo\n▶ Monitore vários voos em um só lugar\n▶ Veja se cada voo está no horário e receba alertas de atraso\n▶ Confira o clima ao longo da rota\n▶ Veja o tipo de avião, a altitude, a velocidade, a rota e o histórico de voos\n▶ Mantenha seus voos e viagens salvos juntos\n▶ Use o app sem anúncios\n\nBAIXE O Rastreador de voos+ HOJE\nJunte-se a milhões de viajantes, amigos e familiares que confiam no Rastreador de voos+. Acompanhe voos ao vivo e receba alertas de atrasos, cancelamentos, mudanças de portão, decolagens e pousos.\n\nTermos e Condições: https://impalastudios.com/terms\nPolítica de Privacidade: https://impalastudios.com/privacy\n\nDúvidas ou sugestões? Entre em contato pelo e-mail support@impalastudios.com.\n\nFlight Tracker+ © 2012–2026 Impala Studios",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/4b/f2/f34bf206-bd27-0a91-8c51-b914534b766f/iP6.9_U003dSS1-withoutPlanes.jpg/320x480bb.jpg",
@@ -899,20 +899,29 @@
       ],
       "versions": [
         {
+          "version": "8.8.6",
+          "buildVersion": "18209",
+          "date": "2026-11-23T08:00:51Z",
+          "size": 115282384,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1XpmiOFjoi9jgjsDzP2FGYIDrz8T-JLHD/Flight%20Tracker%20%2B%20Avi%C3%A3o%20ao%20Vivo_8.8.6.ipa?packageRevision=a6851956f405a655bb3b5ab175aa113140d4c810d1fb3eb6a7d7b38a552dd803&tweak=Flight+Tracker+Pro&tweakVersion=1.0&packageLabel=Flight+Tracker+Pro+1.0",
+          "localizedDescription": "Agora sua família e seus amigos podem acompanhar seus voos com mais facilidade.\n• Compartilhe um link de convite de Família e Amigos e várias pessoas poderão usá-lo para acompanhar seus voos.\n\nAcompanhe qualquer voo com o Flight Tracker +!",
+          "ipaVersion": "8.8.6"
+        },
+        {
           "version": "8.8.5",
           "buildVersion": "18189",
-          "date": "2026-11-16T08:12:46Z",
+          "date": "2026-11-23T08:00:51Z",
           "size": 103791257,
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1ZfAyPPZtjcBacaTgKTnKRRdoMDMV4olV/Flight%20Tracker%20%2B%20Avi%C3%A3o%20ao%20Vivo_8.8.5.ipa?packageRevision=a6851956f405a655bb3b5ab175aa113140d4c810d1fb3eb6a7d7b38a552dd803&tweak=Flight+Tracker+Pro&tweakVersion=1.0&packageLabel=Flight+Tracker+Pro+1.0",
-          "localizedDescription": "Compartilhamento aprimorado\n\nAs prévias dos convites para Família e Amigos no WhatsApp agora aparecem instantaneamente ao compartilhar.\nObrigado por voar com o Flight Tracker!",
+          "localizedDescription": "Agora sua família e seus amigos podem acompanhar seus voos com mais facilidade.\n• Compartilhe um link de convite de Família e Amigos e várias pessoas poderão usá-lo para acompanhar seus voos.\n\nAcompanhe qualquer voo com o Flight Tracker +!",
           "ipaVersion": "8.8.5"
         }
       ],
-      "version": "8.8.5",
-      "versionDate": "2026-11-16T08:12:46Z",
-      "size": 103791257,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1ZfAyPPZtjcBacaTgKTnKRRdoMDMV4olV/Flight%20Tracker%20%2B%20Avi%C3%A3o%20ao%20Vivo_8.8.5.ipa?packageRevision=a6851956f405a655bb3b5ab175aa113140d4c810d1fb3eb6a7d7b38a552dd803&tweak=Flight+Tracker+Pro&tweakVersion=1.0&packageLabel=Flight+Tracker+Pro+1.0",
-      "ipaVersion": "8.8.5"
+      "version": "8.8.6",
+      "versionDate": "2026-11-23T08:00:51Z",
+      "size": 115282384,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1XpmiOFjoi9jgjsDzP2FGYIDrz8T-JLHD/Flight%20Tracker%20%2B%20Avi%C3%A3o%20ao%20Vivo_8.8.6.ipa?packageRevision=a6851956f405a655bb3b5ab175aa113140d4c810d1fb3eb6a7d7b38a552dd803&tweak=Flight+Tracker+Pro&tweakVersion=1.0&packageLabel=Flight+Tracker+Pro+1.0",
+      "ipaVersion": "8.8.6"
     },
     {
       "name": "Happy Scale",
