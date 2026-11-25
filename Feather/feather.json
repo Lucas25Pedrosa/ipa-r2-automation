@@ -2501,15 +2501,6 @@
       ],
       "versions": [
         {
-          "version": "12.46",
-          "buildVersion": "28",
-          "date": "2026-11-22T16:20:03Z",
-          "size": 293205010,
-          "downloadURL": "https://drive.lucaspedrosa.shop/d/1R2RIJ_RDLsoVQ_gK0jYiSxbSyC5uE6W6/X_12.46.ipa?packageRevision=a3a6b17f65ac4ab93159e3457da35103ac57d331f83a3061b8753f301a086722&tweak=BHTwitter&tweakVersion=7.3.1.6&packageLabel=BHTwitter+7.3.1.6",
-          "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você.",
-          "ipaVersion": "12.46"
-        },
-        {
           "version": "12.45.1",
           "buildVersion": "1",
           "date": "2026-11-19T14:25:14Z",
@@ -2517,6 +2508,15 @@
           "downloadURL": "https://drive.lucaspedrosa.shop/d/1AQhk6oJVxxtxgDyea8IxpNRd0XvrlJgp/X_12.45.1.ipa?packageRevision=3d81a171e05f3f95f387054d7f1bb3fc1966c8685da671e6d537175de6d15a12&tweak=BHTwitter&tweakVersion=7.3.1.5&packageLabel=BHTwitter+7.3.1.5",
           "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você.",
           "ipaVersion": "12.45.1"
+        },
+        {
+          "version": "12.46",
+          "buildVersion": "28",
+          "date": "2026-11-22T16:20:03Z",
+          "size": 293205010,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1R2RIJ_RDLsoVQ_gK0jYiSxbSyC5uE6W6/X_12.46.ipa?packageRevision=a3a6b17f65ac4ab93159e3457da35103ac57d331f83a3061b8753f301a086722&tweak=BHTwitter&tweakVersion=7.3.1.6&packageLabel=BHTwitter+7.3.1.6",
+          "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você.",
+          "ipaVersion": "12.46"
         },
         {
           "version": "12.45",
@@ -2735,11 +2735,11 @@
           "ipaVersion": "12.28"
         }
       ],
-      "version": "12.46",
-      "versionDate": "2026-11-22T16:20:03Z",
-      "size": 293205010,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1R2RIJ_RDLsoVQ_gK0jYiSxbSyC5uE6W6/X_12.46.ipa?packageRevision=a3a6b17f65ac4ab93159e3457da35103ac57d331f83a3061b8753f301a086722&tweak=BHTwitter&tweakVersion=7.3.1.6&packageLabel=BHTwitter+7.3.1.6",
-      "ipaVersion": "12.46"
+      "version": "12.45.1",
+      "versionDate": "2026-11-19T14:25:14Z",
+      "size": 288155283,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1AQhk6oJVxxtxgDyea8IxpNRd0XvrlJgp/X_12.45.1.ipa?packageRevision=3d81a171e05f3f95f387054d7f1bb3fc1966c8685da671e6d537175de6d15a12&tweak=BHTwitter&tweakVersion=7.3.1.5&packageLabel=BHTwitter+7.3.1.5",
+      "ipaVersion": "12.45.1"
     },
     {
       "name": "YouTube",
