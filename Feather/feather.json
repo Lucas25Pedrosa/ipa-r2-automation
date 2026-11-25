@@ -2504,7 +2504,7 @@
       "name": "X",
       "bundleIdentifier": "com.atebits.Tweetie2",
       "developerName": "X Corp.",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/fd/3a/53fd3ad0-746d-413e-6184-7aa5d533f25b/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/9c/3a/519c3a16-6bd6-0b3f-cdff-e9b68b47b297/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "Bem-vindo ao X, anteriormente conhecido como Twitter, sua praça digital confiável onde as conversas se desenrolam em tempo real e o mundo se conecta por meio de notícias de última hora, eventos ao vivo, podcasts e tudo mais.\n\nSeja você apaixonado por esportes, tecnologia, música ou política, o X é o seu lugar na primeira fila para o que está acontecendo no mundo todo.\n\nO X não é apenas mais um app de rede social, é o destino definitivo para se manter bem informado, compartilhar ideias e construir comunidades. Com o X, você sempre fica por dentro dos tópicos em alta e das notícias de última hora, entregues instantaneamente na sua tela, cruas e sem filtros.\n\nO que você pode fazer no X:\n• Acompanhe notícias de última hora do mundo todo antes de elas virarem manchete e fique à frente com atualizações em tempo real sobre tópicos em alta e conversas virais.\n• Poste seus pensamentos, fotos e vídeos com uma comunidade global. Junte-se a milhões de usuários para moldar o diálogo público em conversas sociais, culturais e políticas.\n• Descubra o Grok, o assistente de IA alimentado por dados em tempo real do X. Você pode pedir ao Grok para resumir notícias em alta, explicar vídeos ou dar mais contexto sobre posts.\n• Transmita vídeo ao vivo ou entre ao vivo com Spaces, nosso recurso de áudio que permite hospedar discussões, fazer entrevistas ou iniciar seu próximo podcast ao vivo. Seja transmitindo um show, um jogo ao vivo ou suas opiniões sobre um tópico quente, o X mantém sua audiência engajada.\n• Assista a vídeos: de notícias de última hora ao vivo e clipes de esportes a podcasts e sessões de jogos que duram até 3 horas. Muitas das vozes líderes mundiais em comédia, jogos, podcasts e política compartilham seu conteúdo no X.\n• Conecte-se e converse em particular com amigos, seguidores, clientes ou colaboradores por meio de Mensagens Diretas.\n• Participe e crie comunidades personalizadas para seus interesses: de notícias de esportes, jogos, entretenimento, cripto, empreendedorismo, tecnologia e mais.\n• Assine o X Premium para desbloquear recursos exclusivos, como o selo azul, visibilidade ampliada, respostas priorizadas, menos anúncios, vídeos mais longos e edição de posts. O X Premium também dá acesso ao compartilhamento de receita para criadores e a capacidade de oferecer conteúdo exclusivo para assinantes.\n\nPor que o X?\nEm um mundo de mudanças constantes, o X é sua fonte em tempo real para ficar à frente, se conectar com pessoas e explorar perspectivas diversas. De notícias de última hora ao vivo e memes em alta a podcasts de ponta e transmissões ao vivo dos seus criadores favoritos, o X reúne tudo em uma experiência social poderosa.\n\nPolítica de Privacidade: https://x.com/privacy\nTermos e Condições: https://x.com/tos",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/b6/34/41b6345b-6f18-a9b7-4469-cae1b58947a0/X_01_iPhone__U00b7_pt-br.jpg/320x480bb.jpg",
@@ -2518,6 +2518,15 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/64/d2/e064d213-54fc-5fa2-f83e-4302f51c67f7/X_09_iPhone__U00b7_pt-br.jpg/320x480bb.jpg"
       ],
       "versions": [
+        {
+          "version": "12.46.1",
+          "buildVersion": "1",
+          "date": "2026-11-25T07:38:48Z",
+          "size": 293208684,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1VUxjSouL58rtKzbWVzO5PCvuL2MfuJLk/X_12.46.1.ipa?packageRevision=a3a6b17f65ac4ab93159e3457da35103ac57d331f83a3061b8753f301a086722&tweak=BHTwitter&tweakVersion=7.3.1.6&packageLabel=BHTwitter+7.3.1.6",
+          "localizedDescription": "Fizemos melhorias e resolvemos bugs para aprimorar o X para você.",
+          "ipaVersion": "12.46.1"
+        },
         {
           "version": "12.46",
           "buildVersion": "28",
@@ -2753,11 +2762,11 @@
           "ipaVersion": "12.28"
         }
       ],
-      "version": "12.46",
-      "versionDate": "2026-11-22T16:20:03Z",
-      "size": 293205010,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1R2RIJ_RDLsoVQ_gK0jYiSxbSyC5uE6W6/X_12.46.ipa?packageRevision=a3a6b17f65ac4ab93159e3457da35103ac57d331f83a3061b8753f301a086722&tweak=BHTwitter&tweakVersion=7.3.1.6&packageLabel=BHTwitter+7.3.1.6",
-      "ipaVersion": "12.46"
+      "version": "12.46.1",
+      "versionDate": "2026-11-25T07:38:48Z",
+      "size": 293208684,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1VUxjSouL58rtKzbWVzO5PCvuL2MfuJLk/X_12.46.1.ipa?packageRevision=a3a6b17f65ac4ab93159e3457da35103ac57d331f83a3061b8753f301a086722&tweak=BHTwitter&tweakVersion=7.3.1.6&packageLabel=BHTwitter+7.3.1.6",
+      "ipaVersion": "12.46.1"
     },
     {
       "name": "YouTube",
