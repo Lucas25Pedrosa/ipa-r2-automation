@@ -381,7 +381,7 @@
       "name": "Documents",
       "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
       "developerName": "Readdle Technologies Limited",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/5b/57/835b5701-1c55-1e55-be60-24996c477790/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/ab/5c/e6ab5c42-06a4-2c9e-9dae-4e131259ae43/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
       "localizedDescription": "O superaplicativo para iPhone e iPad. Leia, ouça, visualize e faça anotações em quase tudo que quiser em seu iPad e iPhone. O Documents é a nova central para todos os seus arquivos, documentos, livros ou qualquer outro conteúdo. É o Finder para iOS que você tanto esperava.\n\nEscolha dos Editores da App Store de mais de 70 países\n\n\"É uma ferramenta que ajudará você a se manter mais organizado.\" - The Verge\n\"O aplicativo é super rápido, bonito e as opções são fáceis de localizar e usar.\" - The Next Web\n\"Um aplicativo surpreendentemente versátil tanto para uso pessoal quanto profissional.\" - USA Today\n\nO Documents é o aplicativo mais poderoso em seu dispositivo iOS. Ele funciona como uma central para todos os seus arquivos e substitui um visualizador de documentos, um leitor de PDF, a função \"ler depois\", um reprodutor de músicas e vídeos, um gerenciador de downloads, uma ponte entre seus serviços de nuvem e muito mais, tudo em um elegante e prático aplicativo.\n\nA incrível atenção aos detalhes, uma estabilidade sem igual e sua linda interface diferem o Documents de qualquer outro aplicativo em seu iPhone ou iPad. Você o usará constantemente, quer seja em casa, no escritório, na faculdade ou na rua, todos os dias.\n\nDê uma olhada na lista resumida das coisas que você poderá fazer com o Documents. Este é, sem dúvidas, um aplicativo que faz o seu iPad ou iPhone valerem seu preço!\n \n◆IMPORTE E SALVE ARQUIVOS◆\n+ Importe arquivos do seu computador, de serviços de nuvem, via WebDAV ou de qualquer outro dispositivo que esteja por perto;\n+ Transfira arquivos da Web;\n+ Armazene os anexos de emails;\n+ Salve as páginas da Web para ler mais tarde.\n\n◆GERENCIE ARQUIVOS◆\n+ Gerencie seus arquivos e crie pastas;\n+ Compacte ou descompacte, etiquete por cor, renomeie, etc.;\n+ Arraste e solte arquivos entre aplicativos (!). Abra dois aplicativos da Readdle no modo Split + View em seu iPad Pro e simplesmente mova os arquivos entre eles;\n+ Compartilhe arquivos com os amigos;\n+ Proteja tudo com uma senha.\n\n◆AÇÕES INTELIGENTES◆\n+ Recomendações contextualizadas que economizam seu tempo, sugerindo a melhor ação a ser executada na sequência.\n\n◆INTEGRE TODOS SEUS SERVIÇOS DE NUVEM◆\n+ Conecte todos seus serviços de nuvem ao Documents e acesse seus arquivos pessoais ou profissionais quando quiser;\n+ Trabalhe com arquivos do iCloud, Dropbox, Google Drive e outros serviços sem precisar baixá-los;\n+ Configure a sincronização de duas vias em pastas específicas para atualizar seus arquivos automaticamente.\n\n◆OUÇA E ASSISTA◆\n+ Ouça suas músicas online e offline;\n+ Assista a filmes importando-os de seu computador ou acessando-os de fontes online;\n+ Acesse de forma simples e eficaz sua biblioteca de fotos.\n\n\n◆LEIA E EDITE PDFs◆\n+ Abra arquivos do Office e eBooks\n+ Visualize e faça anotações em PDF\n+ Modifique texto e imagens em PDF\n+ Gerencie páginas em seus PDFs\n+ Converta qualquer arquivo para PDF\n\nO Documents é um app obrigatório para seu iPhone e iPad!\nSe você escolher assinar o Documents Plus, o pagamento será feito em sua conta do iTunes e a renovação será cobrada em sua conta em até 24 horas antes do final do período corrente. A renovação automática pode ser desativada a qualquer momento, nos ajustes da iTunes Store, após a compra. O valor atual da assinatura do Documents Plus começa em US$9.99/ mês. Os preços estão em dólares americanos e podem variar em outros países que não os Estados Unidos, estando sujeitos a alteração sem aviso prévio. Se você não quiser assinar o Documents Plus, pode simplesmente continuar usando o Documents de graça. Qualquer período da avaliação gratuita não utilizado será desconsiderado quando você fizer sua assinatura, onde aplicável.\n\nLeia mais sobre nossos termos e condições aqui:\nhttps://documents.io/legal/privacy\nhttps://documents.io/legal/terms",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/06/e0/ef06e0be-bd17-4562-e39d-88683d73a769/Artwork_1.jpg/320x480bb.jpg",
@@ -396,6 +396,15 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/2d/96/2f2d96dc-3599-1f52-6931-52583bb7f9da/PT-BR_iPhone_6_U002c9_artwork10.jpg/320x480bb.jpg"
       ],
       "versions": [
+        {
+          "version": "8.23.1",
+          "buildVersion": "8.23.1.1540",
+          "date": "2026-11-25T12:12:25Z",
+          "size": 290849485,
+          "downloadURL": "https://drive.lucaspedrosa.shop/d/1afo8f5JjZQHsvF4pVXlPAZ4gsrrx142_/Documents_8.23.1.ipa?packageRevision=d54fd5975380834399dd072164fa9c246fd3038504b173c73e0d61f4048fe227&tweak=Documents+Plus&tweakVersion=1.0&packageLabel=Documents+Plus+1.0",
+          "localizedDescription": "Esta atualização inclui diversos aprimoramentos técnicos para que o Documents funcione corretamente.\n\nSeguimos trabalhando para melhorá-lo — sinta-se à vontade para enviar sugestões para rdsupport@readdle.com.",
+          "ipaVersion": "8.23.1"
+        },
         {
           "version": "8.23",
           "buildVersion": "8.23.0.1533",
@@ -487,11 +496,11 @@
           "ipaVersion": "8.22.5"
         }
       ],
-      "version": "8.23",
-      "versionDate": "2026-11-23T10:57:33Z",
-      "size": 290851423,
-      "downloadURL": "https://drive.lucaspedrosa.shop/d/1bqbEopcLT34-_Q7A0wyPBWRms0fosRLM/Documents_8.23.ipa?packageRevision=d54fd5975380834399dd072164fa9c246fd3038504b173c73e0d61f4048fe227&tweak=Documents+Plus&tweakVersion=1.0&packageLabel=Documents+Plus+1.0",
-      "ipaVersion": "8.23"
+      "version": "8.23.1",
+      "versionDate": "2026-11-25T12:12:25Z",
+      "size": 290849485,
+      "downloadURL": "https://drive.lucaspedrosa.shop/d/1afo8f5JjZQHsvF4pVXlPAZ4gsrrx142_/Documents_8.23.1.ipa?packageRevision=d54fd5975380834399dd072164fa9c246fd3038504b173c73e0d61f4048fe227&tweak=Documents+Plus&tweakVersion=1.0&packageLabel=Documents+Plus+1.0",
+      "ipaVersion": "8.23.1"
     },
     {
       "name": "Duolingo",
